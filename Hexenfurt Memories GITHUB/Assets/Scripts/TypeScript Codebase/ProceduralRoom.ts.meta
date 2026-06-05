@@ -1,0 +1,112 @@
+- !<AssetImportMetadata/45692900-354f-4738-9fe2-ef396bda6fc2>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 239515df-e239-4433-8cf4-566cf713adcb
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 239515df-e239-4433-8cf4-566cf713adcb
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> b090712b-c8a9-4585-972d-044aaa9dda1e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/b090712b-c8a9-4585-972d-044aaa9dda1e>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 1812e0ca-4699-4f20-92f1-0948e0bb3e86
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    debugSpawnPipeline: false
+    decoObjects: false
+    escapeDoor: false
+    gameFlow: false
+    loadTime: false
+    loreObjects: false
+    pickupObjects: false
+    roomObjects: false
+    viewController: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - gameFlow: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      viewController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      loadTime: !<float> 0.000000
+      debugSpawnPipeline: false
+      escapeDoor: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      roomObjects:
+        []
+      pickupObjects:
+        []
+      decoObjects:
+        []
+      loreObjects:
+        []
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Wiring</span>\"}"
+    - // @input Component.ScriptComponent gameFlow
+    - '// @input Component.ScriptComponent viewController {"hint":"ViewController owns loading tips UI; this script only drives progress + tips during spawn."}'
+    - '// @input float loadTime {"hint":"Delay (s) between consecutive spawn steps during loading. 0 = instant."}'
+    - '// @input bool debugSpawnPipeline {"hint":"When enabled, prints detailed A→B→C→D spawn diagnostics to the Logger (filter: ProceduralRoom:Spawn)."}'
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Escape Door</span>\"}"
+    - // @input Asset.ObjectPrefab escapeDoor
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Room POIs</span>\"}"
+    - /*
+    - "@typedef RoomObjectDef"
+    - '@property {string} id {"label":"Identifier"}'
+    - "@property {Asset.ObjectPrefab} objectPrefab"
+    - '@property {string} objectType = "ground" {"label":"Object Type", "widget":"combobox", "values":[{"label":"Ground", "value":"ground"}, {"label":"Wall", "value":"wall"}, {"label":"Ceiling", "value":"ceiling"}]}'
+    - '@property {bool} lockedItem {"label":"Locked Item"}'
+    - '@property {bool} canAnimateScale {"label":"Can Animate Scale"}'
+    - '@property {bool} canBeFinal {"label":"Can Be Final"}'
+    - "*/"
+    - '// @input RoomObjectDef[] roomObjects = {} {"label":"Room Object Prefabs"}'
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Pickup Objects</span>\"}"
+    - /*
+    - "@typedef PickupObjectDef"
+    - '@property {string} id {"label":"Identifier"}'
+    - "@property {Asset.ObjectPrefab} objectPrefab"
+    - '@property {string} objectType = "key" {"label":"Object Type", "widget":"combobox", "values":[{"label":"Key", "value":"key"}, {"label":"Note", "value":"note"}]}'
+    - "*/"
+    - '// @input PickupObjectDef[] pickupObjects = {} {"label":"Pickup Objects"}'
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Deco Objects</span>\"}"
+    - /*
+    - "@typedef DecoObjectDef"
+    - '@property {string} id {"label":"Identifier"}'
+    - "@property {Asset.ObjectPrefab} objectPrefab"
+    - '@property {int} maxCount = "2" {"label":"Max Count"}'
+    - '@property {string[]} excludedObjects = {} {"label":"Excluded Objects"}'
+    - "*/"
+    - '// @input DecoObjectDef[] decoObjects = {} {"label":"Deco Object Prefabs"}'
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Lore Objects</span>\"}"
+    - /*
+    - "@typedef LoreObjectDef"
+    - '@property {string} id {"label":"Identifier"}'
+    - "@property {Asset.ObjectPrefab} objectPrefab"
+    - '@property {int} orientation = "0" {"label":"Orientation", "widget":"combobox", "values":[{"label":"Horizontal", "value":0}, {"label":"Vertical", "value":1}]}'
+    - "*/"
+    - '// @input LoreObjectDef[] loreObjects = {} {"label":"Lore Object Prefabs"}'
+    - '// @ui {"widget":"group_end"}'

@@ -1,0 +1,111 @@
+- !<AssetImportMetadata/d1b92be7-47c3-408e-8807-dad2cd45cc8d>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 00acb562-17d3-4f48-816b-851f09d960cd
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 00acb562-17d3-4f48-816b-851f09d960cd
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 657427a3-2a7f-4ce8-ae09-c921e6dd2e47
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/657427a3-2a7f-4ce8-ae09-c921e6dd2e47>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 6c50639a-7ebb-4493-a201-5a67089847d6
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    anchorsHint: false
+    creakCamera: false
+    creakSurrounds: false
+    decoObjects: false
+    descriptionText: false
+    escapeDoor: false
+    handInteractors: false
+    hintDisplayTime: false
+    hintTextComponent: false
+    interactionHintController: false
+    introLabel: false
+    introLogoMaterial: false
+    introRoot: false
+    introSkipHint: false
+    introTableHint: false
+    loadTime: false
+    loadingTipText: false
+    loadingTips: false
+    loreObjects: false
+    menuButtons: false
+    mouseInteractor: false
+    occluderShowAlpha: false
+    pickupObjects: false
+    poiRoot: false
+    roomObjects: false
+    supabaseTable: false
+    textOccluder: false
+    typewriterDuration: false
+    uiGloves: false
+    uiViewController: false
+    worldQueryManager: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - worldQueryManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      uiViewController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      interactionHintController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      supabaseTable: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      poiRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      loadTime: !<float> 0.000000
+      handInteractors: !<reference.ScriptComponent[]>
+        []
+      mouseInteractor: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      menuButtons: !<reference.SceneObject[]>
+        []
+      uiGloves: !<reference.SceneObject[]>
+        []
+      anchorsHint: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      loadingTipText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      descriptionText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      loadingTips: !<string[]>
+        []
+      introRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      introLabel: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      introLogoMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      introTableHint: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      introSkipHint: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      textOccluder: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      hintTextComponent: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      typewriterDuration: 0.500000
+      occluderShowAlpha: 0.700000
+      hintDisplayTime: !<float> 1.000000
+      creakCamera: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      creakSurrounds: !<reference.SceneObject[]>
+        []
+      escapeDoor: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      roomObjects:
+        []
+      pickupObjects:
+        []
+      decoObjects:
+        []
+      loreObjects:
+        []
+  ScriptTypes:
+    -
+      {}

@@ -1,0 +1,56 @@
+- !<AssetImportMetadata/e990509a-6cb3-4215-ade2-3d6aa992ca5e>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 0231c5f3-1639-456e-bb4b-5a4497e1f9c2
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 0231c5f3-1639-456e-bb4b-5a4497e1f9c2
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 131441ec-787d-459b-a9b1-3e5206c2bb56
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/131441ec-787d-459b-a9b1-3e5206c2bb56>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 83622ad8-1575-445b-b543-53d67205fdb9
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    bookIdText: false
+    bookInteractable: false
+    bookManipulation: false
+    bookOutline: false
+    materialMeshVisual: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - bookIdText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      bookInteractable: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      bookManipulation: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      bookOutline: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      materialMeshVisual: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.Text bookIdText
+    - // @input Component.ScriptComponent bookInteractable
+    - // @input Component.ScriptComponent bookManipulation
+    - // @input Component.ScriptComponent bookOutline
+    - // @input Component.MaterialMeshVisual materialMeshVisual

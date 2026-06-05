@@ -1,0 +1,42 @@
+- !<ObjectPrefab/bc0aaf79-baeb-4f78-90e7-d4c19959fafd>
+  PackagePath: ""
+  objects:
+    - !<own> b7feea78-725f-494f-a674-fc457643d0fe
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/5cc3303c-c9f8-4774-8656-6267ecb3524b>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 0bcdbc10-6237-43ea-a8ad-3d4cd015c0ad
+  Mesh: !<reference> 9c9b6564-dcf4-4899-8a2c-cc41c4e3a52a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/b7feea78-725f-494f-a674-fc457643d0fe>
+  PrefabRemaps:
+    - 5cc3303c-c9f8-4774-8656-6267ecb3524b: 5cc3303c-c9f8-4774-79a9-9d98134cadb4
+    - b7feea78-725f-494f-a674-fc457643d0fe: b7feea78-725f-494f-598b-03ba89bc2f01
+  Name: Particles
+  Enabled: true
+  Layers: 16
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -0.000000, z: 0.282359}
+    Rotation: {x: 90.000008, y: -0.000000, z: 0.000000}
+    Scale: {x: 0.211612, y: 0.211612, z: 0.211612}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5cc3303c-c9f8-4774-8656-6267ecb3524b

@@ -1,0 +1,423 @@
+- !<AssetImportMetadata/7f195245-add7-415f-8125-7af0eb53506b>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 6d04af6b-cafb-457a-aa56-3510d0e6f99b
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 6d04af6b-cafb-457a-aa56-3510d0e6f99b
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 85b1b7c2-3073-46da-8b0f-0ee5737c46f4
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/02e75b47-74b5-4569-700f-bcf21d3048de>
+  PrefabRemaps:
+    []
+  Name: Hanging Details
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.443084, y: 50.668213, z: 2.143390}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 39951ccf-fce7-432c-5688-86f63bfefc1b
+    - !<own> 5519f177-5f88-4cdf-4051-3bf4694248cf
+- !<ScriptComponent/0cef681b-78fb-4f4c-4978-3885dc2156d1>
+  PrefabRemaps:
+    []
+  Name: TweenTransform
+  Enabled: true
+  ScriptAsset: !<reference> c0359509-9eb1-4630-b6c4-e6f477d226ba
+  ScriptInputsDefault:
+    sceneObjectReference: true
+    tweenName: true
+    playAutomatically: true
+    movementType: true
+    from: true
+    to: true
+    additive: true
+    time: true
+    delay: true
+    isLocal: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sceneObjectReference: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      tweenName: ""
+      playAutomatically: true
+      loopType: 2
+      type: 2
+      movementType: 0
+      startInput: !<Vec3> {x: 0.000000, y: 0.000000, z: 8.000000}
+      endInput: !<Vec3> {x: 0.000000, y: 0.000000, z: -8.000000}
+      from: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      to: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      offset: !<Vec3> {x: -5.000000, y: 0.000000, z: 0.000000}
+      additive: false
+      time: !<float> 1.000000
+      delay: !<float> 0.000000
+      isLocal: true
+      easingFunction: Sinusoidal
+      easingType: InOut
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/2a7abe6a-e4ae-42e4-79ea-3d9bdd6205e2>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> bc84c2eb-d73d-4572-883e-1b39ac6ec850
+  Mesh: !<reference> aa643c17-55d8-4946-8405-1a5b31970141
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/39951ccf-fce7-432c-5688-86f63bfefc1b>
+  PrefabRemaps:
+    []
+  Name: component_7
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> bc84c2eb-d73d-4572-883e-1b39ac6ec850
+  Mesh: !<reference> 21348958-bcaa-4082-b31b-342463da4041
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/44ee95f9-63fd-4ec7-6616-25f88cdbc5c4>
+  PrefabRemaps:
+    []
+  Name: component_6
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> bc84c2eb-d73d-4572-883e-1b39ac6ec850
+  Mesh: !<reference> e7425dfe-bf5f-4c16-80d1-b295744526eb
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/4ba8d897-5dcf-46ba-4f9c-0a4d16fbd86c>
+  PrefabRemaps:
+    []
+  Name: Clock Static
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> d5b9c2c2-3283-4172-4866-ccb5eaf90db0
+  Components:
+    []
+- !<SceneObject/53432b16-60f0-462b-6a9f-9942cec1612c>
+  PrefabRemaps:
+    []
+  Name: GFC_Body
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 99cf94f1-87a2-49cd-7d94-442865a1f762
+- !<SceneObject/547ea983-e857-4487-781b-4cf967747bc8>
+  PrefabRemaps:
+    []
+  Name: Minutes Hand 1
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000026, y: 84.835480, z: 3.430322}
+    Rotation: {x: -0.000885, y: -0.001787, z: 57.059288}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> fa8de470-14e1-4fee-645a-2cd344aaeb87
+- !<ScriptComponent/5519f177-5f88-4cdf-4051-3bf4694248cf>
+  PrefabRemaps:
+    []
+  Name: TweenTransform
+  Enabled: false
+  ScriptAsset: !<reference> c0359509-9eb1-4630-b6c4-e6f477d226ba
+  ScriptInputsDefault:
+    sceneObjectReference: true
+    tweenName: true
+    playAutomatically: true
+    type: true
+    endInput: true
+    from: true
+    to: true
+    additive: true
+    time: true
+    delay: true
+    isLocal: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sceneObjectReference: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      tweenName: ""
+      playAutomatically: true
+      loopType: 2
+      type: 0
+      movementType: 3
+      startInput: !<Vec3> {x: 0.000000, y: 1.000000, z: 0.000000}
+      endInput: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      from: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      to: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      offset: !<Vec3> {x: 0.000000, y: 1.000000, z: 0.000000}
+      additive: false
+      time: !<float> 1.000000
+      delay: !<float> 0.000000
+      isLocal: true
+      easingFunction: Sinusoidal
+      easingType: InOut
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/57f33c6b-c74f-4f04-404c-c05dcbcaa143>
+  PrefabRemaps:
+    []
+  Name: GFC_Drawer
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000018, y: 16.721502, z: 13.126813}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2a7abe6a-e4ae-42e4-79ea-3d9bdd6205e2
+    - !<own> b292b560-9ddb-4706-6627-f90753e8dbba
+- !<ObjectPrefabAssetData/85b1b7c2-3073-46da-8b0f-0ee5737c46f4>
+  Prototype: !<ObjectOwner/98e47808-fe36-4fb7-95ce-cfeadba19288>
+    PackagePath: ""
+    objects:
+      - !<own> 4ba8d897-5dcf-46ba-4f9c-0a4d16fbd86c
+- !<RenderMeshVisual/99cf94f1-87a2-49cd-7d94-442865a1f762>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> bc84c2eb-d73d-4572-883e-1b39ac6ec850
+  Mesh: !<reference> a1965da5-11b6-47c5-a414-acd9019384da
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/9ef628c3-c652-439c-7185-b46254be1c1d>
+  PrefabRemaps:
+    []
+  Name: Clock Transform
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 1.157196, z: 3.468529}
+    Rotation: {x: 0.000000, y: 15.000000, z: 0.000000}
+    Scale: {x: 0.650000, y: 0.650000, z: 0.650000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 547ea983-e857-4487-781b-4cf967747bc8
+    - !<own> c7a59a04-c344-4e5b-6fdb-3cbd1b3559de
+    - !<own> e7475b90-016f-4173-5899-b094c372e137
+    - !<own> 53432b16-60f0-462b-6a9f-9942cec1612c
+    - !<own> 57f33c6b-c74f-4f04-404c-c05dcbcaa143
+    - !<own> f944e9af-6722-4008-4a03-57ac4d4c6b25
+    - !<own> 02e75b47-74b5-4569-700f-bcf21d3048de
+  Components:
+    []
+- !<RenderMeshVisual/b0cef41f-4465-4c6e-7273-a78c9890fa18>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> bc84c2eb-d73d-4572-883e-1b39ac6ec850
+  Mesh: !<reference> 9ead8d45-b01e-4d8b-9006-3fefc4b69d2f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/b292b560-9ddb-4706-6627-f90753e8dbba>
+  PrefabRemaps:
+    []
+  Name: component_5
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> bc84c2eb-d73d-4572-883e-1b39ac6ec850
+  Mesh: !<reference> 3554080c-1718-460f-877f-6c808bcf228d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/c7a59a04-c344-4e5b-6fdb-3cbd1b3559de>
+  PrefabRemaps:
+    []
+  Name: Hours Hand 1
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000173, y: 84.835648, z: 2.818326}
+    Rotation: {x: 0.009427, y: -0.011005, z: -130.603638}
+    Scale: {x: 1.000029, y: 1.000029, z: 1.000029}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b0cef41f-4465-4c6e-7273-a78c9890fa18
+- !<SceneObject/d5b9c2c2-3283-4172-4866-ccb5eaf90db0>
+  PrefabRemaps:
+    []
+  Name: Clock
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.462887, y: -8.042454, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9ef628c3-c652-439c-7185-b46254be1c1d
+  Components:
+    []
+- !<SceneObject/e7475b90-016f-4173-5899-b094c372e137>
+  PrefabRemaps:
+    []
+  Name: Clock Face
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000033, y: 84.835625, z: 0.585210}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ee7b6786-aeab-454d-4c71-de27da19d46e
+- !<RenderMeshVisual/ee7b6786-aeab-454d-4c71-de27da19d46e>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f14feb4a-87a9-4e9c-8e6c-bdaf6c68e2ed
+  Mesh: !<reference> 44dcf9c1-f60b-45c0-acbe-cdca4ae292ff
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/f944e9af-6722-4008-4a03-57ac4d4c6b25>
+  PrefabRemaps:
+    []
+  Name: Clock Gong
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.232399, y: 64.678581, z: -0.712927}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 44ee95f9-63fd-4ec7-6616-25f88cdbc5c4
+    - !<own> 0cef681b-78fb-4f4c-4978-3885dc2156d1
+- !<RenderMeshVisual/fa8de470-14e1-4fee-645a-2cd344aaeb87>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> bc84c2eb-d73d-4572-883e-1b39ac6ec850
+  Mesh: !<reference> 74642983-c402-4434-9abe-0039456f3ed4
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

@@ -1,0 +1,89 @@
+- !<AssetImportMetadata/d700417a-b5aa-43c0-a04e-dbb4e2bc0538>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> b6b1fa3c-e9de-4cd4-a831-f2019f22996e
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> b6b1fa3c-e9de-4cd4-a831-f2019f22996e
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 0d969afe-0306-4044-ad55-9f6324bd0333
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/0d969afe-0306-4044-ad55-9f6324bd0333>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 0dd2994f-2d9a-4f41-ab73-48e3b66fe016
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    addRotation: false
+    anchorCount: false
+    collider: false
+    colliderForce: false
+    force: false
+    isRelative: false
+    iterations: false
+    joints: false
+    relativeTo: false
+    sizeMutiplier: false
+    stiffness: false
+    timeSpeed: false
+    type: false
+    useCollider: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - joints: !<reference.SceneObject[]>
+        []
+      anchorCount: 1
+      stiffness: !<float> 1.000000
+      type: 0
+      iterations: 1
+      timeSpeed: !<float> 1.000000
+      force: !<Vec3> {x: 0.000000, y: -1.000000, z: 0.000000}
+      isRelative: false
+      relativeTo: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      addRotation: false
+      useCollider: false
+      collider: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      colliderForce: !<float> 0.000000
+      sizeMutiplier: !<float> 6.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - "// @input SceneObject[] joints = {}"
+    - '// @ui {"widget":"separator"}'
+    - '// @input int anchorCount = "1" {"label":"Anchors", "widget":"combobox", "values":[{"label":"First", "value":1}, {"label":"First And Last", "value":2}]}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input float stiffness = "1.0" {"widget":"slider", "min":0.01, "max":1, "step":0.1}'
+    - '// @input int type = "0" {"widget":"combobox", "values":[{"label":"Rigid", "value":0}, {"label":"Elastic", "value":1}]}'
+    - '// @input int iterations = "1" {"widget":"slider", "min":1, "max":30, "step":1}'
+    - // @input float timeSpeed = 1
+    - '// @ui {"widget":"separator"}'
+    - "// @input vec3 force = {0,-1,0}"
+    - // @input bool isRelative
+    - '// @input SceneObject relativeTo {"showIf":"isRelative", "showIfValue":true}'
+    - '// @ui {"widget":"separator"}'
+    - // @input bool addRotation
+    - '// @ui {"widget":"separator"}'
+    - // @input bool useCollider
+    - '// @input SceneObject collider {"showIf":"useCollider", "showIfValue":true}'
+    - '// @input float colliderForce {"showIf":"useCollider", "showIfValue":true}'
+    - '// @input float sizeMutiplier = 6 {"showIf":"useCollider", "showIfValue":true}'

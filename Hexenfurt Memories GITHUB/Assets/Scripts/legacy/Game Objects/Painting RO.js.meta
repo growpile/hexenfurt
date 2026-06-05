@@ -1,0 +1,60 @@
+- !<AssetImportMetadata/744842b6-5dcd-4bcc-b0ce-073bf362c2a1>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 6c378556-abda-459c-be42-96bf1c4141ab
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 6c378556-abda-459c-be42-96bf1c4141ab
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 16df869c-f2b9-4950-b302-b55193d8c296
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/16df869c-f2b9-4950-b302-b55193d8c296>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 11f43cad-0e06-4ea8-a6b5-bbd3b0c1f1d7
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    decoTestingPrefab: false
+    itemSpots: false
+    keyTestingPrefab: false
+    noteTestingPrefab: false
+    paintingMaterial: false
+    paintingTextures: false
+    testItem: false
+    testItems: false
+    testSpot: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - itemSpots:
+        []
+      testItems: false
+      testSpot: 0
+      testItem: 0
+      keyTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      noteTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      decoTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      paintingMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      paintingTextures: !<reference.Texture[]>
+        []
+  ScriptTypes:
+    -
+      {}

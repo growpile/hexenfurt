@@ -1,0 +1,96 @@
+- !<AssetImportMetadata/dbc06c69-842f-4f2d-bfa6-8bf9529fd942>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> dee3ed28-bcd3-420f-b90f-ca2488298728
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> dee3ed28-bcd3-420f-b90f-ca2488298728
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 4ac22928-08b4-4ae3-86a3-9bc690a67f19
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/4ac22928-08b4-4ae3-86a3-9bc690a67f19>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 1f594a60-33a2-49af-bc91-796d65c64899
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    descriptionFadeDuration: false
+    descriptionSwapDelay: false
+    entries: false
+    entrySlideDuration: false
+    entrySlideUnits: false
+    hiddenOffsetY: false
+    notSeenIcon: false
+    objectCountText: false
+    objectDescription: false
+    objectDisplayRoot: false
+    objectProgressBar: false
+    objectScaleDuration: false
+    rotationCycleDuration: false
+    showDuration: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - entries:
+        []
+      objectDisplayRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      objectDescription: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      notSeenIcon: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      descriptionFadeDuration: 0.450000
+      descriptionSwapDelay: 0.100000
+      objectProgressBar: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      objectCountText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      showDuration: 0.500000
+      hiddenOffsetY: !<float> 60.000000
+      rotationCycleDuration: !<float> 6.000000
+      objectScaleDuration: 0.350000
+      entrySlideUnits: !<float> 120.000000
+      entrySlideDuration: 0.650000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Catalog</span>\"}"
+    - /*
+    - "@typedef ArchiveGalleryEntry"
+    - '@property {string} objectId {"label":"Object ID"}'
+    - '@property {Asset.ObjectPrefab} objectPrefab {"label":"Object Prefab"}'
+    - '@property {string} description {"label":"Description", "widget":"text_area"}'
+    - "*/"
+    - '// @input ArchiveGalleryEntry[] entries = {} {"label":"Archive Entries"}'
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Display</span>\"}"
+    - '// @input SceneObject objectDisplayRoot {"hint":"Parent transform where the current catalog prefab is instantiated."}'
+    - '// @input Component.Text objectDescription {"hint":"Description line for the current catalog entry."}'
+    - '// @input SceneObject notSeenIcon {"label":"Not Seen Icon", "hint":"Shown (scale 1) when the current entry is not yet found; hidden (scale 0) when found."}'
+    - '// @input float descriptionFadeDuration = 0.45 {"hint":"Seconds to fade description text in or out."}'
+    - '// @input float descriptionSwapDelay = 0.1 {"hint":"Pause (s) after fade-out before swapping text and fading in."}'
+    - '// @input Component.ScriptComponent objectProgressBar {"label":"Object Progress Bar", "hint":"UIKit Slider; fill is seen catalog objects / total entries (0–1)."}'
+    - '// @input Component.Text objectCountText {"label":"Object Count Text", "hint":"Shows \"Objects Found X/totalCount\" for archive discovery progress."}'
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Presentation</span>\"}"
+    - '// @input float showDuration = 0.5 {"hint":"Slide-in duration when opening the archive panel."}'
+    - '// @input float hiddenOffsetY = 60 {"hint":"Hidden Y offset for the sliding panel child."}'
+    - '// @input float rotationCycleDuration = 6 {"hint":"Seconds for one full -5° → +5° → -5° Y sweep on the display Origin."}'
+    - '// @input float objectScaleDuration = 0.35 {"hint":"Seconds to scale catalog objects in/out (0 → 1 on show, 1 → 0 before swap)."}'
+    - '// @input float entrySlideUnits = 80 {"hint":"Horizontal slide distance (local X) when switching catalog entries."}'
+    - '// @input float entrySlideDuration = 0.5 {"hint":"Duration (s) for entry swap: slide + scale run together on exit and enter."}'
+    - '// @ui {"widget":"group_end"}'

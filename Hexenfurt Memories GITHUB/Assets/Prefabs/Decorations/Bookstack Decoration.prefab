@@ -1,0 +1,74 @@
+- !<ObjectPrefab/faf6bd3f-f979-4b32-8844-8f9ec1b26703>
+  PackagePath: ""
+  objects:
+    - !<own> cf98e407-9ddf-424b-9304-9ca04f8add76
+  LazyLoading: false
+  RetainAssets: true
+- !<ColliderComponent/324604e2-059d-4688-8f7c-39b72b8a5f19>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Cylinder>
+    Axis: Y
+    Length: 120.000000
+    Radius: 2.000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<ScriptComponent/5fb10f57-b74e-4d35-a2f1-f3c0cf308ebe>
+  PrefabRemaps:
+    []
+  Name: Bookstack Decoration
+  Enabled: true
+  ScriptAsset: !<reference> c4c581b2-487a-4ba7-be9c-3c4971a59bc7
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      physicsBook: !<reference.ObjectPrefab> a634ce5d-97fd-423f-b64a-11d5c5b5538b
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/8c5909a9-dab9-48e1-ab31-ccfa00ba2cc9>
+  PrefabRemaps:
+    []
+  Name: Push Object
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -4.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 324604e2-059d-4688-8f7c-39b72b8a5f19
+- !<SceneObject/cf98e407-9ddf-424b-9304-9ca04f8add76>
+  PrefabRemaps:
+    - 324604e2-059d-4688-8f7c-39b72b8a5f19: 8fc2129c-fa18-4665-ae52-64c44e28ac1b
+    - 5fb10f57-b74e-4d35-a2f1-f3c0cf308ebe: 5fb10f57-b74e-4d35-5d0e-0c3f30cf7141
+    - 8c5909a9-dab9-48e1-ab31-ccfa00ba2cc9: 2458c6c8-e34d-4af8-a357-882695bbe473
+    - cf98e407-9ddf-424b-9304-9ca04f8add76: cf98e407-9ddf-424b-6cfb-635fb0752289
+  Name: Bookstack Decoration
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8c5909a9-dab9-48e1-ab31-ccfa00ba2cc9
+  Components:
+    - !<own> 5fb10f57-b74e-4d35-a2f1-f3c0cf308ebe

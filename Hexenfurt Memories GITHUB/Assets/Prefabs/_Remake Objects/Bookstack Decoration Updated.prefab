@@ -1,0 +1,113 @@
+- !<ObjectPrefab/93ca43d4-3f63-493c-8985-351a22420c15>
+  PackagePath: ""
+  objects:
+    - !<own> 9fab9e76-84d2-4867-b67b-1286ac9b5ac1
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/09e073ec-c493-4409-b2c8-0165e9b4c09d>
+  PrefabRemaps:
+    []
+  Name: Push Object Motion
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -11.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 377e8482-8f93-4efd-8340-daea9792706a
+- !<ColliderComponent/377e8482-8f93-4efd-8340-daea9792706a>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Sphere>
+    FitVisual: true
+    Radius: 6.000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<ScriptComponent/435983d4-d540-4610-89e8-1a244687adac>
+  PrefabRemaps:
+    []
+  Name: BookstackDecoration
+  Enabled: true
+  ScriptAsset: !<reference> 4252a19b-91e6-4559-8625-484c066deb31
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      physicsBook: !<reference.ObjectPrefab> 19fbf99c-a470-488b-b7af-398e96420858
+      pushObject: !<reference.SceneObject> 09e073ec-c493-4409-b2c8-0165e9b4c09d
+      travelUnits: !<float> 90.000000
+      travelTime: 0.250000
+  ScriptTypes:
+    "":
+      {}
+- !<ColliderComponent/4adb9eef-82fb-40e9-9898-6dd7a09b6ec9>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Cylinder>
+    Axis: Y
+    Length: 80.000000
+    Radius: 2.000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<SceneObject/9fab9e76-84d2-4867-b67b-1286ac9b5ac1>
+  PrefabRemaps:
+    - 09e073ec-c493-4409-b2c8-0165e9b4c09d: 8f30d838-5417-4433-8c6c-8310d93e18f5
+    - 377e8482-8f93-4efd-8340-daea9792706a: 042618b9-c79e-4406-af4e-916e378366e7
+    - 435983d4-d540-4610-89e8-1a244687adac: 435983d4-d540-4610-7617-e5dbb9785253
+    - 4adb9eef-82fb-40e9-9898-6dd7a09b6ec9: 4adb9eef-82fb-40e9-6767-92285f649136
+    - 9fab9e76-84d2-4867-b67b-1286ac9b5ac1: 9fab9e76-84d2-4867-4984-ed795364a53e
+    - b1b5f4f5-69c6-4c26-9b79-7515eddfc525: b1b5f4f5-69c6-4c26-6486-8aea12203ada
+  Name: Bookstack Decoration Updated
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -37.953083, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 09e073ec-c493-4409-b2c8-0165e9b4c09d
+    - !<own> b1b5f4f5-69c6-4c26-9b79-7515eddfc525
+  Components:
+    - !<own> 435983d4-d540-4610-89e8-1a244687adac
+- !<SceneObject/b1b5f4f5-69c6-4c26-9b79-7515eddfc525>
+  PrefabRemaps:
+    []
+  Name: Push Object
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 20.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4adb9eef-82fb-40e9-9898-6dd7a09b6ec9

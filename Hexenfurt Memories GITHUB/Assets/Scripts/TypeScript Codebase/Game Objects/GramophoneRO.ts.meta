@@ -1,0 +1,71 @@
+- !<AssetImportMetadata/dc4cb423-78e6-48d5-976d-cc3d51c8b1f1>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 30e317ca-c609-4ca2-a42a-3f5076254df9
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 30e317ca-c609-4ca2-a42a-3f5076254df9
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> ce0d36d1-4663-47a9-b68b-94dbac481e39
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/ce0d36d1-4663-47a9-b68b-94dbac481e39>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 5dca7f2b-d9cc-4a01-93da-0d91354245d8
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    digitVolume: false
+    hintTextObject: false
+    itemSpots: false
+    musicLoopSoundId: false
+    musicVolume: false
+    notePickupPrefab: false
+    numberSoundIds: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - musicLoopSoundId: ""
+      musicVolume: !<float> 1.000000
+      numberSoundIds: !<string[]>
+        []
+      digitVolume: !<float> 1.000000
+      hintTextObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      notePickupPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      itemSpots:
+        []
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input string musicLoopSoundId {"label":"Music Loop Sound ID"}'
+    - '// @input float musicVolume = "1.0" {"label":"Music Volume", "widget":"slider", "min":0, "max":1, "step":0.01}'
+    - '// @input string[] numberSoundIds = {} {"label":"Number Sound IDs (0–9)", "hint":"Index 0 = digit 0, index 9 = digit 9. Each id must exist in SoundManager spatial sound list."}'
+    - '// @input float digitVolume = "1.0" {"label":"Digit Volume", "widget":"slider", "min":0, "max":1, "step":0.01}'
+    - '// @input SceneObject hintTextObject {"label":"Hint Text Scene Object", "hint":"Floated digit label shown while each number sound plays: moves local Z 10→30, scales 0→1, fades in/out."}'
+    - // @input Asset.ObjectPrefab notePickupPrefab
+    - /*
+    - "@typedef ItemSpot"
+    - '@property {string} objectType = "deco" {"label":"Object Type", "widget":"combobox", "values":[{"label":"Decoration", "value":"deco"}, {"label":"Inventory Item", "value":"item"}, {"label":"Lore Item", "value":"lore"}, {"label":"Both (item or deco)", "value":"both"}]}'
+    - '@property {int} orientation = "0" {"label":"Orientation", "widget":"combobox", "values":[{"label":"Horizontal", "value":0}, {"label":"Vertical", "value":1}]}'
+    - '@property {bool} lockedSlot {"label":"Locked Slot"}'
+    - "@property {SceneObject} origin"
+    - "*/"
+    - '// @input ItemSpot[] itemSpots = {} {"label":"Spots"}'

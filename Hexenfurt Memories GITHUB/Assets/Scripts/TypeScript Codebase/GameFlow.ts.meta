@@ -1,0 +1,124 @@
+- !<AssetImportMetadata/e2202cba-9db1-41d6-9644-baae9540d101>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> a4abcf23-47c7-4fbb-8a5a-3746955958d3
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> a4abcf23-47c7-4fbb-8a5a-3746955958d3
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 34edf3b3-9e4b-4f6d-92e4-fa22f032653b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/34edf3b3-9e4b-4f6d-92e4-fa22f032653b>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 55150024-1952-4d8b-9f52-d7fd65789377
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    creakCamera: false
+    creakSurrounds: false
+    descriptionText: false
+    handInteractors: false
+    hintDisplayTime: false
+    hintTextComponent: false
+    interactionHintController: false
+    introLabel: false
+    introLogoMaterial: false
+    introRoot: false
+    introSkipHint: false
+    introTableHint: false
+    mouseInteractor: false
+    occluderShowAlpha: false
+    poiRoot: false
+    proceduralRoom: false
+    supabaseTable: false
+    textOccluder: false
+    typewriterDuration: false
+    uiGloves: false
+    viewController: false
+    worldQueryManager: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - worldQueryManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      viewController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      proceduralRoom: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      interactionHintController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      supabaseTable: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      poiRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      handInteractors: !<reference.ScriptComponent[]>
+        []
+      mouseInteractor: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      uiGloves: !<reference.SceneObject[]>
+        []
+      descriptionText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      introRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      introLabel: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      introLogoMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      introTableHint: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      introSkipHint: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      textOccluder: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      hintTextComponent: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      typewriterDuration: 0.500000
+      occluderShowAlpha: 0.700000
+      hintDisplayTime: !<float> 1.000000
+      creakCamera: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      creakSurrounds: !<reference.SceneObject[]>
+        []
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Core Systems</span>\"}"
+    - // @input Component.ScriptComponent worldQueryManager
+    - // @input Component.ScriptComponent viewController
+    - // @input Component.ScriptComponent proceduralRoom
+    - // @input Component.ScriptComponent interactionHintController
+    - // @input Component.ScriptComponent supabaseTable
+    - // @input SceneObject poiRoot
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Interactors</span>\"}"
+    - "// @input Component.ScriptComponent[] handInteractors = {}"
+    - // @input Component.ScriptComponent mouseInteractor
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Inventory UI</span>\"}"
+    - '// @input SceneObject[] uiGloves = {} {"hint":"Optional inventory gloves visualizers, hidden when entering the menu state."}'
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Setup Phases</span>\"}"
+    - '// @input Component.Text descriptionText {"hint":"Phase instruction line during eye height / ground / door / anchor setup."}'
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Intro Sequence</span>\"}"
+    - // @input SceneObject introRoot
+    - // @input Component.Text introLabel
+    - // @input Asset.Material introLogoMaterial
+    - // @input Component.Text introTableHint
+    - // @input Component.Text introSkipHint
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Gameplay Hints</span>\"}"
+    - // @input Asset.Material textOccluder
+    - // @input Component.Text hintTextComponent
+    - // @input float typewriterDuration = 0.5
+    - // @input float occluderShowAlpha = 0.7
+    - // @input float hintDisplayTime = 1
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Ambient Creaks</span>\"}"
+    - // @input SceneObject creakCamera
+    - "// @input SceneObject[] creakSurrounds = {}"
+    - '// @ui {"widget":"group_end"}'

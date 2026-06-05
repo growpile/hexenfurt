@@ -1,0 +1,56 @@
+- !<AssetImportMetadata/f006f461-c236-4bed-9aa8-1897672169f7>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 791c4fcc-74dc-4d99-b93b-0b912c45958b
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 791c4fcc-74dc-4d99-b93b-0b912c45958b
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 38213708-27b8-48c8-872d-57d0921812b8
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/38213708-27b8-48c8-872d-57d0921812b8>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: a9676540-5eb1-4678-887f-9b3f7d5c123c
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    hangAmplitudeDeg: false
+    hangBiasDeg: false
+    hangSpeedHz: false
+    hangingTo: false
+    itemInteractable: false
+    loreId: false
+    resetDuration: false
+    tooltip: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - itemInteractable: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      loreId: ""
+      tooltip: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      hangingTo: 0
+      hangAmplitudeDeg: !<float> 8.000000
+      hangBiasDeg: !<float> 4.000000
+      hangSpeedHz: 0.600000
+      resetDuration: 0.350000
+  ScriptTypes:
+    -
+      {}

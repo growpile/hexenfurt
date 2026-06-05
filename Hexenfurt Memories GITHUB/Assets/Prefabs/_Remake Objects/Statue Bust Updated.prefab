@@ -1,0 +1,58 @@
+- !<ObjectPrefab/65141f24-92bb-485c-9a25-3e82b10eeef7>
+  PackagePath: ""
+  objects:
+    - !<own> 29f0b1e8-d772-49b0-b530-f7368a2eb82e
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/29f0b1e8-d772-49b0-b530-f7368a2eb82e>
+  PrefabRemaps:
+    - 29f0b1e8-d772-49b0-b530-f7368a2eb82e: 29f0b1e8-d772-49b0-4acf-08c975d147d1
+    - 3d81e1f4-8d32-47d5-9c8e-c2a5404994c9: 3d81e1f4-8d32-47d5-6371-3d5abfb66b36
+    - fbc195c3-fd32-49ab-8e58-161e5ff902fe: fbc195c3-fd32-49ab-71a7-e9e1a006fd01
+  Name: Statue Bust Updated
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 89.999985, y: -0.000002, z: 180.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> fbc195c3-fd32-49ab-8e58-161e5ff902fe
+  Components:
+    []
+- !<RenderMeshVisual/3d81e1f4-8d32-47d5-9c8e-c2a5404994c9>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a56aede1-fee7-4d71-8bff-4125aa614366
+  Mesh: !<reference> 6f33585d-36e7-46fb-bddf-3ad48f4d73a5
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/fbc195c3-fd32-49ab-8e58-161e5ff902fe>
+  PrefabRemaps:
+    []
+  Name: Statue Bust
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000001, z: 0.229813}
+    Rotation: {x: 89.999985, y: 0.000005, z: 180.000000}
+    Scale: {x: 0.700000, y: 0.700000, z: 0.700000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3d81e1f4-8d32-47d5-9c8e-c2a5404994c9

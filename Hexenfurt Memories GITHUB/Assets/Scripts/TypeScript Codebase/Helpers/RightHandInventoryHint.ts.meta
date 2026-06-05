@@ -1,0 +1,53 @@
+- !<AssetImportMetadata/1f576b86-1df1-4087-8188-fad34df919d6>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 9cd28395-7e56-4858-bc54-fe58301ae193
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 9cd28395-7e56-4858-bc54-fe58301ae193
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> a75bfe3b-5510-404b-a57b-6b339c9f7eb8
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/a75bfe3b-5510-404b-a57b-6b339c9f7eb8>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: a8645bea-38ba-437e-b0fc-e00ae9e35fc5
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    backlightMaterial: false
+    handRenderMeshVisual: false
+    keyObject: false
+    wristR: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - handRenderMeshVisual: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      backlightMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      wristR: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      keyObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.RenderMeshVisual handRenderMeshVisual
+    - // @input Asset.Material backlightMaterial
+    - '// @input SceneObject wristR {"hint":"Wrist R bone for the rotate-in animation."}'
+    - '// @input SceneObject keyObject {"hint":"Key prop scaled-in alongside the hand rotation."}'

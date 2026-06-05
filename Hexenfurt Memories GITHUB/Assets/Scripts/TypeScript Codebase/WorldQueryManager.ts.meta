@@ -1,0 +1,107 @@
+- !<AssetImportMetadata/820382a5-9bca-4076-9e70-5af31cd54223>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> a4800c2e-148c-47ec-bbbb-ff94ec01d898
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> a4800c2e-148c-47ec-bbbb-ff94ec01d898
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 69b33c73-8faf-432f-a5cf-383fd7894e13
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/69b33c73-8faf-432f-a5cf-383fd7894e13>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: edec482f-efca-4435-b860-8566d611db82
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    anchorPrefab: false
+    anchorVisualsRoot: false
+    angleThreshold: false
+    camera: false
+    ceilingAnchorsTarget: false
+    filter: false
+    gameFlow: false
+    groundAnchorLevelPrecision: false
+    groundAnchorsTarget: false
+    groundPlane: false
+    hitOriginObject: false
+    maxDistanceToOtherAnchors: false
+    maxHitDistance: false
+    maxHold: false
+    placementGuides: false
+    tweens: false
+    wallAnchorsTarget: false
+    wallYOffset: false
+    worldGridMaterial: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - camera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      maxHitDistance: !<float> 270.000000
+      hitOriginObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      filter: false
+      worldGridMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      tweens: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      gameFlow: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      angleThreshold: !<float> 45.000000
+      wallYOffset: !<float> -20.000000
+      placementGuides: !<reference.SceneObject[]>
+        []
+      groundPlane: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      anchorPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      anchorVisualsRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      groundAnchorsTarget: !<float> 2.000000
+      wallAnchorsTarget: !<float> 2.000000
+      ceilingAnchorsTarget: !<float> 1.000000
+      maxDistanceToOtherAnchors: !<float> 100.000000
+      groundAnchorLevelPrecision: !<float> 10.000000
+      maxHold: 0.300000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Core</span>\"}"
+    - // @input Component.Camera camera
+    - // @input float maxHitDistance = 270
+    - '// @input SceneObject hitOriginObject {"hint":"Where the visual scan reticle is positioned."}'
+    - // @input bool filter
+    - // @input Asset.Material worldGridMaterial
+    - // @input SceneObject tweens
+    - // @input Component.ScriptComponent gameFlow
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Surface Classification</span>\"}"
+    - // @input float angleThreshold = 45
+    - // @input float wallYOffset = -20
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Placement Visuals</span>\"}"
+    - '// @input SceneObject[] placementGuides = {} {"hint":"Phase-specific placement guides (ground / door / anchors). Shown one at a time during recording."}'
+    - // @input SceneObject groundPlane
+    - // @input Asset.ObjectPrefab anchorPrefab
+    - // @input SceneObject anchorVisualsRoot
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Anchor Targets</span>\"}"
+    - // @input float groundAnchorsTarget = 2
+    - // @input float wallAnchorsTarget = 2
+    - // @input float ceilingAnchorsTarget = 1
+    - // @input float maxDistanceToOtherAnchors = 100
+    - // @input float groundAnchorLevelPrecision = 10
+    - '// @input float maxHold = 0.3 {"hint":"Max time (seconds) between pinch start and release for it to count as a tap. Held pinches do not snap."}'
+    - '// @ui {"widget":"group_end"}'

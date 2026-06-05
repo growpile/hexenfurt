@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/e624eac0-0095-40f1-ab50-2a0bce7cc555>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 780d43cc-cb66-439c-8018-1c1c2bfc2ced
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 780d43cc-cb66-439c-8018-1c1c2bfc2ced
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 79c5d1db-2298-4f23-838e-58dbb4dca88f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/79c5d1db-2298-4f23-838e-58dbb4dca88f>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: dec77d64-86c2-4660-ab75-38ff4a2f2486
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    backlightMaterial: false
+    handRenderMeshVisual: false
+    keyObject: false
+    wristR: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - handRenderMeshVisual: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      backlightMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      wristR: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      keyObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

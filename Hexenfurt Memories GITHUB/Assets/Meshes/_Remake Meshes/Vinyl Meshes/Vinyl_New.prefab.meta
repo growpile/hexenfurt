@@ -1,0 +1,71 @@
+- !<AssetImportMetadata/01846739-2db5-420b-a979-59eca1ad80d5>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> b3e6f476-a194-4813-a251-1439f3a3b86f
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> b3e6f476-a194-4813-a251-1439f3a3b86f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 229d5f42-189a-4eff-a84b-e1e4c5d44a5b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/229d5f42-189a-4eff-a84b-e1e4c5d44a5b>
+  Prototype: !<ObjectOwner/3183b766-a23f-4202-9d4e-7e31331d8ab0>
+    PackagePath: ""
+    objects:
+      - !<own> 502037ec-f3f2-464f-6796-f1e53f1b8518
+- !<SceneObject/502037ec-f3f2-464f-6796-f1e53f1b8518>
+  PrefabRemaps:
+    []
+  Name: Vinyl_New
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 93613744-bd73-47f6-7844-3e8c5f6deef6
+  Components:
+    []
+- !<RenderMeshVisual/6ec4de92-905d-44e2-4994-d9d25a0a2890>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> efd2b53f-42a2-4ae8-8db6-ca3c8ee7367a
+  Mesh: !<reference> 800664a4-a34c-459d-8a08-e58a0e457475
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/93613744-bd73-47f6-7844-3e8c5f6deef6>
+  PrefabRemaps:
+    []
+  Name: Vinyl
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000000, y: 16.081827, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6ec4de92-905d-44e2-4994-d9d25a0a2890

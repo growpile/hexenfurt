@@ -1,0 +1,368 @@
+- !<AssetImportMetadata/ab4fd26c-9dd5-4652-bddf-5c963dd51f7d>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> f1436702-d355-4a05-a3c1-454dc61287b3
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> f1436702-d355-4a05-a3c1-454dc61287b3
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 85d8e17e-0f54-4c9a-aa74-0e5f5f7566dd
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/0015d3cd-bb5f-4ca1-5d6b-4bb0b3fe0499>
+  PrefabRemaps:
+    []
+  Name: Silver Sparkles
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 966c7e22-bdeb-435f-44db-cf4fb94b234f
+- !<ScriptComponent/11807618-751c-4cc0-6cbd-ff0833b6e8b6>
+  PrefabRemaps:
+    []
+  Name: InteractableManipulation
+  Enabled: true
+  ScriptAsset: !<reference> 664b556b-1946-4c2c-866a-e675b4e86006
+  ScriptInputsDefault:
+    minimumScaleFactor: true
+    maximumScaleFactor: true
+    zStretchFactorMin: true
+    zStretchFactorMax: true
+    useFilter: true
+    showTranslationProperties: true
+    _enableXTranslation: true
+    _enableYTranslation: true
+    _enableZTranslation: true
+    showRotationProperties: true
+    _rotationAxis: true
+    isSynced: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      manipulateRootSceneObject: !<reference.SceneObject> 90d31695-049a-4ada-749a-59d6ffcd1c7f
+      enableTranslation: false
+      enableRotation: false
+      enableScale: false
+      minimumScaleFactor: 0.250000
+      maximumScaleFactor: !<float> 20.000000
+      enableStretchZ: false
+      zStretchFactorMin: !<float> 1.000000
+      zStretchFactorMax: !<float> 12.000000
+      useFilter: true
+      showTranslationProperties: false
+      _enableXTranslation: true
+      _enableYTranslation: true
+      _enableZTranslation: true
+      showRotationProperties: false
+      _rotationAxis: All
+      isSynced: false
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/389ba729-c6ff-4406-61b2-518bbf98376a>
+  PrefabRemaps:
+    []
+  Name: InteractableOutlineFeedback
+  Enabled: true
+  ScriptAsset: !<reference> 657cbbe5-2a9c-4889-93fb-fd72ba8a1d52
+  ScriptInputsDefault:
+    targetOutlineMaterial: true
+    activatingColor: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetOutlineMaterial: !<reference.Material> 7ac80b6c-979a-4a00-a694-099f296be161
+      hoveringColor: !<Vec4> {x: 0.759060, y: 0.746960, z: 0.749508, w: 1.000000}
+      activatingColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      outlineWeight: 0.010000
+      meshVisuals: !<reference.RenderMeshVisual[]>
+        - !<reference> f495a281-3aaa-4218-4413-8d90e154f7f3
+  ScriptTypes:
+    "":
+      {}
+- !<BodyComponent/3c05d593-6eb9-499b-40d5-17fc9a0bb6d6>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: !<Sphere>
+    FitVisual: false
+    Radius: 6.000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+  Dynamic: false
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.000000
+  AngularDamping: 0.000000
+- !<SceneObject/4afab864-f4d4-43e9-5604-1305bb99d812>
+  PrefabRemaps:
+    []
+  Name: Silver Interactable
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -7.000000, y: 0.000000, z: -0.000001}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e83e17a7-a4fa-4b7a-43c1-3432990b2529
+    - !<own> 3c05d593-6eb9-499b-40d5-17fc9a0bb6d6
+    - !<own> 11807618-751c-4cc0-6cbd-ff0833b6e8b6
+    - !<own> 389ba729-c6ff-4406-61b2-518bbf98376a
+- !<LookAtComponent/587e7f58-c312-4574-65f5-6206e53ac783>
+  PrefabRemaps:
+    []
+  Name: Look At
+  Enabled: true
+  LookAtMode: LookAtDirection
+  AimVectors: YAimZUp
+  WorldUpVector: SceneY
+  Target: !<reference> 00000000-0000-0065-0000-000000000064
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+- !<ScriptComponent/5bfcc292-8e20-400b-75e0-941f9bf0473e>
+  PrefabRemaps:
+    []
+  Name: TweenTransform
+  Enabled: true
+  ScriptAsset: !<reference> c0359509-9eb1-4630-b6c4-e6f477d226ba
+  ScriptInputsDefault:
+    sceneObjectReference: true
+    startInput: true
+    endInput: true
+    from: true
+    to: true
+    delay: true
+    isLocal: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sceneObjectReference: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      tweenName: orbit
+      playAutomatically: false
+      loopType: 1
+      type: 2
+      movementType: 3
+      startInput: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      endInput: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      from: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      to: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      offset: !<Vec3> {x: 180.000000, y: 0.000000, z: 0.000000}
+      additive: true
+      time: 0.250000
+      delay: !<float> 0.000000
+      isLocal: true
+      easingFunction: Linear
+      easingType: InOut
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/5e565767-0b70-4ea5-5643-ba44f15ed45d>
+  PrefabRemaps:
+    []
+  Name: Silver Key
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -11.396751, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 22.000000, y: 22.000000, z: 22.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f495a281-3aaa-4218-4413-8d90e154f7f3
+    - !<own> 5bfcc292-8e20-400b-75e0-941f9bf0473e
+- !<ObjectPrefabAssetData/85d8e17e-0f54-4c9a-aa74-0e5f5f7566dd>
+  Prototype: !<ObjectOwner/89a7c693-821c-4db4-a2b5-39dd221bf9d5>
+    PackagePath: ""
+    objects:
+      - !<own> 90d31695-049a-4ada-749a-59d6ffcd1c7f
+- !<SceneObject/90d31695-049a-4ada-749a-59d6ffcd1c7f>
+  PrefabRemaps:
+    []
+  Name: Silver Key Pickup
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 65.661972, z: 7.245840}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> f1feebcd-6b6b-44af-85e8-eb7f46f3bfbd
+  Components:
+    - !<own> dc026608-c4b9-4312-a765-0b6049a184a8
+- !<VFXComponent/966c7e22-bdeb-435f-44db-cf4fb94b234f>
+  PrefabRemaps:
+    []
+  Name: VFX Component
+  Enabled: true
+  RenderOrder: 2
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> 9d6e5331-8a92-4355-b0b2-58db9c603d84
+- !<RenderMeshVisual/973f7ae3-f600-4c31-65ca-2ce9722bd637>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f6c7be77-ea42-45c9-bb7a-fdbe76cf9a42
+  Mesh: !<reference> 3dced6a9-c43b-4d59-9939-4e951e1399fd
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/a0ab5218-6007-443d-5109-8bbf50a89550>
+  PrefabRemaps:
+    []
+  Name: Backlight
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -7.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 15.000000, y: 15.000000, z: 15.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 973f7ae3-f600-4c31-65ca-2ce9722bd637
+    - !<own> 587e7f58-c312-4574-65f5-6206e53ac783
+- !<ScriptComponent/dc026608-c4b9-4312-a765-0b6049a184a8>
+  PrefabRemaps:
+    []
+  Name: ItemPickup
+  Enabled: true
+  ScriptAsset: !<reference> 12585277-b289-4d42-9849-a8868c4f05c4
+  ScriptInputsDefault:
+    isNote: true
+    noteTextComponent: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      itemInteractable: !<reference.ScriptComponent> e83e17a7-a4fa-4b7a-43c1-3432990b2529
+      itemManipulation: !<reference.ScriptComponent> 11807618-751c-4cc0-6cbd-ff0833b6e8b6
+      itemOutline: !<reference.ScriptComponent> 389ba729-c6ff-4406-61b2-518bbf98376a
+      itemId: silverKey
+      isNote: false
+      noteTextComponent: !<reference.Text> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/e83e17a7-a4fa-4b7a-43c1-3432990b2529>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingMode: true
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/f1feebcd-6b6b-44af-85e8-eb7f46f3bfbd>
+  PrefabRemaps:
+    []
+  Name: Key
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.500000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> a0ab5218-6007-443d-5109-8bbf50a89550
+    - !<own> 0015d3cd-bb5f-4ca1-5d6b-4bb0b3fe0499
+    - !<own> 4afab864-f4d4-43e9-5604-1305bb99d812
+    - !<own> 5e565767-0b70-4ea5-5643-ba44f15ed45d
+  Components:
+    []
+- !<RenderMeshVisual/f495a281-3aaa-4218-4413-8d90e154f7f3>
+  PrefabRemaps:
+    []
+  Name: Mesh
+  Enabled: true
+  RenderOrder: 2
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 90cfde33-137d-4fb6-bfd6-715dcc8f59ec
+  Mesh: !<reference> 96b270ad-1629-41b2-a975-be18c6047d24
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

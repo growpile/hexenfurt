@@ -1,0 +1,42 @@
+- !<AssetImportMetadata/f672abee-bf4b-4743-a581-74364a579051>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> c4c581b2-487a-4ba7-be9c-3c4971a59bc7
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> c4c581b2-487a-4ba7-be9c-3c4971a59bc7
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 5733774d-8bc2-4226-a101-07c24b8877c2
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/5733774d-8bc2-4226-a101-07c24b8877c2>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: e02784b3-2765-45a0-afdb-47a779a9a4dc
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    physicsBook: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - physicsBook: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

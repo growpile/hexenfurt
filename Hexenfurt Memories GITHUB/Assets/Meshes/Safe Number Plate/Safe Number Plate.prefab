@@ -1,0 +1,58 @@
+- !<ObjectPrefab/d9dfe37c-a1bc-4c47-b250-5052219a577d>
+  PackagePath: ""
+  objects:
+    - !<own> 08a95e74-971e-420d-9ad2-f6a68a5e251d
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/08a95e74-971e-420d-9ad2-f6a68a5e251d>
+  PrefabRemaps:
+    - 08a95e74-971e-420d-9ad2-f6a68a5e251d: 08a95e74-971e-420d-652d-095975a1dae2
+    - 0907cf0c-68f2-48ad-a763-f5fdc9c4cf40: 0907cf0c-68f2-48ad-589c-0a02363b30bf
+    - 96fede29-c0ac-4d44-829b-a2652e6678ab: 96fede29-c0ac-4d44-7d64-5d9ad1998754
+  Name: Safe Number Plate
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0907cf0c-68f2-48ad-a763-f5fdc9c4cf40
+  Components:
+    []
+- !<SceneObject/0907cf0c-68f2-48ad-a763-f5fdc9c4cf40>
+  PrefabRemaps:
+    []
+  Name: Plane
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 96fede29-c0ac-4d44-829b-a2652e6678ab
+- !<RenderMeshVisual/96fede29-c0ac-4d44-829b-a2652e6678ab>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 2a36300e-1a97-4d04-ad5d-85e055009d72
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

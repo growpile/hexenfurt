@@ -1,0 +1,52 @@
+- !<AssetImportMetadata/d1dacf3e-25c6-4206-8119-1bbc9ef97677>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 9bb5ddee-71de-4446-bec7-24f0c2a74a0b
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 9bb5ddee-71de-4446-bec7-24f0c2a74a0b
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> de4bf4ba-8c72-4d3f-8195-25d8cc1546ff
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/de4bf4ba-8c72-4d3f-8195-25d8cc1546ff>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 8e31c2c8-8b09-43de-af77-fcb75aebbff4
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    bookBody: false
+    bookIdText: false
+    bookInteractable: false
+    bookManipulation: false
+    bookOutline: false
+    materialMeshVisual: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - bookIdText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      bookInteractable: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      bookManipulation: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      bookOutline: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      materialMeshVisual: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
+      bookBody: !<reference.BodyComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

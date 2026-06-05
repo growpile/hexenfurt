@@ -1,0 +1,73 @@
+- !<AssetImportMetadata/f0b3ee4b-14e1-11ff-870f-a3d5f17f3e38>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 9c039966-7c6b-4507-a527-a82cae19a5b8
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 9c039966-7c6b-4507-a527-a82cae19a5b8
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> aa6ef486-7120-424c-ab70-0c775f351a6a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/aa6ef486-7120-424c-ab70-0c775f351a6a>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 2dba05e0-f620-4e44-a169-2b77f8d31871
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    bronzeKey: false
+    chestInteractable: false
+    chestLid: false
+    chestOutline: false
+    decoTestingPrefab: false
+    inventoryItemName: false
+    itemSpots: false
+    keyParent: false
+    keyTestingPrefab: false
+    lockFull: false
+    lockLowerPart: false
+    lockUpperPart: false
+    noteTestingPrefab: false
+    testItem: false
+    testItems: false
+    testSpot: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - chestInteractable: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      chestOutline: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      chestLid: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      inventoryItemName: bronzeKey
+      keyParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      bronzeKey: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      lockFull: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      lockLowerPart: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      lockUpperPart: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      itemSpots:
+        []
+      testItems: false
+      testSpot: 0
+      testItem: 0
+      keyTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      noteTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      decoTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

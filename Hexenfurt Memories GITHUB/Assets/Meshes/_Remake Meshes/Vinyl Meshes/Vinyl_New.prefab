@@ -1,0 +1,58 @@
+- !<ObjectPrefab/b3e6f476-a194-4813-a251-1439f3a3b86f>
+  PackagePath: ""
+  objects:
+    - !<own> 502037ec-f3f2-464f-9869-0e1ac0e47ae7
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/502037ec-f3f2-464f-9869-0e1ac0e47ae7>
+  PrefabRemaps:
+    - 502037ec-f3f2-464f-9869-0e1ac0e47ae7: 502037ec-f3f2-464f-6796-f1e53f1b8518
+    - 6ec4de92-905d-44e2-b66b-262da5f5d76f: 6ec4de92-905d-44e2-4994-d9d25a0a2890
+    - 93613744-bd73-47f6-87bb-c173a0921109: 93613744-bd73-47f6-7844-3e8c5f6deef6
+  Name: Vinyl_New
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 93613744-bd73-47f6-87bb-c173a0921109
+  Components:
+    []
+- !<RenderMeshVisual/6ec4de92-905d-44e2-b66b-262da5f5d76f>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> efd2b53f-42a2-4ae8-8db6-ca3c8ee7367a
+  Mesh: !<reference> 800664a4-a34c-459d-8a08-e58a0e457475
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/93613744-bd73-47f6-87bb-c173a0921109>
+  PrefabRemaps:
+    []
+  Name: Vinyl
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000000, y: 16.081827, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6ec4de92-905d-44e2-b66b-262da5f5d76f

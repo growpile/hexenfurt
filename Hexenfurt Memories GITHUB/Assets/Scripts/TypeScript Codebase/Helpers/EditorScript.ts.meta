@@ -1,0 +1,44 @@
+- !<AssetImportMetadata/97b1b183-e70e-4869-8f2c-f9d1943c82da>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> c22d79e0-566a-49ec-af2c-ca5579bbf00f
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> c22d79e0-566a-49ec-af2c-ca5579bbf00f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 55c659d1-9694-421f-9bb5-99455aaaa0b3
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/55c659d1-9694-421f-9bb5-99455aaaa0b3>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 8f1ebbe9-6ac0-4f16-8378-ba1adf6c45b1
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    editorObject: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - editorObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input SceneObject editorObject {"hint":"Object that should only be enabled inside Lens Studio (e.g. simulator-only Play button)."}'

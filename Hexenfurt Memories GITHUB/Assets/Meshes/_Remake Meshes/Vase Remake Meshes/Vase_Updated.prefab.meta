@@ -1,0 +1,92 @@
+- !<AssetImportMetadata/fa82d18a-759a-467e-9462-fdccae08f300>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 7188d2b6-a4d6-45e3-98a3-3e30cc92beae
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 7188d2b6-a4d6-45e3-98a3-3e30cc92beae
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> e156814c-0553-4e34-9655-c341e9b3e0ea
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/0c41ce61-363e-4402-7dd2-7c458903ca36>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c40eb20f-a8fb-49c0-91c4-de6ad91fac7b
+  Mesh: !<reference> b176c429-1514-45ec-9b5c-44ab9832b6d7
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/207830e0-89da-467a-5c7d-9dc59610eb41>
+  PrefabRemaps:
+    []
+  Name: Vase_Updated
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> d6db9457-7853-463c-7288-093c07a3e013
+  Components:
+    []
+- !<RenderMeshVisual/8eccb4bd-7ff2-40ff-7a6d-77f3d64e127f>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b859ad7e-1f3f-475c-b35e-e0428b309afd
+  Mesh: !<reference> b46a6d99-e95c-4594-9d01-7baa7f59591c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/d6db9457-7853-463c-7288-093c07a3e013>
+  PrefabRemaps:
+    []
+  Name: Vase
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0c41ce61-363e-4402-7dd2-7c458903ca36
+    - !<own> 8eccb4bd-7ff2-40ff-7a6d-77f3d64e127f
+- !<ObjectPrefabAssetData/e156814c-0553-4e34-9655-c341e9b3e0ea>
+  Prototype: !<ObjectOwner/438f63a7-fdbf-4e76-9d5e-68a7253695e9>
+    PackagePath: ""
+    objects:
+      - !<own> 207830e0-89da-467a-5c7d-9dc59610eb41

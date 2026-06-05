@@ -1,0 +1,59 @@
+- !<AssetImportMetadata/19bc4692-34ef-4b35-beb3-a692f4a12826>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 12585277-b289-4d42-9849-a8868c4f05c4
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 12585277-b289-4d42-9849-a8868c4f05c4
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 2517ca4a-8f14-47ca-8e14-4d7d6037aa5f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/2517ca4a-8f14-47ca-8e14-4d7d6037aa5f>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 57a54b2b-e2bb-46f8-953a-386a5e48b1cc
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    isNote: false
+    itemId: false
+    itemInteractable: false
+    itemManipulation: false
+    itemOutline: false
+    noteTextComponent: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - itemInteractable: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      itemManipulation: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      itemOutline: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      itemId: ""
+      isNote: false
+      noteTextComponent: !<reference.Text> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.ScriptComponent itemInteractable
+    - // @input Component.ScriptComponent itemManipulation
+    - // @input Component.ScriptComponent itemOutline
+    - // @input string itemId
+    - // @input bool isNote
+    - // @input Component.Text noteTextComponent

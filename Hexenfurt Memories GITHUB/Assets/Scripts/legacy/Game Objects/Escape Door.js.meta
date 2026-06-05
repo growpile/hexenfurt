@@ -1,0 +1,50 @@
+- !<AssetImportMetadata/054116e8-1888-43ef-a111-c1271e0d699f>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 743edadd-1c52-4b87-892b-90ad9f7c2cb4
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 743edadd-1c52-4b87-892b-90ad9f7c2cb4
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 40329d6b-5028-446c-8a66-a20d331c29a9
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/40329d6b-5028-446c-8a66-a20d331c29a9>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 57fe3cae-972c-41ca-9998-f2787bdee1f9
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    doorInteractable: false
+    doorOutline: false
+    doorPivot: false
+    goldKey: false
+    keyParent: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - doorInteractable: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      doorOutline: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      doorPivot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      keyParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      goldKey: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

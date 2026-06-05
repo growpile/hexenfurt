@@ -1,0 +1,1061 @@
+- !<ObjectPrefab/f60c877c-ff34-40e5-b2a8-3f1e467da997>
+  PackagePath: ""
+  objects:
+    - !<own> 5bdfc408-4787-4887-9379-aef64acfdff7
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/0370e4cc-0e16-4056-8465-de43ef224c25>
+  PrefabRemaps:
+    []
+  Name: Cylinder.020
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d3385037-b336-4522-8763-51cdf9a48e61
+  Mesh: !<reference> 7ed600ed-e491-48c1-a35b-7091b6d0367d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<BodyComponent/0411805a-dc38-41d4-8231-34113f53e379>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: false
+    Size: {x: 0.100000, y: 0.200000, z: 0.050000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+  Dynamic: false
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.000000
+  AngularDamping: 0.000000
+- !<ScriptComponent/0933d470-3d7e-43e5-85be-a87ff6a1cf76>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingMode: true
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: true
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/0b885837-a930-44d6-ad2f-21a27d28982b>
+  PrefabRemaps:
+    []
+  Name: InteractableManipulation
+  Enabled: true
+  ScriptAsset: !<reference> 664b556b-1946-4c2c-866a-e675b4e86006
+  ScriptInputsDefault:
+    enableTranslation: true
+    enableRotation: true
+    minimumScaleFactor: true
+    maximumScaleFactor: true
+    enableStretchZ: true
+    zStretchFactorMin: true
+    zStretchFactorMax: true
+    useFilter: true
+    showTranslationProperties: true
+    _enableXTranslation: true
+    _enableYTranslation: true
+    _enableZTranslation: true
+    showRotationProperties: true
+    _rotationAxis: true
+    isSynced: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      manipulateRootSceneObject: !<reference.SceneObject> 7c2bca7c-39d2-4d6a-ba25-077b721f28ad
+      enableTranslation: true
+      enableRotation: true
+      enableScale: false
+      minimumScaleFactor: 0.250000
+      maximumScaleFactor: !<float> 20.000000
+      enableStretchZ: true
+      zStretchFactorMin: !<float> 1.000000
+      zStretchFactorMax: !<float> 12.000000
+      useFilter: true
+      showTranslationProperties: false
+      _enableXTranslation: true
+      _enableYTranslation: true
+      _enableZTranslation: true
+      showRotationProperties: false
+      _rotationAxis: All
+      isSynced: false
+  ScriptTypes:
+    "":
+      {}
+- !<BodyComponent/0ba7988d-cfa1-4933-818f-c6053b4983e0>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: false
+    Size: {x: 0.100000, y: 0.200000, z: 0.050000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+  Dynamic: false
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.000000
+  AngularDamping: 0.000000
+- !<SceneObject/1a3693a3-aaf2-4d52-8bcc-75fffb994250>
+  PrefabRemaps:
+    []
+  Name: VaseBroken.006
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -3.501192, y: 26.363152, z: 6.084385}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 60b30843-a573-4d71-a59f-55a37f6d2d11
+    - !<own> 7cfc1bbd-4594-4107-8614-a579095300af
+- !<BodyComponent/1e3b6de0-5723-4ddc-adc4-a401cedef4f0>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: false
+    Size: {x: 16.000000, y: 41.000000, z: 16.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.000000
+  AngularDamping: 0.000000
+- !<RenderMeshVisual/30dc2e6d-5528-4e92-a740-ad8e4ac081ec>
+  PrefabRemaps:
+    []
+  Name: Vase3.003_cell.033
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d3385037-b336-4522-8763-51cdf9a48e61
+  Mesh: !<reference> fbc46a00-59e0-4772-ba88-27c1ef29084b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/3143ac3c-5bb7-42e1-b21b-2ba89a7ecae0>
+  PrefabRemaps:
+    []
+  Name: VaseBroken.001
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -4.352038, y: 11.937783, z: -4.906645}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 30dc2e6d-5528-4e92-a740-ad8e4ac081ec
+    - !<own> 7bc0817a-62cf-45d9-bee0-0759eec70b4a
+- !<ScriptComponent/319e81ef-cbf3-4b38-ae08-f873e1889b1c>
+  PrefabRemaps:
+    []
+  Name: InteractableOutlineFeedback
+  Enabled: true
+  ScriptAsset: !<reference> 657cbbe5-2a9c-4889-93fb-fd72ba8a1d52
+  ScriptInputsDefault:
+    activatingColor: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetOutlineMaterial: !<reference.Material> 7231c7bc-6c14-4331-ad23-9ab928107707
+      hoveringColor: !<Vec4> {x: 0.759060, y: 0.746960, z: 0.749508, w: 1.000000}
+      activatingColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      outlineWeight: 0.010000
+      meshVisuals: !<reference.RenderMeshVisual[]>
+        - !<reference> 0370e4cc-0e16-4056-8465-de43ef224c25
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/35bcfc1a-bfa4-4f9f-a339-1be5d0d81d87>
+  PrefabRemaps:
+    []
+  Name: Vase3.003_cell.024
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d3385037-b336-4522-8763-51cdf9a48e61
+  Mesh: !<reference> 0313804e-d958-4ac3-a4d0-04cf83c0ee6b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<BodyComponent/3bb6ee99-3254-4754-bf6b-f2a910e7bed8>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: false
+    Size: {x: 0.100000, y: 0.200000, z: 0.050000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+  Dynamic: false
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.000000
+  AngularDamping: 0.000000
+- !<RenderMeshVisual/3d5bff6e-e026-4786-8e62-4025537e7690>
+  PrefabRemaps:
+    []
+  Name: Vase3.003_cell.032
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d3385037-b336-4522-8763-51cdf9a48e61
+  Mesh: !<reference> b2e3641f-fa1a-4c6c-a2ed-7f3f178d1aba
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/3e6fe483-817c-413c-9663-9b0a1186b3c5>
+  PrefabRemaps:
+    []
+  Name: VaseBroken.005
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.016041, y: 38.027718, z: 4.604778}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> fdee3b35-76fb-4722-96ba-cf0a76eb9455
+    - !<own> 0ba7988d-cfa1-4933-818f-c6053b4983e0
+- !<SceneObject/401141bc-c47a-4484-863c-cb6c77e9a1ae>
+  PrefabRemaps:
+    []
+  Name: Item Origin - Inside Vase
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -18.892914, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<BodyComponent/47bef146-ff58-4266-9eec-81ee3fbd4db9>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: false
+    Size: {x: 0.100000, y: 0.200000, z: 0.050000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+  Dynamic: false
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.000000
+  AngularDamping: 0.000000
+- !<BodyComponent/504b541e-5525-41ae-9077-0db8f94f819c>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: false
+    Size: {x: 0.100000, y: 0.200000, z: 0.050000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+  Dynamic: false
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.000000
+  AngularDamping: 0.000000
+- !<ScriptComponent/53689450-9ccc-40ae-9e71-c1823feedb4e>
+  PrefabRemaps:
+    []
+  Name: ChainController
+  Enabled: false
+  ScriptAsset: !<reference> 6c411560-2f21-41af-b5cd-4d8c5ce16eba
+  ScriptInputsDefault:
+    stiffness: true
+    type: true
+    iterations: true
+    timeSpeed: true
+    isRelative: true
+    useCollider: true
+    collider: true
+    colliderForce: true
+    sizeMutiplier: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      joints: !<reference.SceneObject[]>
+        - !<reference> f19cd30a-1824-4ba6-9868-0d69c67d11bc
+        - !<reference> f728c58f-8d6d-414f-9dea-b0817731ca3f
+        - !<reference> 8f6863da-a8e6-477b-9edc-b4e6563bde10
+      anchorCount: 2
+      stiffness: !<float> 1.000000
+      type: 0
+      iterations: 1
+      timeSpeed: !<float> 1.000000
+      force: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      isRelative: false
+      relativeTo: !<reference.SceneObject> 00000000-0000-0065-0000-000000000064
+      addRotation: true
+      useCollider: false
+      collider: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      colliderForce: !<float> 0.000000
+      sizeMutiplier: !<float> 6.000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/57c39b19-beaa-4cd1-93d2-695ccc968991>
+  PrefabRemaps:
+    []
+  Name: VaseBroken.002
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 5.752460, y: 9.146503, z: -5.599722}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3d5bff6e-e026-4786-8e62-4025537e7690
+    - !<own> f6f7761d-a1c8-4fee-9e78-20c7a7cc533d
+- !<SceneObject/5a0c6848-8c9c-40a1-af3b-18a66d507b6e>
+  PrefabRemaps:
+    []
+  Name: VaseBroken
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 6.876099, y: 3.009636, z: -0.082597}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 86b79e44-74e2-4ce5-9d43-0321a498c9cd
+    - !<own> 7867134b-f233-4f1a-a1fd-bd056aa607e2
+- !<SceneObject/5bdfc408-4787-4887-9379-aef64acfdff7>
+  PrefabRemaps:
+    - 0370e4cc-0e16-4056-8465-de43ef224c25: 0370e4cc-0e16-4056-7b9a-21bc10ddb3da
+    - 0411805a-dc38-41d4-8231-34113f53e379: 0411805a-dc38-41d4-7dce-cbeec0ac1c86
+    - 0933d470-3d7e-43e5-85be-a87ff6a1cf76: 0933d470-3d7e-43e5-7a41-5780095e3089
+    - 0b885837-a930-44d6-ad2f-21a27d28982b: 0b885837-a930-44d6-52d0-de5d82d767d4
+    - 0ba7988d-cfa1-4933-818f-c6053b4983e0: 0ba7988d-cfa1-4933-7e70-39fac4b67c1f
+    - 1a3693a3-aaf2-4d52-8bcc-75fffb994250: 1a3693a3-aaf2-4d52-7433-8a000466bdaf
+    - 1e3b6de0-5723-4ddc-adc4-a401cedef4f0: 1e3b6de0-5723-4ddc-523b-5bfe31210b0f
+    - 30dc2e6d-5528-4e92-a740-ad8e4ac081ec: 30dc2e6d-5528-4e92-58bf-5271b53f7e13
+    - 3143ac3c-5bb7-42e1-b21b-2ba89a7ecae0: 3143ac3c-5bb7-42e1-4de4-d4576581351f
+    - 319e81ef-cbf3-4b38-ae08-f873e1889b1c: 319e81ef-cbf3-4b38-51f7-078c1e7764e3
+    - 35bcfc1a-bfa4-4f9f-a339-1be5d0d81d87: 35bcfc1a-bfa4-4f9f-5cc6-e41a2f27e278
+    - 3bb6ee99-3254-4754-bf6b-f2a910e7bed8: 3bb6ee99-3254-4754-4094-0d56ef184127
+    - 3d5bff6e-e026-4786-8e62-4025537e7690: 3d5bff6e-e026-4786-719d-bfdaac81896f
+    - 3e6fe483-817c-413c-9663-9b0a1186b3c5: 3e6fe483-817c-413c-699c-64f5ee794c3a
+    - 401141bc-c47a-4484-863c-cb6c77e9a1ae: ec749d2a-8fca-4e75-b7aa-730db43e7ca3
+    - 47bef146-ff58-4266-9eec-81ee3fbd4db9: 47bef146-ff58-4266-6113-7e11c042b246
+    - 504b541e-5525-41ae-9077-0db8f94f819c: 504b541e-5525-41ae-6f88-f24706b07e63
+    - 53689450-9ccc-40ae-9e71-c1823feedb4e: 53689450-9ccc-40ae-618e-3e7dc01124b1
+    - 57c39b19-beaa-4cd1-93d2-695ccc968991: 57c39b19-beaa-4cd1-6c2d-96a33369766e
+    - 5a0c6848-8c9c-40a1-af3b-18a66d507b6e: 5a0c6848-8c9c-40a1-50c4-e75992af8491
+    - 5bdfc408-4787-4887-9379-aef64acfdff7: 5bdfc408-4787-4887-6c86-5109b5302008
+    - 60b30843-a573-4d71-a59f-55a37f6d2d11: 60b30843-a573-4d71-5a60-aa5c8092d2ee
+    - 679ec0f6-c17f-4e81-8186-b403fc2013e2: 483c3502-14c9-4bbc-b3ae-128e7c4b25c4
+    - 764042ff-a959-487a-9586-8aa11b3222fb: 764042ff-a959-487a-6a79-755ee4cddd04
+    - 7867134b-f233-4f1a-a1fd-bd056aa607e2: 7867134b-f233-4f1a-5e02-42fa9559f81d
+    - 7bc0817a-62cf-45d9-bee0-0759eec70b4a: 7bc0817a-62cf-45d9-411f-f8a61138f4b5
+    - 7c2bca7c-39d2-4d6a-ba25-077b721f28ad: 7c2bca7c-39d2-4d6a-45da-f8848de0d752
+    - 7cfc1bbd-4594-4107-8614-a579095300af: 7cfc1bbd-4594-4107-79eb-5a86f6acff50
+    - 7f9052ff-eaf0-4697-8312-4ae84618991d: 7f9052ff-eaf0-4697-7ced-b517b9e766e2
+    - 86b79e44-74e2-4ce5-9d43-0321a498c9cd: 86b79e44-74e2-4ce5-62bc-fcde5b673632
+    - 8f6863da-a8e6-477b-9edc-b4e6563bde10: 8f6863da-a8e6-477b-6123-4b19a9c421ef
+    - 913c39ab-7a36-4db5-ba07-21dcae66b2dc: 913c39ab-7a36-4db5-45f8-de2351994d23
+    - 9710e816-69eb-4870-9422-c56857eb9441: 277b5c10-9958-42e8-b29c-1cbb117bd959
+    - 9d0646e6-5218-4a4e-a69e-af8302615027: 9d0646e6-5218-4a4e-5961-507cfd9eafd8
+    - ac2f76cb-ed20-4f04-8b61-f0ee377212c0: ac2f76cb-ed20-4f04-749e-0f11c88ded3f
+    - acc1d961-7b48-488f-8baa-4782114d2851: acc1d961-7b48-488f-7455-b87deeb2d7ae
+    - b93e5453-d4d8-4ff8-896e-66ec01c99b9d: b93e5453-d4d8-4ff8-7691-9913fe366462
+    - bfbc186d-5d29-4e36-bcb5-d0227bf26314: bfbc186d-5d29-4e36-434a-2fdd840d9ceb
+    - d89f359d-f28f-470b-8ad9-ac64eda62869: d89f359d-f28f-470b-7526-539b1259d796
+    - dbe1cc38-06f9-4822-bd4b-72b537e9e14d: dbe1cc38-06f9-4822-42b4-8d4ac8161eb2
+    - dd1a19bc-5bc1-444a-8404-1c10db00b152: dd1a19bc-5bc1-444a-7bfb-e3ef24ff4ead
+    - f08de39f-742e-4a08-97cf-3903705233cf: f08de39f-742e-4a08-6830-c6fc8fadcc30
+    - f19cd30a-1824-4ba6-9868-0d69c67d11bc: f19cd30a-1824-4ba6-6797-f2963982ee43
+    - f25a2d7d-2dd4-48b4-ab87-fe622d04be11: f25a2d7d-2dd4-48b4-5478-019dd2fb41ee
+    - f6f7761d-a1c8-4fee-9e78-20c7a7cc533d: f6f7761d-a1c8-4fee-6187-df385833acc2
+    - f728c58f-8d6d-414f-9dea-b0817731ca3f: f728c58f-8d6d-414f-6215-4f7e88ce35c0
+    - fdee3b35-76fb-4722-96ba-cf0a76eb9455: fdee3b35-76fb-4722-6945-30f589146baa
+    - feba1969-14d8-4ce2-941d-0e350bf016ff: feba1969-14d8-4ce2-6be2-f1caf40fe900
+  Name: Vase
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 162.000000, y: -153.049652, z: -200.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7c2bca7c-39d2-4d6a-ba25-077b721f28ad
+  Components:
+    - !<own> ac2f76cb-ed20-4f04-8b61-f0ee377212c0
+- !<RenderMeshVisual/60b30843-a573-4d71-a59f-55a37f6d2d11>
+  PrefabRemaps:
+    []
+  Name: Vase3.003_cell.028
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d3385037-b336-4522-8763-51cdf9a48e61
+  Mesh: !<reference> 0a5a7abd-5237-4c35-912d-dbbff3add12b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/679ec0f6-c17f-4e81-8186-b403fc2013e2>
+  PrefabRemaps:
+    []
+  Name: Push Object
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -33.842133, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9710e816-69eb-4870-9422-c56857eb9441
+- !<SceneObject/764042ff-a959-487a-9586-8aa11b3222fb>
+  PrefabRemaps:
+    []
+  Name: VaseBroken.008
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 6.555377, y: 26.222231, z: 1.364711}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 913c39ab-7a36-4db5-ba07-21dcae66b2dc
+    - !<own> 504b541e-5525-41ae-9077-0db8f94f819c
+- !<BodyComponent/7867134b-f233-4f1a-a1fd-bd056aa607e2>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: false
+    Size: {x: 0.100000, y: 0.200000, z: 0.050000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+  Dynamic: false
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.000000
+  AngularDamping: 0.000000
+- !<BodyComponent/7bc0817a-62cf-45d9-bee0-0759eec70b4a>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: false
+    Size: {x: 0.100000, y: 0.200000, z: 0.050000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+  Dynamic: false
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.000000
+  AngularDamping: 0.000000
+- !<SceneObject/7c2bca7c-39d2-4d6a-ba25-077b721f28ad>
+  PrefabRemaps:
+    []
+  Name: Vase Interactable
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 23.049652, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> f19cd30a-1824-4ba6-9868-0d69c67d11bc
+    - !<own> 401141bc-c47a-4484-863c-cb6c77e9a1ae
+  Components:
+    - !<own> 0933d470-3d7e-43e5-85be-a87ff6a1cf76
+    - !<own> 1e3b6de0-5723-4ddc-adc4-a401cedef4f0
+    - !<own> 0b885837-a930-44d6-ad2f-21a27d28982b
+    - !<own> 319e81ef-cbf3-4b38-ae08-f873e1889b1c
+- !<BodyComponent/7cfc1bbd-4594-4107-8614-a579095300af>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: false
+    Size: {x: 0.100000, y: 0.200000, z: 0.050000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+  Dynamic: false
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.000000
+  AngularDamping: 0.000000
+- !<SceneObject/7f9052ff-eaf0-4697-8312-4ae84618991d>
+  PrefabRemaps:
+    []
+  Name: Push Object
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 25.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 679ec0f6-c17f-4e81-8186-b403fc2013e2
+  Components:
+    - !<own> f25a2d7d-2dd4-48b4-ab87-fe622d04be11
+- !<RenderMeshVisual/86b79e44-74e2-4ce5-9d43-0321a498c9cd>
+  PrefabRemaps:
+    []
+  Name: Vase3.003_cell.035
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d3385037-b336-4522-8763-51cdf9a48e61
+  Mesh: !<reference> 192875cb-497d-49b5-83e1-2afe0e4e4fa3
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/8f6863da-a8e6-477b-9edc-b4e6563bde10>
+  PrefabRemaps:
+    []
+  Name: Vase Full
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.949376, y: -6.918701, z: -0.516846}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0370e4cc-0e16-4056-8465-de43ef224c25
+- !<RenderMeshVisual/913c39ab-7a36-4db5-ba07-21dcae66b2dc>
+  PrefabRemaps:
+    []
+  Name: Vase3.003_cell.030
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d3385037-b336-4522-8763-51cdf9a48e61
+  Mesh: !<reference> f8e40cfb-8d38-4b5e-81ad-d63255dbac3e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ColliderComponent/9710e816-69eb-4870-9422-c56857eb9441>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Sphere>
+    FitVisual: false
+    Radius: 25.000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<RenderMeshVisual/9d0646e6-5218-4a4e-a69e-af8302615027>
+  PrefabRemaps:
+    []
+  Name: Vase3.003_cell.031
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d3385037-b336-4522-8763-51cdf9a48e61
+  Mesh: !<reference> 6f8685c0-bb35-44f8-920e-ee118aedc3c3
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/ac2f76cb-ed20-4f04-8b61-f0ee377212c0>
+  PrefabRemaps:
+    []
+  Name: Vase RO
+  Enabled: true
+  ScriptAsset: !<reference> a3e98c87-ace6-41e2-b1d6-26b393458e22
+  ScriptInputsDefault:
+    testItems: true
+    testSpot: true
+    testItem: true
+    decoTestingPrefab: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      vaseFullBody: !<reference.BodyComponent> 1e3b6de0-5723-4ddc-adc4-a401cedef4f0
+      vaseParts: !<reference.BodyComponent[]>
+        - !<reference> 7867134b-f233-4f1a-a1fd-bd056aa607e2
+        - !<reference> 3bb6ee99-3254-4754-bf6b-f2a910e7bed8
+        - !<reference> 47bef146-ff58-4266-9eec-81ee3fbd4db9
+        - !<reference> 0ba7988d-cfa1-4933-818f-c6053b4983e0
+        - !<reference> 7cfc1bbd-4594-4107-8614-a579095300af
+        - !<reference> 0411805a-dc38-41d4-8231-34113f53e379
+        - !<reference> 504b541e-5525-41ae-9077-0db8f94f819c
+        - !<reference> d89f359d-f28f-470b-8ad9-ac64eda62869
+        - !<reference> f6f7761d-a1c8-4fee-9e78-20c7a7cc533d
+        - !<reference> 7bc0817a-62cf-45d9-bee0-0759eec70b4a
+      chainController: !<reference.ScriptComponent> 53689450-9ccc-40ae-9e71-c1823feedb4e
+      vaseInteractable: !<reference.ScriptComponent> 0933d470-3d7e-43e5-85be-a87ff6a1cf76
+      vaseManipulation: !<reference.ScriptComponent> 0b885837-a930-44d6-ad2f-21a27d28982b
+      vaseOutline: !<reference.ScriptComponent> 319e81ef-cbf3-4b38-ae08-f873e1889b1c
+      itemSpots:
+        - objectType: item
+          orientation: 0
+          lockedSlot: false
+          origin: !<reference.SceneObject> 401141bc-c47a-4484-863c-cb6c77e9a1ae
+      testItems: false
+      testSpot: 0
+      testItem: 0
+      keyTestingPrefab: !<reference.ObjectPrefab> 52e79229-b361-448f-a015-0f1b4cf676ee
+      noteTestingPrefab: !<reference.ObjectPrefab> 0327b8cb-b412-4663-a5f3-cc08b11c8d0d
+      decoTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/acc1d961-7b48-488f-8baa-4782114d2851>
+  PrefabRemaps:
+    []
+  Name: VaseBroken.004
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -5.736365, y: 28.741856, z: -3.607133}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 35bcfc1a-bfa4-4f9f-a339-1be5d0d81d87
+    - !<own> 47bef146-ff58-4266-9eec-81ee3fbd4db9
+- !<RenderMeshVisual/b93e5453-d4d8-4ff8-896e-66ec01c99b9d>
+  PrefabRemaps:
+    []
+  Name: Vase3.003_cell.029
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d3385037-b336-4522-8763-51cdf9a48e61
+  Mesh: !<reference> 24d4e412-9141-4728-b765-f446c3fe80f0
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/bfbc186d-5d29-4e36-bcb5-d0227bf26314>
+  PrefabRemaps:
+    []
+  Name: Vase3.003_cell.036
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d3385037-b336-4522-8763-51cdf9a48e61
+  Mesh: !<reference> ea1a88c7-3ed5-46b1-ac19-e63bf5216b05
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<BodyComponent/d89f359d-f28f-470b-8ad9-ac64eda62869>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: false
+    Size: {x: 0.100000, y: 0.200000, z: 0.050000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+  Dynamic: false
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.000000
+  AngularDamping: 0.000000
+- !<SceneObject/dbe1cc38-06f9-4822-bd4b-72b537e9e14d>
+  PrefabRemaps:
+    []
+  Name: VaseBroken.009
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.650813, y: 7.360097, z: 5.725882}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9d0646e6-5218-4a4e-a69e-af8302615027
+    - !<own> d89f359d-f28f-470b-8ad9-ac64eda62869
+- !<SceneObject/dd1a19bc-5bc1-444a-8404-1c10db00b152>
+  PrefabRemaps:
+    []
+  Name: VaseBroken.003
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 1.884657, y: 31.664776, z: -6.375542}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> bfbc186d-5d29-4e36-bcb5-d0227bf26314
+    - !<own> 3bb6ee99-3254-4754-bf6b-f2a910e7bed8
+- !<SceneObject/f08de39f-742e-4a08-97cf-3903705233cf>
+  PrefabRemaps:
+    []
+  Name: VaseBroken.007
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -6.812145, y: 27.526237, z: 2.791914}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b93e5453-d4d8-4ff8-896e-66ec01c99b9d
+    - !<own> 0411805a-dc38-41d4-8231-34113f53e379
+- !<SceneObject/f19cd30a-1824-4ba6-9868-0d69c67d11bc>
+  PrefabRemaps:
+    []
+  Name: Chain Controller
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 15.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> feba1969-14d8-4ce2-941d-0e350bf016ff
+    - !<own> f728c58f-8d6d-414f-9dea-b0817731ca3f
+  Components:
+    - !<own> 53689450-9ccc-40ae-9e71-c1823feedb4e
+- !<ColliderComponent/f25a2d7d-2dd4-48b4-ab87-fe622d04be11>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Sphere>
+    FitVisual: false
+    Radius: 15.000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<BodyComponent/f6f7761d-a1c8-4fee-9e78-20c7a7cc533d>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: false
+    Size: {x: 0.100000, y: 0.200000, z: 0.050000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+  Dynamic: false
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.000000
+  AngularDamping: 0.000000
+- !<SceneObject/f728c58f-8d6d-414f-9dea-b0817731ca3f>
+  PrefabRemaps:
+    []
+  Name: Chain Link
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -6.880096, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8f6863da-a8e6-477b-9edc-b4e6563bde10
+  Components:
+    []
+- !<RenderMeshVisual/fdee3b35-76fb-4722-96ba-cf0a76eb9455>
+  PrefabRemaps:
+    []
+  Name: Vase3.003_cell.027
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d3385037-b336-4522-8763-51cdf9a48e61
+  Mesh: !<reference> 6ea69912-6fa6-464b-8d38-18bf18b7830a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/feba1969-14d8-4ce2-941d-0e350bf016ff>
+  PrefabRemaps:
+    []
+  Name: Shattered
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -35.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7f9052ff-eaf0-4697-8312-4ae84618991d
+    - !<own> 5a0c6848-8c9c-40a1-af3b-18a66d507b6e
+    - !<own> dd1a19bc-5bc1-444a-8404-1c10db00b152
+    - !<own> acc1d961-7b48-488f-8baa-4782114d2851
+    - !<own> 3e6fe483-817c-413c-9663-9b0a1186b3c5
+    - !<own> 1a3693a3-aaf2-4d52-8bcc-75fffb994250
+    - !<own> f08de39f-742e-4a08-97cf-3903705233cf
+    - !<own> 764042ff-a959-487a-9586-8aa11b3222fb
+    - !<own> dbe1cc38-06f9-4822-bd4b-72b537e9e14d
+    - !<own> 57c39b19-beaa-4cd1-93d2-695ccc968991
+    - !<own> 3143ac3c-5bb7-42e1-b21b-2ba89a7ecae0
+  Components:
+    []

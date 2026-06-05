@@ -1,0 +1,172 @@
+- !<ObjectPrefab/8315e17c-0445-4b89-9ba0-508d94262289>
+  PackagePath: ""
+  objects:
+    - !<own> b9d22541-9388-41d0-ba84-2bff27c6153f
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/5f8f3ee7-0e95-4ffb-8254-d0f918771f91>
+  PrefabRemaps:
+    []
+  Name: FrameDoor
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ca5e67dc-903e-43c9-8fa6-162be22a146b
+- !<RenderMeshVisual/7e8d2ac1-c414-4527-a2b9-23e02eadeed9>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a1614e9f-ede0-4575-b33e-262dc0517c06
+  Mesh: !<reference> a1f5c7f5-7f59-48f1-891e-48e2d521e5b1
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/84ad0cbf-6f6b-42f5-9a90-c1c946fb0df7>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a1614e9f-ede0-4575-b33e-262dc0517c06
+  Mesh: !<reference> b56dd5c6-1bb3-4dc3-baf4-c4a249c2c179
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/9c688347-e4d0-4194-b5e5-c7fc33fa3cef>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a1614e9f-ede0-4575-b33e-262dc0517c06
+  Mesh: !<reference> 77a822e2-25c9-48b6-87f1-6be267df0243
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/b9d22541-9388-41d0-ba84-2bff27c6153f>
+  PrefabRemaps:
+    - 5f8f3ee7-0e95-4ffb-8254-d0f918771f91: 5f8f3ee7-0e95-4ffb-7dab-2f06e788e06e
+    - 7e8d2ac1-c414-4527-a2b9-23e02eadeed9: 7e8d2ac1-c414-4527-5d46-dc1fd1521126
+    - 84ad0cbf-6f6b-42f5-9a90-c1c946fb0df7: 84ad0cbf-6f6b-42f5-656f-3e36b904f208
+    - 9c688347-e4d0-4194-b5e5-c7fc33fa3cef: 9c688347-e4d0-4194-4a1a-3803cc05c310
+    - b9d22541-9388-41d0-ba84-2bff27c6153f: b9d22541-9388-41d0-457b-d400d839eac0
+    - ca5e67dc-903e-43c9-8fa6-162be22a146b: ca5e67dc-903e-43c9-7059-e9d41dd5eb94
+    - db04d414-fd3b-4d36-8d74-8371f578ac69: db04d414-fd3b-4d36-728b-7c8e0a875396
+    - f099abca-370a-4fd1-add0-b43f8c333418: f099abca-370a-4fd1-522f-4bc073cccbe7
+    - fa35ad25-f993-4e69-83de-04c2b71b8a61: fa35ad25-f993-4e69-7c21-fb3d48e4759e
+  Name: Door Static
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> db04d414-fd3b-4d36-8d74-8371f578ac69
+  Components:
+    []
+- !<RenderMeshVisual/ca5e67dc-903e-43c9-8fa6-162be22a146b>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a1614e9f-ede0-4575-b33e-262dc0517c06
+  Mesh: !<reference> 49bba631-72a2-4dd2-ba1e-799af7213466
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/db04d414-fd3b-4d36-8d74-8371f578ac69>
+  PrefabRemaps:
+    []
+  Name: Door
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -12.772743, z: -2.389996}
+    Rotation: {x: 0.000000, y: 10.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> f099abca-370a-4fd1-add0-b43f8c333418
+  Components:
+    []
+- !<SceneObject/f099abca-370a-4fd1-add0-b43f8c333418>
+  PrefabRemaps:
+    []
+  Name: Door Transform
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 2.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.200000, y: 0.200000, z: 0.200000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> fa35ad25-f993-4e69-83de-04c2b71b8a61
+    - !<own> 5f8f3ee7-0e95-4ffb-8254-d0f918771f91
+  Components:
+    []
+- !<SceneObject/fa35ad25-f993-4e69-83de-04c2b71b8a61>
+  PrefabRemaps:
+    []
+  Name: Door
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 64.417633, y: 174.609573, z: -8.741775}
+    Rotation: {x: 0.000000, y: 7.643566, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 84ad0cbf-6f6b-42f5-9a90-c1c946fb0df7
+    - !<own> 7e8d2ac1-c414-4527-a2b9-23e02eadeed9
+    - !<own> 9c688347-e4d0-4194-b5e5-c7fc33fa3cef

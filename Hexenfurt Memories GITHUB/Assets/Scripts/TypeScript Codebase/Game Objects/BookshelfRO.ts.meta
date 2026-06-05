@@ -1,0 +1,100 @@
+- !<AssetImportMetadata/d3e4c67f-7e06-4c24-9df3-ad7e1d7f3540>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 2ddb2421-74cb-420f-9ad0-b6d3189c4d91
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 2ddb2421-74cb-420f-9ad0-b6d3189c4d91
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 098458f8-9dae-449d-95d7-91947d843ea9
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/098458f8-9dae-449d-95d7-91947d843ea9>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 93ba84c5-ee79-4373-889e-c326d0310ac7
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    bookOffset: false
+    decoTestingPrefab: false
+    drawerLeftInteractable: false
+    drawerLeftOutline: false
+    drawerRightInteractable: false
+    drawerRightOutline: false
+    itemSpots: false
+    keyTestingPrefab: false
+    leftDrawer: false
+    noteTestingPrefab: false
+    puzzleBook: false
+    rightDrawer: false
+    row1BookOrigin: false
+    row2BookOrigin: false
+    testItem: false
+    testItems: false
+    testSpot: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - drawerLeftInteractable: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      drawerLeftOutline: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      leftDrawer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      drawerRightInteractable: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      drawerRightOutline: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      rightDrawer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      row1BookOrigin: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      row2BookOrigin: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      bookOffset: !<float> 1.000000
+      puzzleBook: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      itemSpots:
+        []
+      testItems: false
+      testSpot: !<float> 0.000000
+      testItem: !<float> 0.000000
+      keyTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      noteTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      decoTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.ScriptComponent drawerLeftInteractable
+    - // @input Component.ScriptComponent drawerLeftOutline
+    - // @input SceneObject leftDrawer
+    - // @input Component.ScriptComponent drawerRightInteractable
+    - // @input Component.ScriptComponent drawerRightOutline
+    - // @input SceneObject rightDrawer
+    - // @input SceneObject row1BookOrigin
+    - // @input SceneObject row2BookOrigin
+    - // @input float bookOffset = 1
+    - // @input Asset.ObjectPrefab puzzleBook
+    - /*
+    - "@typedef ItemSpot"
+    - '@property {string} objectType = "deco" {"label":"Object Type", "widget":"combobox", "values":[{"label":"Decoration", "value":"deco"}, {"label":"Inventory Item", "value":"item"}, {"label":"Lore Item", "value":"lore"}, {"label":"Both (item or deco)", "value":"both"}]}'
+    - '@property {int} orientation = "0" {"label":"Orientation", "widget":"combobox", "values":[{"label":"Horizontal", "value":0}, {"label":"Vertical", "value":1}]}'
+    - '@property {bool} lockedSlot {"label":"Locked Slot"}'
+    - "@property {SceneObject} origin"
+    - "*/"
+    - '// @input ItemSpot[] itemSpots = {} {"label":"Spots"}'
+    - // @input bool testItems
+    - // @input float testSpot
+    - // @input float testItem
+    - // @input Asset.ObjectPrefab keyTestingPrefab
+    - // @input Asset.ObjectPrefab noteTestingPrefab
+    - // @input Asset.ObjectPrefab decoTestingPrefab

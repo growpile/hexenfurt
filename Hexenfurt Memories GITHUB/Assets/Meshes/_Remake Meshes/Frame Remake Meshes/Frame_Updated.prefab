@@ -1,0 +1,80 @@
+- !<ObjectPrefab/8d3370c5-71f5-47af-b484-16d3da53c00f>
+  PackagePath: ""
+  objects:
+    - !<own> ff4abe7b-9c43-422a-8b16-c493e58c1f86
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/032fb3d4-1731-498f-9c55-eb34f4d5df67>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 485200ec-d55a-4025-8a14-c96c2c86ec09
+  Mesh: !<reference> ce28342a-ba34-42d3-aaa8-b575f8534354
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/d73f67e1-c10e-484c-8efc-724ec6f2439b>
+  PrefabRemaps:
+    []
+  Name: Photo Frame
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ee5660f5-2d79-46d0-8620-0a3ecd764285
+    - !<own> 032fb3d4-1731-498f-9c55-eb34f4d5df67
+- !<RenderMeshVisual/ee5660f5-2d79-46d0-8620-0a3ecd764285>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c72c2c97-8142-4ba5-8d6b-a3689cedcbc5
+  Mesh: !<reference> b2bec0e3-79d7-4925-9f7b-c737732c36f2
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/ff4abe7b-9c43-422a-8b16-c493e58c1f86>
+  PrefabRemaps:
+    - 032fb3d4-1731-498f-9c55-eb34f4d5df67: 032fb3d4-1731-498f-63aa-14cb0b2a2098
+    - d73f67e1-c10e-484c-8efc-724ec6f2439b: d73f67e1-c10e-484c-7103-8db1390dbc64
+    - ee5660f5-2d79-46d0-8620-0a3ecd764285: ee5660f5-2d79-46d0-79df-f5c13289bd7a
+    - ff4abe7b-9c43-422a-8b16-c493e58c1f86: ff4abe7b-9c43-422a-74e9-3b6c1a73e079
+  Name: Frame_Updated
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> d73f67e1-c10e-484c-8efc-724ec6f2439b
+  Components:
+    []

@@ -1,0 +1,70 @@
+- !<AssetImportMetadata/8c4627c2-46eb-4803-b66f-eedca21d83b6>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 7e02c70f-577c-4b6d-bc7d-0ffbd24477c6
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 7e02c70f-577c-4b6d-bc7d-0ffbd24477c6
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 5776c120-2b2e-4a2b-a62a-7075f76b1486
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/5776c120-2b2e-4a2b-a62a-7075f76b1486>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: a49c87f6-b333-4b47-9ec6-0d89ceef3f44
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    buttonNeededHold: false
+    buttonRadialMaterial: false
+    buttonStateComponents: false
+    buttons: false
+    functionName: false
+    functionScript: false
+    holdBoostValue: false
+    startActive: false
+    totalHoldTime: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - buttons: !<reference.SceneObject[]>
+        []
+      buttonStateComponents: !<reference.ScriptComponent[]>
+        []
+      buttonRadialMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      startActive: false
+      holdBoostValue: 0.000500
+      buttonNeededHold: !<float> 1.000000
+      totalHoldTime: !<float> 2.000000
+      functionScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      functionName: ""
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input SceneObject[] buttons = {} {"hint":"Idle and active button visuals (index 0 = idle, 1 = active)."}'
+    - '// @input Component.ScriptComponent[] buttonStateComponents = {} {"hint":"Components exposing `.interactable.onTriggerStart/End` for the active button (index 0)."}'
+    - // @input Asset.Material buttonRadialMaterial
+    - // @input bool startActive
+    - '// @input float holdBoostValue = 0.0005 {"hint":"Acceleration applied to progress fill (progress/sec^2). Clamped so v0 stays >= 0."}'
+    - "// @input float buttonNeededHold = 1 {\"hint\":\"Target progress before 'complete' fires.\"}"
+    - '// @input float totalHoldTime = 2 {"hint":"Force completion in exactly this many seconds."}'
+    - // @input Component.ScriptComponent functionScript
+    - // @input string functionName

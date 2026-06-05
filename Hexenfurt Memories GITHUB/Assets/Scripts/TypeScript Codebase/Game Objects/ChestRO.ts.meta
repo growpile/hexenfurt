@@ -1,0 +1,97 @@
+- !<AssetImportMetadata/d6fdbfde-52ee-434f-baa9-a8351abaf219>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> cc74d527-5aac-4ed0-8735-ba458dbfa7c7
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> cc74d527-5aac-4ed0-8735-ba458dbfa7c7
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> ca33dadd-65de-4a57-bbc1-6a43b028b04e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/ca33dadd-65de-4a57-bbc1-6a43b028b04e>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: a9eb46d0-ef07-49ad-bfba-aef4ce924f9b
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    bronzeKey: false
+    chestInteractable: false
+    chestLid: false
+    chestOutline: false
+    decoTestingPrefab: false
+    inventoryItemName: false
+    itemSpots: false
+    keyParent: false
+    keyTestingPrefab: false
+    lockFull: false
+    lockLowerPart: false
+    lockUpperPart: false
+    noteTestingPrefab: false
+    testItem: false
+    testItems: false
+    testSpot: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - chestInteractable: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      chestOutline: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      chestLid: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      inventoryItemName: bronzeKey
+      keyParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      bronzeKey: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      lockFull: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      lockLowerPart: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      lockUpperPart: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      itemSpots:
+        []
+      testItems: false
+      testSpot: !<float> 0.000000
+      testItem: !<float> 0.000000
+      keyTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      noteTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      decoTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.ScriptComponent chestInteractable
+    - // @input Component.ScriptComponent chestOutline
+    - // @input SceneObject chestLid
+    - '// @input string inventoryItemName = "bronzeKey"'
+    - // @input SceneObject keyParent
+    - // @input SceneObject bronzeKey
+    - // @input SceneObject lockFull
+    - // @input SceneObject lockLowerPart
+    - // @input SceneObject lockUpperPart
+    - /*
+    - "@typedef ItemSpot"
+    - '@property {string} objectType = "deco" {"label":"Object Type", "widget":"combobox", "values":[{"label":"Decoration", "value":"deco"}, {"label":"Inventory Item", "value":"item"}, {"label":"Lore Item", "value":"lore"}, {"label":"Both (item or deco)", "value":"both"}]}'
+    - '@property {int} orientation = "0" {"label":"Orientation", "widget":"combobox", "values":[{"label":"Horizontal", "value":0}, {"label":"Vertical", "value":1}]}'
+    - '@property {bool} lockedSlot {"label":"Locked Slot"}'
+    - "@property {SceneObject} origin"
+    - "*/"
+    - '// @input ItemSpot[] itemSpots = {} {"label":"Spots"}'
+    - // @input bool testItems
+    - // @input float testSpot
+    - // @input float testItem
+    - // @input Asset.ObjectPrefab keyTestingPrefab
+    - // @input Asset.ObjectPrefab noteTestingPrefab
+    - // @input Asset.ObjectPrefab decoTestingPrefab

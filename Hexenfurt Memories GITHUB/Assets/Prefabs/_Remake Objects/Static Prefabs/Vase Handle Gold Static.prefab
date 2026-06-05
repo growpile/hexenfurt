@@ -1,0 +1,96 @@
+- !<ObjectPrefab/3fbb782b-15c9-454a-93d0-37ccf1ffad63>
+  PackagePath: ""
+  objects:
+    - !<own> f4aea45c-a883-498c-8a5e-a0fcf2fc964a
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/1d8df3f8-adef-462f-811e-99015a8d3130>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 59f33edb-d418-470f-bad9-51238cd9f1b0
+  Mesh: !<reference> b176c429-1514-45ec-9b5c-44ab9832b6d7
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/40e6f049-da45-4c94-a29a-03f7079d817e>
+  PrefabRemaps:
+    []
+  Name: Vase Handle Gold
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -4.769775, z: 0.000000}
+    Rotation: {x: 2.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 927663e4-cae1-4433-be88-00852d4c79d6
+  Components:
+    []
+- !<SceneObject/927663e4-cae1-4433-be88-00852d4c79d6>
+  PrefabRemaps:
+    []
+  Name: Vase
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 24.760609, z: 0.000000}
+    Scale: {x: 1.500000, y: 1.500000, z: 1.500000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1d8df3f8-adef-462f-811e-99015a8d3130
+    - !<own> f0265bea-9c3c-471c-972e-4117e3c13da7
+- !<RenderMeshVisual/f0265bea-9c3c-471c-972e-4117e3c13da7>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f392ab1e-fcb3-4e2f-a374-da49c8da3dd4
+  Mesh: !<reference> b46a6d99-e95c-4594-9d01-7baa7f59591c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/f4aea45c-a883-498c-8a5e-a0fcf2fc964a>
+  PrefabRemaps:
+    - 1d8df3f8-adef-462f-811e-99015a8d3130: 1d8df3f8-adef-462f-7ee1-66fea572cecf
+    - 40e6f049-da45-4c94-a29a-03f7079d817e: 40e6f049-da45-4c94-5d65-fc08f8627e81
+    - 927663e4-cae1-4433-be88-00852d4c79d6: 927663e4-cae1-4433-4177-ff7ad2b38629
+    - f0265bea-9c3c-471c-972e-4117e3c13da7: f0265bea-9c3c-471c-68d1-bee81c3ec258
+    - f4aea45c-a883-498c-8a5e-a0fcf2fc964a: f4aea45c-a883-498c-75a1-5f030d0369b5
+  Name: Vase Handle Gold Static
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 40e6f049-da45-4c94-a29a-03f7079d817e
+  Components:
+    []

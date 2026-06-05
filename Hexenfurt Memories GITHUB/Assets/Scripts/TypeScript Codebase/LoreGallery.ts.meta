@@ -1,0 +1,83 @@
+- !<AssetImportMetadata/9de00e8a-7760-4cb3-b7ae-6bef7580b738>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 1a5998db-d5a0-4841-b816-2b010fa624fc
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 1a5998db-d5a0-4841-b816-2b010fa624fc
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 9bbf38fb-5aab-4e9f-b68d-b84b8d683650
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/9bbf38fb-5aab-4e9f-b68d-b84b8d683650>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 5ddd09ea-1f18-4786-b4cb-adfc7e1cb4b3
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    hangingLoreItems: false
+    leaderboardRankText: false
+    notSeenIndicator: false
+    scrollDuration: false
+    statNoteTexts: false
+    supabaseTable: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - hangingLoreItems:
+        []
+      statNoteTexts:
+        []
+      leaderboardRankText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      supabaseTable: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      notSeenIndicator: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      scrollDuration: 0.500000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Lore Items</span>\"}"
+    - /*
+    - "@typedef HangingLoreEntry"
+    - '@property {Component.ScriptComponent} hangingScript {"label":"Hanging Script"}'
+    - '@property {int} offsetX = "0" {"label":"Offset X"}'
+    - "*/"
+    - '// @input HangingLoreEntry[] hangingLoreItems = {} {"label":"Hanging Lore Items"}'
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Stat Notes</span>\"}"
+    - /*
+    - "@typedef StatNoteTextEntry"
+    - '@property {string} statId {"label":"Stat ID"}'
+    - "@property {Component.Text} textComponent"
+    - "@property {string} suffix"
+    - '@property {bool} isFloat {"label":"Is Float"}'
+    - "*/"
+    - '// @input StatNoteTextEntry[] statNoteTexts = {} {"label":"Stat Note Texts"}'
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Leaderboard</span>\"}"
+    - // @input Component.Text leaderboardRankText
+    - // @input Component.ScriptComponent supabaseTable
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Display</span>\"}"
+    - '// @input SceneObject notSeenIndicator {"label":"Not Seen Indicator", "hint":"Shown (scale 1) when the current lore is not yet seen; hidden (scale 0) when seen."}'
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Scroll</span>\"}"
+    - // @input float scrollDuration = 0.5
+    - '// @ui {"widget":"group_end"}'

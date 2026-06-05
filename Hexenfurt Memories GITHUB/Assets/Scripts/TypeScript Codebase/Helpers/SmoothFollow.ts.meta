@@ -1,0 +1,53 @@
+- !<AssetImportMetadata/0089bb0b-7fc1-44a8-931f-79ea79251140>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 309652c8-9bdc-4820-8a7a-1b6287ca8f91
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 309652c8-9bdc-4820-8a7a-1b6287ca8f91
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 6e872368-933e-45a0-8110-9d504b32b962
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/6e872368-933e-45a0-8110-9d504b32b962>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 19f61571-2709-4593-91dd-1d238b94fd64
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    copyPosition: false
+    copyRotation: false
+    objectToFollow: false
+    speed: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - objectToFollow: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      speed: 0.100000
+      copyPosition: true
+      copyRotation: true
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject objectToFollow
+    - // @input float speed = 0.1
+    - // @input bool copyPosition = true
+    - // @input bool copyRotation = true

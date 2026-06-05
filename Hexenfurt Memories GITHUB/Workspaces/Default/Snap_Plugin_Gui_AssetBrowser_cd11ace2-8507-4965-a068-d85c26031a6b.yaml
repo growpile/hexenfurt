@@ -1,0 +1,2333 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 2327
+    values:
+      - ""
+      - Addons
+      - Addons/2D Shapes Shader
+      - Addons/2D Shapes Shader/.hidden
+      - Addons/2D Shapes Shader/.hidden/2D Shapes Shader v1 w loading.ss_graph
+      - Addons/2D Shapes Shader/.hidden/2D Shapes Shader v1.ss_graph
+      - Addons/2D Shapes Shader/2D Shapes Shader v1.mat
+      - Addons/Dynamic Water Wave.lspkg
+      - "Addons/Dynamic Water Wave.lspkg/Dynamic_Water_Waves [EDIT_ME].mat"
+      - "Addons/Dynamic Water Wave.lspkg/Dynamic_Water_Waves [EDIT_ME].ss_graph"
+      - Addons/Dynamic Water Wave.lspkg/package.native
+      - Addons/Emission Control VFX.lspkg
+      - Addons/Emission Control VFX.lspkg/Variable Emission Examples__PLACE_IN_SCENE.prefab
+      - Addons/Emission Control VFX.lspkg/Variable Emission Resources
+      - Addons/Emission Control VFX.lspkg/Variable Emission Resources/Materials
+      - Addons/Emission Control VFX.lspkg/Variable Emission Resources/Materials/PBR.mat
+      - Addons/Emission Control VFX.lspkg/Variable Emission Resources/Meshes
+      - Addons/Emission Control VFX.lspkg/Variable Emission Resources/Meshes/Box.mesh
+      - Addons/Emission Control VFX.lspkg/Variable Emission Resources/Prefabs
+      - "Addons/Emission Control VFX.lspkg/Variable Emission Resources/Prefabs/API Start Stop [TAP TO START_STOP].prefab"
+      - "Addons/Emission Control VFX.lspkg/Variable Emission Resources/Prefabs/Burst Amount [TAP TO BURST].prefab"
+      - Addons/Emission Control VFX.lspkg/Variable Emission Resources/Prefabs/Emit When Moved.prefab
+      - Addons/Emission Control VFX.lspkg/Variable Emission Resources/Prefabs/Variable Emission.prefab
+      - Addons/Emission Control VFX.lspkg/Variable Emission Resources/Shader
+      - Addons/Emission Control VFX.lspkg/Variable Emission Resources/Shader/pbr.ss_graph
+      - Addons/Emission Control VFX.lspkg/Variable Emission Resources/Textures
+      - Addons/Emission Control VFX.lspkg/Variable Emission Resources/Textures/Base.png
+      - Addons/Emission Control VFX.lspkg/Variable Emission Resources/Textures/MaterialParams.png
+      - Addons/Emission Control VFX.lspkg/Variable Emission Resources/Textures/Normal.png
+      - Addons/Emission Control VFX.lspkg/Variable Emission Resources/Textures/Particles Texture.png
+      - Addons/Emission Control VFX.lspkg/Variable Emission Resources/VFX
+      - Addons/Emission Control VFX.lspkg/Variable Emission Resources/VFX/Burst Amount.vfxgraph
+      - Addons/Emission Control VFX.lspkg/Variable Emission Resources/VFX/Emit When Moved.vfxgraph
+      - Addons/Emission Control VFX.lspkg/Variable Emission Resources/VFX/Simple Emitter.vfxgraph
+      - Addons/Emission Control VFX.lspkg/Variable Emission Resources/VFX/Variable Emission.vfxgraph
+      - Addons/Emission Control VFX.lspkg/package.native
+      - Addons/Leather Gloves
+      - Addons/Leather Gloves/Gloves
+      - Addons/Leather Gloves/Gloves/3D Hand Tracking Assets
+      - Addons/Leather Gloves/Gloves/3D Hand Tracking Assets/Hand Tracking Asset Left.handTracking3D
+      - Addons/Leather Gloves/Gloves/3D Hand Tracking Assets/Hand Tracking Asset Right.handTracking3D
+      - Addons/Leather Gloves/Gloves/Enhanced Spectacles Hand Visuals
+      - Addons/Leather Gloves/Gloves/Enhanced Spectacles Hand Visuals/Hand Material Left.mat
+      - Addons/Leather Gloves/Gloves/Enhanced Spectacles Hand Visuals/Hand Material Right.mat
+      - Addons/Leather Gloves/Gloves/Enhanced Spectacles Hand Visuals/Shaders
+      - Addons/Leather Gloves/Gloves/Enhanced Spectacles Hand Visuals/Shaders/Spectacles Hand Occluder Pass.ss_graph
+      - Addons/Leather Gloves/Gloves/Enhanced Spectacles Hand Visuals/Shaders/Spectacles Hand Shader.ss_graph
+      - Addons/Leather Gloves/Gloves/Glove Meshes Export
+      - Addons/Leather Gloves/Gloves/Glove Meshes Export/GloveHandMeshLeft.mesh
+      - Addons/Leather Gloves/Gloves/Glove Meshes Export/GloveHandMeshRight.mesh
+      - Addons/Leather Gloves/Textures
+      - Addons/Leather Gloves/Textures/Glove Textures
+      - Addons/Leather Gloves/Textures/Glove Textures/Faded
+      - Addons/Leather Gloves/Textures/Glove Textures/Faded/Left Hand Vertex Paint_Default OBJ.005_base 2.png
+      - Addons/Leather Gloves/Textures/Glove Textures/Faded/Left Hand Vertex Paint_Default OBJ.005_normal.png
+      - Addons/Leather Gloves/Textures/Glove Textures/Left Hand Vertex Paint_Default OBJ.005_materialParams.png
+      - Addons/Magic Ball Particles.lspkg
+      - Addons/Magic Ball Particles.lspkg/Magic Ball Scene Setup
+      - Addons/Magic Ball Particles.lspkg/Magic Ball Scene Setup/Animation
+      - Addons/Magic Ball Particles.lspkg/Magic Ball Scene Setup/Animation/Thickness Curve.animationCurveTrack
+      - Addons/Magic Ball Particles.lspkg/Magic Ball Scene Setup/Materials
+      - Addons/Magic Ball Particles.lspkg/Magic Ball Scene Setup/Materials/Helix Emitter Example.mat
+      - Addons/Magic Ball Particles.lspkg/Magic Ball Scene Setup/Materials/gpu_particles_custom.ss_graph
+      - Addons/Magic Ball Particles.lspkg/Magic Ball Scene Setup/Meshes
+      - Addons/Magic Ball Particles.lspkg/Magic Ball Scene Setup/Meshes/Box.mesh
+      - Addons/Magic Ball Particles.lspkg/Magic Ball Scene Setup/Textures
+      - Addons/Magic Ball Particles.lspkg/Magic Ball Scene Setup/Textures/size.png
+      - Addons/Magic Ball Particles.lspkg/Magic Ball Scene Setup/Textures/sparkles.png
+      - Addons/Magic Ball Particles.lspkg/Particles.prefab
+      - Addons/Smoke VFX.lspkg
+      - Addons/Smoke VFX.lspkg/SmokeVFX__PLACE_IN_SCENE.prefab
+      - Addons/Smoke VFX.lspkg/Textures
+      - Addons/Smoke VFX.lspkg/Textures/smoke_realistics.png
+      - Addons/Smoke VFX.lspkg/VFX
+      - Addons/Smoke VFX.lspkg/VFX/smoke_vfx.vfxgraph
+      - Addons/Smoke VFX.lspkg/package.native
+      - Addons/Spectacles3DHandHints.lspkg
+      - Addons/Spectacles3DHandHints.lspkg/Animation
+      - Addons/Spectacles3DHandHints.lspkg/Animation/BaseLayer.animationAsset
+      - Addons/Spectacles3DHandHints.lspkg/Animation/Finger_Scroll_Micro.animationAsset
+      - Addons/Spectacles3DHandHints.lspkg/Animation/Finger_Swipe_X.animationAsset
+      - Addons/Spectacles3DHandHints.lspkg/Animation/Finger_Swipe_Y.animationAsset
+      - Addons/Spectacles3DHandHints.lspkg/Animation/Finger_Tap_Near.animationAsset
+      - Addons/Spectacles3DHandHints.lspkg/Animation/Finger_Tap_Surface.animationAsset
+      - Addons/Spectacles3DHandHints.lspkg/Animation/Palm_Grab_X.animationAsset
+      - Addons/Spectacles3DHandHints.lspkg/Animation/Palm_Grab_Y.animationAsset
+      - Addons/Spectacles3DHandHints.lspkg/Animation/Palm_Swipe_X.animationAsset
+      - Addons/Spectacles3DHandHints.lspkg/Animation/Palm_Touch_Near.animationAsset
+      - Addons/Spectacles3DHandHints.lspkg/Animation/Palm_Touch_Surface.animationAsset
+      - Addons/Spectacles3DHandHints.lspkg/Animation/Pinch_Far.animationAsset
+      - Addons/Spectacles3DHandHints.lspkg/Animation/Pinch_Move_X.animationAsset
+      - Addons/Spectacles3DHandHints.lspkg/Animation/Pinch_Move_Y.animationAsset
+      - Addons/Spectacles3DHandHints.lspkg/Animation/Pinch_Move_Z.animationAsset
+      - Addons/Spectacles3DHandHints.lspkg/Animation/Pinch_Near.animationAsset
+      - Addons/Spectacles3DHandHints.lspkg/Animation/Pinch_Rotate_X.animationAsset
+      - Addons/Spectacles3DHandHints.lspkg/Animation/Pinch_Rotate_Y.animationAsset
+      - Addons/Spectacles3DHandHints.lspkg/Animation/Pinch_Rotate_Z.animationAsset
+      - Addons/Spectacles3DHandHints.lspkg/Animation/Pinch_Swipe_X.animationAsset
+      - Addons/Spectacles3DHandHints.lspkg/Animation/Pinch_Swipe_Y.animationAsset
+      - Addons/Spectacles3DHandHints.lspkg/Animation/System_Tap_Exit.animationAsset
+      - Addons/Spectacles3DHandHints.lspkg/Animation/System_Tap_Rotate_Down.animationAsset
+      - Addons/Spectacles3DHandHints.lspkg/Animation/System_Tap_Rotate_Up.animationAsset
+      - Addons/Spectacles3DHandHints.lspkg/Animation/System_Tap_Save.animationAsset
+      - Addons/Spectacles3DHandHints.lspkg/Animation/System_Tap_Settings.animationAsset
+      - Addons/Spectacles3DHandHints.lspkg/Animation/System_Tap_Watch.animationAsset
+      - Addons/Spectacles3DHandHints.lspkg/Animation/Two_Hands_Palm_Grab_X.animationAsset
+      - Addons/Spectacles3DHandHints.lspkg/Animation/Two_Hands_Palm_Grab_Y.animationAsset
+      - Addons/Spectacles3DHandHints.lspkg/Animation/Two_Hands_Pinch_Rotate_Y.animationAsset
+      - Addons/Spectacles3DHandHints.lspkg/Animation/Two_Hands_Pinch_Rotate_Z.animationAsset
+      - Addons/Spectacles3DHandHints.lspkg/Animation/Two_Hands_Pinch_Scale.animationAsset
+      - Addons/Spectacles3DHandHints.lspkg/LSTween
+      - Addons/Spectacles3DHandHints.lspkg/LSTween/LSTween.ts
+      - Addons/Spectacles3DHandHints.lspkg/LSTween/RotationInterpolationType.ts
+      - Addons/Spectacles3DHandHints.lspkg/LSTween/TweenJS
+      - Addons/Spectacles3DHandHints.lspkg/LSTween/TweenJS/Easing.ts
+      - Addons/Spectacles3DHandHints.lspkg/LSTween/TweenJS/Group.ts
+      - Addons/Spectacles3DHandHints.lspkg/LSTween/TweenJS/Interpolation.ts
+      - Addons/Spectacles3DHandHints.lspkg/LSTween/TweenJS/Now.ts
+      - Addons/Spectacles3DHandHints.lspkg/LSTween/TweenJS/Sequence.ts
+      - Addons/Spectacles3DHandHints.lspkg/LSTween/TweenJS/Tween.ts
+      - Addons/Spectacles3DHandHints.lspkg/LSTween/TweenJS/mainGroup.ts
+      - Addons/Spectacles3DHandHints.lspkg/Materials
+      - Addons/Spectacles3DHandHints.lspkg/Materials/Graphs
+      - Addons/Spectacles3DHandHints.lspkg/Materials/Graphs/HandHints_Cursor.ss_graph
+      - Addons/Spectacles3DHandHints.lspkg/Materials/Graphs/HandHints_Inreraction_Glow.ss_graph
+      - Addons/Spectacles3DHandHints.lspkg/Materials/Graphs/HandHints_Outline.ss_graph
+      - Addons/Spectacles3DHandHints.lspkg/Materials/Graphs/HandHints_Outline_Glow_Combined.ss_graph
+      - Addons/Spectacles3DHandHints.lspkg/Materials/Graphs/Occluder.ss_graph
+      - Addons/Spectacles3DHandHints.lspkg/Materials/HandHints_Cursor.mat
+      - Addons/Spectacles3DHandHints.lspkg/Materials/HandHints_Interaction_Glow.mat
+      - Addons/Spectacles3DHandHints.lspkg/Materials/HandHints_Outline.mat
+      - Addons/Spectacles3DHandHints.lspkg/Materials/Occluder.mat
+      - Addons/Spectacles3DHandHints.lspkg/Meshes
+      - Addons/Spectacles3DHandHints.lspkg/Meshes/CursorPlaneGeo.mesh
+      - Addons/Spectacles3DHandHints.lspkg/Meshes/LeftHandGeo.mesh
+      - Addons/Spectacles3DHandHints.lspkg/Meshes/RightHandGeo.mesh
+      - Addons/Spectacles3DHandHints.lspkg/Prefabs
+      - Addons/Spectacles3DHandHints.lspkg/Prefabs/Spectacles3DHandHints.prefab
+      - Addons/Spectacles3DHandHints.lspkg/Scripts
+      - Addons/Spectacles3DHandHints.lspkg/Scripts/ExampleJS.js
+      - Addons/Spectacles3DHandHints.lspkg/Scripts/ExampleTS.ts
+      - Addons/Spectacles3DHandHints.lspkg/Scripts/InteractionHintController.ts
+      - Addons/Spectacles3DHandHints.lspkg/Textures
+      - Addons/Spectacles3DHandHints.lspkg/Textures/Hands_Interaction_Glow_Mask.png
+      - Addons/Spectacles3DHandHints.lspkg/Textures/Hands_Opacity_Gradient.png
+      - Addons/Spectacles3DHandHints.lspkg/package.native
+      - Addons/SpectaclesShaderLibrary.lspkg
+      - Addons/SpectaclesShaderLibrary.lspkg/Examples__PLACE_IN_SCENE.prefab
+      - Addons/SpectaclesShaderLibrary.lspkg/Materials
+      - Addons/SpectaclesShaderLibrary.lspkg/Materials/Chest Test.mat
+      - Addons/SpectaclesShaderLibrary.lspkg/Materials/Matcap Specs
+      - "Addons/SpectaclesShaderLibrary.lspkg/Materials/Matcap Specs [EXAMPLE].mat"
+      - Addons/SpectaclesShaderLibrary.lspkg/Materials/Matcap Specs/Matcap Specs.mat
+      - Addons/SpectaclesShaderLibrary.lspkg/Materials/Matcap Specs/matcap_specs.ss_graph
+      - Addons/SpectaclesShaderLibrary.lspkg/Materials/Outer Glow Specs
+      - Addons/SpectaclesShaderLibrary.lspkg/Materials/Outer Glow Specs/Outer_Glow.mat
+      - Addons/SpectaclesShaderLibrary.lspkg/Materials/Outer Glow Specs/outer_glow.ss_graph
+      - "Addons/SpectaclesShaderLibrary.lspkg/Materials/Outer_Glow [EXAMPLE].mat"
+      - Addons/SpectaclesShaderLibrary.lspkg/Materials/Rim Highight Specs
+      - Addons/SpectaclesShaderLibrary.lspkg/Materials/Rim Highight Specs/Rim Highlight Specs.mat
+      - Addons/SpectaclesShaderLibrary.lspkg/Materials/Rim Highight Specs/rim_highlight_specs.ss_graph
+      - "Addons/SpectaclesShaderLibrary.lspkg/Materials/Rim Highlight Specs [EXAMPLE].mat"
+      - Addons/SpectaclesShaderLibrary.lspkg/Materials/Simple Specs
+      - "Addons/SpectaclesShaderLibrary.lspkg/Materials/Simple Specs [EXAMPLE].mat"
+      - Addons/SpectaclesShaderLibrary.lspkg/Materials/Simple Specs/Simple Specs.mat
+      - Addons/SpectaclesShaderLibrary.lspkg/Materials/Simple Specs/simple_specs.ss_graph
+      - Addons/SpectaclesShaderLibrary.lspkg/Materials/Toon Specs
+      - "Addons/SpectaclesShaderLibrary.lspkg/Materials/Toon Specs [EXAMPLE].mat"
+      - Addons/SpectaclesShaderLibrary.lspkg/Materials/Toon Specs/Toon Specs.mat
+      - Addons/SpectaclesShaderLibrary.lspkg/Materials/Toon Specs/toon_spec.ss_graph
+      - Addons/SpectaclesShaderLibrary.lspkg/Materials/Uber Specs
+      - "Addons/SpectaclesShaderLibrary.lspkg/Materials/Uber Specs [EXAMPLE].mat"
+      - Addons/SpectaclesShaderLibrary.lspkg/Materials/Uber Specs/Uber Specs.mat
+      - Addons/SpectaclesShaderLibrary.lspkg/Materials/Uber Specs/uber_specs.ss_graph
+      - Addons/SpectaclesShaderLibrary.lspkg/Materials/Unlit Specs
+      - "Addons/SpectaclesShaderLibrary.lspkg/Materials/Unlit Specs [EXAMPLE].mat"
+      - Addons/SpectaclesShaderLibrary.lspkg/Materials/Unlit Specs/Unlit Specs.mat
+      - Addons/SpectaclesShaderLibrary.lspkg/Materials/Unlit Specs/unlit_specs.ss_graph
+      - Addons/SpectaclesShaderLibrary.lspkg/Meshes
+      - Addons/SpectaclesShaderLibrary.lspkg/Meshes/Sphere.mesh
+      - Addons/SpectaclesShaderLibrary.lspkg/README.md
+      - Addons/SpectaclesShaderLibrary.lspkg/Textures
+      - Addons/SpectaclesShaderLibrary.lspkg/Textures/Lava_BaseColor.jpg
+      - Addons/SpectaclesShaderLibrary.lspkg/Textures/Lava_Emissive.jpg
+      - Addons/SpectaclesShaderLibrary.lspkg/Textures/Lava_NormalMap.jpg
+      - Addons/SpectaclesShaderLibrary.lspkg/Textures/Matcaps
+      - Addons/SpectaclesShaderLibrary.lspkg/Textures/Matcaps/Matcap_Anisotropic.jpeg
+      - Addons/SpectaclesShaderLibrary.lspkg/Textures/Matcaps/Matcap_Gem.jpg
+      - Addons/SpectaclesShaderLibrary.lspkg/Textures/Matcaps/Matcap_Glass.png
+      - Addons/SpectaclesShaderLibrary.lspkg/Textures/Matcaps/Matcap_Glossy.jpg
+      - Addons/SpectaclesShaderLibrary.lspkg/Textures/Matcaps/Matcap_Gold.jpg
+      - Addons/SpectaclesShaderLibrary.lspkg/Textures/Matcaps/Matcap_Hair.jpg
+      - Addons/SpectaclesShaderLibrary.lspkg/Textures/Matcaps/Matcap_Leather.jpg
+      - Addons/SpectaclesShaderLibrary.lspkg/Textures/Matcaps/Matcap_Oil.jpg
+      - Addons/SpectaclesShaderLibrary.lspkg/Textures/Matcaps/Matcap_Pearl.jpg
+      - Addons/SpectaclesShaderLibrary.lspkg/Textures/Matcaps/Matcap_Plastic.jpg
+      - Addons/SpectaclesShaderLibrary.lspkg/Textures/Matcaps/Matcap_Rubber.jpg
+      - Addons/SpectaclesShaderLibrary.lspkg/Textures/Matcaps/Matcap_Silver.jpg
+      - Addons/SpectaclesShaderLibrary.lspkg/Textures/Matcaps/Matcap_Skin.jpg
+      - Addons/SpectaclesShaderLibrary.lspkg/Textures/Matcaps/Matcap_Stone.jpg
+      - Addons/SpectaclesShaderLibrary.lspkg/Textures/Matcaps/Matcap_Tree.jpg
+      - Addons/SpectaclesShaderLibrary.lspkg/Textures/Matcaps/Matcap_Velvet.jpg
+      - Addons/SpectaclesShaderLibrary.lspkg/Textures/Noise_Electro_A.jpg
+      - Addons/SpectaclesShaderLibrary.lspkg/Textures/Noise_Electro_B.jpg
+      - Addons/SpectaclesShaderLibrary.lspkg/Textures/Water_BaseColor.jpg
+      - Addons/SpectaclesShaderLibrary.lspkg/package.native
+      - Addons/SpectaclesShaderLibrary.lspkg/package_dependencies.json
+      - Fonts
+      - Fonts/AktivGrotesk-Bold.ttf
+      - Fonts/Autumn Bright.otf
+      - Fonts/Chomsky.otf
+      - Fonts/Digital Font.TTF
+      - Fonts/Kidnapped at German Lands.ttf
+      - Fonts/Olondona.otf
+      - Fonts/Vampire Wars.otf
+      - Fonts/Vanilla Pancake.ttf
+      - LSTween.lspkg
+      - LSTween.lspkg/Example__PLACE_IN_SCENE.prefab
+      - LSTween.lspkg/Examples
+      - LSTween.lspkg/Examples/Assets
+      - LSTween.lspkg/Examples/Assets/Box.mesh
+      - LSTween.lspkg/Examples/Assets/Simple Diffuse.mat
+      - LSTween.lspkg/Examples/Assets/Simple Diffuse.ss_graph
+      - LSTween.lspkg/Examples/Assets/Sphere.mesh
+      - LSTween.lspkg/Examples/Scripts
+      - LSTween.lspkg/Examples/Scripts/Example_ChainTween.ts
+      - LSTween.lspkg/Examples/Scripts/Example_RawTween.ts
+      - LSTween.lspkg/Examples/Scripts/Example_YoyoTween.ts
+      - LSTween.lspkg/Examples/Scripts/LSTween.ts
+      - LSTween.lspkg/Examples/Scripts/RotationInterpolationType.ts
+      - LSTween.lspkg/README.md
+      - LSTween.lspkg/TweenJS
+      - LSTween.lspkg/TweenJS/Easing.ts
+      - LSTween.lspkg/TweenJS/Group.ts
+      - LSTween.lspkg/TweenJS/Index.ts
+      - LSTween.lspkg/TweenJS/Interpolation.ts
+      - LSTween.lspkg/TweenJS/Now.ts
+      - LSTween.lspkg/TweenJS/Sequence.ts
+      - LSTween.lspkg/TweenJS/Tween.ts
+      - LSTween.lspkg/TweenJS/Version.ts
+      - LSTween.lspkg/TweenJS/mainGroup.ts
+      - LSTween.lspkg/package.native
+      - LSTween.lspkg/package_dependencies.json
+      - Materials
+      - Materials/Archive Highlight.mat
+      - Materials/Archive Lock.mat
+      - Materials/Arrow Icon.mat
+      - Materials/Candle Material.mat
+      - Materials/Candle Shader.mat
+      - Materials/Door BG.mat
+      - Materials/Door Outline.mat
+      - Materials/Folder.mat
+      - Materials/GP Logo.mat
+      - Materials/Generating Bar.mat
+      - Materials/Glowing Dot.mat
+      - Materials/GrowPile Logo.mat
+      - Materials/Hint Occluder 2.mat
+      - Materials/Hint Occluder.mat
+      - Materials/Image 2.mat
+      - Materials/Image.mat
+      - Materials/Item Backlight - Bronze.mat
+      - Materials/Item Backlight - Gold.mat
+      - Materials/Item Backlight - Hint.mat
+      - Materials/Item Backlight - Lore.mat
+      - Materials/Item Backlight - Silver.mat
+      - Materials/Leaderboard Hint Occluder.mat
+      - Materials/Leaderboard Hint.mat
+      - Materials/Leaderboard Mockup.mat
+      - Materials/Light Shadow.mat
+      - Materials/Loader Gif.mat
+      - Materials/Loader Inner.mat
+      - Materials/Loader Outer.mat
+      - Materials/Lock Icon.mat
+      - Materials/Logo.mat
+      - Materials/Lore Lock.mat
+      - Materials/News 13 10 1973.mat
+      - Materials/News 13 9 2025.mat
+      - Materials/News 3 11 2025.mat
+      - Materials/News 30 10 2025.mat
+      - Materials/News 31 10 2025.mat
+      - Materials/Not Seen Icon.mat
+      - Materials/Note.mat
+      - Materials/Number Strip.mat
+      - Materials/Occluder.mat
+      - Materials/Painting.mat
+      - Materials/Play Icon.mat
+      - Materials/Radial Bar.mat
+      - Materials/Remake Quick Materials
+      - Materials/Remake Quick Materials/Book Fan Door.mat
+      - Materials/Remake Quick Materials/Bookshelf_Drawer Wood.mat
+      - Materials/Remake Quick Materials/Bronze.mat
+      - Materials/Remake Quick Materials/Chandelier.mat
+      - Materials/Remake Quick Materials/Chest Metal.mat
+      - Materials/Remake Quick Materials/Chest Silver.mat
+      - Materials/Remake Quick Materials/Chest Wood Material.mat
+      - Materials/Remake Quick Materials/Chest Wood.mat
+      - Materials/Remake Quick Materials/Frame Metal Material.mat
+      - Materials/Remake Quick Materials/Frame Wood Material.mat
+      - Materials/Remake Quick Materials/GFC.mat
+      - Materials/Remake Quick Materials/Magic Ball Material.mat
+      - Materials/Remake Quick Materials/Safe Door.mat
+      - Materials/Remake Quick Materials/Safe Gramophone.mat
+      - Materials/Remake Quick Materials/Statue Magic Ball.mat
+      - Materials/Remake Quick Materials/Vase Emerald Base Material.mat
+      - Materials/Remake Quick Materials/Vase Gold Base Material.mat
+      - Materials/Remake Quick Materials/Vase Gold Handle Material.mat
+      - Materials/Remake Quick Materials/Vinyl Material.mat
+      - Materials/Room Objects
+      - Materials/Room Objects/Blue Book.mat
+      - Materials/Room Objects/Book Leather Updated.mat
+      - Materials/Room Objects/Book Leather.mat
+      - Materials/Room Objects/Book Pages Updated.mat
+      - Materials/Room Objects/Book Pages.mat
+      - Materials/Room Objects/Bronze Material.mat
+      - Materials/Room Objects/Candle Wax.mat
+      - Materials/Room Objects/Clock Face Material.mat
+      - "Materials/Room Objects/Dark Wood Material  [ABS DOOR].mat"
+      - "Materials/Room Objects/Dark Wood Material  [CHEST].mat"
+      - "Materials/Room Objects/Dark Wood Material [NEW DOOR].mat"
+      - Materials/Room Objects/Dark Wood Material.mat
+      - Materials/Room Objects/Deco Book Leather.mat
+      - Materials/Room Objects/Deco Book Pages.mat
+      - Materials/Room Objects/Gold Material.mat
+      - Materials/Room Objects/Gold Painting Frame.mat
+      - Materials/Room Objects/Gold w Normals.mat
+      - Materials/Room Objects/Green Book.mat
+      - Materials/Room Objects/Green Gold Material.mat
+      - "Materials/Room Objects/Light Wood Material  [ABS DOOR].mat"
+      - "Materials/Room Objects/Light Wood Material  [NEW DOOR].mat"
+      - "Materials/Room Objects/Light Wood Material [CHEST].mat"
+      - "Materials/Room Objects/Light Wood Material [PAINTING].mat"
+      - Materials/Room Objects/Light Wood Material.mat
+      - Materials/Room Objects/Notebook Material.mat
+      - Materials/Room Objects/Outline.mat
+      - Materials/Room Objects/Painting Frame Material.mat
+      - Materials/Room Objects/Red Book.mat
+      - Materials/Room Objects/Safe Keys.mat
+      - Materials/Room Objects/Silver Material w Normals.mat
+      - Materials/Room Objects/Silver Material.mat
+      - Materials/Room Objects/Statue Material.mat
+      - Materials/Room Objects/Vase Material.mat
+      - Materials/Room Objects/Vase Procedural Material.mat
+      - Materials/Room Objects/Wood 2.0 + Roughness.mat
+      - Materials/Room Objects/Yellow Book.mat
+      - Materials/Safe Door New.mat
+      - Materials/Safe Frame Golden.mat
+      - Materials/Setup Loading.mat
+      - Materials/Statue Material.mat
+      - Materials/Volume Icon.mat
+      - Materials/White.mat
+      - Materials/Wire.mat
+      - Materials/Witch Note 1.mat
+      - Materials/Witch Note 2.mat
+      - Materials/X Icon.mat
+      - Materials/_Shaders/Radial Bar.ss_graph
+      - Materials/_Shaders/Remake Quick Metal Shader.ss_graph
+      - Materials/_Shaders/Remake Quick Shader.ss_graph
+      - Materials/_Shaders/book shader.ss_graph
+      - Materials/_Shaders/candle shader.ss_graph
+      - Materials/_Shaders/circular backlight.ss_graph
+      - Materials/_Shaders/deco book shader.ss_graph
+      - Materials/_Shaders/flat map.ss_graph
+      - Materials/_Shaders/flat.ss_graph
+      - Materials/_Shaders/glowing dot shader.ss_graph
+      - Materials/_Shaders/light shadow.ss_graph
+      - Materials/_Shaders/magic ball shader.ss_graph
+      - Materials/_Shaders/number strip shader.ss_graph
+      - Materials/_Shaders/occluder.ss_graph
+      - Materials/_Shaders/outline + color shader.ss_graph
+      - Materials/_Shaders/outline shader.ss_graph
+      - Materials/_Shaders/pbr.ss_graph
+      - Materials/_Shaders/roughness shader.ss_graph
+      - Materials/_Shaders/specs default shader.ss_graph
+      - Materials/_Shaders/specs diffuse shader.ss_graph
+      - Materials/_Shaders/specs metallic w normal and tex.ss_graph
+      - Materials/_Shaders/specs metallic w normal.ss_graph
+      - Materials/_Shaders/specs metallic.ss_graph
+      - Materials/_Shaders/specs shader.ss_graph
+      - Materials/_Shaders/specs wood.ss_graph
+      - Materials/_Shaders/uber_pbr.ss_graph
+      - Materials/_Shaders/unlit.ss_graph
+      - Materials/_Shaders/vase proc shader.ss_graph
+      - Materials/_Shaders/vase shader.ss_graph
+      - Materials/xmat.mat
+      - Meshes
+      - Meshes/Door Occluder
+      - Meshes/Door Occluder/Door Occluder 3.prefab
+      - Meshes/Door Occluder/Meshes
+      - Meshes/Door Occluder/Meshes/Occluder.mesh
+      - "Meshes/Plane 2 [CHECK IF USED].mesh"
+      - Meshes/Plane.mesh
+      - Meshes/Room Objects Meshes
+      - Meshes/Room Objects Meshes/Arrows Fixed
+      - Meshes/Room Objects Meshes/Arrows Fixed/.hidden
+      - Meshes/Room Objects Meshes/Arrows Fixed/.hidden/LockGold.002.ss_graph
+      - Meshes/Room Objects Meshes/Arrows Fixed/.hidden/white.jpg
+      - Meshes/Room Objects Meshes/Arrows Fixed/Arrows Fixed.prefab
+      - Meshes/Room Objects Meshes/Arrows Fixed/Materials
+      - Meshes/Room Objects Meshes/Arrows Fixed/Materials/LockGold.002.mat
+      - Meshes/Room Objects Meshes/Arrows Fixed/Meshes
+      - Meshes/Room Objects Meshes/Arrows Fixed/Meshes/Circle.032.mesh
+      - Meshes/Room Objects Meshes/Arrows Fixed/Meshes/Circle.033.mesh
+      - Meshes/Room Objects Meshes/Book
+      - Meshes/Room Objects Meshes/Book/.hidden
+      - Meshes/Room Objects Meshes/Book/.hidden/BookLeather.001.ss_graph
+      - Meshes/Room Objects Meshes/Book/.hidden/white.jpg
+      - Meshes/Room Objects Meshes/Book/Book.prefab
+      - Meshes/Room Objects Meshes/Book/Materials
+      - Meshes/Room Objects Meshes/Book/Materials/BookLeather.001.mat
+      - Meshes/Room Objects Meshes/Book/Materials/Material.008.mat
+      - Meshes/Room Objects Meshes/Book/Meshes
+      - Meshes/Room Objects Meshes/Book/Meshes/Cube.016.mesh
+      - Meshes/Room Objects Meshes/Book/Meshes/Cube.017.mesh
+      - "Meshes/Room Objects Meshes/Bookshelf [DONE]"
+      - "Meshes/Room Objects Meshes/Bookshelf [DONE]/Meshes"
+      - "Meshes/Room Objects Meshes/Bookshelf [DONE]/Meshes/Bookshelf Arch Detail.mesh"
+      - "Meshes/Room Objects Meshes/Bookshelf [DONE]/Meshes/Bookshelf Drawer.mesh"
+      - "Meshes/Room Objects Meshes/Bookshelf [DONE]/Meshes/Bookshelf Outlines.mesh"
+      - "Meshes/Room Objects Meshes/Bookshelf [DONE]/Meshes/Bookshelf.mesh"
+      - "Meshes/Room Objects Meshes/Chest [NAMES]"
+      - "Meshes/Room Objects Meshes/Chest [NAMES]/.hidden"
+      - "Meshes/Room Objects Meshes/Chest [NAMES]/.hidden/ChestRedWood.ss_graph"
+      - "Meshes/Room Objects Meshes/Chest [NAMES]/Materials"
+      - "Meshes/Room Objects Meshes/Chest [NAMES]/Materials/Leather Fabric - Black 70.001.mat"
+      - "Meshes/Room Objects Meshes/Chest [NAMES]/Meshes"
+      - "Meshes/Room Objects Meshes/Chest [NAMES]/Meshes/Circle.032.mesh"
+      - "Meshes/Room Objects Meshes/Chest [NAMES]/Meshes/Cube.090.mesh"
+      - "Meshes/Room Objects Meshes/Chest [NAMES]/Meshes/Cube.137.mesh"
+      - "Meshes/Room Objects Meshes/Chest [NAMES]/Meshes/Cylinder.022.mesh"
+      - "Meshes/Room Objects Meshes/Chest [NAMES]/Meshes/Cylinder.023.mesh"
+      - "Meshes/Room Objects Meshes/Chest [NAMES]/Meshes/Cylinder.052.mesh"
+      - "Meshes/Room Objects Meshes/Chest [NAMES]/Meshes/Cylinder.053.mesh"
+      - "Meshes/Room Objects Meshes/Chest [NAMES]/Meshes/Cylinder1.052.mesh"
+      - "Meshes/Room Objects Meshes/Chest [NAMES]/Meshes/Cylinder1.053.mesh"
+      - "Meshes/Room Objects Meshes/Chest [NAMES]/Meshes/Cylinder2.052.mesh"
+      - "Meshes/Room Objects Meshes/Chest [NAMES]/Meshes/Cylinder2.053.mesh"
+      - "Meshes/Room Objects Meshes/Chest [NAMES]/Meshes/Plane.012.mesh"
+      - "Meshes/Room Objects Meshes/Chest [NAMES]/Meshes/Sphere.033.mesh"
+      - "Meshes/Room Objects Meshes/Chest [NAMES]/Meshes/Sphere.034.mesh"
+      - "Meshes/Room Objects Meshes/Chest [NAMES]/Meshes/Sphere.035.mesh"
+      - "Meshes/Room Objects Meshes/Chest [NAMES]/Meshes/Sphere.036.mesh"
+      - "Meshes/Room Objects Meshes/Chest [NAMES]/Meshes/Sphere.037.mesh"
+      - "Meshes/Room Objects Meshes/Chest [NAMES]/Meshes/Sphere.038.mesh"
+      - "Meshes/Room Objects Meshes/Chest [NAMES]/Meshes/Sphere.039.mesh"
+      - "Meshes/Room Objects Meshes/Chest [NAMES]/Meshes/Sphere.040.mesh"
+      - "Meshes/Room Objects Meshes/Chest [NAMES]/Meshes/Sphere.041.mesh"
+      - "Meshes/Room Objects Meshes/Chest [NAMES]/Meshes/Torus.038.mesh"
+      - "Meshes/Room Objects Meshes/Chest [NAMES]/Textures"
+      - "Meshes/Room Objects Meshes/Chest [NAMES]/Textures/bump_reticular_05k.jpeg"
+      - "Meshes/Room Objects Meshes/Chest [NAMES]/Textures/fabric-70-black_diffuse.jpeg"
+      - "Meshes/Room Objects Meshes/Chest [NAMES]/Textures/fabric-70_roughness.png"
+      - "Meshes/Room Objects Meshes/Chest [NAMES]/Textures/wood_table_001_diff_1k.jpeg"
+      - "Meshes/Room Objects Meshes/Chest [NAMES]/Textures/wood_table_001_nor_gl_1k.png"
+      - Meshes/Room Objects Meshes/Drawer Table
+      - Meshes/Room Objects Meshes/Drawer Table/Meshes
+      - Meshes/Room Objects Meshes/Drawer Table/Meshes/Cube.003.mesh
+      - Meshes/Room Objects Meshes/Drawer Table/Meshes/Cube.004.mesh
+      - Meshes/Room Objects Meshes/Drawer Table/Meshes/Cube.006.mesh
+      - Meshes/Room Objects Meshes/Drawer Table/Meshes/Cube.126.mesh
+      - Meshes/Room Objects Meshes/Drawer Table/Meshes/Cube.127.mesh
+      - Meshes/Room Objects Meshes/Drawer Table/Meshes/Cube.131.mesh
+      - Meshes/Room Objects Meshes/Drawer Table/Meshes/Cube.132.mesh
+      - Meshes/Room Objects Meshes/Drawer Table/Meshes/Cube.133.mesh
+      - Meshes/Room Objects Meshes/Drawer Table/Meshes/Cube.134.mesh
+      - Meshes/Room Objects Meshes/Drawer Table/Meshes/Cube.135.mesh
+      - Meshes/Room Objects Meshes/Drawer Table/Meshes/Cube.136.mesh
+      - Meshes/Room Objects Meshes/Drawer Table/Meshes/Cube.137.mesh
+      - Meshes/Room Objects Meshes/Drawer Table/Meshes/Cube.138.mesh
+      - Meshes/Room Objects Meshes/Drawer Table/Meshes/Cube.139.mesh
+      - Meshes/Room Objects Meshes/Drawer Table/Meshes/Cube.140.mesh
+      - Meshes/Room Objects Meshes/Drawer Table/Meshes/Drawer Outline.mesh
+      - "Meshes/Room Objects Meshes/Escape Door [DONE]"
+      - "Meshes/Room Objects Meshes/Escape Door [DONE]/Meshes"
+      - "Meshes/Room Objects Meshes/Escape Door [DONE]/Meshes/Door Frame.mesh"
+      - "Meshes/Room Objects Meshes/Escape Door [DONE]/Meshes/Door Handle.mesh"
+      - "Meshes/Room Objects Meshes/Escape Door [DONE]/Meshes/Door Hinges.mesh"
+      - "Meshes/Room Objects Meshes/Escape Door [DONE]/Meshes/Door.mesh"
+      - Meshes/Room Objects Meshes/Fan
+      - Meshes/Room Objects Meshes/Fan/.hidden
+      - Meshes/Room Objects Meshes/Fan/.hidden/Brass old metal.001.ss_graph
+      - Meshes/Room Objects Meshes/Fan/.hidden/white.jpg
+      - Meshes/Room Objects Meshes/Fan/Fan.prefab
+      - Meshes/Room Objects Meshes/Fan/Materials
+      - Meshes/Room Objects Meshes/Fan/Materials/Brass old metal.001.mat
+      - Meshes/Room Objects Meshes/Fan/Materials/Material.015.mat
+      - Meshes/Room Objects Meshes/Fan/Meshes
+      - Meshes/Room Objects Meshes/Fan/Meshes/Circle.006.mesh
+      - Meshes/Room Objects Meshes/Fan/Meshes/Cube.019.mesh
+      - Meshes/Room Objects Meshes/Fan/Meshes/Cube.020.mesh
+      - Meshes/Room Objects Meshes/Fan/Meshes/Cube.021.mesh
+      - Meshes/Room Objects Meshes/Fan/Meshes/Cube.022.mesh
+      - Meshes/Room Objects Meshes/Fan/Meshes/Cube.023.mesh
+      - Meshes/Room Objects Meshes/Fan/Meshes/Cube.024.mesh
+      - Meshes/Room Objects Meshes/Fan/Meshes/Cube.142.mesh
+      - Meshes/Room Objects Meshes/Fan/Meshes/Cube.143.mesh
+      - Meshes/Room Objects Meshes/Fire Chandelier
+      - Meshes/Room Objects Meshes/Fire Chandelier/.hidden
+      - Meshes/Room Objects Meshes/Fire Chandelier/.hidden/Candle.001.ss_graph
+      - Meshes/Room Objects Meshes/Fire Chandelier/.hidden/white.jpg
+      - Meshes/Room Objects Meshes/Fire Chandelier/FireChandelier.prefab
+      - Meshes/Room Objects Meshes/Fire Chandelier/Materials
+      - Meshes/Room Objects Meshes/Fire Chandelier/Materials/Candle.001.mat
+      - Meshes/Room Objects Meshes/Fire Chandelier/Materials/Material.012.mat
+      - Meshes/Room Objects Meshes/Fire Chandelier/Materials/Metal.001.mat
+      - Meshes/Room Objects Meshes/Fire Chandelier/Materials/istockphoto-1225601437-640x640.001.mat
+      - Meshes/Room Objects Meshes/Fire Chandelier/Meshes
+      - Meshes/Room Objects Meshes/Fire Chandelier/Meshes/Circle.004.mesh
+      - Meshes/Room Objects Meshes/Fire Chandelier/Meshes/Circle.005.mesh
+      - Meshes/Room Objects Meshes/Fire Chandelier/Meshes/Cube.018.mesh
+      - Meshes/Room Objects Meshes/Fire Chandelier/Meshes/Cylinder.001.mesh
+      - Meshes/Room Objects Meshes/Fire Chandelier/Meshes/Cylinder.002.mesh
+      - Meshes/Room Objects Meshes/Fire Chandelier/Meshes/Cylinder1.001.mesh
+      - Meshes/Room Objects Meshes/Fire Chandelier/Meshes/Torus.006.mesh
+      - Meshes/Room Objects Meshes/Fire Chandelier/Meshes/Torus.008.mesh
+      - "Meshes/Room Objects Meshes/Grand Clock [REPLACE_ORIGIN]"
+      - "Meshes/Room Objects Meshes/Grand Clock [REPLACE_ORIGIN]/Meshes"
+      - "Meshes/Room Objects Meshes/Grand Clock [REPLACE_ORIGIN]/Meshes/Circle.033.mesh"
+      - "Meshes/Room Objects Meshes/Grand Clock [REPLACE_ORIGIN]/Meshes/Circle.034.mesh"
+      - "Meshes/Room Objects Meshes/Grand Clock [REPLACE_ORIGIN]/Meshes/Cube.148.mesh"
+      - "Meshes/Room Objects Meshes/Grand Clock [REPLACE_ORIGIN]/Meshes/Cube.149.mesh"
+      - "Meshes/Room Objects Meshes/Grand Clock [REPLACE_ORIGIN]/Meshes/Cube.150.mesh"
+      - "Meshes/Room Objects Meshes/Grand Clock [REPLACE_ORIGIN]/Meshes/Cube.151.mesh"
+      - "Meshes/Room Objects Meshes/Grand Clock [REPLACE_ORIGIN]/Meshes/Cylinder.020.mesh"
+      - "Meshes/Room Objects Meshes/Grand Clock [REPLACE_ORIGIN]/Meshes/Sphere.042.mesh"
+      - "Meshes/Room Objects Meshes/Grand Clock [REPLACE_ORIGIN]/Meshes/Sphere.043.mesh"
+      - "Meshes/Room Objects Meshes/Grand Clock [REPLACE_ORIGIN]/Meshes/Sphere.044.mesh"
+      - "Meshes/Room Objects Meshes/Grand Clock [REPLACE_ORIGIN]/Meshes/Sphere.045.mesh"
+      - Meshes/Room Objects Meshes/Grandfather Clock
+      - Meshes/Room Objects Meshes/Grandfather Clock/.hidden
+      - Meshes/Room Objects Meshes/Grandfather Clock/.hidden/Clock.004.ss_graph
+      - Meshes/Room Objects Meshes/Grandfather Clock/.hidden/white.jpg
+      - Meshes/Room Objects Meshes/Grandfather Clock/Materials
+      - Meshes/Room Objects Meshes/Grandfather Clock/Materials/Clock.004.mat
+      - Meshes/Room Objects Meshes/Grandfather Clock/Materials/LockGold.002.mat
+      - Meshes/Room Objects Meshes/Grandfather Clock/Materials/TestGFCmaterial.005.mat
+      - Meshes/Room Objects Meshes/Grandfather Clock/Materials/WoodenPlanks.011.mat
+      - Meshes/Room Objects Meshes/Grandfather Clock/Meshes
+      - Meshes/Room Objects Meshes/Grandfather Clock/Meshes/ArrowLong.mesh
+      - Meshes/Room Objects Meshes/Grandfather Clock/Meshes/ArrowShort.mesh
+      - Meshes/Room Objects Meshes/Grandfather Clock/Meshes/Body.mesh
+      - Meshes/Room Objects Meshes/Grandfather Clock/Meshes/DongExtra.001.mesh
+      - Meshes/Room Objects Meshes/Grandfather Clock/Meshes/DongExtra.002.mesh
+      - Meshes/Room Objects Meshes/Grandfather Clock/Meshes/DongExtra.003.mesh
+      - Meshes/Room Objects Meshes/Grandfather Clock/Meshes/DongExtra.004.mesh
+      - Meshes/Room Objects Meshes/Grandfather Clock/Meshes/DongExtra.005.mesh
+      - Meshes/Room Objects Meshes/Grandfather Clock/Meshes/DongExtra.mesh
+      - Meshes/Room Objects Meshes/Grandfather Clock/Meshes/Drawer.mesh
+      - Meshes/Room Objects Meshes/Grandfather Clock/Meshes/DrawerFrame.mesh
+      - Meshes/Room Objects Meshes/Grandfather Clock/Meshes/Face.mesh
+      - Meshes/Room Objects Meshes/Grandfather Clock/Meshes/GoldenDong.mesh
+      - Meshes/Room Objects Meshes/Grandfather Clock/Meshes/Handle.mesh
+      - Meshes/Room Objects Meshes/Key Ring
+      - Meshes/Room Objects Meshes/Key Ring/Meshes
+      - Meshes/Room Objects Meshes/Key Ring/Meshes/BézierCircle.mesh
+      - "Meshes/Room Objects Meshes/Keys [DONE]"
+      - "Meshes/Room Objects Meshes/Keys [DONE]/Meshes"
+      - "Meshes/Room Objects Meshes/Keys [DONE]/Meshes/Bronze Key.mesh"
+      - "Meshes/Room Objects Meshes/Keys [DONE]/Meshes/Gold Key.mesh"
+      - "Meshes/Room Objects Meshes/Keys [DONE]/Meshes/Silver Key.mesh"
+      - Meshes/Room Objects Meshes/Lore Bolt
+      - Meshes/Room Objects Meshes/Lore Bolt/Meshes
+      - Meshes/Room Objects Meshes/Lore Bolt/Meshes/Bolt Head.mesh
+      - Meshes/Room Objects Meshes/Lore Bolt/Meshes/Bolt.mesh
+      - "Meshes/Room Objects Meshes/Painting [DONE]"
+      - "Meshes/Room Objects Meshes/Painting [DONE]/Meshes"
+      - "Meshes/Room Objects Meshes/Painting [DONE]/Meshes/Painting Frame.mesh"
+      - Meshes/Room Objects Meshes/Safe
+      - Meshes/Room Objects Meshes/Safe/.hidden
+      - Meshes/Room Objects Meshes/Safe/.hidden/Dials.002.ss_graph
+      - Meshes/Room Objects Meshes/Safe/.hidden/white.jpg
+      - Meshes/Room Objects Meshes/Safe/Materials
+      - Meshes/Room Objects Meshes/Safe/Materials/Dials.002.mat
+      - Meshes/Room Objects Meshes/Safe/Meshes
+      - "Meshes/Room Objects Meshes/Safe/Meshes/#.mesh"
+      - Meshes/Room Objects Meshes/Safe/Meshes/0.mesh
+      - Meshes/Room Objects Meshes/Safe/Meshes/1.mesh
+      - Meshes/Room Objects Meshes/Safe/Meshes/2.mesh
+      - Meshes/Room Objects Meshes/Safe/Meshes/3.mesh
+      - Meshes/Room Objects Meshes/Safe/Meshes/4.mesh
+      - Meshes/Room Objects Meshes/Safe/Meshes/5.mesh
+      - Meshes/Room Objects Meshes/Safe/Meshes/6.mesh
+      - Meshes/Room Objects Meshes/Safe/Meshes/7.mesh
+      - Meshes/Room Objects Meshes/Safe/Meshes/8.mesh
+      - Meshes/Room Objects Meshes/Safe/Meshes/9.mesh
+      - Meshes/Room Objects Meshes/Safe/Meshes/Dials Base.043.mesh
+      - Meshes/Room Objects Meshes/Safe/Meshes/Dials Base.044.mesh
+      - Meshes/Room Objects Meshes/Safe/Meshes/Dials Base.045.mesh
+      - Meshes/Room Objects Meshes/Safe/Meshes/Dials Base.046.mesh
+      - Meshes/Room Objects Meshes/Safe/Meshes/Dials Base.047.mesh
+      - Meshes/Room Objects Meshes/Safe/Meshes/Dials Base.048.mesh
+      - Meshes/Room Objects Meshes/Safe/Meshes/Dials Base.049.mesh
+      - Meshes/Room Objects Meshes/Safe/Meshes/Dials Base.050.mesh
+      - Meshes/Room Objects Meshes/Safe/Meshes/Dials Base.051.mesh
+      - Meshes/Room Objects Meshes/Safe/Meshes/Dials Base.052.mesh
+      - Meshes/Room Objects Meshes/Safe/Meshes/Dials Base.053.mesh
+      - Meshes/Room Objects Meshes/Safe/Meshes/Dials Base.054.mesh
+      - Meshes/Room Objects Meshes/Safe/Meshes/Handle.001.mesh
+      - Meshes/Room Objects Meshes/Safe/Meshes/HandleCircleThingy.mesh
+      - Meshes/Room Objects Meshes/Safe/Meshes/Safe.mesh
+      - Meshes/Room Objects Meshes/Safe/Meshes/SafeDoor.mesh
+      - Meshes/Room Objects Meshes/Safe/Meshes/SafeOcluder.mesh
+      - Meshes/Room Objects Meshes/Safe/Meshes/_.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Final
+      - Meshes/Room Objects Meshes/Safe/Safe Final/.hidden
+      - Meshes/Room Objects Meshes/Safe/Safe Final/.hidden/Dials.002.ss_graph
+      - Meshes/Room Objects Meshes/Safe/Safe Final/.hidden/white.jpg
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Materials
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Materials/Dials.002.mat
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Materials/Material.001.mat
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Meshes
+      - "Meshes/Room Objects Meshes/Safe/Safe Final/Meshes/#.mesh"
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Meshes/0.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Meshes/1.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Meshes/2.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Meshes/3.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Meshes/4.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Meshes/5.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Meshes/6.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Meshes/7.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Meshes/8.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Meshes/9.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Meshes/Dials Base.043.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Meshes/Dials Base.044.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Meshes/Dials Base.045.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Meshes/Dials Base.046.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Meshes/Dials Base.047.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Meshes/Dials Base.048.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Meshes/Dials Base.049.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Meshes/Dials Base.050.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Meshes/Dials Base.051.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Meshes/Dials Base.052.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Meshes/Dials Base.053.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Meshes/Dials Base.054.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Meshes/Handle.001.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Meshes/HandleCircleThingy.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Meshes/KeyHole.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Meshes/KeyHoleDecoration.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Meshes/Safe.001.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Meshes/SafeDoor.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Meshes/SafeKeyOrDialPlate.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Meshes/SafeOcluder.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Final/Meshes/_.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Final/SafeTopologymaxxing (1).prefab
+      - Meshes/Room Objects Meshes/Safe/Safe Update
+      - Meshes/Room Objects Meshes/Safe/Safe Update/.hidden
+      - Meshes/Room Objects Meshes/Safe/Safe Update/.hidden/Dials.002.ss_graph
+      - Meshes/Room Objects Meshes/Safe/Safe Update/.hidden/white.jpg
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Materials
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Materials/Dials.002.mat
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Materials/Material.001.mat
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Meshes
+      - "Meshes/Room Objects Meshes/Safe/Safe Update/Meshes/#.mesh"
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Meshes/0.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Meshes/1.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Meshes/2.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Meshes/3.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Meshes/4.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Meshes/5.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Meshes/6.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Meshes/7.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Meshes/8.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Meshes/9.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Meshes/Dials Base.043.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Meshes/Dials Base.044.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Meshes/Dials Base.045.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Meshes/Dials Base.046.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Meshes/Dials Base.047.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Meshes/Dials Base.048.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Meshes/Dials Base.049.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Meshes/Dials Base.050.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Meshes/Dials Base.051.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Meshes/Dials Base.052.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Meshes/Dials Base.053.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Meshes/Dials Base.054.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Meshes/Handle.001.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Meshes/HandleCircleThingy.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Meshes/KeyHole.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Meshes/KeyHoleDecoration.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Meshes/Safe.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Meshes/SafeDoor.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Meshes/SafeKeyOrDialPlate.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Meshes/SafeOcluder.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Update/Meshes/_.mesh
+      - Meshes/Room Objects Meshes/Safe/Safe Update/SafeUpdated.prefab
+      - Meshes/Room Objects Meshes/Spiral Notebook
+      - Meshes/Room Objects Meshes/Spiral Notebook/Meshes
+      - Meshes/Room Objects Meshes/Spiral Notebook/Meshes/Notepad.mesh
+      - Meshes/Room Objects Meshes/Spiral Notebook/Meshes/Spiral.mesh
+      - Meshes/Room Objects Meshes/Statue Bust
+      - Meshes/Room Objects Meshes/Statue Bust/Meshes
+      - Meshes/Room Objects Meshes/Statue Bust/Meshes/Statue Bust.mesh
+      - "Meshes/Room Objects Meshes/Vase [DONE]"
+      - "Meshes/Room Objects Meshes/Vase [DONE]/Meshes"
+      - "Meshes/Room Objects Meshes/Vase [DONE]/Meshes/Vase Fragment 0.mesh"
+      - "Meshes/Room Objects Meshes/Vase [DONE]/Meshes/Vase Fragment 1.mesh"
+      - "Meshes/Room Objects Meshes/Vase [DONE]/Meshes/Vase Fragment 2.mesh"
+      - "Meshes/Room Objects Meshes/Vase [DONE]/Meshes/Vase Fragment 3.mesh"
+      - "Meshes/Room Objects Meshes/Vase [DONE]/Meshes/Vase Fragment 4.mesh"
+      - "Meshes/Room Objects Meshes/Vase [DONE]/Meshes/Vase Fragment 5.mesh"
+      - "Meshes/Room Objects Meshes/Vase [DONE]/Meshes/Vase Fragment 6.mesh"
+      - "Meshes/Room Objects Meshes/Vase [DONE]/Meshes/Vase Fragment 7.mesh"
+      - "Meshes/Room Objects Meshes/Vase [DONE]/Meshes/Vase Fragment 8.mesh"
+      - "Meshes/Room Objects Meshes/Vase [DONE]/Meshes/Vase Fragment 9.mesh"
+      - "Meshes/Room Objects Meshes/Vase [DONE]/Meshes/Vase Full.mesh"
+      - Meshes/Room Objects Meshes/package_dependencies.json
+      - Meshes/Safe Number Plate
+      - Meshes/Safe Number Plate/Meshes
+      - Meshes/Safe Number Plate/Meshes/Plane.mesh
+      - Meshes/Safe Number Plate/Safe Number Plate.prefab
+      - Meshes/Sphere.mesh
+      - Meshes/_Remake Meshes
+      - Meshes/_Remake Meshes/Book Remake Meshes
+      - Meshes/_Remake Meshes/Book Remake Meshes/Book Cover.mesh
+      - Meshes/_Remake Meshes/Book Remake Meshes/Book Pages.mesh
+      - Meshes/_Remake Meshes/Bookshelf Remake Meshes
+      - Meshes/_Remake Meshes/Bookshelf Remake Meshes/Bookshelf.mesh
+      - Meshes/_Remake Meshes/Bookshelf Remake Meshes/Left_Drawer.mesh
+      - Meshes/_Remake Meshes/Bookshelf Remake Meshes/Left_Drawer_Handle.mesh
+      - Meshes/_Remake Meshes/Bookshelf Remake Meshes/Right_Drawer.mesh
+      - Meshes/_Remake Meshes/Bookshelf Remake Meshes/Right_Drawer_Handle.mesh
+      - Meshes/_Remake Meshes/Chandelier Remake Meshes
+      - Meshes/_Remake Meshes/Chandelier Remake Meshes/Candle.001.mesh
+      - Meshes/_Remake Meshes/Chandelier Remake Meshes/Candle.002.mesh
+      - Meshes/_Remake Meshes/Chandelier Remake Meshes/Candle.003.mesh
+      - Meshes/_Remake Meshes/Chandelier Remake Meshes/Candle.004.mesh
+      - Meshes/_Remake Meshes/Chandelier Remake Meshes/Candle.005.mesh
+      - Meshes/_Remake Meshes/Chandelier Remake Meshes/Candle.mesh
+      - Meshes/_Remake Meshes/Chandelier Remake Meshes/Chandelier.mesh
+      - Meshes/_Remake Meshes/Chandelier Remake Meshes/Chandelier1.mesh
+      - Meshes/_Remake Meshes/Chandelier Remake Meshes/Chandelier2.mesh
+      - Meshes/_Remake Meshes/Chest Remake Meshes
+      - Meshes/_Remake Meshes/Chest Remake Meshes/Bottom_Part_Chest.mesh
+      - Meshes/_Remake Meshes/Chest Remake Meshes/Bottom_Part_Chest1.mesh
+      - Meshes/_Remake Meshes/Chest Remake Meshes/Flat_Part_Bottom.mesh
+      - Meshes/_Remake Meshes/Chest Remake Meshes/Flat_Part_Top.mesh
+      - Meshes/_Remake Meshes/Chest Remake Meshes/Lock_Chest.mesh
+      - Meshes/_Remake Meshes/Chest Remake Meshes/Lock_Top_Part.mesh
+      - Meshes/_Remake Meshes/Chest Remake Meshes/Plate_Chest.mesh
+      - Meshes/_Remake Meshes/Chest Remake Meshes/Plate_Holder_Chest.mesh
+      - Meshes/_Remake Meshes/Chest Remake Meshes/Ring_Chest.mesh
+      - Meshes/_Remake Meshes/Chest Remake Meshes/Silver_Bolts_Chest.mesh
+      - Meshes/_Remake Meshes/Chest Remake Meshes/Top_Part_Chest.mesh
+      - Meshes/_Remake Meshes/Chest Remake Meshes/Top_Part_Chest1.mesh
+      - Meshes/_Remake Meshes/Door Remake Meshes
+      - Meshes/_Remake Meshes/Door Remake Meshes/Door Frame.mesh
+      - Meshes/_Remake Meshes/Door Remake Meshes/Door Key Base.mesh
+      - Meshes/_Remake Meshes/Door Remake Meshes/Door Key Hole.mesh
+      - Meshes/_Remake Meshes/Door Remake Meshes/Door.mesh
+      - Meshes/_Remake Meshes/Drawer Remake Meshes
+      - Meshes/_Remake Meshes/Drawer Remake Meshes/Bedside.mesh
+      - Meshes/_Remake Meshes/Drawer Remake Meshes/Drawer.mesh
+      - Meshes/_Remake Meshes/Drawer Remake Meshes/Drawer_Handle.mesh
+      - Meshes/_Remake Meshes/Fan Remake Meshes
+      - Meshes/_Remake Meshes/Fan Remake Meshes/Ceiling Fan Base.mesh
+      - Meshes/_Remake Meshes/Fan Remake Meshes/Ceiling Fan Propeller Handles.mesh
+      - Meshes/_Remake Meshes/Fan Remake Meshes/Ceiling Fan Propellers.mesh
+      - Meshes/_Remake Meshes/Frame Remake Meshes
+      - Meshes/_Remake Meshes/Frame Remake Meshes/Frame_Updated.prefab
+      - Meshes/_Remake Meshes/Frame Remake Meshes/Photo Frame.mesh
+      - Meshes/_Remake Meshes/Frame Remake Meshes/Photo Frame1.mesh
+      - Meshes/_Remake Meshes/Gramophone Remake Meshes
+      - Meshes/_Remake Meshes/Gramophone Remake Meshes/Gramophone Speaker.mesh
+      - Meshes/_Remake Meshes/Gramophone Remake Meshes/Gramophone.mesh
+      - Meshes/_Remake Meshes/Gramophone Remake Meshes/Gramophone1.mesh
+      - Meshes/_Remake Meshes/Gramophone Remake Meshes/Gramophone2.mesh
+      - Meshes/_Remake Meshes/Gramophone Remake Meshes/Gramophone_New.prefab
+      - Meshes/_Remake Meshes/Gramophone Remake Meshes/Needle Part.mesh
+      - Meshes/_Remake Meshes/Gramophone Remake Meshes/Vinyl.mesh
+      - Meshes/_Remake Meshes/Grand Clock Remake Meshes
+      - Meshes/_Remake Meshes/Grand Clock Remake Meshes/ArrowLong.mesh
+      - Meshes/_Remake Meshes/Grand Clock Remake Meshes/ArrowLongBevel.mesh
+      - Meshes/_Remake Meshes/Grand Clock Remake Meshes/ArrowShort.mesh
+      - Meshes/_Remake Meshes/Grand Clock Remake Meshes/ArrowShortBevel.mesh
+      - Meshes/_Remake Meshes/Grand Clock Remake Meshes/ClockTexturePart.mesh
+      - Meshes/_Remake Meshes/Grand Clock Remake Meshes/GFC_Body.mesh
+      - Meshes/_Remake Meshes/Grand Clock Remake Meshes/GFC_Drawer.mesh
+      - Meshes/_Remake Meshes/Grand Clock Remake Meshes/GFC_Drawer1.mesh
+      - Meshes/_Remake Meshes/Grand Clock Remake Meshes/Main_Hanging_Part.mesh
+      - Meshes/_Remake Meshes/Grand Clock Remake Meshes/Small_Hanging_Parts.mesh
+      - Meshes/_Remake Meshes/Magic Ball Meshes
+      - Meshes/_Remake Meshes/Magic Ball Meshes/Magic Ball.mesh
+      - Meshes/_Remake Meshes/Magic Ball Meshes/MagicBall_New.prefab
+      - Meshes/_Remake Meshes/Magic Ball Meshes/MagicBase.mesh
+      - Meshes/_Remake Meshes/Magic Ball Meshes/MagicBase1.mesh
+      - Meshes/_Remake Meshes/Magic Ball Meshes/MagicBase2.mesh
+      - Meshes/_Remake Meshes/Safe Remake Meshes
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/.hidden
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/.hidden/Door
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/.hidden/white
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Materials
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Materials/Door
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Materials/GramophoneGOLD
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Materials/KeypadSILVER
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Materials/Number Strip
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Materials/Occluder
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Materials/SafeKeypadGold
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Materials/SafeRED
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Materials/SafeSilver
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Meshes
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Meshes/0
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Meshes/1
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Meshes/2
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Meshes/3
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Meshes/4
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Meshes/5
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Meshes/6
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Meshes/7
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Meshes/8
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Meshes/9
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Meshes/Handle Base Plate
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Meshes/Left
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Meshes/Number Strip
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Meshes/NumberArrow
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Meshes/Occluder
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Meshes/Right
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Meshes/SafeBody
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Meshes/SafeBody.001
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Meshes/SafeBody.002
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Meshes/SafeBody.003
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Meshes/SafeBody.004
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Meshes/SafeDoor
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Meshes/SafeDoor1
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Meshes/SafeDoor2
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Meshes/SafeHandle
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Meshes/SafeHandle1
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Meshes/SafeKeyhole
+      - Meshes/_Remake Meshes/Safe Remake Meshes/Safe_Updated.fbx/Safe_Updated
+      - Meshes/_Remake Meshes/Statue Remake Meshes
+      - Meshes/_Remake Meshes/Statue Remake Meshes/StatueBust.mesh
+      - Meshes/_Remake Meshes/Statue Remake Meshes/StatueBust_Updated.prefab
+      - Meshes/_Remake Meshes/Vase Remake Meshes
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/17 Piece
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/17 Piece/HandleWhole.004.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/17 Piece/HandleWhole.010.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/17 Piece/HandleWhole.015.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/17 Piece/HandleWhole.033.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/17 Piece/HandleWhole.070.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/17 Piece/Vase_Broken_Updated.prefab
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/17 Piece/Vase_low_cell.001.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/17 Piece/Vase_low_cell.002.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/17 Piece/Vase_low_cell.003.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/17 Piece/Vase_low_cell.004.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/17 Piece/Vase_low_cell.005.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/17 Piece/Vase_low_cell.006.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/17 Piece/Vase_low_cell.007.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/17 Piece/Vase_low_cell.008.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/17 Piece/Vase_low_cell.009.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/17 Piece/Vase_low_cell.010.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/17 Piece/Vase_low_cell.011.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/17 Piece/Vase_low_cell.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.001.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.002.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.003.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.004.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.005.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.006.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.007.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.008.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.009.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.010.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.011.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.012.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.013.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.014.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.015.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.016.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.017.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.018.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.019.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.020.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.021.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.022.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.023.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.024.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.025.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.026.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.027.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.028.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.029.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.030.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.031.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.032.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.033.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.034.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.069.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.070.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.071.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.072.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.073.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.074.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.075.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/HandleWhole.076.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/Vase_Broken_Updated.prefab
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/Vase_low_cell.001.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/Vase_low_cell.002.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/Vase_low_cell.003.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/Vase_low_cell.004.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/Vase_low_cell.005.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/Vase_low_cell.006.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/Vase_low_cell.007.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/Vase_low_cell.008.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/Vase_low_cell.009.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/Vase_low_cell.010.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/Vase_low_cell.011.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Broken/54 Piece/Vase_low_cell.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Vase Handle.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Vase.mesh
+      - Meshes/_Remake Meshes/Vase Remake Meshes/Vase_Updated.prefab
+      - Meshes/_Remake Meshes/Vinyl Meshes
+      - Meshes/_Remake Meshes/Vinyl Meshes/Vinyl.mesh
+      - Meshes/_Remake Meshes/Vinyl Meshes/Vinyl_New.prefab
+      - Prefabs
+      - Prefabs/Bookshelf D1.prefab
+      - Prefabs/Chandelier.prefab
+      - Prefabs/Chest D1.prefab
+      - Prefabs/Code Safe D1.prefab
+      - Prefabs/Decorations
+      - Prefabs/Decorations/Bookstack Decoration.prefab
+      - Prefabs/Decorations/Physics Book Decoration.prefab
+      - Prefabs/Decorations/Statue Bust.prefab
+      - Prefabs/Drawer Table D1.prefab
+      - Prefabs/Escape Door.prefab
+      - Prefabs/Fan.prefab
+      - Prefabs/Grand Clock D1.prefab
+      - Prefabs/Item Pickups
+      - Prefabs/Item Pickups/Bronze Key Pickup.prefab
+      - Prefabs/Item Pickups/Gold Key Pickup.prefab
+      - Prefabs/Item Pickups/Note Pickup.prefab
+      - Prefabs/Item Pickups/Silver Key Pickup.prefab
+      - Prefabs/Key Safe D1.prefab
+      - Prefabs/Loader.prefab
+      - Prefabs/Lore Objects
+      - Prefabs/Lore Objects/Newspaper 13 10 1973 Lore.prefab
+      - Prefabs/Lore Objects/Newspaper 13 9 2025 Lore.prefab
+      - Prefabs/Lore Objects/Newspaper 3 11 2025 Lore.prefab
+      - Prefabs/Lore Objects/Newspaper 30 10 2025 Lore.prefab
+      - Prefabs/Lore Objects/Newspaper 31 10 2025 Lore.prefab
+      - Prefabs/Lore Objects/Witch Note 1 Lore.prefab
+      - Prefabs/Lore Objects/Witch Note 2 Lore.prefab
+      - Prefabs/Painting D1.prefab
+      - Prefabs/Room Objects ARCHIVE.prefab
+      - Prefabs/Sub Objects
+      - Prefabs/Sub Objects/Book.prefab
+      - Prefabs/Surface Anchor.prefab
+      - Prefabs/Vase D1.prefab
+      - Prefabs/VolumetricLine__PLACE_IN_SCENE.prefab
+      - Prefabs/_Remake Objects
+      - Prefabs/_Remake Objects/Bookshelf Updated.prefab
+      - Prefabs/_Remake Objects/Bookstack Decoration Updated.prefab
+      - Prefabs/_Remake Objects/Chandelier Updated.prefab
+      - Prefabs/_Remake Objects/Chest Updated.prefab
+      - Prefabs/_Remake Objects/Code Safe Updated.prefab
+      - Prefabs/_Remake Objects/Door Updated.prefab
+      - Prefabs/_Remake Objects/Drawer Updated.prefab
+      - Prefabs/_Remake Objects/Fan Updated.prefab
+      - Prefabs/_Remake Objects/Gramophone Updated.prefab
+      - Prefabs/_Remake Objects/Grand Clock Updated.prefab
+      - Prefabs/_Remake Objects/Key Safe Updated.prefab
+      - Prefabs/_Remake Objects/Magic Ball.prefab
+      - Prefabs/_Remake Objects/Painting Updated.prefab
+      - Prefabs/_Remake Objects/Physics Book Updated.prefab
+      - Prefabs/_Remake Objects/Puzzle Book Updated.prefab
+      - Prefabs/_Remake Objects/Static Prefabs
+      - Prefabs/_Remake Objects/Static Prefabs/Bookshelf Static.prefab
+      - Prefabs/_Remake Objects/Static Prefabs/Chandelier Static.prefab
+      - Prefabs/_Remake Objects/Static Prefabs/Chest Static.prefab
+      - Prefabs/_Remake Objects/Static Prefabs/Clock Static.prefab
+      - Prefabs/_Remake Objects/Static Prefabs/Code Safe Static.prefab
+      - Prefabs/_Remake Objects/Static Prefabs/Door Static.prefab
+      - Prefabs/_Remake Objects/Static Prefabs/Drawer Static.prefab
+      - Prefabs/_Remake Objects/Static Prefabs/Fan Static.prefab
+      - Prefabs/_Remake Objects/Static Prefabs/Gramophone Static.prefab
+      - Prefabs/_Remake Objects/Static Prefabs/Key Safe Static.prefab
+      - Prefabs/_Remake Objects/Static Prefabs/Magic Ball Static.prefab
+      - Prefabs/_Remake Objects/Static Prefabs/Patining Static.prefab
+      - Prefabs/_Remake Objects/Static Prefabs/Statue Static.prefab
+      - Prefabs/_Remake Objects/Static Prefabs/Vase Emerald Static.prefab
+      - Prefabs/_Remake Objects/Static Prefabs/Vase Gold Static.prefab
+      - Prefabs/_Remake Objects/Static Prefabs/Vase Handle Emerald Static.prefab
+      - Prefabs/_Remake Objects/Static Prefabs/Vase Handle Gold Static.prefab
+      - Prefabs/_Remake Objects/Statue Bust Updated.prefab
+      - Prefabs/_Remake Objects/Vases
+      - Prefabs/_Remake Objects/Vases/Vase Emerald.prefab
+      - Prefabs/_Remake Objects/Vases/Vase Gold.prefab
+      - Prefabs/_Remake Objects/Vases/Vase Handle Emerald.prefab
+      - Prefabs/_Remake Objects/Vases/Vase Handle Gold.prefab
+      - Scene.scene
+      - Scripts
+      - Scripts/Global UILayer.ts
+      - Scripts/Smooth Follow.lsc
+      - Scripts/SnapCloudRequirements
+      - Scripts/SnapCloudRequirements/SnapCloudRequirements.ts
+      - Scripts/SnapCloudRequirements/package.native
+      - Scripts/Tweens
+      - Scripts/Tweens/TweenManager.lspkg
+      - "Scripts/Tweens/TweenManager.lspkg/ExampleResources [REMOVE_ME]"
+      - "Scripts/Tweens/TweenManager.lspkg/ExampleResources [REMOVE_ME]/ExampleTweenValueScript.js"
+      - "Scripts/Tweens/TweenManager.lspkg/ExampleResources [REMOVE_ME]/Materials"
+      - "Scripts/Tweens/TweenManager.lspkg/ExampleResources [REMOVE_ME]/Materials/Image Unlit.mat"
+      - "Scripts/Tweens/TweenManager.lspkg/ExampleResources [REMOVE_ME]/Materials/TweenBoxDiffuse.mat"
+      - "Scripts/Tweens/TweenManager.lspkg/ExampleResources [REMOVE_ME]/Materials/TweenBoxDiffuse_Alt.mat"
+      - "Scripts/Tweens/TweenManager.lspkg/ExampleResources [REMOVE_ME]/Materials/TweenSphereDiffuse.mat"
+      - "Scripts/Tweens/TweenManager.lspkg/ExampleResources [REMOVE_ME]/Meshes"
+      - "Scripts/Tweens/TweenManager.lspkg/ExampleResources [REMOVE_ME]/Meshes/TweenBox.mesh"
+      - "Scripts/Tweens/TweenManager.lspkg/ExampleResources [REMOVE_ME]/Meshes/TweenSphere.mesh"
+      - "Scripts/Tweens/TweenManager.lspkg/ExampleResources [REMOVE_ME]/Shaders"
+      - "Scripts/Tweens/TweenManager.lspkg/ExampleResources [REMOVE_ME]/Shaders/Image Unlit.ss_graph"
+      - "Scripts/Tweens/TweenManager.lspkg/ExampleResources [REMOVE_ME]/Shaders/TweenBoxDiffuse.ss_graph"
+      - "Scripts/Tweens/TweenManager.lspkg/ExampleResources [REMOVE_ME]/Textures"
+      - "Scripts/Tweens/TweenManager.lspkg/ExampleResources [REMOVE_ME]/Textures/TweenImageTextures"
+      - "Scripts/Tweens/TweenManager.lspkg/ExampleResources [REMOVE_ME]/Textures/TweenImageTextures/Image.png"
+      - Scripts/Tweens/TweenManager.lspkg/Tween
+      - "Scripts/Tweens/TweenManager.lspkg/Tween Examples [REMOVE_ME]__PUT_IN_ORTHO_CAM.prefab"
+      - Scripts/Tweens/TweenManager.lspkg/Tween/Tween.lsc
+      - Scripts/Tweens/TweenManager.lspkg/Tween/TweenManager.lsc
+      - Scripts/Tweens/TweenManager.lspkg/Tween/TweenTypes
+      - Scripts/Tweens/TweenManager.lspkg/Tween/TweenTypes/TweenAlpha.lsc
+      - Scripts/Tweens/TweenManager.lspkg/Tween/TweenTypes/TweenChain.lsc
+      - Scripts/Tweens/TweenManager.lspkg/Tween/TweenTypes/TweenColor.lsc
+      - Scripts/Tweens/TweenManager.lspkg/Tween/TweenTypes/TweenScreenTransform.lsc
+      - Scripts/Tweens/TweenManager.lspkg/Tween/TweenTypes/TweenTransform.lsc
+      - Scripts/Tweens/TweenManager.lspkg/Tween/TweenTypes/TweenValue.lsc
+      - Scripts/Tweens/TweenManager.lspkg/TweenManager__PLACE_IN_SCENE.prefab
+      - Scripts/Tweens/TweenManager.lspkg/package.native
+      - Scripts/Tweens/Tweens.prefab
+      - Scripts/TypeScript Codebase
+      - Scripts/TypeScript Codebase/ArchiveGallery.ts
+      - Scripts/TypeScript Codebase/Game Objects
+      - Scripts/TypeScript Codebase/Game Objects/BookDecoration.ts
+      - Scripts/TypeScript Codebase/Game Objects/BookshelfRO.ts
+      - Scripts/TypeScript Codebase/Game Objects/BookstackDecoration.ts
+      - Scripts/TypeScript Codebase/Game Objects/ChestRO.ts
+      - Scripts/TypeScript Codebase/Game Objects/CodeSafeRO.ts
+      - Scripts/TypeScript Codebase/Game Objects/DrawerTableRO.ts
+      - Scripts/TypeScript Codebase/Game Objects/EscapeDoor.ts
+      - Scripts/TypeScript Codebase/Game Objects/FanAmbience.ts
+      - Scripts/TypeScript Codebase/Game Objects/GramophoneRO.ts
+      - Scripts/TypeScript Codebase/Game Objects/GrandClockRO.ts
+      - Scripts/TypeScript Codebase/Game Objects/HangSwing.ts
+      - Scripts/TypeScript Codebase/Game Objects/HangingLore.ts
+      - Scripts/TypeScript Codebase/Game Objects/ItemPickup.ts
+      - Scripts/TypeScript Codebase/Game Objects/ItemSpot.ts
+      - Scripts/TypeScript Codebase/Game Objects/KeySafeRO.ts
+      - Scripts/TypeScript Codebase/Game Objects/LorePickup.ts
+      - Scripts/TypeScript Codebase/Game Objects/PaintingRO.ts
+      - Scripts/TypeScript Codebase/Game Objects/PhysicsDebrisFade.ts
+      - Scripts/TypeScript Codebase/Game Objects/PuzzleBook.ts
+      - Scripts/TypeScript Codebase/Game Objects/RoomObjectAnimations.ts
+      - Scripts/TypeScript Codebase/Game Objects/RoomObjectTesting.ts
+      - Scripts/TypeScript Codebase/Game Objects/SoundAmbience.ts
+      - Scripts/TypeScript Codebase/Game Objects/VaseRO.ts
+      - Scripts/TypeScript Codebase/GameFlow.ts
+      - Scripts/TypeScript Codebase/HandMenu.ts
+      - Scripts/TypeScript Codebase/Helpers
+      - Scripts/TypeScript Codebase/Helpers/ChainController.ts
+      - Scripts/TypeScript Codebase/Helpers/ClockArrowsLocalXYBinder.ts
+      - Scripts/TypeScript Codebase/Helpers/EditorScript.ts
+      - Scripts/TypeScript Codebase/Helpers/FollowUtils.ts
+      - Scripts/TypeScript Codebase/Helpers/RightHandInventoryHint.ts
+      - Scripts/TypeScript Codebase/Helpers/SmoothFollow.ts
+      - Scripts/TypeScript Codebase/InventoryManager.ts
+      - Scripts/TypeScript Codebase/ListManager.ts
+      - Scripts/TypeScript Codebase/LoreGallery.ts
+      - Scripts/TypeScript Codebase/PersistentStorage.ts
+      - Scripts/TypeScript Codebase/ProceduralRoom.ts
+      - Scripts/TypeScript Codebase/RadialHoldButton.ts
+      - Scripts/TypeScript Codebase/SettingsManager.ts
+      - Scripts/TypeScript Codebase/SoundManager.ts
+      - Scripts/TypeScript Codebase/SupabaseTable.ts
+      - Scripts/TypeScript Codebase/SurfaceAnchor.ts
+      - Scripts/TypeScript Codebase/Util.ts
+      - Scripts/TypeScript Codebase/ViewController.ts
+      - Scripts/TypeScript Codebase/WorldQueryManager.ts
+      - Scripts/TypeScript Codebase/_globals.d.ts
+      - Scripts/legacy
+      - Scripts/legacy/Gallery Manager.js
+      - Scripts/legacy/Game Objects
+      - Scripts/legacy/Game Objects/Book Decoration.js
+      - Scripts/legacy/Game Objects/Bookshelf RO.js
+      - Scripts/legacy/Game Objects/Bookstack Decoration.js
+      - Scripts/legacy/Game Objects/Chest RO.js
+      - Scripts/legacy/Game Objects/Code Safe RO.js
+      - Scripts/legacy/Game Objects/Drawer Table RO.js
+      - Scripts/legacy/Game Objects/Escape Door.js
+      - Scripts/legacy/Game Objects/Fan Ambience.js
+      - Scripts/legacy/Game Objects/Grand Clock RO.js
+      - Scripts/legacy/Game Objects/Hanging Lore.js
+      - Scripts/legacy/Game Objects/Item Pickup.js
+      - Scripts/legacy/Game Objects/Key Safe RO.js
+      - Scripts/legacy/Game Objects/Lore Pickup.js
+      - Scripts/legacy/Game Objects/Painting RO.js
+      - Scripts/legacy/Game Objects/Puzzle Book.js
+      - Scripts/legacy/Game Objects/Vase RO.js
+      - Scripts/legacy/Hand Menu.js
+      - Scripts/legacy/Helpers
+      - Scripts/legacy/Helpers/ChainController.js
+      - Scripts/legacy/Helpers/Clock Arrows Local XY Binder.js
+      - Scripts/legacy/Helpers/Editor Script.js
+      - Scripts/legacy/Helpers/JSMathLibraryModule.js
+      - Scripts/legacy/Helpers/PositionBasedDynamicsModule.js
+      - Scripts/legacy/Helpers/Right Hand Inventory Hint.js
+      - Scripts/legacy/Helpers/Smooth Follow.js
+      - Scripts/legacy/Helpers/Spectacles UI Helpers.js
+      - Scripts/legacy/Helpers/Util.js
+      - Scripts/legacy/Inventory Manager.js
+      - Scripts/legacy/Logic.js
+      - Scripts/legacy/Persistent Storage.js
+      - Scripts/legacy/README.md
+      - Scripts/legacy/Radial Hold Button.js
+      - Scripts/legacy/Sound Manager.js
+      - Scripts/legacy/Supabase Table
+      - Scripts/legacy/Supabase Table/SupabaseTable.js
+      - Scripts/legacy/Surface Anchor.js
+      - Scripts/legacy/UIViewController.js
+      - Scripts/legacy/WorldQuery Manager.js
+      - SnapDecorators.lspkg
+      - SnapDecorators.lspkg/Examples.ts
+      - SnapDecorators.lspkg/Examples__PLACE_IN_SCENE.prefab
+      - SnapDecorators.lspkg/README.md
+      - SnapDecorators.lspkg/assert.ts
+      - SnapDecorators.lspkg/debug.ts
+      - SnapDecorators.lspkg/decorators.ts
+      - SnapDecorators.lspkg/guards.ts
+      - SnapDecorators.lspkg/package.native
+      - Sounds
+      - Sounds/0-compressed.mp3
+      - Sounds/1-compressed.mp3
+      - Sounds/2-compressed.mp3
+      - Sounds/3-compressed.mp3
+      - Sounds/4-compressed.mp3
+      - Sounds/5-compressed.mp3
+      - Sounds/6-compressed.mp3
+      - Sounds/7-compressed.mp3
+      - Sounds/8-compressed.mp3
+      - Sounds/9-compressed.mp3
+      - Sounds/Book Slide.mp3
+      - Sounds/Books Topple.mp3
+      - Sounds/Chest Open.mp3
+      - Sounds/Choir.mp3
+      - Sounds/Clock Tick Loop.mp3
+      - Sounds/Code Safe Fail.mp3
+      - Sounds/Code Safe Unlock.mp3
+      - Sounds/Creaks
+      - Sounds/Creaks/Creak 1.mp3
+      - Sounds/Creaks/Creak 2.mp3
+      - Sounds/Creaks/Creak 3.mp3
+      - Sounds/Creaks/Creak 4.mp3
+      - Sounds/Creaks/Creak 5.mp3
+      - Sounds/Creaks/Creak 6.mp3
+      - Sounds/Door Opened.mp3
+      - Sounds/Door Slam.mp3
+      - Sounds/Drawer Open.mp3
+      - Sounds/Fan Loop v2.mp3
+      - Sounds/Fan Loop.mp3
+      - Sounds/Fire.mp3
+      - Sounds/Gramophone.mp3
+      - Sounds/Lock Unlock.mp3
+      - Sounds/Lore Inspect.mp3
+      - Sounds/Lore Learn.mp3
+      - Sounds/Lore Slide.mp3
+      - Sounds/Mansion Ambience.mp3
+      - Sounds/Object Pop.mp3
+      - Sounds/Prefabs
+      - Sounds/Prefabs/Background Sound.prefab
+      - Sounds/Prefabs/Spatial Sound.prefab
+      - Sounds/Safe Door Open.mp3
+      - Sounds/Safe Locked.mp3
+      - Sounds/Synth.mp3
+      - Sounds/Taking Key.mp3
+      - Sounds/Taking Note.mp3
+      - Sounds/Tearing Paper 3.mp3
+      - Sounds/Vase Impact.mp3
+      - Sounds/Vase Shatter.mp3
+      - Sounds/Witch Laugh.mp3
+      - Sounds/Wood Locked.mp3
+      - SpectaclesInteractionKit.lspkg
+      - SpectaclesInteractionKit.lspkg/Assets
+      - SpectaclesInteractionKit.lspkg/Assets/Audio
+      - SpectaclesInteractionKit.lspkg/Assets/Audio/HoverAudioTrack.wav
+      - SpectaclesInteractionKit.lspkg/Assets/Audio/TriggerEndAudioTrack.wav
+      - SpectaclesInteractionKit.lspkg/Assets/Audio/TriggerStartAudioTrack.wav
+      - SpectaclesInteractionKit.lspkg/Assets/Materials
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/BaseHandVisualsMaterials
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/BaseHandVisualsMaterials/FingerHighlightLeft.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/BaseHandVisualsMaterials/FingerHighlightRight.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/BaseHandVisualsMaterials/FingerTipGlow.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/BaseHandVisualsMaterials/HandOccluderLeft.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/BaseHandVisualsMaterials/HandOccluderRight.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/BaseHandVisualsMaterials/NoDraw.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/BitmojiMaterial.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/ContainerImageMaterial.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/LogoMaterial.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/NormalBasedTargetOutline.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/PinchButtonDarkInactive.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/PinchButtonDarkRadial.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/PinchButtonToggleOffIcon.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/PinchButtonToggleOnDefault.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/PinchButtonToggleOnIcon.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/PinchButtonToggleOnSelect.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/PlatformUI
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/PlatformUI/ButtonHover.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/PlatformUI/ButtonIdle.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/PlatformUI/ButtonPinched.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/PlatformUI/CapsuleButtonHover.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/PlatformUI/CapsuleButtonIdle.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/PlatformUI/CapsuleButtonPinched.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/PlatformUI/RoundButtonGlowHover.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/PlatformUI/RoundButtonGlowIdle.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/PlatformUI/RoundButtonGlowPinched.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/PlatformUI/RoundButtonHover.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/PlatformUI/RoundButtonPinched.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/PlatformUI/RoundButton_Idle.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/PlatformUI/ScrollBackground.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/PlatformUI/ScrollButtonHover.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/PlatformUI/ScrollButtonIdle.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/PlatformUI/ScrollButtonPinched.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/PlatformUI/Slider_Platform.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/PlatformUI/StateButtonToggledHover.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/PlatformUI/StateButtonToggledPinched.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/PlatformUI/ToggleButtonToggledHover.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/PlatformUI/ToggleButtonToggledIdle.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/PlatformUI/ToggleButtonToggledPinched.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/RayMaterial.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/ScaleBasedTargetOutline.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/ScrollBarButton.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/ScrollBarSlider.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/SimplePBRMaterial.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/SliderMat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/SliderMat/PinchButtonDarkDefault.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/SliderMat/PinchButtonOnSelect.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/SliderMat/SliderMat.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/SliderMat/TargetOutlineMaterial.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/SpritePreset.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/TargetOutlineMaterial.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Materials/Text3DDefault.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Meshes
+      - SpectaclesInteractionKit.lspkg/Assets/Meshes/BoxMesh.mesh
+      - SpectaclesInteractionKit.lspkg/Assets/Meshes/ButtonCapsuleMesh.mesh
+      - SpectaclesInteractionKit.lspkg/Assets/Meshes/ButtonSphereMesh.mesh
+      - SpectaclesInteractionKit.lspkg/Assets/Meshes/Check.mesh
+      - SpectaclesInteractionKit.lspkg/Assets/Meshes/ImageMaterial.mat
+      - SpectaclesInteractionKit.lspkg/Assets/Meshes/LeftHandMeshFull.mesh
+      - SpectaclesInteractionKit.lspkg/Assets/Meshes/LeftHandMeshIndexThumb.mesh
+      - SpectaclesInteractionKit.lspkg/Assets/Meshes/LeftHandMeshPin.mesh
+      - SpectaclesInteractionKit.lspkg/Assets/Meshes/PlaneMesh.mesh
+      - SpectaclesInteractionKit.lspkg/Assets/Meshes/PlatformUI
+      - SpectaclesInteractionKit.lspkg/Assets/Meshes/PlatformUI/PlatformCapsuleButton.mesh
+      - SpectaclesInteractionKit.lspkg/Assets/Meshes/PlatformUI/PlatformSphereButton.mesh
+      - SpectaclesInteractionKit.lspkg/Assets/Meshes/PlatformUI/RoundButton.mesh
+      - SpectaclesInteractionKit.lspkg/Assets/Meshes/PlatformUI/RoundButtonGlow.mesh
+      - SpectaclesInteractionKit.lspkg/Assets/Meshes/PlatformUI/ScrollBarKnobMesh.mesh
+      - SpectaclesInteractionKit.lspkg/Assets/Meshes/PlatformUI/ScrollBarMesh.mesh
+      - SpectaclesInteractionKit.lspkg/Assets/Meshes/PlatformUI/Slider.mesh
+      - SpectaclesInteractionKit.lspkg/Assets/Meshes/RayMesh.mesh
+      - SpectaclesInteractionKit.lspkg/Assets/Meshes/RightHandMeshFull.mesh
+      - SpectaclesInteractionKit.lspkg/Assets/Meshes/RightHandMeshIndexThumb.mesh
+      - SpectaclesInteractionKit.lspkg/Assets/Meshes/RightHandMeshPin.mesh
+      - SpectaclesInteractionKit.lspkg/Assets/Meshes/ScrollBarSlider.mesh
+      - SpectaclesInteractionKit.lspkg/Assets/Meshes/SliderSphereKnob.mesh
+      - SpectaclesInteractionKit.lspkg/Assets/Meshes/SliderTrack.mesh
+      - SpectaclesInteractionKit.lspkg/Assets/Meshes/SnapGhost_Mesh.mesh
+      - SpectaclesInteractionKit.lspkg/Assets/Meshes/SphereMesh.mesh
+      - SpectaclesInteractionKit.lspkg/Assets/Meshes/Uncheck.mesh
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/BaseHandVisualsShaders
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/BaseHandVisualsShaders/FingerHighlightAdd.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/BaseHandVisualsShaders/FingerHighlightOpaque.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/BaseHandVisualsShaders/FingerTipGlow.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/BaseHandVisualsShaders/HandOccluder.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/BaseHandVisualsShaders/NoDraw.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/NormalBasedTargetOutline.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/PinchButton-ActiveOrInActive.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/PinchDarkRadial.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/PlatformUI
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/PlatformUI/ButtonHover.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/PlatformUI/ButtonIdle.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/PlatformUI/ButtonPinched.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/PlatformUI/CapsuleButtonHover.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/PlatformUI/CapsuleButtonIdle.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/PlatformUI/CapsuleButtonPinched.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/PlatformUI/RoundButtonGlowHover.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/PlatformUI/RoundButtonGlowIdle.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/PlatformUI/RoundButtonGlowPinched.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/PlatformUI/RoundButtonHover.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/PlatformUI/RoundButtonPinched.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/PlatformUI/RoundButton_Idle.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/PlatformUI/ScrollBackground.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/PlatformUI/ScrollButtonHover.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/PlatformUI/ScrollButtonIdle.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/PlatformUI/ScrollButtonPinched.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/PlatformUI/Slider_Platform.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/PlatformUI/StateButtonToggledHover.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/PlatformUI/StateButtonToggledPinched.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/RayShader.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/ScaleBasedTargetOutline.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/ScrollBarSlider.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/SliderShaders
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/SliderShaders/PinchButton-Default.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/SliderShaders/Slider.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/SpritePreset.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/TargetOutline.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/Text3DDefault.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/ToggleOff.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/ToggleOn.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/ToggleOnSelect.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Shaders/simple_pbr.ss_graph
+      - SpectaclesInteractionKit.lspkg/Assets/Textures
+      - SpectaclesInteractionKit.lspkg/Assets/Textures/2DBitmojiAvatar.png
+      - SpectaclesInteractionKit.lspkg/Assets/Textures/Base.png
+      - SpectaclesInteractionKit.lspkg/Assets/Textures/BaseHandVisualsTextures
+      - SpectaclesInteractionKit.lspkg/Assets/Textures/BaseHandVisualsTextures/Glow.png
+      - SpectaclesInteractionKit.lspkg/Assets/Textures/BaseHandVisualsTextures/MaskMap.png
+      - SpectaclesInteractionKit.lspkg/Assets/Textures/MaterialParams.png
+      - SpectaclesInteractionKit.lspkg/Assets/Textures/Normal.png
+      - SpectaclesInteractionKit.lspkg/Assets/Textures/PlatformUI
+      - SpectaclesInteractionKit.lspkg/Assets/Textures/PlatformUI/ArrowDown.png
+      - SpectaclesInteractionKit.lspkg/Assets/Textures/PlatformUI/ArrowUp.png
+      - SpectaclesInteractionKit.lspkg/Assets/Textures/PlatformUI/Close.png
+      - SpectaclesInteractionKit.lspkg/Assets/Textures/PlatformUI/FollowIconBlack.png
+      - SpectaclesInteractionKit.lspkg/Assets/Textures/PlatformUI/FollowIconWhite.png
+      - SpectaclesInteractionKit.lspkg/Assets/Textures/PlatformUI/Mask_simple_reflection_ellipse.png
+      - SpectaclesInteractionKit.lspkg/Assets/Textures/PlatformUI/SimpleIdle.jpg
+      - SpectaclesInteractionKit.lspkg/Assets/Textures/PlatformUI/SimpleIdle_05.jpg
+      - SpectaclesInteractionKit.lspkg/Assets/Textures/PlatformUI/SimpleRefl_02.jpg
+      - SpectaclesInteractionKit.lspkg/Assets/Textures/PlatformUI/SimpleRefl_05.jpg
+      - SpectaclesInteractionKit.lspkg/Assets/Textures/PlatformUI/SimpleRefl_06.jpg
+      - SpectaclesInteractionKit.lspkg/Assets/Textures/PlatformUI/UI_glow.jpg
+      - SpectaclesInteractionKit.lspkg/Assets/Textures/Rectangle-Active.png
+      - SpectaclesInteractionKit.lspkg/Assets/Textures/Rectangle-Inactive.png
+      - SpectaclesInteractionKit.lspkg/Assets/Textures/Rectangle.png
+      - SpectaclesInteractionKit.lspkg/Assets/Textures/SIKContainerExampleImage.jpg
+      - SpectaclesInteractionKit.lspkg/Assets/Textures/SIKLogo.png
+      - SpectaclesInteractionKit.lspkg/Assets/Textures/ScrollBarRectangle.png
+      - SpectaclesInteractionKit.lspkg/Components/Helpers
+      - SpectaclesInteractionKit.lspkg/Components/Helpers/ButtonFeedback.ts
+      - SpectaclesInteractionKit.lspkg/Components/Helpers/CapsuleMeshCustomizer.ts
+      - SpectaclesInteractionKit.lspkg/Components/Helpers/InteractableAudioFeedback.ts
+      - SpectaclesInteractionKit.lspkg/Components/Helpers/InteractableColorFeedback.ts
+      - SpectaclesInteractionKit.lspkg/Components/Helpers/InteractableOutlineFeedback.ts
+      - SpectaclesInteractionKit.lspkg/Components/Helpers/InteractableSquishFeedback.ts
+      - SpectaclesInteractionKit.lspkg/Components/Helpers/ProximitySensor.ts
+      - SpectaclesInteractionKit.lspkg/Components/Helpers/ScreenTransformAdapter.ts
+      - SpectaclesInteractionKit.lspkg/Components/Helpers/ScrollBarFeedback.ts
+      - SpectaclesInteractionKit.lspkg/Components/Helpers/SliderFeedback.ts
+      - SpectaclesInteractionKit.lspkg/Components/Helpers/ToggleFeedback.ts
+      - SpectaclesInteractionKit.lspkg/Components/Interaction
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/Billboard
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/Billboard/Billboard.ts
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/Billboard/BillboardController.ts
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/Billboard/BillboardRotationCalculator.ts
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/HandVisual
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/HandVisual/GlowEffectView.ts
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/HandVisual/GlowEffectViewModel.ts
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/HandVisual/HandVisual.ts
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/Headlock
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/Headlock/Headlock.ts
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/Headlock/HeadlockController.ts
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/Headlock/HeadlockRotationCalculator.ts
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/Headlock/HeadlockTranslationCalculator.ts
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/Interactable
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/Interactable/Interactable.ts
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/Interactable/InteractableEventHandler.ts
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/InteractableManipulation
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/InteractableManipulation/InteractableManipulation.ts
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/InteractionPlane
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/InteractionPlane/InteractionPlane.ts
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/InteractorCursor
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/InteractorCursor/CircleVisual.ts
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/InteractorCursor/CircleVisualV2.ts
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/InteractorCursor/Cursor.mat
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/InteractorCursor/CursorController.ts
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/InteractorCursor/CursorMat.ss_graph
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/InteractorCursor/CursorViewModel.ts
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/InteractorCursor/CursorViewModelV2.ts
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/InteractorCursor/InteractorCursor.ts
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/InteractorCursor/ManipulateLineMat.ss_graph
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/InteractorCursor/ManipulateLineMaterial.mat
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/InteractorCursor/Plane.mesh
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/InteractorCursor/disabled.png
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/InteractorCursor/scale-tl.png
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/InteractorCursor/scale-tr.png
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/InteractorCursor/translate.png
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/InteractorLineVisual
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/InteractorLineVisual/InteractorLineMat.ss_graph
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/InteractorLineVisual/InteractorLineMaterial.mat
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/InteractorLineVisual/InteractorLineRenderer.ts
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/InteractorLineVisual/InteractorLineVisual.ts
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/InteractorRayVisual
+      - SpectaclesInteractionKit.lspkg/Components/Interaction/InteractorRayVisual/InteractorRayVisual.ts
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/ContainerFrame.ts
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Materials
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Materials/FrameMaterial.mat
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Materials/FrameMaterial.ss_graph
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Materials/Ghost Material.mat
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Materials/Ghost Material.ss_graph
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Materials/Image.mat
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Materials/Label.mat
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Materials/container-button.mat
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Materials/container-button.ss_graph
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Materials/flat.ss_graph
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Meshes
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Meshes/Frame.mesh
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Meshes/Frame_High.mesh
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Meshes/Frame_Mid.mesh
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Meshes/SphereButton.mesh
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Meshes/SysSettings_settings_button.mesh
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Meshes/pinch-depth-button.mesh
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Prefabs
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Prefabs/FramePrefab.prefab
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Prefabs/container-button.prefab
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/README.md
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Textures
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Textures/close-icon-1.png
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Textures/close-icon.png
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Textures/container-button-matcap.jpg
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Textures/follow-black.png
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Textures/follow-white-shadow.png
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Textures/follow-white.png
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Textures/reflection-map-1-cube.png
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Textures/reflection-map-1.jpg
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/Textures/soft-reflection.jpg
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/container-ui.png
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/modules
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/modules/CursorHandler.ts
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/modules/ForceContainerParent.ts
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/modules/FrameInputHandler.ts
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/modules/HoverBehavior.ts
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/modules/LabeledPinchButton.ts
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/modules/SimpleLODRenderMeshVisual
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/modules/SimpleLODRenderMeshVisual/SimpleLODRenderMeshVisual.ts
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/modules/SmoothFollow.ts
+      - SpectaclesInteractionKit.lspkg/Components/UI/ContainerFrame/modules/SnappableBehavior.ts
+      - SpectaclesInteractionKit.lspkg/Components/UI/PinchButton
+      - SpectaclesInteractionKit.lspkg/Components/UI/PinchButton/PinchButton.ts
+      - SpectaclesInteractionKit.lspkg/Components/UI/ScrollBar
+      - SpectaclesInteractionKit.lspkg/Components/UI/ScrollBar/ScrollBar.ts
+      - SpectaclesInteractionKit.lspkg/Components/UI/ScrollView/ScrollArea.ts
+      - SpectaclesInteractionKit.lspkg/Components/UI/ScrollView/ScrollProvider.ts
+      - SpectaclesInteractionKit.lspkg/Components/UI/ScrollView/ScrollView.ts
+      - SpectaclesInteractionKit.lspkg/Components/UI/ScrollView/boundariesProvider
+      - SpectaclesInteractionKit.lspkg/Components/UI/ScrollView/boundariesProvider/BoundariesProvider.ts
+      - SpectaclesInteractionKit.lspkg/Components/UI/ScrollView/boundariesProvider/BufferedBoundariesProvider.ts
+      - SpectaclesInteractionKit.lspkg/Components/UI/ScrollView/boundariesProvider/SceneObjectBoundariesProvider.ts
+      - SpectaclesInteractionKit.lspkg/Components/UI/ScrollView/boundariesProvider/ScreenTransformBoundariesProvider.ts
+      - SpectaclesInteractionKit.lspkg/Components/UI/ScrollView/boundariesProvider/VisualBoundariesProvider.ts
+      - SpectaclesInteractionKit.lspkg/Components/UI/Slider
+      - SpectaclesInteractionKit.lspkg/Components/UI/Slider/Slider.ts
+      - SpectaclesInteractionKit.lspkg/Components/UI/ToggleButton
+      - SpectaclesInteractionKit.lspkg/Components/UI/ToggleButton/ToggleButton.ts
+      - SpectaclesInteractionKit.lspkg/Core
+      - SpectaclesInteractionKit.lspkg/Core/ConfigurationValidator
+      - SpectaclesInteractionKit.lspkg/Core/ConfigurationValidator/ConfigurationValidator.ts
+      - SpectaclesInteractionKit.lspkg/Core/HandInteractor
+      - SpectaclesInteractionKit.lspkg/Core/HandInteractor/HandInteractor.ts
+      - SpectaclesInteractionKit.lspkg/Core/InteractionManager
+      - SpectaclesInteractionKit.lspkg/Core/InteractionManager/EventDispatcher.ts
+      - SpectaclesInteractionKit.lspkg/Core/InteractionManager/InteractionManager.ts
+      - SpectaclesInteractionKit.lspkg/Core/Interactor
+      - SpectaclesInteractionKit.lspkg/Core/Interactor/BaseInteractor.ts
+      - SpectaclesInteractionKit.lspkg/Core/Interactor/ColliderTargetProvider.ts
+      - SpectaclesInteractionKit.lspkg/Core/Interactor/DirectTargetProvider.ts
+      - SpectaclesInteractionKit.lspkg/Core/Interactor/DragProvider.ts
+      - SpectaclesInteractionKit.lspkg/Core/Interactor/FingertipConstants.ts
+      - SpectaclesInteractionKit.lspkg/Core/Interactor/HandRayProvider.ts
+      - SpectaclesInteractionKit.lspkg/Core/Interactor/IndirectTargetProvider.ts
+      - SpectaclesInteractionKit.lspkg/Core/Interactor/Interactor.ts
+      - SpectaclesInteractionKit.lspkg/Core/Interactor/InteractorEvent.ts
+      - SpectaclesInteractionKit.lspkg/Core/Interactor/MobileRayProvider.ts
+      - SpectaclesInteractionKit.lspkg/Core/Interactor/MouseTargetProvider.ts
+      - SpectaclesInteractionKit.lspkg/Core/Interactor/PhysicalInteractionProvider.ts
+      - SpectaclesInteractionKit.lspkg/Core/Interactor/PokeTargetProvider.ts
+      - SpectaclesInteractionKit.lspkg/Core/Interactor/RayProvider.ts
+      - SpectaclesInteractionKit.lspkg/Core/Interactor/TouchRayProvider.ts
+      - SpectaclesInteractionKit.lspkg/Core/Interactor/raycastAlgorithms
+      - SpectaclesInteractionKit.lspkg/Core/Interactor/raycastAlgorithms/AxisAngle.ts
+      - SpectaclesInteractionKit.lspkg/Core/Interactor/raycastAlgorithms/ContinousIrInteractionTransition.ts
+      - SpectaclesInteractionKit.lspkg/Core/Interactor/raycastAlgorithms/IrInteractionTransition.ts
+      - SpectaclesInteractionKit.lspkg/Core/Interactor/raycastAlgorithms/PinchJumpSuppressor.ts
+      - SpectaclesInteractionKit.lspkg/Core/Interactor/raycastAlgorithms/RaycastBase.ts
+      - SpectaclesInteractionKit.lspkg/Core/Interactor/raycastAlgorithms/RaycastProxy.ts
+      - SpectaclesInteractionKit.lspkg/Core/Interactor/raycastAlgorithms/RgbIrTransitionJumpSuppressor.ts
+      - SpectaclesInteractionKit.lspkg/Core/Interactor/raycastAlgorithms/SwitchIrInteractionTransition.ts
+      - SpectaclesInteractionKit.lspkg/Core/Interactor/raycastAlgorithms/TimeDataContainer.ts
+      - SpectaclesInteractionKit.lspkg/Core/Interactor/raycastAlgorithms/TimeScalarContainer.ts
+      - SpectaclesInteractionKit.lspkg/Core/Interactor/raycastAlgorithms/TimedVec2Container.ts
+      - SpectaclesInteractionKit.lspkg/Core/Interactor/raycastAlgorithms/TimedVec3Container.ts
+      - SpectaclesInteractionKit.lspkg/Core/LogLevelConfiguration
+      - SpectaclesInteractionKit.lspkg/Core/LogLevelConfiguration/LogLevelConfiguration.ts
+      - SpectaclesInteractionKit.lspkg/Core/LogLevelConfiguration/SIKLogLevelConfiguration.ts
+      - SpectaclesInteractionKit.lspkg/Core/MobileInteractor
+      - SpectaclesInteractionKit.lspkg/Core/MobileInteractor/MobileInteractor.ts
+      - SpectaclesInteractionKit.lspkg/Core/MouseInteractor
+      - SpectaclesInteractionKit.lspkg/Core/MouseInteractor/MouseInteractor.ts
+      - SpectaclesInteractionKit.lspkg/Core/SyncInteractionManager
+      - SpectaclesInteractionKit.lspkg/Core/SyncInteractionManager/SyncInteractionManager.ts
+      - SpectaclesInteractionKit.lspkg/Core/SyncInteractor
+      - SpectaclesInteractionKit.lspkg/Core/SyncInteractor/SyncInteractor.ts
+      - SpectaclesInteractionKit.lspkg/Decorators
+      - SpectaclesInteractionKit.lspkg/Decorators/Singleton.ts
+      - SpectaclesInteractionKit.lspkg/Prefabs
+      - SpectaclesInteractionKit.lspkg/Prefabs/ScrollViewListItem.prefab
+      - SpectaclesInteractionKit.lspkg/Prefabs/SpectaclesInteractionKit.prefab
+      - SpectaclesInteractionKit.lspkg/Providers
+      - SpectaclesInteractionKit.lspkg/Providers/CameraProvider
+      - SpectaclesInteractionKit.lspkg/Providers/CameraProvider/ARCameraFinderProvider.ts
+      - SpectaclesInteractionKit.lspkg/Providers/CameraProvider/BaseCameraFinderProvider.ts
+      - SpectaclesInteractionKit.lspkg/Providers/CameraProvider/BaseWorldCameraProvider.ts
+      - SpectaclesInteractionKit.lspkg/Providers/CameraProvider/CameraProvider.ts
+      - SpectaclesInteractionKit.lspkg/Providers/CameraProvider/WorldCameraFinderProvider.ts
+      - SpectaclesInteractionKit.lspkg/Providers/CursorControllerProvider
+      - SpectaclesInteractionKit.lspkg/Providers/CursorControllerProvider/CursorControllerProvider.ts
+      - SpectaclesInteractionKit.lspkg/Providers/HandInputData
+      - SpectaclesInteractionKit.lspkg/Providers/HandInputData/BaseHand.ts
+      - SpectaclesInteractionKit.lspkg/Providers/HandInputData/DefaultHandTrackingAssetProvider.ts
+      - SpectaclesInteractionKit.lspkg/Providers/HandInputData/GestureProvider
+      - SpectaclesInteractionKit.lspkg/Providers/HandInputData/GestureProvider/GestureModuleProvider.ts
+      - SpectaclesInteractionKit.lspkg/Providers/HandInputData/GestureProvider/PalmTapDetection
+      - SpectaclesInteractionKit.lspkg/Providers/HandInputData/GestureProvider/PalmTapDetection/PalmTapDetector.ts
+      - SpectaclesInteractionKit.lspkg/Providers/HandInputData/GestureProvider/PalmTapDetection/PalmTapDetectorStateMachine.ts
+      - SpectaclesInteractionKit.lspkg/Providers/HandInputData/GestureProvider/PalmTapDetectionEvent.ts
+      - SpectaclesInteractionKit.lspkg/Providers/HandInputData/GestureProvider/PalmTapEvent.ts
+      - SpectaclesInteractionKit.lspkg/Providers/HandInputData/GestureProvider/PinchDetection
+      - SpectaclesInteractionKit.lspkg/Providers/HandInputData/GestureProvider/PinchDetection/DetectionStrategies
+      - SpectaclesInteractionKit.lspkg/Providers/HandInputData/GestureProvider/PinchDetection/DetectionStrategies/HciPinchDetectionStrategy.ts
+      - SpectaclesInteractionKit.lspkg/Providers/HandInputData/GestureProvider/PinchDetection/DetectionStrategies/PinchDetectionStrategy.ts
+      - SpectaclesInteractionKit.lspkg/Providers/HandInputData/GestureProvider/PinchDetection/PinchDetector.ts
+      - SpectaclesInteractionKit.lspkg/Providers/HandInputData/GestureProvider/PinchDetection/PinchDetectorStateMachine.ts
+      - SpectaclesInteractionKit.lspkg/Providers/HandInputData/GestureProvider/PinchEventType.ts
+      - SpectaclesInteractionKit.lspkg/Providers/HandInputData/HandInputData.ts
+      - SpectaclesInteractionKit.lspkg/Providers/HandInputData/HandTrackingAssetProvider.ts
+      - SpectaclesInteractionKit.lspkg/Providers/HandInputData/HandType.ts
+      - SpectaclesInteractionKit.lspkg/Providers/HandInputData/HandVisuals.ts
+      - SpectaclesInteractionKit.lspkg/Providers/HandInputData/Joints.ts
+      - SpectaclesInteractionKit.lspkg/Providers/HandInputData/Keypoint.ts
+      - SpectaclesInteractionKit.lspkg/Providers/HandInputData/LandmarkNames.ts
+      - SpectaclesInteractionKit.lspkg/Providers/HandInputData/LeftHandAsset.handTracking3D
+      - SpectaclesInteractionKit.lspkg/Providers/HandInputData/RightHandAsset.handTracking3D
+      - SpectaclesInteractionKit.lspkg/Providers/HandInputData/TrackedHand.ts
+      - SpectaclesInteractionKit.lspkg/Providers/InteractionConfigurationProvider
+      - SpectaclesInteractionKit.lspkg/Providers/InteractionConfigurationProvider/InteractionConfigurationProvider.ts
+      - SpectaclesInteractionKit.lspkg/Providers/InteractionConfigurationProvider/LogLevelProvider.ts
+      - SpectaclesInteractionKit.lspkg/Providers/InteractionConfigurationProvider/SIKLogLevelProvider.ts
+      - SpectaclesInteractionKit.lspkg/Providers/MobileInputData
+      - SpectaclesInteractionKit.lspkg/Providers/MobileInputData/MobileInputData.ts
+      - SpectaclesInteractionKit.lspkg/Providers/MobileInputData/MotionControllerProvider.ts
+      - SpectaclesInteractionKit.lspkg/Providers/TargetProvider
+      - SpectaclesInteractionKit.lspkg/Providers/TargetProvider/TargetProvider.ts
+      - SpectaclesInteractionKit.lspkg/Providers/TargetProvider/TargetingData.ts
+      - SpectaclesInteractionKit.lspkg/README.md
+      - SpectaclesInteractionKit.lspkg/SIK.ts
+      - SpectaclesInteractionKit.lspkg/Utils
+      - SpectaclesInteractionKit.lspkg/Utils/BinaryHeap.ts
+      - SpectaclesInteractionKit.lspkg/Utils/BistableThreshold.ts
+      - SpectaclesInteractionKit.lspkg/Utils/ColliderUtils.ts
+      - SpectaclesInteractionKit.lspkg/Utils/Event.ts
+      - SpectaclesInteractionKit.lspkg/Utils/Filter.ts
+      - SpectaclesInteractionKit.lspkg/Utils/FrameCache.ts
+      - SpectaclesInteractionKit.lspkg/Utils/FunctionTimingUtils.ts
+      - SpectaclesInteractionKit.lspkg/Utils/InputChecker.ts
+      - SpectaclesInteractionKit.lspkg/Utils/InspectorCallbacks.ts
+      - SpectaclesInteractionKit.lspkg/Utils/LensConfig.ts
+      - SpectaclesInteractionKit.lspkg/Utils/LogLevel.ts
+      - SpectaclesInteractionKit.lspkg/Utils/MovingAverageFilter.ts
+      - SpectaclesInteractionKit.lspkg/Utils/NativeLogger.ts
+      - SpectaclesInteractionKit.lspkg/Utils/ObjectPool.ts
+      - SpectaclesInteractionKit.lspkg/Utils/OneEuroFilter.ts
+      - SpectaclesInteractionKit.lspkg/Utils/ReplayEvent.ts
+      - SpectaclesInteractionKit.lspkg/Utils/SafeReference.ts
+      - SpectaclesInteractionKit.lspkg/Utils/SampleOps.ts
+      - SpectaclesInteractionKit.lspkg/Utils/SceneObjectUtils.ts
+      - SpectaclesInteractionKit.lspkg/Utils/SeededRandomNumberGenerator.ts
+      - SpectaclesInteractionKit.lspkg/Utils/Spatial.ts
+      - SpectaclesInteractionKit.lspkg/Utils/State.ts
+      - SpectaclesInteractionKit.lspkg/Utils/StateMachine.ts
+      - SpectaclesInteractionKit.lspkg/Utils/SyncKitBridge.ts
+      - SpectaclesInteractionKit.lspkg/Utils/UpdateDispatcher.ts
+      - SpectaclesInteractionKit.lspkg/Utils/aabb.ts
+      - SpectaclesInteractionKit.lspkg/Utils/algorithms.ts
+      - SpectaclesInteractionKit.lspkg/Utils/animate.ts
+      - SpectaclesInteractionKit.lspkg/Utils/color.ts
+      - SpectaclesInteractionKit.lspkg/Utils/lazyProperty.ts
+      - SpectaclesInteractionKit.lspkg/Utils/logger.ts
+      - SpectaclesInteractionKit.lspkg/Utils/mathUtils.ts
+      - SpectaclesInteractionKit.lspkg/Utils/notEmpty.ts
+      - SpectaclesInteractionKit.lspkg/Utils/springAnimate.ts
+      - SpectaclesInteractionKit.lspkg/Utils/validate.ts
+      - SpectaclesInteractionKit.lspkg/Utils/views
+      - SpectaclesInteractionKit.lspkg/Utils/views/LineRenderer
+      - SpectaclesInteractionKit.lspkg/Utils/views/LineRenderer/LineMeshUtils.ts
+      - SpectaclesInteractionKit.lspkg/Utils/views/LineRenderer/LineRenderer.ts
+      - SpectaclesInteractionKit.lspkg/Utils/views/MeshView.ts
+      - SpectaclesInteractionKit.lspkg/Utils/views/View.ts
+      - SpectaclesInteractionKit.lspkg/VersionNumber.ts
+      - SpectaclesInteractionKit.lspkg/package.native
+      - SpectaclesInteractionKit.lspkg/tsconfig.json
+      - SpectaclesInteractionKitExamples 3.lspkg/README.md
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Materials
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Materials/Icons
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Materials/Icons/ModernBodyTube_icon.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Materials/Icons/ModernFins_icon.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Materials/Icons/ModernNoseCone_icon.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Materials/Icons/SleekBodyTube_icon.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Materials/Icons/SleekFins_icon.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Materials/Icons/SleekNoseCone_icon.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Materials/Icons/SpaceAgeBodyTube_icon.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Materials/Icons/SpaceAgeFins_icon.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Materials/Icons/SpaceAgeNoseCone_icon.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Materials/Objects
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Materials/Objects/SIK_Meteor.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Materials/Objects/SIK_Planet.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Materials/Objects/SIK_Planet_rings.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Materials/Objects/SIK_Platform.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Materials/Objects/SIK_Rocket_fire.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Materials/Objects/SIK_Rocket_glass.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Materials/Objects/SIK_Rocket_glass_satellite.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Materials/Objects/SIK_Rocket_grey.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Materials/Objects/SIK_Rocket_metal.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Materials/Objects/SIK_Rocket_metal_red.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Materials/Objects/SIK_Rocket_plastic_01.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Materials/Objects/SIK_Rocket_plastic_02.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Materials/Objects/SIK_Rocket_plastic_03.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Materials/Objects/SIK_Rocket_plastic_03_logo.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Materials/Objects/SIK_Rocket_white.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Materials/Objects/SIK_Rocket_white_logo.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Materials/Objects/SIK_Satellite_blue.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/Bases.fbx
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/Bases.fbx/.hidden
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/Bases.fbx/.hidden/Lightbake.001
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/Bases.fbx/.hidden/white
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/Bases.fbx/Bases
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/Bases.fbx/Materials
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/Bases.fbx/Materials/Lightbake.001
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/Bases.fbx/Meshes
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/Bases.fbx/Meshes/Circular
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/Bases.fbx/Meshes/Cubic_01
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/Bases.fbx/Meshes/Hexagon_01
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Meteor
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Planet
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Planet1
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_bottom
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_bottom1
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_bottom2
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_bottom3
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_middle
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_middle1
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_middle2
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_top
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_top1
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_02_bottom
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_02_middle
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_02_top
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_bottom
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_bottom1
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_bottom2
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_bottom3
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_bottom4
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_middle
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_top
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_top1
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_top2
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Satellite
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Satellite1
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Satellite2
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Satellite3
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/SIK_Rockets
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Prefabs
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Prefabs/Parts
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Prefabs/Parts/Modern Body Tube.prefab
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Prefabs/Parts/Modern Fins.prefab
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Prefabs/Parts/Modern Nose Cone.prefab
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Prefabs/Parts/Sleek Body Tube.prefab
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Prefabs/Parts/Sleek Fins.prefab
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Prefabs/Parts/Sleek Nose Cone.prefab
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Prefabs/Parts/Space Age Body Tube.prefab
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Prefabs/Parts/Space Age Fins.prefab
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Prefabs/Parts/Space Age Nose Cone.prefab
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Prefabs/ScrollViewListItems
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Prefabs/ScrollViewListItems/Body Tube Category.prefab
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Prefabs/ScrollViewListItems/Fins Category.prefab
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Prefabs/ScrollViewListItems/Modern Body Tube.prefab
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Prefabs/ScrollViewListItems/Modern Fins.prefab
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Prefabs/ScrollViewListItems/Modern Nose Cone.prefab
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Prefabs/ScrollViewListItems/Nose Cone Category.prefab
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Prefabs/ScrollViewListItems/Sleek Body Tube.prefab
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Prefabs/ScrollViewListItems/Sleek Fins.prefab
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Prefabs/ScrollViewListItems/Sleek Nose Cone.prefab
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Prefabs/ScrollViewListItems/Space Age Body Tube.prefab
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Prefabs/ScrollViewListItems/Space Age Fins.prefab
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Prefabs/ScrollViewListItems/Space Age Nose Cone.prefab
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/SFX
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/SFX/ui-rocket-ignition_c-1db_stereo4824.wav
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/SFX/ui-rocket-land-cutoff-c_-1dB_stereo4824.wav
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Scripts/ExhaustControls.ts
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Scripts/RocketConfigurator.ts
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Scripts/RocketLaunchControl.ts
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Scripts/RocketScrollViewItem.ts
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Shaders
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Shaders/Glass.ss_graph
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Shaders/Meteor.ss_graph
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Shaders/Planet.ss_graph
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Shaders/Planet_rings.ss_graph
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Shaders/Platform.ss_graph
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Shaders/Rocket.ss_graph
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Textures
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Textures/A-icon.png
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Textures/B-icon.png
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Textures/C-icon.png
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Textures/SIK_Meteor_bc.png
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Textures/SIK_Platforms_AO.jpg
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Textures/SIK_Rockets_AO.jpg
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Textures/SIK_Snap_logo.png
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Textures/SIK_Space_logo_TEMP.png
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Textures/ScrollViewThumbnails
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Textures/ScrollViewThumbnails/body-tube_rocket-A.png
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Textures/ScrollViewThumbnails/body-tube_rocket-B.png
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Textures/ScrollViewThumbnails/body-tube_rocket-C.png
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Textures/ScrollViewThumbnails/fins_rocket-A.png
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Textures/ScrollViewThumbnails/fins_rocket-B.png
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Textures/ScrollViewThumbnails/fins_rocket-C.png
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Textures/ScrollViewThumbnails/nose-cone_rocket-A.png
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Textures/ScrollViewThumbnails/nose-cone_rocket-B.png
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/Textures/ScrollViewThumbnails/nose-cone_rocket-C.png
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Clouds Landing
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Clouds Landing/Bones_clouds_ANIM_mat_landing.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Clouds Landing/Bones_clouds_material_landing_.ss_graph
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Clouds Landing/CloudsLanding.animationAsset
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Clouds Landing/line1.mesh
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Clouds Start
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Clouds Start/Bones_clouds_ANIM_mat_takeoff.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Clouds Start/Bones_clouds_material_start_.ss_graph
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Clouds Start/CloudsStart.animationAsset
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Clouds Start/line1.mesh
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Custom Mesh Emitter
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Custom Mesh Emitter/Custom Mesh Emitter.prefab
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Custom Mesh Emitter/Rocket_clouds_emit.vfxgraph
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Custom Mesh Emitter/cl_goup.mesh
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Exhaust
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Exhaust/Fire.ss_graph
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Exhaust/Fire_ANIM_mat.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Exhaust/Glow_ANIM_mat.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Exhaust/Glow_MAt.ss_graph
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Exhaust/blendshapes1.mesh
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Exhaust/dots.png
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Exhaust/engine_exhaust.prefab
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Exhaust/glow_plane.mesh
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Radial Heat
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Radial Heat/Noise00.png
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Radial Heat/Plane.mesh
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Radial Heat/RadialHeat_ANIM_mat.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Radial Heat/Radial_heat.ss_graph
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Rocket Animations
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Rocket Animations/Base Layer Rocket 1.animationAsset
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Rocket Animations/Base Layer Rocket 2.animationAsset
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Rocket Animations/Base Layer Rocket 3.animationAsset
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Rocket Sparks
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Rocket Sparks/Rocket_sparks.mesh
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Rocket Sparks/Top_Rocket_Trail.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Rocket Sparks/Top_Rocket_Trail.ss_graph
+      - SpectaclesInteractionKitExamples 3.lspkg/RocketWorkshop/VFX/Rocket Sparks/stripe_noise 2.png
+      - SpectaclesInteractionKitExamples 3.lspkg/SIK Examples__PLACE_IN_SCENE.prefab
+      - SpectaclesInteractionKitExamples 3.lspkg/UIStarter
+      - SpectaclesInteractionKitExamples 3.lspkg/UIStarter/Materials
+      - SpectaclesInteractionKitExamples 3.lspkg/UIStarter/Materials/ImageMaterial 2.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/UIStarter/Materials/ImageMaterial 3.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/UIStarter/Materials/ImageMaterial.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/UIStarter/Scripts
+      - SpectaclesInteractionKitExamples 3.lspkg/UIStarter/Scripts/UIController.ts
+      - SpectaclesInteractionKitExamples 3.lspkg/UIStarter/Scripts/UIManager.ts
+      - SpectaclesInteractionKitExamples 3.lspkg/UIStarter/Textures
+      - SpectaclesInteractionKitExamples 3.lspkg/UIStarter/Textures/ImageMaterial.mat
+      - SpectaclesInteractionKitExamples 3.lspkg/UIStarter/Textures/Polygon 2.png
+      - SpectaclesInteractionKitExamples 3.lspkg/UIStarter/Textures/image_unlit.ss_graph
+      - SpectaclesInteractionKitExamples 3.lspkg/package.native
+      - SpectaclesInteractionKitExamples 3.lspkg/package_dependencies.json
+      - SpectaclesInteractionKitExamples.lspkg/README.md
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Materials
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Materials/Icons
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Materials/Icons/ModernBodyTube_icon.mat
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Materials/Icons/ModernFins_icon.mat
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Materials/Icons/ModernNoseCone_icon.mat
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Materials/Icons/SleekBodyTube_icon.mat
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Materials/Icons/SleekFins_icon.mat
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Materials/Icons/SleekNoseCone_icon.mat
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Materials/Icons/SpaceAgeBodyTube_icon.mat
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Materials/Icons/SpaceAgeFins_icon.mat
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Materials/Icons/SpaceAgeNoseCone_icon.mat
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Materials/Objects
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Materials/Objects/SIK_Meteor.mat
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Materials/Objects/SIK_Planet.mat
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Materials/Objects/SIK_Planet_rings.mat
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Materials/Objects/SIK_Platform.mat
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Materials/Objects/SIK_Rocket_fire.mat
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Materials/Objects/SIK_Rocket_glass.mat
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Materials/Objects/SIK_Rocket_glass_satellite.mat
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Materials/Objects/SIK_Rocket_grey.mat
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Materials/Objects/SIK_Rocket_metal.mat
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Materials/Objects/SIK_Rocket_metal_red.mat
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Materials/Objects/SIK_Rocket_plastic_01.mat
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Materials/Objects/SIK_Rocket_plastic_02.mat
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Materials/Objects/SIK_Rocket_plastic_03.mat
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Materials/Objects/SIK_Rocket_plastic_03_logo.mat
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Materials/Objects/SIK_Rocket_white.mat
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Materials/Objects/SIK_Rocket_white_logo.mat
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Materials/Objects/SIK_Satellite_blue.mat
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/Bases.fbx
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/Bases.fbx/.hidden
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/Bases.fbx/.hidden/Lightbake.001
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/Bases.fbx/.hidden/white
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/Bases.fbx/Bases
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/Bases.fbx/Materials
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/Bases.fbx/Materials/Lightbake.001
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/Bases.fbx/Meshes
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/Bases.fbx/Meshes/Circular
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/Bases.fbx/Meshes/Cubic_01
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/Bases.fbx/Meshes/Hexagon_01
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Meteor
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Planet
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Planet1
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_bottom
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_bottom1
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_bottom2
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_bottom3
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_middle
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_middle1
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_middle2
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_top
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_01_top1
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_02_bottom
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_02_middle
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_02_top
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_bottom
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_bottom1
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_bottom2
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_bottom3
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_bottom4
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_middle
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_top
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_top1
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Rocket_03_top2
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Satellite
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Satellite1
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Satellite2
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/Meshes/Satellite3
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Meshes/SIK_Rockets.fbx/SIK_Rockets
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Prefabs
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Prefabs/Parts
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Prefabs/Parts/Modern Body Tube.prefab
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Prefabs/Parts/Modern Fins.prefab
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Prefabs/Parts/Modern Nose Cone.prefab
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Prefabs/Parts/Sleek Body Tube.prefab
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Prefabs/Parts/Sleek Fins.prefab
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Prefabs/Parts/Sleek Nose Cone.prefab
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Prefabs/Parts/Space Age Body Tube.prefab
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Prefabs/Parts/Space Age Fins.prefab
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Prefabs/Parts/Space Age Nose Cone.prefab
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Prefabs/ScrollViewListItems
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Prefabs/ScrollViewListItems/Body Tube Category.prefab
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Prefabs/ScrollViewListItems/Fins Category.prefab
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Prefabs/ScrollViewListItems/Modern Body Tube.prefab
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Prefabs/ScrollViewListItems/Modern Fins.prefab
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Prefabs/ScrollViewListItems/Modern Nose Cone.prefab
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Prefabs/ScrollViewListItems/Nose Cone Category.prefab
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Prefabs/ScrollViewListItems/Sleek Body Tube.prefab
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Prefabs/ScrollViewListItems/Sleek Fins.prefab
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Prefabs/ScrollViewListItems/Sleek Nose Cone.prefab
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Prefabs/ScrollViewListItems/Space Age Body Tube.prefab
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Prefabs/ScrollViewListItems/Space Age Fins.prefab
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Prefabs/ScrollViewListItems/Space Age Nose Cone.prefab
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/SFX
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/SFX/ui-rocket-ignition_c-1db_stereo4824.wav
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/SFX/ui-rocket-land-cutoff-c_-1dB_stereo4824.wav
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Scripts/ExhaustControls.ts
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Scripts/RocketConfigurator.ts
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Scripts/RocketLaunchControl.ts
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Scripts/RocketScrollViewItem.ts
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Shaders
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Shaders/Glass.ss_graph
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Shaders/Meteor.ss_graph
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Shaders/Planet.ss_graph
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Shaders/Planet_rings.ss_graph
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Shaders/Platform.ss_graph
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Shaders/Rocket.ss_graph
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Textures
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Textures/A-icon.png
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Textures/B-icon.png
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Textures/C-icon.png
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Textures/SIK_Meteor_bc.png
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Textures/SIK_Platforms_AO.jpg
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Textures/SIK_Rockets_AO.jpg
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Textures/SIK_Snap_logo.png
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Textures/SIK_Space_logo_TEMP.png
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Textures/ScrollViewThumbnails
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Textures/ScrollViewThumbnails/body-tube_rocket-A.png
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Textures/ScrollViewThumbnails/body-tube_rocket-B.png
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Textures/ScrollViewThumbnails/body-tube_rocket-C.png
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Textures/ScrollViewThumbnails/fins_rocket-A.png
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Textures/ScrollViewThumbnails/fins_rocket-B.png
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Textures/ScrollViewThumbnails/fins_rocket-C.png
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Textures/ScrollViewThumbnails/nose-cone_rocket-A.png
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Textures/ScrollViewThumbnails/nose-cone_rocket-B.png
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/Textures/ScrollViewThumbnails/nose-cone_rocket-C.png
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Clouds Landing
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Clouds Landing/Bones_clouds_ANIM_mat_landing.mat
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Clouds Landing/Bones_clouds_material_landing_.ss_graph
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Clouds Landing/CloudsLanding.animationAsset
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Clouds Landing/line1.mesh
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Clouds Start
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Clouds Start/Bones_clouds_ANIM_mat_takeoff.mat
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Clouds Start/Bones_clouds_material_start_.ss_graph
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Clouds Start/CloudsStart.animationAsset
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Clouds Start/line1.mesh
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Custom Mesh Emitter
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Custom Mesh Emitter/Custom Mesh Emitter.prefab
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Custom Mesh Emitter/Rocket_clouds_emit.vfxgraph
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Custom Mesh Emitter/cl_goup.mesh
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Exhaust
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Exhaust/Fire.ss_graph
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Exhaust/Fire_ANIM_mat.mat
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Exhaust/Glow_ANIM_mat.mat
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Exhaust/Glow_MAt.ss_graph
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Exhaust/blendshapes1.mesh
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Exhaust/dots.png
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Exhaust/engine_exhaust.prefab
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Exhaust/glow_plane.mesh
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Radial Heat
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Radial Heat/Noise00.png
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Radial Heat/Plane.mesh
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Radial Heat/RadialHeat_ANIM_mat.mat
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Radial Heat/Radial_heat.ss_graph
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Rocket Animations
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Rocket Animations/Base Layer Rocket 1.animationAsset
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Rocket Animations/Base Layer Rocket 2.animationAsset
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Rocket Animations/Base Layer Rocket 3.animationAsset
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Rocket Sparks
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Rocket Sparks/Rocket_sparks.mesh
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Rocket Sparks/Top_Rocket_Trail.mat
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Rocket Sparks/Top_Rocket_Trail.ss_graph
+      - SpectaclesInteractionKitExamples.lspkg/RocketWorkshop/VFX/Rocket Sparks/stripe_noise 2.png
+      - SpectaclesInteractionKitExamples.lspkg/SIK Examples__PLACE_IN_SCENE.prefab
+      - SpectaclesInteractionKitExamples.lspkg/UIStarter
+      - SpectaclesInteractionKitExamples.lspkg/UIStarter/Materials
+      - SpectaclesInteractionKitExamples.lspkg/UIStarter/Materials/ImageMaterial 2.mat
+      - SpectaclesInteractionKitExamples.lspkg/UIStarter/Materials/ImageMaterial 3.mat
+      - SpectaclesInteractionKitExamples.lspkg/UIStarter/Materials/ImageMaterial.mat
+      - SpectaclesInteractionKitExamples.lspkg/UIStarter/Scripts
+      - SpectaclesInteractionKitExamples.lspkg/UIStarter/Scripts/UIController.ts
+      - SpectaclesInteractionKitExamples.lspkg/UIStarter/Scripts/UIManager.ts
+      - SpectaclesInteractionKitExamples.lspkg/UIStarter/Textures
+      - SpectaclesInteractionKitExamples.lspkg/UIStarter/Textures/ImageMaterial.mat
+      - SpectaclesInteractionKitExamples.lspkg/UIStarter/Textures/Polygon 2.png
+      - SpectaclesInteractionKitExamples.lspkg/UIStarter/Textures/image_unlit.ss_graph
+      - SpectaclesInteractionKitExamples.lspkg/package.native
+      - SpectaclesInteractionKitExamples.lspkg/package_dependencies.json
+      - SpectaclesUIKit.lspkg
+      - SpectaclesUIKit.lspkg/Audio
+      - SpectaclesUIKit.lspkg/Audio/HoverAudioTrack.wav
+      - SpectaclesUIKit.lspkg/Audio/SliderProgressionAudioTrack.wav
+      - SpectaclesUIKit.lspkg/Audio/TriggerEndAudioTrack.wav
+      - SpectaclesUIKit.lspkg/Audio/TriggerStartAudioTrack.wav
+      - SpectaclesUIKit.lspkg/Materials
+      - SpectaclesUIKit.lspkg/Materials/ConfirmationSlider.mat
+      - SpectaclesUIKit.lspkg/Materials/ConfirmationSlider.ss_graph
+      - SpectaclesUIKit.lspkg/Materials/DefaultCapsule.mat
+      - SpectaclesUIKit.lspkg/Materials/DefaultCapsuleShader.ss_graph
+      - SpectaclesUIKit.lspkg/Materials/DefaultRadioButtonCheck.mat
+      - SpectaclesUIKit.lspkg/Materials/DefaultSphereSimple.mat
+      - SpectaclesUIKit.lspkg/Materials/DefaultSphereSimpleShader.ss_graph
+      - SpectaclesUIKit.lspkg/Materials/FragRoundedRectangle.mat
+      - SpectaclesUIKit.lspkg/Materials/FragRoundedRectangle.ss_graph
+      - SpectaclesUIKit.lspkg/Materials/Frame.mat
+      - SpectaclesUIKit.lspkg/Materials/Frame.ss_graph
+      - SpectaclesUIKit.lspkg/Materials/Image.mat
+      - SpectaclesUIKit.lspkg/Materials/ImageShader.ss_graph
+      - SpectaclesUIKit.lspkg/Materials/RoundedRectangleStroke.mat
+      - SpectaclesUIKit.lspkg/Materials/RoundedRectangleStrokeShader.ss_graph
+      - SpectaclesUIKit.lspkg/Materials/ScrollWindowFadeMask.mat
+      - SpectaclesUIKit.lspkg/Materials/ScrollWindowFadeMaskShader.ss_graph
+      - SpectaclesUIKit.lspkg/Meshes
+      - SpectaclesUIKit.lspkg/Meshes/CapsuleSphere.mesh
+      - SpectaclesUIKit.lspkg/Meshes/DefaultCapsule.mesh
+      - SpectaclesUIKit.lspkg/Meshes/DefaultSphere.mesh
+      - SpectaclesUIKit.lspkg/Meshes/StretchableCircle.mesh
+      - SpectaclesUIKit.lspkg/Meshes/Unit Plane.mesh
+      - SpectaclesUIKit.lspkg/Prefabs
+      - SpectaclesUIKit.lspkg/Prefabs/DropShadow.prefab
+      - SpectaclesUIKit.lspkg/Prefabs/ExampleInterface.prefab
+      - SpectaclesUIKit.lspkg/Prefabs/FrameButton.prefab
+      - SpectaclesUIKit.lspkg/Prefabs/ImageButton.prefab
+      - SpectaclesUIKit.lspkg/Prefabs/LabelledButton.prefab
+      - SpectaclesUIKit.lspkg/Prefabs/LabelledToggle.prefab
+      - SpectaclesUIKit.lspkg/README.md
+      - SpectaclesUIKit.lspkg/Scripts/BackPlate.ts
+      - SpectaclesUIKit.lspkg/Scripts/Components/Button
+      - SpectaclesUIKit.lspkg/Scripts/Components/Button/BaseButton.ts
+      - SpectaclesUIKit.lspkg/Scripts/Components/Button/CapsuleButton.ts
+      - SpectaclesUIKit.lspkg/Scripts/Components/Button/Checkbox.ts
+      - SpectaclesUIKit.lspkg/Scripts/Components/Button/RadioButton.ts
+      - SpectaclesUIKit.lspkg/Scripts/Components/Button/RectangleButton.ts
+      - SpectaclesUIKit.lspkg/Scripts/Components/Button/RoundButton.ts
+      - SpectaclesUIKit.lspkg/Scripts/Components/Element.ts
+      - SpectaclesUIKit.lspkg/Scripts/Components/Frame
+      - SpectaclesUIKit.lspkg/Scripts/Components/Frame/Frame.ts
+      - SpectaclesUIKit.lspkg/Scripts/Components/Frame/modules
+      - SpectaclesUIKit.lspkg/Scripts/Components/Frame/modules/ButtonHandler.ts
+      - SpectaclesUIKit.lspkg/Scripts/Components/Frame/modules/CursorHandler.ts
+      - SpectaclesUIKit.lspkg/Scripts/Components/Frame/modules/FrameButton.ts
+      - SpectaclesUIKit.lspkg/Scripts/Components/Frame/modules/FrameInputHandler.ts
+      - SpectaclesUIKit.lspkg/Scripts/Components/Frame/modules/HoverBehavior.ts
+      - SpectaclesUIKit.lspkg/Scripts/Components/Frame/modules/SmoothFollow.ts
+      - SpectaclesUIKit.lspkg/Scripts/Components/Frame/modules/SnappingHandler.ts
+      - SpectaclesUIKit.lspkg/Scripts/Components/ScrollWindow
+      - SpectaclesUIKit.lspkg/Scripts/Components/ScrollWindow/ScrollWindow.ts
+      - SpectaclesUIKit.lspkg/Scripts/Components/Slider
+      - SpectaclesUIKit.lspkg/Scripts/Components/Slider/ConfirmationSlider.ts
+      - SpectaclesUIKit.lspkg/Scripts/Components/Slider/Slider.ts
+      - SpectaclesUIKit.lspkg/Scripts/Components/Switch
+      - SpectaclesUIKit.lspkg/Scripts/Components/Switch/Switch.ts
+      - SpectaclesUIKit.lspkg/Scripts/Components/TextInputField
+      - SpectaclesUIKit.lspkg/Scripts/Components/TextInputField/TextInputField.ts
+      - SpectaclesUIKit.lspkg/Scripts/Components/TextInputField/TextInputFieldManager.ts
+      - SpectaclesUIKit.lspkg/Scripts/Components/TextStylePresets
+      - SpectaclesUIKit.lspkg/Scripts/Components/TextStylePresets/TextStylePresets.ts
+      - SpectaclesUIKit.lspkg/Scripts/Components/Toggle
+      - SpectaclesUIKit.lspkg/Scripts/Components/Toggle/BaseToggleGroup.ts
+      - SpectaclesUIKit.lspkg/Scripts/Components/Toggle/SwitchToggleGroup.ts
+      - SpectaclesUIKit.lspkg/Scripts/Components/Toggle/ToggleGroup.ts
+      - SpectaclesUIKit.lspkg/Scripts/Components/Toggle/Toggleable.ts
+      - SpectaclesUIKit.lspkg/Scripts/Components/VisualElement.ts
+      - SpectaclesUIKit.lspkg/Scripts/DropShadow.ts
+      - SpectaclesUIKit.lspkg/Scripts/Example
+      - SpectaclesUIKit.lspkg/Scripts/Example/Capsule3D
+      - SpectaclesUIKit.lspkg/Scripts/Example/Capsule3D/Capsule3DButton.ts
+      - SpectaclesUIKit.lspkg/Scripts/Example/Capsule3D/Visual
+      - SpectaclesUIKit.lspkg/Scripts/Example/Capsule3D/Visual/Capsule3D.ts
+      - SpectaclesUIKit.lspkg/Scripts/Example/Capsule3D/Visual/Capsule3DVisual.ts
+      - SpectaclesUIKit.lspkg/Scripts/Example/Sphere
+      - SpectaclesUIKit.lspkg/Scripts/Example/Sphere/SphereButton.ts
+      - SpectaclesUIKit.lspkg/Scripts/Example/Sphere/Visual
+      - SpectaclesUIKit.lspkg/Scripts/Example/Sphere/Visual/Sphere.ts
+      - SpectaclesUIKit.lspkg/Scripts/Example/Sphere/Visual/SphereVisual.ts
+      - SpectaclesUIKit.lspkg/Scripts/ScrollBar.ts
+      - SpectaclesUIKit.lspkg/Scripts/Themes
+      - SpectaclesUIKit.lspkg/Scripts/Themes/Hexenfurt
+      - SpectaclesUIKit.lspkg/Scripts/Themes/Hexenfurt/HexenfurtCapsuleButtonParameters.ts
+      - SpectaclesUIKit.lspkg/Scripts/Themes/Hexenfurt/HexenfurtRectangleButtonParameters.ts
+      - SpectaclesUIKit.lspkg/Scripts/Themes/Hexenfurt/HexenfurtRoundButtonParameters.ts
+      - SpectaclesUIKit.lspkg/Scripts/Themes/Hexenfurt/HexenfurtTheme.ts
+      - SpectaclesUIKit.lspkg/Scripts/Themes/SnapOS-2.0
+      - SpectaclesUIKit.lspkg/Scripts/Themes/SnapOS-2.0/Colors.ts
+      - SpectaclesUIKit.lspkg/Scripts/Themes/SnapOS-2.0/Gradients
+      - SpectaclesUIKit.lspkg/Scripts/Themes/SnapOS-2.0/Gradients/GhostGradients.ts
+      - SpectaclesUIKit.lspkg/Scripts/Themes/SnapOS-2.0/Gradients/PrimaryGradients.ts
+      - SpectaclesUIKit.lspkg/Scripts/Themes/SnapOS-2.0/Gradients/PrimaryNeutralGradients.ts
+      - SpectaclesUIKit.lspkg/Scripts/Themes/SnapOS-2.0/Gradients/SecondaryGradients.ts
+      - SpectaclesUIKit.lspkg/Scripts/Themes/SnapOS-2.0/Gradients/SpecialGradients.ts
+      - SpectaclesUIKit.lspkg/Scripts/Themes/SnapOS-2.0/SnapOS2.ts
+      - SpectaclesUIKit.lspkg/Scripts/Themes/SnapOS-2.0/Styles
+      - SpectaclesUIKit.lspkg/Scripts/Themes/SnapOS-2.0/Styles/CapsuleButtonParameters.ts
+      - SpectaclesUIKit.lspkg/Scripts/Themes/SnapOS-2.0/Styles/RectangleButtonParameters.ts
+      - SpectaclesUIKit.lspkg/Scripts/Themes/SnapOS-2.0/Styles/RoundButtonParameters.ts
+      - SpectaclesUIKit.lspkg/Scripts/Themes/Style.ts
+      - SpectaclesUIKit.lspkg/Scripts/Themes/Theme.ts
+      - SpectaclesUIKit.lspkg/Scripts/Themes/themeRegistry.ts
+      - SpectaclesUIKit.lspkg/Scripts/Tooltip.ts
+      - SpectaclesUIKit.lspkg/Scripts/Utility
+      - SpectaclesUIKit.lspkg/Scripts/Utility/DebugCamera
+      - SpectaclesUIKit.lspkg/Scripts/Utility/DebugCamera/DebugCamera.ts
+      - SpectaclesUIKit.lspkg/Scripts/Utility/DebugCamera/Unit Plane.mesh
+      - SpectaclesUIKit.lspkg/Scripts/Utility/DebugCamera/ViewingPlane.mat
+      - SpectaclesUIKit.lspkg/Scripts/Utility/DebugCamera/ViewingPlane.ss_graph
+      - SpectaclesUIKit.lspkg/Scripts/Utility/Frustum.ts
+      - SpectaclesUIKit.lspkg/Scripts/Utility/InteractableStateMachine.ts
+      - SpectaclesUIKit.lspkg/Scripts/Utility/SceneUtilities.ts
+      - SpectaclesUIKit.lspkg/Scripts/Utility/UIKitAudioPlayer.ts
+      - SpectaclesUIKit.lspkg/Scripts/Utility/UIKitUtilities.ts
+      - SpectaclesUIKit.lspkg/Scripts/Visuals
+      - SpectaclesUIKit.lspkg/Scripts/Visuals/DropShadowVisual.ts
+      - SpectaclesUIKit.lspkg/Scripts/Visuals/RoundedRectangle
+      - SpectaclesUIKit.lspkg/Scripts/Visuals/RoundedRectangle/RoundedRectangle.ts
+      - SpectaclesUIKit.lspkg/Scripts/Visuals/RoundedRectangle/RoundedRectangleVisual.ts
+      - SpectaclesUIKit.lspkg/Scripts/Visuals/Visual.ts
+      - SpectaclesUIKit.lspkg/Textures
+      - SpectaclesUIKit.lspkg/Textures/DefaultSphere_reflection_map.jpg
+      - SpectaclesUIKit.lspkg/Textures/ReflectionCubeMap.png
+      - SpectaclesUIKit.lspkg/Textures/check_default.png
+      - SpectaclesUIKit.lspkg/Textures/check_hovered.png
+      - SpectaclesUIKit.lspkg/Textures/check_toggledHovered.png
+      - SpectaclesUIKit.lspkg/Textures/circle-lut-128.png
+      - SpectaclesUIKit.lspkg/Textures/close-icon-1.png
+      - SpectaclesUIKit.lspkg/Textures/eye-icon.png
+      - SpectaclesUIKit.lspkg/Textures/eye-off-icon.png
+      - SpectaclesUIKit.lspkg/Textures/follow-black.png
+      - SpectaclesUIKit.lspkg/Textures/follow-white.png
+      - SpectaclesUIKit.lspkg/Textures/frame-bg-texture.png
+      - SpectaclesUIKit.lspkg/Textures/test-image.jpg
+      - SpectaclesUIKit.lspkg/package.native
+      - SpectaclesUIKit.lspkg/package_dependencies.json
+      - SupabaseClient.lspkg
+      - SupabaseClient.lspkg/package.native
+      - SupabaseClient.lspkg/polyfills
+      - SupabaseClient.lspkg/polyfills/FormData.d.ts
+      - SupabaseClient.lspkg/polyfills/Headers.d.ts
+      - SupabaseClient.lspkg/polyfills/Request.d.ts
+      - SupabaseClient.lspkg/polyfills/Response.d.ts
+      - SupabaseClient.lspkg/polyfills/WebSocket.d.ts
+      - SupabaseClient.lspkg/polyfills/btoa.d.ts
+      - SupabaseClient.lspkg/polyfills/fetch.d.ts
+      - SupabaseClient.lspkg/polyfills/object.d.ts
+      - SupabaseClient.lspkg/polyfills/textdecoder.d.ts
+      - SupabaseClient.lspkg/polyfills/timers.d.ts
+      - SupabaseClient.lspkg/polyfills/url.d.ts
+      - SupabaseClient.lspkg/polyfills/urlsearchparams.d.ts
+      - SupabaseClient.lspkg/supabase-snapcloud.d.ts
+      - SupabaseClient.lspkg/supabase-snapcloud.js
+      - Textures
+      - Textures/Black Occluder.png
+      - Textures/Blurred Number Strip.jpg
+      - Textures/Candle Flame 2.png
+      - Textures/Candle Flame.png
+      - Textures/Echopark.hdr
+      - Textures/Echopark.hdr/Diffuse
+      - Textures/Echopark.hdr/Specular
+      - Textures/Fingerprints_Dust_Heavy_1_1K.png
+      - Textures/Hexenfurt Folder Button.png
+      - Textures/Hint Occluder 2.png
+      - Textures/Hint Occluder.png
+      - Textures/Icons
+      - Textures/Icons/Chevron Right.png
+      - Textures/Icons/Inner Loader.png
+      - Textures/Icons/Outer Loader.png
+      - Textures/Icons/X Mark.png
+      - Textures/Icons/loader_alpha_64x64_dither.gif
+      - Textures/Leaderboard Hint.png
+      - Textures/Leaderboard Mockup.png
+      - Textures/Lightmap Chandelier.png
+      - Textures/Logo
+      - Textures/Logo/Logo Default.png
+      - Textures/Logo/Logo Gritty.png
+      - Textures/Logo/Logo V1.png
+      - Textures/Logo/Logo V2.png
+      - Textures/Logo/Logo V3.png
+      - Textures/Logo/growpile-light-500px.png
+      - Textures/Lore Items
+      - Textures/Lore Items/NP13101973.2.png
+      - Textures/Lore Items/NP13101973.png
+      - Textures/Lore Items/NP13102025.png
+      - Textures/Lore Items/NP30102025.png
+      - Textures/Lore Items/NP31102025.png
+      - Textures/Lore Items/NP3112025.png
+      - Textures/Lore Items/Note 1.png
+      - Textures/Lore Items/Note 2.png
+      - Textures/Number Strip.jpg
+      - Textures/Pages Particle Atlas.png
+      - Textures/Paintings
+      - Textures/Paintings/Painting 1.png
+      - Textures/Paintings/Painting 2.jpg
+      - Textures/Paintings/Painting 3.png
+      - Textures/Paintings/Painting 4.jpg
+      - Textures/Paintings/Painting 5.jpg
+      - Textures/Render Textures
+      - Textures/Render Textures/Device Camera Texture.deviceCameraTexture
+      - Textures/Render Textures/Foreground Render Target.renderTarget
+      - Textures/Render Textures/Render Target.renderTarget
+      - Textures/Room Object Textures/Baked Door.jpg
+      - Textures/Room Object Textures/Baked Frame.jpg
+      - Textures/Room Object Textures/Baked_Frame2.jpg
+      - Textures/Room Object Textures/Base.png
+      - Textures/Room Object Textures/Chandelier Shadow.png
+      - Textures/Room Object Textures/Clock Face Normal.jpg
+      - Textures/Room Object Textures/Clock Face.jpg
+      - Textures/Room Object Textures/Door Outline.png
+      - Textures/Room Object Textures/MaterialParams.png
+      - Textures/Room Object Textures/Normal.png
+      - Textures/Room Object Textures/Note Opacity Fix.jpg
+      - Textures/Room Object Textures/Note Sprite.png
+      - Textures/Room Object Textures/Notebook Albedo.jpg
+      - Textures/Room Object Textures/Notebook Normals.jpg
+      - Textures/Room Object Textures/Painting Normal.png
+      - Textures/Room Object Textures/Painting.jpg
+      - Textures/Room Object Textures/Vase Normal.jpg
+      - Textures/Room Object Textures/Vase Texture.jpg
+      - Textures/Room Object Textures/Wood Normal.png
+      - Textures/Room Object Textures/Wood Roughness.png
+      - Textures/Room Object Textures/Wood Texture.jpg
+      - Textures/Room Object Textures/sparkles_atlas.jpg
+      - Textures/Symbol Map 1.png
+      - Textures/Symbol Map 2.png
+      - Textures/Web Leaderboard Hint.png
+      - Textures/_Remake Textures
+      - Textures/_Remake Textures/Art Frame & Vase Detail Textures
+      - Textures/_Remake Textures/Art Frame & Vase Detail Textures/FrameAndVaseGold_albedo.jpg
+      - Textures/_Remake Textures/Art Frame & Vase Detail Textures/FrameAndVaseGold_metalness.jpg
+      - Textures/_Remake Textures/Art Frame & Vase Detail Textures/FrameAndVaseGold_normal.jpg
+      - Textures/_Remake Textures/Art Frame & Vase Detail Textures/FrameAndVaseGold_roughness.jpg
+      - Textures/_Remake Textures/Candle & Vase Textures
+      - Textures/_Remake Textures/Candle & Vase Textures/Gold Vase
+      - Textures/_Remake Textures/Candle & Vase Textures/Gold Vase/VaseCandle_albedo.jpg
+      - Textures/_Remake Textures/Candle & Vase Textures/Gold Vase/VaseCandle_metalness.jpg
+      - Textures/_Remake Textures/Candle & Vase Textures/Gold Vase/VaseCandle_normal.jpg
+      - Textures/_Remake Textures/Candle & Vase Textures/Gold Vase/VaseCandle_roughness.jpg
+      - Textures/_Remake Textures/Candle & Vase Textures/Green Vase
+      - Textures/_Remake Textures/Candle & Vase Textures/Green Vase/VaseCandle_albedo.jpg
+      - Textures/_Remake Textures/Candle & Vase Textures/Green Vase/VaseCandle_metalness.jpg
+      - Textures/_Remake Textures/Candle & Vase Textures/Green Vase/VaseCandle_normal.jpg
+      - Textures/_Remake Textures/Candle & Vase Textures/Green Vase/VaseCandle_roughness.jpg
+      - Textures/_Remake Textures/Chandelier Textures
+      - Textures/_Remake Textures/Chandelier Textures/Chandelier_albedo.jpg
+      - Textures/_Remake Textures/Chandelier Textures/Chandelier_metalness.jpg
+      - Textures/_Remake Textures/Chandelier Textures/Chandelier_normal.jpg
+      - Textures/_Remake Textures/Chandelier Textures/Chandelier_roughness.jpg
+      - Textures/_Remake Textures/Chest Textures
+      - Textures/_Remake Textures/Chest Textures/Chest_albedo.jpg
+      - Textures/_Remake Textures/Chest Textures/Chest_metalness.jpg
+      - Textures/_Remake Textures/Chest Textures/Chest_normal.jpg
+      - Textures/_Remake Textures/Chest Textures/Chest_roughness.jpg
+      - Textures/_Remake Textures/Door Fan Book Textures
+      - Textures/_Remake Textures/Door Fan Book Textures/BookPages.jpg
+      - Textures/_Remake Textures/Door Fan Book Textures/DoorFanBook_albedo.jpg
+      - Textures/_Remake Textures/Door Fan Book Textures/DoorFanBook_metalness.jpg
+      - Textures/_Remake Textures/Door Fan Book Textures/DoorFanBook_normal.jpg
+      - Textures/_Remake Textures/Door Fan Book Textures/DoorFanBook_roughness.jpg
+      - Textures/_Remake Textures/Drawer & Bookshelf Textures
+      - Textures/_Remake Textures/Drawer & Bookshelf Textures/DrawerAndBookshelf_albedo.jpg
+      - Textures/_Remake Textures/Drawer & Bookshelf Textures/DrawerAndBookshelf_metalness.png
+      - Textures/_Remake Textures/Drawer & Bookshelf Textures/DrawerAndBookshelf_normal.jpg
+      - Textures/_Remake Textures/Drawer & Bookshelf Textures/DrawerAndBookshelf_roughness.jpg
+      - Textures/_Remake Textures/Grand Clock Textures
+      - Textures/_Remake Textures/Grand Clock Textures/ClockTexture.jpg
+      - Textures/_Remake Textures/Grand Clock Textures/Gfc_albedo.jpg
+      - Textures/_Remake Textures/Grand Clock Textures/Gfc_metalness.jpg
+      - Textures/_Remake Textures/Grand Clock Textures/Gfc_normal.jpg
+      - Textures/_Remake Textures/Grand Clock Textures/Gfc_roughness.jpg
+      - Textures/_Remake Textures/Safe Gramophone Textures
+      - Textures/_Remake Textures/Safe Gramophone Textures/SafeGramophone_albedo.jpg
+      - Textures/_Remake Textures/Safe Gramophone Textures/SafeGramophone_metalness.jpg
+      - Textures/_Remake Textures/Safe Gramophone Textures/SafeGramophone_normal.jpg
+      - Textures/_Remake Textures/Safe Gramophone Textures/SafeGramophone_roughness.jpg
+      - Textures/_Remake Textures/Safe Gramophone Textures/SafeSilver_BaseColor.1001.jpg
+      - Textures/_Remake Textures/Safe Gramophone Textures/SafeSilver_Normal.1001.jpg
+      - Textures/_Remake Textures/Statue & Magic Ball Textures
+      - Textures/_Remake Textures/Statue & Magic Ball Textures/StatueMagicMasterMaterial_albedo.jpg
+      - Textures/_Remake Textures/Statue & Magic Ball Textures/StatueMagicMasterMaterial_metalness.jpg
+      - Textures/_Remake Textures/Statue & Magic Ball Textures/StatueMagicMasterMaterial_normal.jpg
+      - Textures/_Remake Textures/Statue & Magic Ball Textures/StatueMagicMasterMaterial_roughness.jpg
+      - Textures/_Remake Textures/Vinyl Textures
+      - Textures/_Remake Textures/Vinyl Textures/Vinyl Albedo.jpg
+      - Textures/_Remake Textures/Vinyl Textures/Vinyl Normal.jpg
+      - Textures/fingerprints normal.png
+      - Textures/growpile-logo.png
+      - Textures/white.jpg
+      - TweenManager.lspkg
+      - "TweenManager.lspkg/ExampleResources [REMOVE_ME]"
+      - "TweenManager.lspkg/ExampleResources [REMOVE_ME]/ExampleTweenValueScript.js"
+      - "TweenManager.lspkg/ExampleResources [REMOVE_ME]/Materials"
+      - "TweenManager.lspkg/ExampleResources [REMOVE_ME]/Materials/Image Unlit.mat"
+      - "TweenManager.lspkg/ExampleResources [REMOVE_ME]/Materials/TweenBoxDiffuse.mat"
+      - "TweenManager.lspkg/ExampleResources [REMOVE_ME]/Materials/TweenBoxDiffuse_Alt.mat"
+      - "TweenManager.lspkg/ExampleResources [REMOVE_ME]/Materials/TweenSphereDiffuse.mat"
+      - "TweenManager.lspkg/ExampleResources [REMOVE_ME]/Meshes"
+      - "TweenManager.lspkg/ExampleResources [REMOVE_ME]/Meshes/TweenBox.mesh"
+      - "TweenManager.lspkg/ExampleResources [REMOVE_ME]/Meshes/TweenSphere.mesh"
+      - "TweenManager.lspkg/ExampleResources [REMOVE_ME]/Shaders"
+      - "TweenManager.lspkg/ExampleResources [REMOVE_ME]/Shaders/Image Unlit.ss_graph"
+      - "TweenManager.lspkg/ExampleResources [REMOVE_ME]/Shaders/TweenBoxDiffuse.ss_graph"
+      - "TweenManager.lspkg/ExampleResources [REMOVE_ME]/Textures"
+      - "TweenManager.lspkg/ExampleResources [REMOVE_ME]/Textures/TweenImageTextures"
+      - "TweenManager.lspkg/ExampleResources [REMOVE_ME]/Textures/TweenImageTextures/Image.png"
+      - TweenManager.lspkg/Tween
+      - "TweenManager.lspkg/Tween Examples [REMOVE_ME]__PUT_IN_ORTHO_CAM.prefab"
+      - TweenManager.lspkg/Tween/Tween.lsc
+      - TweenManager.lspkg/Tween/TweenManager.lsc
+      - TweenManager.lspkg/Tween/TweenTypes
+      - TweenManager.lspkg/Tween/TweenTypes/TweenAlpha.lsc
+      - TweenManager.lspkg/Tween/TweenTypes/TweenChain.lsc
+      - TweenManager.lspkg/Tween/TweenTypes/TweenColor.lsc
+      - TweenManager.lspkg/Tween/TweenTypes/TweenScreenTransform.lsc
+      - TweenManager.lspkg/Tween/TweenTypes/TweenTransform.lsc
+      - TweenManager.lspkg/Tween/TweenTypes/TweenValue.lsc
+      - TweenManager.lspkg/TweenManager__PLACE_IN_SCENE.prefab
+      - TweenManager.lspkg/package.native
+      - Utilities.lspkg
+      - Utilities.lspkg/README.md
+      - Utilities.lspkg/Scripts
+      - Utilities.lspkg/Scripts/Utils
+      - Utilities.lspkg/Scripts/Utils/AnimationUtils.ts
+      - Utilities.lspkg/Scripts/Utils/ComponentUtils.ts
+      - Utilities.lspkg/Scripts/Utils/Logger.ts
+      - Utilities.lspkg/Scripts/Utils/MathUtils.ts
+      - Utilities.lspkg/Scripts/Utils/MeshUtils.ts
+      - Utilities.lspkg/Scripts/Utils/SceneObjectUtils.ts
+      - Utilities.lspkg/Scripts/Utils/ScreenTransformUtils.ts
+      - Utilities.lspkg/Scripts/Utils/TypeConversionUtils.ts
+      - Utilities.lspkg/Scripts/Utils/ValidationUtils.ts
+      - Utilities.lspkg/package.native
+      - Visual Effects
+      - Visual Effects/Bronze Sparkles.vfxgraph
+      - Visual Effects/Folder Particles.vfxgraph
+      - Visual Effects/Gold Sparkles.vfxgraph
+      - Visual Effects/Silver Sparkles.vfxgraph
+      - VolumetricLine.lspkg
+      - VolumetricLine.lspkg/Materials
+      - VolumetricLine.lspkg/Materials/PBR.mat
+      - VolumetricLine.lspkg/Materials/Rainbow.mat
+      - VolumetricLine.lspkg/README.md
+      - VolumetricLine.lspkg/Scripts
+      - VolumetricLine.lspkg/Scripts/VolumetricLine.ts
+      - VolumetricLine.lspkg/Shaders
+      - VolumetricLine.lspkg/Shaders/Rainbow.ss_graph
+      - VolumetricLine.lspkg/Shaders/pbr.ss_graph
+      - VolumetricLine.lspkg/Textures
+      - VolumetricLine.lspkg/Textures/Base.png
+      - VolumetricLine.lspkg/Textures/MaterialParams.png
+      - VolumetricLine.lspkg/Textures/Normal.png
+      - VolumetricLine.lspkg/VolumetricLine__PLACE_IN_SCENE.prefab
+      - VolumetricLine.lspkg/package.native
+  options: 4

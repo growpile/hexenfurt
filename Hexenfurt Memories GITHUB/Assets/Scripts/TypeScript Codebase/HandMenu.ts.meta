@@ -1,0 +1,50 @@
+- !<AssetImportMetadata/78a50667-c45a-4e00-9c88-b7260bc08bb3>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 6f31746b-3e14-48dd-bb26-493368fdce3a
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 6f31746b-3e14-48dd-bb26-493368fdce3a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 597c18b6-8ba4-436f-9470-a30bd5cb2c9e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/597c18b6-8ba4-436f-9470-a30bd5cb2c9e>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 7aef4fa3-72e7-4076-9de0-a2fa8ce14b03
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    buttonHorizontalSpacing: false
+    gameFlow: false
+    hand: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - hand: !<float> 0.000000
+      buttonHorizontalSpacing: !<float> 1.000000
+      gameFlow: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input float hand
+    - // @input float buttonHorizontalSpacing = 1
+    - '// @input Component.ScriptComponent gameFlow {"hint":"Preferred: GameFlow component; menu is hidden unless `currentPhase === 6` (Phase.Game)."}'

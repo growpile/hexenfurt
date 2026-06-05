@@ -1,0 +1,54 @@
+- !<AssetImportMetadata/4946e4ff-7518-4188-9b1e-1b2057cad09f>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> a549e3e0-f8ed-46d0-9c84-f87021492d8c
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> a549e3e0-f8ed-46d0-9c84-f87021492d8c
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 456eafa1-f661-41ef-9d56-d9de4766e2af
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/456eafa1-f661-41ef-9d56-d9de4766e2af>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 6eb449ed-4c04-4799-ae01-3f8e95d3b98a
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    backgroundSoundPrefab: false
+    backgroundSounds: false
+    maxDistance: false
+    minDistance: false
+    spatialSoundList: false
+    spatialSoundPrefab: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - backgroundSoundPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      spatialSoundPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      minDistance: !<float> 0.000000
+      maxDistance: !<float> 0.000000
+      backgroundSounds:
+        []
+      spatialSoundList:
+        []
+  ScriptTypes:
+    -
+      {}

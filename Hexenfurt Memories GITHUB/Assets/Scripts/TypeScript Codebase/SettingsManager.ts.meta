@@ -1,0 +1,77 @@
+- !<AssetImportMetadata/7dedcd6a-1977-4f5c-bcc2-8d317cf9b98f>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 22e92f01-7d1e-4c4d-8f33-2b96253c6ec1
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 22e92f01-7d1e-4c4d-8f33-2b96253c6ec1
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 77c80a27-5089-4ea0-bb06-ca95af8d866f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/77c80a27-5089-4ea0-bb06-ca95af8d866f>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 274431aa-fac5-40a5-bdb0-45a1283f69b0
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    gameFlow: false
+    glovesSceneObject: false
+    glovesToggle: false
+    masterVolumeSlider: false
+    speakerMaterial: false
+    supabaseTable: false
+    wipeCloudProgressButton: false
+    wipeConfirmTimeoutSeconds: false
+    wipeLabelFadeDuration: false
+    wipeLocalProgressButton: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - glovesToggle: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      glovesSceneObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      gameFlow: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      wipeLocalProgressButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      wipeCloudProgressButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      supabaseTable: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      wipeLabelFadeDuration: 0.250000
+      wipeConfirmTimeoutSeconds: !<float> 3.000000
+      masterVolumeSlider: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      speakerMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Toggles</span>\"}"
+    - '// @input Component.ScriptComponent glovesToggle {"label":"Gloves Toggle", "hint":"Toggleable CapsuleButton. Assign here only — no inspector callbacks (code listens via onValueChange)."}'
+    - '// @input SceneObject glovesSceneObject {"label":"Gloves Scene Object", "hint":"Menu/settings gloves visual; enabled when the gloves toggle is on."}'
+    - '// @input Component.ScriptComponent gameFlow {"hint":"Optional GameFlow component; syncs uiGloves[] when the toggle changes."}'
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Actions</span>\"}"
+    - '// @input Component.ScriptComponent wipeLocalProgressButton {"label":"Wipe Local Progress", "hint":"CapsuleButton on Reset Local Progress. triggerUp → wipeLocalProgress()."}'
+    - '// @input Component.ScriptComponent wipeCloudProgressButton {"label":"Wipe Cloud Progress", "hint":"CapsuleButton on Reset Cloud Progress. triggerUp → wipeCloudProgress()."}'
+    - '// @input Component.ScriptComponent supabaseTable {"hint":"SupabaseTable component used for cloud wipe."}'
+    - '// @input float wipeLabelFadeDuration = "0.25" {"hint":"Seconds to fade wipe button label out/in when asking for confirm."}'
+    - '// @input float wipeConfirmTimeoutSeconds = "3" {"hint":"Seconds to wait on Confirm? before reverting to the original label."}'
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Audio</span>\"}"
+    - '// @input Component.ScriptComponent masterVolumeSlider {"label":"Master Volume"}'
+    - '// @input Asset.Material speakerMaterial {"label":"Speaker Material", "hint":"Speaker icon material; mainPass.state (shader State / Tweak_N10) 0 = audible, 1 = muted."}'
+    - '// @ui {"widget":"group_end"}'

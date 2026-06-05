@@ -1,0 +1,80 @@
+- !<AssetImportMetadata/d7a24e2b-7d29-417b-b227-f48246400a01>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> a5a08cb0-fd3b-4a50-8de6-c8b01113e2a6
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> a5a08cb0-fd3b-4a50-8de6-c8b01113e2a6
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 515751e3-2644-43da-aa18-bb890755b760
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/515751e3-2644-43da-aa18-bb890755b760>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 137fffeb-fa6f-4e06-b6f9-6d5a276a2d12
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    autoUpdateScrollHeight: false
+    debugAddInterval: false
+    debugAddItemHeight: false
+    debugAddPrefab: false
+    debugDynamicAdd: false
+    listContentRoot: false
+    listItemGap: false
+    listStackOriginY: false
+    minScrollOverflowY: false
+    scrollBar: false
+    scrollWindow: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - scrollBar: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      scrollWindow: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      listContentRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      autoUpdateScrollHeight: true
+      listStackOriginY: !<float> 0.000000
+      listItemGap: !<float> 0.000000
+      minScrollOverflowY: !<float> 1.000000
+      debugDynamicAdd: false
+      debugAddPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      debugAddItemHeight: !<float> 8.000000
+      debugAddInterval: !<float> 2.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Scroll</span>\"}"
+    - "// @input Component.ScriptComponent scrollBar {\"label\":\"Scroll Bar\", \"hint\":\"Required. Uses this bar's linked Scroll Window (must match where items are added).\"}"
+    - "// @input Component.ScriptComponent scrollWindow {\"label\":\"Scroll Window\", \"hint\":\"Fallback only if the Scroll Bar's linked window cannot be read.\"}"
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Layout</span>\"}"
+    - '// @input SceneObject listContentRoot {"label":"List Content Root", "hint":"Optional. Child under the Scroll Window (e.g. Content). If unset, finds a child named Content."}'
+    - '// @input bool autoUpdateScrollHeight = true {"hint":"When enabled, scroll height grows from the stacked heights passed to addItem."}'
+    - '// @input float listStackOriginY {"hint":"Local Y for the first item; each addItem stacks downward by the height you pass."}'
+    - '// @input float listItemGap {"hint":"Optional gap (local Y) inserted between stacked items."}'
+    - '// @input float minScrollOverflowY = 1 {"hint":"Extra scrollable height (local Y) so the scrollbar can leave the center when the list is short."}'
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #F59E0B;'>Debug</span>\"}"
+    - '// @input bool debugDynamicAdd {"label":"Debug Dynamic Add", "hint":"When enabled, spawns Debug Add Prefab into the list on an interval."}'
+    - '// @input Asset.ObjectPrefab debugAddPrefab {"label":"Debug Add Prefab", "showIf":"debugDynamicAdd"}'
+    - '// @input float debugAddItemHeight = 8 {"hint":"Height (local Y) used for each debug spawn.", "showIf":"debugDynamicAdd"}'
+    - '// @input float debugAddInterval = 2 {"hint":"Seconds between automatic debug spawns.", "showIf":"debugDynamicAdd"}'
+    - '// @ui {"widget":"group_end"}'

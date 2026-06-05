@@ -1,0 +1,80 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "isolatedModules": true,
+    "lib": [
+      "es2021"
+    ],
+    "module": "commonjs",
+    "noEmit": true,
+    "paths": {
+      "*": [
+        "./Assets/*",
+        "./Packages/*",
+        "./Cache/TypeScript/Src/Packages/*"
+      ],
+      "Addons/Spectacles3DHandHints.lspkg/*": [
+        "./Assets/Addons/Spectacles3DHandHints.lspkg/*",
+        "./Cache/TypeScript/Src/Assets/Addons/Spectacles3DHandHints.lspkg/*"
+      ],
+      "Scripts/Tweens/TweenManager.lspkg/*": [
+        "./Assets/Scripts/Tweens/TweenManager.lspkg/*",
+        "./Cache/TypeScript/Src/Assets/Scripts/Tweens/TweenManager.lspkg/*"
+      ],
+      "Scripts/Tweens/TweenManager.lspkg/Tween/Tween.lsc/*": [
+        "./Assets/Scripts/Tweens/TweenManager.lspkg/Tween/Tween.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Scripts/Tweens/TweenManager.lspkg/Tween/Tween.lsc/*"
+      ],
+      "Scripts/Tweens/TweenManager.lspkg/Tween/TweenManager.lsc/*": [
+        "./Assets/Scripts/Tweens/TweenManager.lspkg/Tween/TweenManager.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Scripts/Tweens/TweenManager.lspkg/Tween/TweenManager.lsc/*"
+      ],
+      "Scripts/Tweens/TweenManager.lspkg/Tween/TweenTypes/TweenAlpha.lsc/*": [
+        "./Assets/Scripts/Tweens/TweenManager.lspkg/Tween/TweenTypes/TweenAlpha.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Scripts/Tweens/TweenManager.lspkg/Tween/TweenTypes/TweenAlpha.lsc/*"
+      ],
+      "Scripts/Tweens/TweenManager.lspkg/Tween/TweenTypes/TweenChain.lsc/*": [
+        "./Assets/Scripts/Tweens/TweenManager.lspkg/Tween/TweenTypes/TweenChain.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Scripts/Tweens/TweenManager.lspkg/Tween/TweenTypes/TweenChain.lsc/*"
+      ],
+      "Scripts/Tweens/TweenManager.lspkg/Tween/TweenTypes/TweenColor.lsc/*": [
+        "./Assets/Scripts/Tweens/TweenManager.lspkg/Tween/TweenTypes/TweenColor.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Scripts/Tweens/TweenManager.lspkg/Tween/TweenTypes/TweenColor.lsc/*"
+      ],
+      "Scripts/Tweens/TweenManager.lspkg/Tween/TweenTypes/TweenScreenTransform.lsc/*": [
+        "./Assets/Scripts/Tweens/TweenManager.lspkg/Tween/TweenTypes/TweenScreenTransform.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Scripts/Tweens/TweenManager.lspkg/Tween/TweenTypes/TweenScreenTransform.lsc/*"
+      ],
+      "Scripts/Tweens/TweenManager.lspkg/Tween/TweenTypes/TweenTransform.lsc/*": [
+        "./Assets/Scripts/Tweens/TweenManager.lspkg/Tween/TweenTypes/TweenTransform.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Scripts/Tweens/TweenManager.lspkg/Tween/TweenTypes/TweenTransform.lsc/*"
+      ],
+      "Scripts/Tweens/TweenManager.lspkg/Tween/TweenTypes/TweenValue.lsc/*": [
+        "./Assets/Scripts/Tweens/TweenManager.lspkg/Tween/TweenTypes/TweenValue.lsc/*",
+        "./Cache/TypeScript/Src/Assets/Scripts/Tweens/TweenManager.lspkg/Tween/TweenTypes/TweenValue.lsc/*"
+      ]
+    },
+    "skipDefaultLibCheck": true,
+    "target": "es2021",
+    "types": []
+  },
+  "exclude": [
+    "node_modules/typescript/lib/lib.dom.d.ts"
+  ],
+  "include": [
+    "./Cache/TypeScript/lib/LensifyTS/Declarations/**/*.d.ts",
+    "./Assets/**/*.ts",
+    "./Packages/**/*.ts",
+    "./Cache/TypeScript/Src/Packages/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Scripts/Tweens/TweenManager.lspkg/Tween/Tween.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Scripts/Tweens/TweenManager.lspkg/Tween/TweenManager.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Scripts/Tweens/TweenManager.lspkg/Tween/TweenTypes/TweenChain.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Scripts/Tweens/TweenManager.lspkg/Tween/TweenTypes/TweenValue.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Scripts/Tweens/TweenManager.lspkg/Tween/TweenTypes/TweenTransform.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Scripts/Tweens/TweenManager.lspkg/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Scripts/Tweens/TweenManager.lspkg/Tween/TweenTypes/TweenScreenTransform.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Scripts/Tweens/TweenManager.lspkg/Tween/TweenTypes/TweenAlpha.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Addons/Spectacles3DHandHints.lspkg/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/Scripts/Tweens/TweenManager.lspkg/Tween/TweenTypes/TweenColor.lsc/**/*.ts"
+  ]
+}

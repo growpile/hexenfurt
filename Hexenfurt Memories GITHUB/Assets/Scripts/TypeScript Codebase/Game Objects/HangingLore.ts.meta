@@ -1,0 +1,59 @@
+- !<AssetImportMetadata/838181fc-c131-4896-9ec6-053df92bf714>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> ad7c2044-d6fd-4f2b-bdc9-f968eeda92c1
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> ad7c2044-d6fd-4f2b-bdc9-f968eeda92c1
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> fc45655e-d7ea-4921-8194-0291527f11bf
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/fc45655e-d7ea-4921-8194-0291527f11bf>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: ebbccd6d-2265-4e74-9201-70db622f4123
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    hangAmplitudeDeg: false
+    hangBiasDeg: false
+    hangSpeedHz: false
+    hangingTo: false
+    loreId: false
+    resetDuration: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - loreId: ""
+      hangingTo: 0
+      hangAmplitudeDeg: !<float> 8.000000
+      hangBiasDeg: !<float> 4.000000
+      hangSpeedHz: 0.600000
+      resetDuration: 0.350000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input string loreId
+    - '// @input int hangingTo = "0" {"label":"Direction", "hint":"Which way the lore piece hangs and swings.", "widget":"combobox", "values":[{"label":"Left", "value":0}, {"label":"Right", "value":1}]}'
+    - // @input float hangAmplitudeDeg = 8
+    - // @input float hangBiasDeg = 4
+    - // @input float hangSpeedHz = 0.6
+    - // @input float resetDuration = 0.35

@@ -1,0 +1,506 @@
+- !<AssetImportMetadata/84f7ad09-d02d-4dfe-8dd4-2d652e818d04>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 8589cdcf-a7de-479a-adb3-69f850b053f6
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 8589cdcf-a7de-479a-adb3-69f850b053f6
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 9ec3786b-814b-4118-ba28-35a27e02be77
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/008592e0-cade-4463-612d-bd37a4f4cfc5>
+  PrefabRemaps:
+    []
+  Name: Occluder
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 17.687988, z: -18.452559}
+    Rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 17.561199, y: 17.561199, z: 15.873475}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> da496515-d54b-4c12-66ff-1fc41656d5c7
+- !<RenderMeshVisual/119c2acd-cd90-4027-7926-9b3d24adb490>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a1614e9f-ede0-4575-b33e-262dc0517c06
+  Mesh: !<reference> 77a822e2-25c9-48b6-87f1-6be267df0243
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/123fd671-c234-49d9-64c8-6d0969a9b296>
+  PrefabRemaps:
+    []
+  Name: Door
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 64.417633, y: 174.609573, z: -8.741775}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f81d2a0a-bda0-4cb9-5f73-4e1bb392afec
+    - !<own> e89c4688-858c-4b55-4827-c4d4532fc000
+    - !<own> 119c2acd-cd90-4027-7926-9b3d24adb490
+- !<SceneObject/14c5c27b-3d82-4ebd-4c98-e9226c04b708>
+  PrefabRemaps:
+    []
+  Name: Door Interactable
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000012, y: 41.355640, z: 0.788404}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.808511, y: 0.808511, z: 0.808511}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7aba0e3c-306a-46e6-55ed-8ce331c0d661
+    - !<own> 8c00a9fa-f9e1-4c71-4ef2-1ef42d1c3f58
+    - !<own> 221cbcb0-a407-4d77-756b-ee0e7fc53db0
+    - !<own> 81d2cc85-afea-481b-627e-503bf9450900
+- !<ScriptComponent/221cbcb0-a407-4d77-756b-ee0e7fc53db0>
+  PrefabRemaps:
+    []
+  Name: InteractableManipulation
+  Enabled: true
+  ScriptAsset: !<reference> 664b556b-1946-4c2c-866a-e675b4e86006
+  ScriptInputsDefault:
+    minimumScaleFactor: true
+    maximumScaleFactor: true
+    zStretchFactorMin: true
+    zStretchFactorMax: true
+    useFilter: true
+    showTranslationProperties: true
+    _enableXTranslation: true
+    _enableYTranslation: true
+    _enableZTranslation: true
+    showRotationProperties: true
+    _rotationAxis: true
+    isSynced: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      manipulateRootSceneObject: !<reference.SceneObject> 750e0a25-f8e5-469c-5a51-cf0a4f8df3df
+      enableTranslation: false
+      enableRotation: false
+      enableScale: false
+      minimumScaleFactor: 0.250000
+      maximumScaleFactor: !<float> 20.000000
+      enableStretchZ: false
+      zStretchFactorMin: !<float> 1.000000
+      zStretchFactorMax: !<float> 12.000000
+      useFilter: true
+      showTranslationProperties: false
+      _enableXTranslation: true
+      _enableYTranslation: true
+      _enableZTranslation: true
+      showRotationProperties: false
+      _rotationAxis: All
+      isSynced: false
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/5db99c41-b3cf-4ebe-7851-b8fefbbc8f4b>
+  PrefabRemaps:
+    []
+  Name: Door_Updated Scale
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.819163, y: -1.202869, z: 0.000000}
+    Rotation: {x: 0.000000, y: 90.000000, z: 90.000000}
+    Scale: {x: 0.590000, y: 0.590000, z: 0.590000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 123fd671-c234-49d9-64c8-6d0969a9b296
+    - !<own> 9e23984d-c478-4304-41b0-ac98a0f62557
+  Components:
+    []
+- !<SceneObject/63a5b50b-fd74-47cd-4a48-5d4fac58257d>
+  PrefabRemaps:
+    []
+  Name: Glow
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 17.687988, z: -18.452559}
+    Rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 17.200001, y: 17.200001, z: 15.546990}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f19c8d88-9ecf-4586-57c9-e418520e2e0d
+- !<RenderMeshVisual/6881e1d2-5958-4410-70b5-cace26a2033d>
+  PrefabRemaps:
+    []
+  Name: Cube.145
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1c34ba26-2021-4655-9b7a-8bca58860574
+  Mesh: !<reference> 8995af48-5fda-49cf-8c0d-ac6f6abcae72
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/728f4716-587f-4268-645e-884a69e303f9>
+  PrefabRemaps:
+    []
+  Name: Door
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -1.852753, z: -0.000000}
+    Rotation: {x: 270.000000, y: 90.000000, z: 0.000000}
+    Scale: {x: 2.350000, y: 2.350000, z: 2.350000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 008592e0-cade-4463-612d-bd37a4f4cfc5
+    - !<own> 63a5b50b-fd74-47cd-4a48-5d4fac58257d
+    - !<own> 14c5c27b-3d82-4ebd-4c98-e9226c04b708
+    - !<own> cb8c4de9-8db2-4000-4fec-e196ebe1b2dd
+  Components:
+    []
+- !<RenderMeshVisual/73084f9b-0b85-497a-539f-b652a4bb6b58>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a1614e9f-ede0-4575-b33e-262dc0517c06
+  Mesh: !<reference> 49bba631-72a2-4dd2-ba1e-799af7213466
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/750e0a25-f8e5-469c-5a51-cf0a4f8df3df>
+  PrefabRemaps:
+    []
+  Name: Door Updated
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 728f4716-587f-4268-645e-884a69e303f9
+    - !<own> 5db99c41-b3cf-4ebe-7851-b8fefbbc8f4b
+  Components:
+    - !<own> 83ab31b2-25ca-44ad-96f8-058e3acf4739
+- !<ScriptComponent/7aba0e3c-306a-46e6-55ed-8ce331c0d661>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingMode: true
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/7b86de87-b075-43a1-4143-03528fbda750>
+  PrefabRemaps:
+    []
+  Name: Gold Key
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 22.000000, y: 22.000000, z: 22.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6881e1d2-5958-4410-70b5-cace26a2033d
+    - !<own> 7c78c19d-e462-4904-6658-672c6856f476
+- !<ScriptComponent/7c78c19d-e462-4904-6658-672c6856f476>
+  PrefabRemaps:
+    []
+  Name: TweenTransform
+  Enabled: true
+  ScriptAsset: !<reference> c0359509-9eb1-4630-b6c4-e6f477d226ba
+  ScriptInputsDefault:
+    sceneObjectReference: true
+    startInput: true
+    endInput: true
+    from: true
+    to: true
+    delay: true
+    isLocal: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sceneObjectReference: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      tweenName: orbit
+      playAutomatically: false
+      loopType: 1
+      type: 2
+      movementType: 3
+      startInput: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      endInput: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      from: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      to: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      offset: !<Vec3> {x: 180.000000, y: 0.000000, z: 0.000000}
+      additive: true
+      time: 0.250000
+      delay: !<float> 0.000000
+      isLocal: true
+      easingFunction: Linear
+      easingType: InOut
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/81d2cc85-afea-481b-627e-503bf9450900>
+  PrefabRemaps:
+    []
+  Name: InteractableOutlineFeedback
+  Enabled: true
+  ScriptAsset: !<reference> 657cbbe5-2a9c-4889-93fb-fd72ba8a1d52
+  ScriptInputsDefault:
+    activatingColor: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetOutlineMaterial: !<reference.Material> 7231c7bc-6c14-4331-ad23-9ab928107707
+      hoveringColor: !<Vec4> {x: 0.759060, y: 0.746960, z: 0.749508, w: 1.000000}
+      activatingColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      outlineWeight: 1.500000
+      meshVisuals: !<reference.RenderMeshVisual[]>
+        - !<reference> 73084f9b-0b85-497a-539f-b652a4bb6b58
+        - !<reference> e89c4688-858c-4b55-4827-c4d4532fc000
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/83ab31b2-25ca-44ad-96f8-058e3acf4739>
+  PrefabRemaps:
+    []
+  Name: EscapeDoor
+  Enabled: true
+  ScriptAsset: !<reference> 51c0a633-aee2-4cf4-9ac8-2642a96ce826
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      doorInteractable: !<reference.ScriptComponent> 7aba0e3c-306a-46e6-55ed-8ce331c0d661
+      doorOutline: !<reference.ScriptComponent> 81d2cc85-afea-481b-627e-503bf9450900
+      doorPivot: !<reference.SceneObject> 123fd671-c234-49d9-64c8-6d0969a9b296
+      keyParent: !<reference.SceneObject> cb8c4de9-8db2-4000-4fec-e196ebe1b2dd
+      goldKey: !<reference.SceneObject> 7b86de87-b075-43a1-4143-03528fbda750
+  ScriptTypes:
+    "":
+      {}
+- !<BodyComponent/8c00a9fa-f9e1-4c71-4ef2-1ef42d1c3f58>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: false
+    Size: {x: 50.000000, y: 100.000000, z: 10.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+  Dynamic: false
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.000000
+  AngularDamping: 0.000000
+- !<SceneObject/9e23984d-c478-4304-41b0-ac98a0f62557>
+  PrefabRemaps:
+    []
+  Name: FrameDoor
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 73084f9b-0b85-497a-539f-b652a4bb6b58
+- !<ObjectPrefabAssetData/9ec3786b-814b-4118-ba28-35a27e02be77>
+  Prototype: !<ObjectOwner/ce294f38-b8c7-428f-8517-83f4f52a10b7>
+    PackagePath: ""
+    objects:
+      - !<own> 750e0a25-f8e5-469c-5a51-cf0a4f8df3df
+- !<SceneObject/cb8c4de9-8db2-4000-4fec-e196ebe1b2dd>
+  PrefabRemaps:
+    []
+  Name: Key Parent
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -14.574006, y: 37.637005, z: 9.626390}
+    Rotation: {x: 90.000000, y: 90.000000, z: 0.000000}
+    Scale: {x: 0.000000, y: 0.000000, z: 0.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7b86de87-b075-43a1-4143-03528fbda750
+  Components:
+    []
+- !<RenderMeshVisual/da496515-d54b-4c12-66ff-1fc41656d5c7>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: -2
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 7067add9-9d6e-4c65-af14-962263973b66
+  Mesh: !<reference> 106ef735-81e8-419f-8152-ad1a87f56f2a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/e89c4688-858c-4b55-4827-c4d4532fc000>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a1614e9f-ede0-4575-b33e-262dc0517c06
+  Mesh: !<reference> a1f5c7f5-7f59-48f1-891e-48e2d521e5b1
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/f19c8d88-9ecf-4586-57c9-e418520e2e0d>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: -1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1dcf1f55-c99c-4a94-bc5e-88eb4f57f73c
+  Mesh: !<reference> 106ef735-81e8-419f-8152-ad1a87f56f2a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/f81d2a0a-bda0-4cb9-5f73-4e1bb392afec>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a1614e9f-ede0-4575-b33e-262dc0517c06
+  Mesh: !<reference> b56dd5c6-1bb3-4dc3-baf4-c4a249c2c179
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

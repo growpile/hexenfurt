@@ -1,0 +1,69 @@
+- !<AssetImportMetadata/8ec3bda1-994c-4f04-a9e7-8be407aa1b4e>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 2af4fd67-9350-40fe-8d9b-77ba3dfb4eaa
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 2af4fd67-9350-40fe-8d9b-77ba3dfb4eaa
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 2c8d2003-fe2f-4103-aa29-2a67971a20ea
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/2c8d2003-fe2f-4103-aa29-2a67971a20ea>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: af1ea58b-ec27-468a-b056-ab4861e90693
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    debugText: false
+    decoTestingPrefab: false
+    indexIndicator: false
+    itemSpots: false
+    keyTestingPrefab: false
+    noteTestingPrefab: false
+    safeDoor: false
+    safeDoorInteractable: false
+    safeDoorManipulation: false
+    safeDoorOutline: false
+    safeHandle: false
+    testItem: false
+    testItems: false
+    testSpot: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - debugText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      safeDoorInteractable: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      safeDoorManipulation: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      safeDoorOutline: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      safeDoor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      safeHandle: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      indexIndicator: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      itemSpots:
+        []
+      testItems: false
+      testSpot: 0
+      testItem: 0
+      keyTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      noteTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      decoTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

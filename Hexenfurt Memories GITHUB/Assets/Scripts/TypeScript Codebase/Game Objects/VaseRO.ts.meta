@@ -1,0 +1,89 @@
+- !<AssetImportMetadata/fb7b9d4e-b91e-4c55-9134-ea0df0911bff>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 69725fb1-13bf-44ce-9fb3-be3311ed8fe1
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 69725fb1-13bf-44ce-9fb3-be3311ed8fe1
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 92841f79-bee6-407b-8795-6989136bbdfe
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/92841f79-bee6-407b-8795-6989136bbdfe>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 17c82dfa-eb45-40f1-8158-a151dc2b51c2
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    chainController: false
+    decoTestingPrefab: false
+    itemSpots: false
+    keyTestingPrefab: false
+    noteTestingPrefab: false
+    testItem: false
+    testItems: false
+    testSpot: false
+    vaseFullBody: false
+    vaseInteractable: false
+    vaseManipulation: false
+    vaseOutline: false
+    vaseParts: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - vaseFullBody: !<reference.BodyComponent> 00000000-0000-0000-0000-000000000000
+      vaseParts: !<reference.BodyComponent[]>
+        []
+      chainController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      vaseInteractable: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      vaseManipulation: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      vaseOutline: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      itemSpots:
+        []
+      testItems: false
+      testSpot: !<float> 0.000000
+      testItem: !<float> 0.000000
+      keyTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      noteTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      decoTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.BodyComponent vaseFullBody
+    - "// @input Component.BodyComponent[] vaseParts = {}"
+    - // @input Component.ScriptComponent chainController
+    - // @input Component.ScriptComponent vaseInteractable
+    - // @input Component.ScriptComponent vaseManipulation
+    - // @input Component.ScriptComponent vaseOutline
+    - /*
+    - "@typedef ItemSpot"
+    - '@property {string} objectType = "deco" {"label":"Object Type", "widget":"combobox", "values":[{"label":"Decoration", "value":"deco"}, {"label":"Inventory Item", "value":"item"}, {"label":"Lore Item", "value":"lore"}, {"label":"Both (item or deco)", "value":"both"}]}'
+    - '@property {int} orientation = "0" {"label":"Orientation", "widget":"combobox", "values":[{"label":"Horizontal", "value":0}, {"label":"Vertical", "value":1}]}'
+    - '@property {bool} lockedSlot {"label":"Locked Slot"}'
+    - "@property {SceneObject} origin"
+    - "*/"
+    - '// @input ItemSpot[] itemSpots = {} {"label":"Spots"}'
+    - // @input bool testItems
+    - // @input float testSpot
+    - // @input float testItem
+    - // @input Asset.ObjectPrefab keyTestingPrefab
+    - // @input Asset.ObjectPrefab noteTestingPrefab
+    - // @input Asset.ObjectPrefab decoTestingPrefab

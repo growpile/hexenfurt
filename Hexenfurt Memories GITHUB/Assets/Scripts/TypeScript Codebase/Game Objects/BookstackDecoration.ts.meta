@@ -1,0 +1,53 @@
+- !<AssetImportMetadata/af964011-a57f-4035-a346-d495575a8c49>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 4252a19b-91e6-4559-8625-484c066deb31
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 4252a19b-91e6-4559-8625-484c066deb31
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 67fa48ff-ca37-4319-adea-ef2c95953bdb
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/67fa48ff-ca37-4319-adea-ef2c95953bdb>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: f2e6e346-480a-444c-953a-320c5de73815
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    physicsBook: false
+    pushObject: false
+    travelTime: false
+    travelUnits: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - physicsBook: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      pushObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      travelUnits: !<float> 30.000000
+      travelTime: 0.350000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Asset.ObjectPrefab physicsBook
+    - '// @input SceneObject pushObject {"label":"Push Object", "hint":"Collider or plate moved upward to knock dynamic books off the stack."}'
+    - '// @input float travelUnits = 30 {"label":"Travel Units", "hint":"World Y distance the push object moves upward."}'
+    - '// @input float travelTime = 0.35 {"label":"Travel Time", "hint":"Seconds to complete the upward push motion."}'

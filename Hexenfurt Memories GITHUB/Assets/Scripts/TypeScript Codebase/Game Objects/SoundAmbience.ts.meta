@@ -1,0 +1,47 @@
+- !<AssetImportMetadata/6fc6d8ae-2fcd-434d-bdea-8363414a1bdc>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> f329559e-dba6-42f9-a61c-1a98a962e21a
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> f329559e-dba6-42f9-a61c-1a98a962e21a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 1851e84e-2836-4189-a9df-5a3f927e2eba
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/1851e84e-2836-4189-a9df-5a3f927e2eba>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 0a53def2-5c65-46b9-9c2f-23e80f03583d
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    soundId: false
+    volume: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - soundId: ""
+      volume: !<float> 1.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input string soundId {"label":"Sound ID"}'
+    - '// @input float volume = "1.0" {"label":"Volume", "widget":"slider", "min":0, "max":1, "step":0.01}'

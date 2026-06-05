@@ -1,0 +1,320 @@
+- !<AssetImportMetadata/6395c613-5466-528d-3fde-64239764008c>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> bf8fd0ab-53a3-4957-9c71-abd1ef6abd10
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> bf8fd0ab-53a3-4957-9c71-abd1ef6abd10
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 80f4c281-7672-4302-8f79-26e30ecbb93d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/19baaa57-9d89-425f-7855-5750761fce42>
+  PrefabRemaps:
+    []
+  Name: TweenAlpha
+  Enabled: true
+  ScriptAsset: !<reference> 1f5b14e4-2b78-4c0f-b76e-03b9177457e6
+  ScriptInputsDefault:
+    loopType: true
+    startInput: true
+    endInput: true
+    from: true
+    to: true
+    offset: true
+    additive: true
+    recursive: true
+    time: true
+    delay: true
+    easingType: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sceneObjectReference: !<reference.SceneObject> 0886ae20-148d-439e-a0ab-119b5a1dddf6
+      tweenName: intro-label-fade-out
+      playAutomatically: false
+      loopType: 0
+      movementType: 1
+      startInput: !<float> 0.000000
+      endInput: !<float> 1.000000
+      from: !<float> 0.000000
+      to: !<float> 0.000000
+      offset: !<float> 0.000000
+      additive: false
+      recursive: false
+      time: !<float> 1.000000
+      delay: !<float> 0.000000
+      easingFunction: Circular
+      easingType: Out
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/4b8f8c86-5230-4bff-5af8-309700b7798c>
+  PrefabRemaps:
+    []
+  Name: Tweens
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d37e15b8-84c1-4a6c-52a8-959317e7a64e
+    - !<own> d752ed51-25f9-456c-61a0-04c5a676af19
+    - !<own> 6a1cca67-5679-4921-658d-6c254a4c804d
+    - !<own> f86b2968-7964-48b2-641c-55ffda93fc6c
+    - !<own> 19baaa57-9d89-425f-7855-5750761fce42
+    - !<own> 5aa733c2-ba40-4400-6e75-d7c9505a0cb8
+    - !<own> d5ccea5a-1850-4d9a-6550-99e374a73484
+- !<ScriptComponent/5aa733c2-ba40-4400-6e75-d7c9505a0cb8>
+  PrefabRemaps:
+    []
+  Name: TweenAlpha
+  Enabled: true
+  ScriptAsset: !<reference> 1f5b14e4-2b78-4c0f-b76e-03b9177457e6
+  ScriptInputsDefault:
+    loopType: true
+    startInput: true
+    endInput: true
+    from: true
+    offset: true
+    additive: true
+    recursive: true
+    time: true
+    delay: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sceneObjectReference: !<reference.SceneObject> 05d919a5-0500-4b9f-b989-d8ebde251d58
+      tweenName: intro-table-hint-fade-in
+      playAutomatically: false
+      loopType: 0
+      movementType: 1
+      startInput: !<float> 0.000000
+      endInput: !<float> 1.000000
+      from: !<float> 0.000000
+      to: !<float> 1.000000
+      offset: !<float> 0.000000
+      additive: false
+      recursive: false
+      time: !<float> 1.000000
+      delay: !<float> 0.000000
+      easingFunction: Circular
+      easingType: In
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/6a1cca67-5679-4921-658d-6c254a4c804d>
+  PrefabRemaps:
+    []
+  Name: TweenTransform
+  Enabled: true
+  ScriptAsset: !<reference> 47ad122f-c03a-479e-9126-4080231b50c3
+  ScriptInputsDefault:
+    loopType: true
+    startInput: true
+    endInput: true
+    from: true
+    to: true
+    offset: true
+    additive: true
+    delay: true
+    isLocal: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sceneObjectReference: !<reference.SceneObject> 75bb477d-a54f-4f4e-b0be-f8b5f0b4381f
+      tweenName: intro-scale-down
+      playAutomatically: false
+      loopType: 0
+      type: 1
+      movementType: 1
+      startInput: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      endInput: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      from: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      to: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      offset: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      additive: false
+      time: 0.250000
+      delay: !<float> 0.000000
+      isLocal: true
+      easingFunction: Back
+      easingType: In
+  ScriptTypes:
+    "":
+      {}
+- !<ObjectPrefabAssetData/80f4c281-7672-4302-8f79-26e30ecbb93d>
+  Prototype: !<ObjectOwner/32c86b3e-02be-42eb-b2b7-7400536f15a2>
+    PackagePath: ""
+    objects:
+      - !<own> 4b8f8c86-5230-4bff-5af8-309700b7798c
+- !<ScriptComponent/d37e15b8-84c1-4a6c-52a8-959317e7a64e>
+  PrefabRemaps:
+    []
+  Name: TweenAlpha
+  Enabled: true
+  ScriptAsset: !<reference> 1f5b14e4-2b78-4c0f-b76e-03b9177457e6
+  ScriptInputsDefault:
+    loopType: true
+    movementType: true
+    startInput: true
+    endInput: true
+    from: true
+    to: true
+    offset: true
+    additive: true
+    recursive: true
+    delay: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sceneObjectReference: !<reference.SceneObject> a4fd0af5-b67d-4075-bde8-13765c11bab4
+      tweenName: intro-logo-fade-in
+      playAutomatically: false
+      loopType: 0
+      movementType: 0
+      startInput: !<float> 0.000000
+      endInput: !<float> 1.000000
+      from: !<float> 0.000000
+      to: !<float> 0.000000
+      offset: !<float> 0.000000
+      additive: false
+      recursive: false
+      time: !<float> 2.000000
+      delay: !<float> 0.000000
+      easingFunction: Circular
+      easingType: In
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/d5ccea5a-1850-4d9a-6550-99e374a73484>
+  PrefabRemaps:
+    []
+  Name: TweenAlpha
+  Enabled: true
+  ScriptAsset: !<reference> 1f5b14e4-2b78-4c0f-b76e-03b9177457e6
+  ScriptInputsDefault:
+    loopType: true
+    startInput: true
+    endInput: true
+    from: true
+    offset: true
+    additive: true
+    recursive: true
+    delay: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sceneObjectReference: !<reference.SceneObject> a9a43e9d-7ec6-43bb-a5f7-2c10c1befd48
+      tweenName: skip-intro-hint-in
+      playAutomatically: false
+      loopType: 0
+      movementType: 1
+      startInput: !<float> 0.000000
+      endInput: !<float> 1.000000
+      from: !<float> 0.000000
+      to: !<float> 1.000000
+      offset: !<float> 0.000000
+      additive: false
+      recursive: false
+      time: 0.250000
+      delay: !<float> 0.000000
+      easingFunction: Circular
+      easingType: In
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/d752ed51-25f9-456c-61a0-04c5a676af19>
+  PrefabRemaps:
+    []
+  Name: TweenAlpha
+  Enabled: true
+  ScriptAsset: !<reference> 1f5b14e4-2b78-4c0f-b76e-03b9177457e6
+  ScriptInputsDefault:
+    loopType: true
+    movementType: true
+    startInput: true
+    endInput: true
+    from: true
+    to: true
+    offset: true
+    additive: true
+    recursive: true
+    delay: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sceneObjectReference: !<reference.SceneObject> 0886ae20-148d-439e-a0ab-119b5a1dddf6
+      tweenName: intro-label-fade-in
+      playAutomatically: false
+      loopType: 0
+      movementType: 0
+      startInput: !<float> 0.000000
+      endInput: !<float> 1.000000
+      from: !<float> 0.000000
+      to: !<float> 0.000000
+      offset: !<float> 0.000000
+      additive: false
+      recursive: false
+      time: !<float> 2.000000
+      delay: !<float> 0.000000
+      easingFunction: Circular
+      easingType: In
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/f86b2968-7964-48b2-641c-55ffda93fc6c>
+  PrefabRemaps:
+    []
+  Name: TweenAlpha
+  Enabled: true
+  ScriptAsset: !<reference> 1f5b14e4-2b78-4c0f-b76e-03b9177457e6
+  ScriptInputsDefault:
+    loopType: true
+    startInput: true
+    endInput: true
+    from: true
+    to: true
+    offset: true
+    additive: true
+    recursive: true
+    time: true
+    easingType: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sceneObjectReference: !<reference.SceneObject> a4fd0af5-b67d-4075-bde8-13765c11bab4
+      tweenName: intro-logo-fade-out
+      playAutomatically: false
+      loopType: 0
+      movementType: 1
+      startInput: !<float> 0.000000
+      endInput: !<float> 1.000000
+      from: !<float> 0.000000
+      to: !<float> 0.000000
+      offset: !<float> 0.000000
+      additive: false
+      recursive: false
+      time: !<float> 1.000000
+      delay: 0.500000
+      easingFunction: Circular
+      easingType: Out
+  ScriptTypes:
+    "":
+      {}

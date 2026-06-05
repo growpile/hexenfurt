@@ -1,0 +1,77 @@
+- !<AssetImportMetadata/6ec8a4f8-284a-4382-8186-af43ef48f162>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 02f40883-aebe-4a49-9894-67729e32415a
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 02f40883-aebe-4a49-9894-67729e32415a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> bfa6b354-4a90-44ac-9992-b58084f5f08f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/bfa6b354-4a90-44ac-9992-b58084f5f08f>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: c605b045-2b9d-40c5-af1b-57a40dc25fb4
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    decoTestingPrefab: false
+    itemSpots: false
+    keyTestingPrefab: false
+    noteTestingPrefab: false
+    paintingMaterial: false
+    paintingTextures: false
+    testItem: false
+    testItems: false
+    testSpot: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - itemSpots:
+        []
+      paintingMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      paintingTextures: !<reference.Texture[]>
+        []
+      testItems: false
+      testSpot: !<float> 0.000000
+      testItem: !<float> 0.000000
+      keyTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      noteTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      decoTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - /*
+    - "@typedef ItemSpot"
+    - '@property {string} objectType = "deco" {"label":"Object Type", "widget":"combobox", "values":[{"label":"Decoration", "value":"deco"}, {"label":"Inventory Item", "value":"item"}, {"label":"Lore Item", "value":"lore"}, {"label":"Both (item or deco)", "value":"both"}]}'
+    - '@property {int} orientation = "0" {"label":"Orientation", "widget":"combobox", "values":[{"label":"Horizontal", "value":0}, {"label":"Vertical", "value":1}]}'
+    - '@property {bool} lockedSlot {"label":"Locked Slot"}'
+    - "@property {SceneObject} origin"
+    - "*/"
+    - '// @input ItemSpot[] itemSpots = {} {"label":"Spots"}'
+    - // @input Asset.Material paintingMaterial
+    - "// @input Asset.Texture[] paintingTextures = {}"
+    - // @input bool testItems
+    - // @input float testSpot
+    - // @input float testItem
+    - // @input Asset.ObjectPrefab keyTestingPrefab
+    - // @input Asset.ObjectPrefab noteTestingPrefab
+    - // @input Asset.ObjectPrefab decoTestingPrefab

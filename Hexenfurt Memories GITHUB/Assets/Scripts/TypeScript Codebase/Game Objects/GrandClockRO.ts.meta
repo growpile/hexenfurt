@@ -1,0 +1,104 @@
+- !<AssetImportMetadata/cf230c62-5b9e-4e15-9038-691a49938c9b>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> a50143ea-690b-4fc2-aa47-0df7e5e445f1
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> a50143ea-690b-4fc2-aa47-0df7e5e445f1
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> b66e384f-9c31-4e7f-b7c3-47a1bbf3fdc3
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/b66e384f-9c31-4e7f-b7c3-47a1bbf3fdc3>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: d5210a0d-91b5-4551-b47e-19afbf40e7f5
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    debugTimeText: false
+    decoTestingPrefab: false
+    drawer: false
+    drawerInteractable: false
+    drawerManipulation: false
+    drawerOutline: false
+    hoursArrow: false
+    hoursArrowManipulation: false
+    itemSpots: false
+    keyTestingPrefab: false
+    mainHangingPart: false
+    minutesArrow: false
+    minutesArrowManipulation: false
+    noteTestingPrefab: false
+    smallHangingParts: false
+    testItem: false
+    testItems: false
+    testSpot: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - minutesArrowManipulation: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      hoursArrowManipulation: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      hoursArrow: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      minutesArrow: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      debugTimeText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      mainHangingPart: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      smallHangingParts: !<reference.SceneObject[]>
+        []
+      drawerInteractable: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      drawerManipulation: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      drawerOutline: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      drawer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      itemSpots:
+        []
+      testItems: false
+      testSpot: !<float> 0.000000
+      testItem: !<float> 0.000000
+      keyTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      noteTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      decoTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.ScriptComponent minutesArrowManipulation
+    - // @input Component.ScriptComponent hoursArrowManipulation
+    - // @input SceneObject hoursArrow
+    - // @input SceneObject minutesArrow
+    - // @input Component.Text debugTimeText
+    - // @input SceneObject mainHangingPart
+    - "// @input SceneObject[] smallHangingParts = {}"
+    - // @input Component.ScriptComponent drawerInteractable
+    - // @input Component.ScriptComponent drawerManipulation
+    - // @input Component.ScriptComponent drawerOutline
+    - // @input SceneObject drawer
+    - /*
+    - "@typedef ItemSpot"
+    - '@property {string} objectType = "deco" {"label":"Object Type", "widget":"combobox", "values":[{"label":"Decoration", "value":"deco"}, {"label":"Inventory Item", "value":"item"}, {"label":"Lore Item", "value":"lore"}, {"label":"Both (item or deco)", "value":"both"}]}'
+    - '@property {int} orientation = "0" {"label":"Orientation", "widget":"combobox", "values":[{"label":"Horizontal", "value":0}, {"label":"Vertical", "value":1}]}'
+    - '@property {bool} lockedSlot {"label":"Locked Slot"}'
+    - "@property {SceneObject} origin"
+    - "*/"
+    - '// @input ItemSpot[] itemSpots = {} {"label":"Spots"}'
+    - // @input bool testItems
+    - // @input float testSpot
+    - // @input float testItem
+    - // @input Asset.ObjectPrefab keyTestingPrefab
+    - // @input Asset.ObjectPrefab noteTestingPrefab
+    - // @input Asset.ObjectPrefab decoTestingPrefab

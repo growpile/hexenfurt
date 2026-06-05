@@ -1,0 +1,44 @@
+- !<AssetImportMetadata/ed999807-bb24-4365-a6fb-7dc9ccd2d800>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 1124de6b-da93-44a2-9d33-6bed7ded717e
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 1124de6b-da93-44a2-9d33-6bed7ded717e
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> c754e5c2-a2c8-43fb-8b9c-9b9c315ebd55
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/c754e5c2-a2c8-43fb-8b9c-9b9c315ebd55>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 24d7c22c-a35d-47d2-b9e9-105103beabbf
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    globalUILayer: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - globalUILayer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject globalUILayer

@@ -1,0 +1,269 @@
+- !<AssetImportMetadata/b7450c37-0839-4e28-89ba-8086003e773a>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> c8003620-a993-454f-bc12-168f17078d15
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> c8003620-a993-454f-bc12-168f17078d15
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> eb0f5088-18ca-4c3b-87ae-eae7973464aa
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/00b956c5-cc34-4a44-4f0e-f19d6fe0b1c1>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 6f4d4e35-7c89-4d67-b96b-b62f14b28ee3
+  Mesh: !<reference> 2f14cf5e-b6f9-4103-a923-734266d9315a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/2693ac20-34f9-48db-7fa5-8ee2d67b1380>
+  PrefabRemaps:
+    []
+  Name: Magic Ball Transform
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 2.000000, y: 2.000000, z: 2.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> d1e54494-dc4c-44f6-4139-edab05a5a44a
+    - !<own> 997d166d-5326-48b1-5914-a652c29360de
+  Components:
+    []
+- !<SceneObject/2992cd5b-c2a2-499c-5f40-6a116f8a80da>
+  PrefabRemaps:
+    []
+  Name: Magic Ball
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -2.827349, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2693ac20-34f9-48db-7fa5-8ee2d67b1380
+  Components:
+    []
+- !<RenderMeshVisual/410b0130-29a7-4580-7140-0ff693fe90f1>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b6671573-9074-43f0-920f-6c62ddc137f8
+  Mesh: !<reference> a8f84003-7f52-450e-a937-81d5631175f2
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: false
+  BlendNormals: false
+  BlendShapes:
+    Pinch: 0.000000
+    Z depth: 0.000000
+- !<LookAtComponent/44f23fa9-4f32-48d6-9a16-d24d97fb62ff>
+  PrefabRemaps:
+    []
+  Name: Look At
+  Enabled: true
+  LookAtMode: LookAtPoint
+  AimVectors: NegativeZAimYUp
+  WorldUpVector: SceneY
+  Target: !<reference> 00000000-0000-0065-0000-000000000064
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+- !<RenderMeshVisual/95063255-5739-4cab-5e87-75f101d4f1ca>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 6f4d4e35-7c89-4d67-b96b-b62f14b28ee3
+  Mesh: !<reference> 78279a27-da65-44ee-80ef-dd0326b83ac6
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/95e6460d-2cc0-410d-7eed-b8996d17f5cf>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 0bcdbc10-6237-43ea-a8ad-3d4cd015c0ad
+  Mesh: !<reference> 9c9b6564-dcf4-4899-8a2c-cc41c4e3a52a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/997d166d-5326-48b1-5914-a652c29360de>
+  PrefabRemaps:
+    []
+  Name: MagicBase
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.125989, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 95063255-5739-4cab-5e87-75f101d4f1ca
+    - !<own> c48c5d48-e8b3-4ae0-5283-c5862d18dbd3
+    - !<own> 00b956c5-cc34-4a44-4f0e-f19d6fe0b1c1
+- !<ScriptComponent/9fdc5d0e-ee52-4a15-98a3-8edf508a3c39>
+  PrefabRemaps:
+    []
+  Name: TweenTransform
+  Enabled: true
+  ScriptAsset: !<reference> 47ad122f-c03a-479e-9126-4080231b50c3
+  ScriptInputsDefault:
+    sceneObjectReference: true
+    tweenName: true
+    playAutomatically: true
+    type: true
+    startInput: true
+    endInput: true
+    from: true
+    to: true
+    additive: true
+    delay: true
+    isLocal: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sceneObjectReference: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      tweenName: ""
+      playAutomatically: true
+      loopType: 2
+      type: 0
+      movementType: 3
+      startInput: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      endInput: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      from: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      to: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      offset: !<Vec3> {x: 0.000000, y: 2.000000, z: 0.000000}
+      additive: false
+      time: !<float> 3.000000
+      delay: !<float> 0.000000
+      isLocal: true
+      easingFunction: Sinusoidal
+      easingType: InOut
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/c48c5d48-e8b3-4ae0-5283-c5862d18dbd3>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 6f4d4e35-7c89-4d67-b96b-b62f14b28ee3
+  Mesh: !<reference> a245737c-555b-4c23-bc0d-1a6e0226d595
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/d1e54494-dc4c-44f6-4139-edab05a5a44a>
+  PrefabRemaps:
+    []
+  Name: Magic Ball
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 7.792156, z: 0.000000}
+    Rotation: {x: 90.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 4.000000, y: 4.000000, z: 4.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> de9f2d62-e0ed-4a95-7499-c9e006a49d1b
+  Components:
+    - !<own> 410b0130-29a7-4580-7140-0ff693fe90f1
+    - !<own> 9fdc5d0e-ee52-4a15-98a3-8edf508a3c39
+    - !<own> 44f23fa9-4f32-48d6-9a16-d24d97fb62ff
+- !<SceneObject/d1f55225-4389-43b8-6a91-b012e41b04bd>
+  PrefabRemaps:
+    []
+  Name: Magic Ball Static
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2992cd5b-c2a2-499c-5f40-6a116f8a80da
+  Components:
+    []
+- !<SceneObject/de9f2d62-e0ed-4a95-7499-c9e006a49d1b>
+  PrefabRemaps:
+    []
+  Name: Particles
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.070590, z: 0.026017}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.275000, y: 0.275000, z: 0.275000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 95e6460d-2cc0-410d-7eed-b8996d17f5cf
+- !<ObjectPrefabAssetData/eb0f5088-18ca-4c3b-87ae-eae7973464aa>
+  Prototype: !<ObjectOwner/b47a15b4-a5b5-43e0-a189-2f3bad9ca892>
+    PackagePath: ""
+    objects:
+      - !<own> d1f55225-4389-43b8-6a91-b012e41b04bd

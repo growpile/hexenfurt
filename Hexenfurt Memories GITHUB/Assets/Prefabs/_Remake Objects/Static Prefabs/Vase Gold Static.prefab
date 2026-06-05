@@ -1,0 +1,96 @@
+- !<ObjectPrefab/bb2ebec5-15ce-49e9-bbeb-17b59e076e4a>
+  PackagePath: ""
+  objects:
+    - !<own> 67244108-103f-4eeb-aa3b-f4e847523639
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/020f9d4d-ce30-402a-9c2f-8596960f9fa0>
+  PrefabRemaps:
+    []
+  Name: Vase Gold
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -4.769775, z: 0.000000}
+    Rotation: {x: 2.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 90e9d080-d6bd-44eb-9458-77f2bb541753
+  Components:
+    []
+- !<SceneObject/67244108-103f-4eeb-aa3b-f4e847523639>
+  PrefabRemaps:
+    - 020f9d4d-ce30-402a-9c2f-8596960f9fa0: 020f9d4d-ce30-402a-63d0-7a6969f0605f
+    - 67244108-103f-4eeb-aa3b-f4e847523639: 67244108-103f-4eeb-55c4-0b17b8adc9c6
+    - 7c9f13db-d9bf-4b7d-a537-b1c2022d7524: 7c9f13db-d9bf-4b7d-5ac8-4e3dfdd28adb
+    - 90e9d080-d6bd-44eb-9458-77f2bb541753: 90e9d080-d6bd-44eb-6ba7-880d44abe8ac
+    - f7100af6-7e31-4202-b4c2-f550f07837ab: f7100af6-7e31-4202-4b3d-0aaf0f87c854
+  Name: Vase Gold Static
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 020f9d4d-ce30-402a-9c2f-8596960f9fa0
+  Components:
+    []
+- !<RenderMeshVisual/7c9f13db-d9bf-4b7d-a537-b1c2022d7524>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 59f33edb-d418-470f-bad9-51238cd9f1b0
+  Mesh: !<reference> b176c429-1514-45ec-9b5c-44ab9832b6d7
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/90e9d080-d6bd-44eb-9458-77f2bb541753>
+  PrefabRemaps:
+    []
+  Name: Vase
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 24.760609, z: 0.000000}
+    Scale: {x: 1.500000, y: 1.500000, z: 1.500000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7c9f13db-d9bf-4b7d-a537-b1c2022d7524
+    - !<own> f7100af6-7e31-4202-b4c2-f550f07837ab
+- !<RenderMeshVisual/f7100af6-7e31-4202-b4c2-f550f07837ab>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: false
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f392ab1e-fcb3-4e2f-a374-da49c8da3dd4
+  Mesh: !<reference> b46a6d99-e95c-4594-9d01-7baa7f59591c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

@@ -1,0 +1,60 @@
+- !<AssetImportMetadata/65042dd7-9018-4891-8811-36aa4fb461ae>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 8069948a-1564-4477-8635-ac15e0fb18e9
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 8069948a-1564-4477-8635-ac15e0fb18e9
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> dac94dbd-f355-49c9-9f5b-e04c47b654e5
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/dac94dbd-f355-49c9-9f5b-e04c47b654e5>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: b728c818-fc0a-4f88-9d58-ea7e2e6a78ef
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    buttonNeededHold: false
+    buttonRadialMaterial: false
+    buttonStateComponents: false
+    buttons: false
+    functionName: false
+    functionScript: false
+    holdBoostValue: false
+    startActive: false
+    totalHoldTime: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - buttons: !<reference.SceneObject[]>
+        []
+      buttonStateComponents: !<reference.ScriptComponent[]>
+        []
+      buttonRadialMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      startActive: false
+      holdBoostValue: 0.000500
+      buttonNeededHold: !<float> 0.000000
+      functionScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      functionName: ""
+      totalHoldTime: !<float> 2.000000
+  ScriptTypes:
+    -
+      {}

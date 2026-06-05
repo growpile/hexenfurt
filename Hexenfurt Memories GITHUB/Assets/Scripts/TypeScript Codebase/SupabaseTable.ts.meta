@@ -1,0 +1,47 @@
+- !<AssetImportMetadata/9212c912-fba4-426d-b941-fa4b885e9406>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> ff796993-e86f-43c4-8f9c-96469a403f34
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> ff796993-e86f-43c4-8f9c-96469a403f34
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 60659416-31b4-42f5-abf8-dea7acc5db18
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/60659416-31b4-42f5-abf8-dea7acc5db18>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: d84af121-dc73-4aec-91b3-6081774d54d1
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    snapCloudRequirements: false
+    tableName: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - snapCloudRequirements: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      tableName: global_leaderboard
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input Component.ScriptComponent snapCloudRequirements {"hint":"SnapCloudRequirements component for credentials."}'
+    - '// @input string tableName = "global_leaderboard" {"hint":"Supabase table to read/write scores from."}'

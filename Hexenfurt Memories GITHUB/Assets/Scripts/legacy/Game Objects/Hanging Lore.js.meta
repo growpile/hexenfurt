@@ -1,0 +1,52 @@
+- !<AssetImportMetadata/93554c75-8bb1-4866-80e6-b92e845ed047>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> b026c9ff-9daf-4d5a-8b53-2eaf63e933ea
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> b026c9ff-9daf-4d5a-8b53-2eaf63e933ea
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 8c91e40c-87c0-472d-a55e-260f3edaa736
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/8c91e40c-87c0-472d-a55e-260f3edaa736>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: a9676540-5eb1-4678-887f-9b3f7d5c123c
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    hangAmplitudeDeg: false
+    hangBiasDeg: false
+    hangSpeedHz: false
+    hangingTo: false
+    loreId: false
+    resetDuration: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - loreId: ""
+      hangingTo: 0
+      hangAmplitudeDeg: !<float> 8.000000
+      hangBiasDeg: !<float> 4.000000
+      hangSpeedHz: 0.600000
+      resetDuration: 0.350000
+  ScriptTypes:
+    -
+      {}

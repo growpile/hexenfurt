@@ -1,0 +1,192 @@
+- !<AssetImportMetadata/34d6e4e3-34c8-47ef-8989-6c4929cc7387>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> b688424f-e2ed-4f7a-a029-34f6cac97e40
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> b688424f-e2ed-4f7a-a029-34f6cac97e40
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 2e0a490e-eb1b-43b1-8ec9-a8f7e27da08c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<Image/098d5652-8952-45af-81a7-84931f2db98a>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> fa40e15b-d39b-422f-8aa3-e0181fa39433
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/1b8d2f88-00ad-4a03-79a9-67566b1a7ee2>
+  PrefabRemaps:
+    []
+  Name: Cube.140
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 765bed56-4125-4387-8ef1-869cad2a4abd
+  Mesh: !<reference> b88958b2-b075-482c-9592-c18033882cff
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/1c43d33e-e391-46b0-81c8-a21dad6dd2a8>
+  PrefabRemaps:
+    []
+  Name: Painting RO
+  Enabled: true
+  ScriptAsset: !<reference> 6c378556-abda-459c-be42-96bf1c4141ab
+  ScriptInputsDefault:
+    testItems: true
+    testItem: true
+    decoTestingPrefab: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      itemSpots:
+        - objectType: item
+          orientation: 0
+          lockedSlot: false
+          origin: !<reference.SceneObject> 389fdb28-9212-4038-9249-4f21be04f042
+        - objectType: lore
+          orientation: 1
+          lockedSlot: false
+          origin: !<reference.SceneObject> f869a94d-8c3d-4772-9146-c1de7142dfc0
+      testItems: false
+      testSpot: 1
+      testItem: 0
+      keyTestingPrefab: !<reference.ObjectPrefab> f95008d2-0d3e-42ed-99ab-1de58c02cf6d
+      noteTestingPrefab: !<reference.ObjectPrefab> 0327b8cb-b412-4663-a5f3-cc08b11c8d0d
+      decoTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      paintingMaterial: !<reference.Material> fa40e15b-d39b-422f-8aa3-e0181fa39433
+      paintingTextures: !<reference.Texture[]>
+        - !<reference> d9946034-fae2-454c-a592-a1bfac56bf09
+        - !<reference> 4394cee7-dc6b-49ac-a67e-33a1414d9d39
+        - !<reference> 93f5baaf-7ad0-4e40-ba6e-a80fbbacee55
+        - !<reference> c5f3962e-e8e3-4797-84d3-f95839b2851f
+        - !<reference> 61c4afbe-e8aa-450b-99b1-84bd88e0766c
+  ScriptTypes:
+    "":
+      {}
+- !<ObjectPrefabAssetData/2e0a490e-eb1b-43b1-8ec9-a8f7e27da08c>
+  Prototype: !<ObjectOwner/6eaff275-8be6-4006-abfb-d6eeda27e710>
+    PackagePath: ""
+    objects:
+      - !<own> 62fa1573-7191-419e-54f8-e14f3e98e47f
+- !<SceneObject/347ec65c-5ba1-449a-73b9-879d9284d693>
+  PrefabRemaps:
+    []
+  Name: Painting Face
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.002000, y: -0.000000, z: 0.000001}
+    Rotation: {x: 0.000000, y: -90.000000, z: 0.000000}
+    Scale: {x: 0.320000, y: 0.320000, z: 0.320000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 098d5652-8952-45af-81a7-84931f2db98a
+- !<SceneObject/389fdb28-9212-4038-9249-4f21be04f042>
+  PrefabRemaps:
+    []
+  Name: Item Spot - Horizontal
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.022506, y: 0.227075, z: -0.053517}
+    Rotation: {x: 0.000000, y: 83.803596, z: -90.000000}
+    Scale: {x: 0.010000, y: 0.010000, z: 0.010000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/4eb4cc4a-5c8c-4a19-74ae-86aa4d01dd6c>
+  PrefabRemaps:
+    []
+  Name: Painting Frame
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000020, y: -0.000000, z: -0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1b8d2f88-00ad-4a03-79a9-67566b1a7ee2
+- !<SceneObject/62fa1573-7191-419e-54f8-e14f3e98e47f>
+  PrefabRemaps:
+    []
+  Name: Painting
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> c008bfa4-fc4b-4c57-5518-ce7acda25d0e
+  Components:
+    - !<own> 1c43d33e-e391-46b0-81c8-a21dad6dd2a8
+- !<SceneObject/c008bfa4-fc4b-4c57-5518-ce7acda25d0e>
+  PrefabRemaps:
+    []
+  Name: Painting Transform
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 2.251069, z: 1.457397}
+    Rotation: {x: 0.000000, y: 0.000000, z: 90.000000}
+    Scale: {x: 100.000015, y: 100.000000, z: 100.000015}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> f869a94d-8c3d-4772-9146-c1de7142dfc0
+    - !<own> 389fdb28-9212-4038-9249-4f21be04f042
+    - !<own> 347ec65c-5ba1-449a-73b9-879d9284d693
+    - !<own> 4eb4cc4a-5c8c-4a19-74ae-86aa4d01dd6c
+  Components:
+    []
+- !<SceneObject/f869a94d-8c3d-4772-9146-c1de7142dfc0>
+  PrefabRemaps:
+    []
+  Name: Lore Origin
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.020301, y: -0.334720, z: -0.177492}
+    Rotation: {x: 0.000000, y: 90.000000, z: 0.000000}
+    Scale: {x: 0.010000, y: 0.010000, z: 0.010000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []

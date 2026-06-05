@@ -1,0 +1,53 @@
+- !<AssetImportMetadata/a1fd6961-a505-4e60-9512-f7cdc837f709>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 3f913e30-8579-4e42-98af-ff776c937777
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 3f913e30-8579-4e42-98af-ff776c937777
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 05591b49-8364-48a1-b18e-82bba6c2159f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/05591b49-8364-48a1-b18e-82bba6c2159f>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: ecf91ffe-3383-41e4-9b11-448c22395397
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    camera: false
+    cameraFloatingOrigin: false
+    inspectDistance: false
+    inventoryObjects: false
+    notebookTextComponent: false
+    uiLayerObject: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - camera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      cameraFloatingOrigin: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      inspectDistance: !<float> 0.000000
+      inventoryObjects:
+        []
+      notebookTextComponent: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      uiLayerObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

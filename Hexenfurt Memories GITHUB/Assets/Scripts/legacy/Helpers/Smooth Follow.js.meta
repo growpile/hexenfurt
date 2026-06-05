@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/37ebf84e-75aa-4981-ae66-87f2147105f2>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 2e57f687-4692-42d2-99ed-3d99db5a840a
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 2e57f687-4692-42d2-99ed-3d99db5a840a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 1d15c93f-2771-4db0-8ce3-9e3cfa651c0b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/1d15c93f-2771-4db0-8ce3-9e3cfa651c0b>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: df31e79d-a49e-43a7-be29-92ada09c5b9e
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    copyPosition: false
+    copyRotation: false
+    objectToFollow: false
+    speed: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - objectToFollow: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      speed: !<float> 0.000000
+      copyPosition: false
+      copyRotation: false
+  ScriptTypes:
+    -
+      {}

@@ -1,0 +1,53 @@
+- !<AssetImportMetadata/69776f1a-ce54-425e-9e47-c25179d7dc54>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 3c9cf658-7bf2-4c6b-b3a9-9896e157ab6a
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 3c9cf658-7bf2-4c6b-b3a9-9896e157ab6a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 094b20ad-23cc-43d3-8abf-83d63f533059
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/094b20ad-23cc-43d3-8abf-83d63f533059>
+  Prototype: !<ObjectOwner/8d60740c-e2b3-47b1-96f0-7e9bb783e323>
+    PackagePath: ""
+    objects:
+      - !<own> 54e4a39b-c059-48c6-6077-691419ab7264
+- !<SceneObject/54e4a39b-c059-48c6-6077-691419ab7264>
+  PrefabRemaps:
+    []
+  Name: Background Sound
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 76e740cb-e046-414e-660e-6242067c4275
+- !<AudioComponent/76e740cb-e046-414e-660e-6242067c4275>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: true
+  CurveType: Logarithm
+  MinDistance: 100.000000
+  MaxDistance: 700.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: true

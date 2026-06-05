@@ -1,0 +1,65 @@
+- !<AssetImportMetadata/fdd3fbca-b994-43cb-83a4-996bf411091f>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 36a3b977-bf2d-4e4f-aabb-4c3bab365c7f
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 36a3b977-bf2d-4e4f-aabb-4c3bab365c7f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> a1a079c1-e9dd-4ee1-9876-7ff6c95f3d4d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/a1a079c1-e9dd-4ee1-9876-7ff6c95f3d4d>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 6c37c796-4b9a-45e2-b273-d1338f22e382
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    camera: false
+    cameraFloatingOrigin: false
+    inspectDistance: false
+    inventoryObjects: false
+    notebookTextComponent: false
+    uiLayerObject: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - camera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      cameraFloatingOrigin: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      inspectDistance: !<float> 60.000000
+      inventoryObjects:
+        []
+      notebookTextComponent: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      uiLayerObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.Camera camera
+    - // @input SceneObject cameraFloatingOrigin
+    - // @input float inspectDistance = 60
+    - /*
+    - "@typedef InventoryEntry"
+    - "@property {SceneObject} visual"
+    - '@property {string} itemId {"label":"Item ID"}'
+    - "*/"
+    - '// @input InventoryEntry[] inventoryObjects = {} {"label":"Items"}'
+    - // @input Component.Text notebookTextComponent
+    - // @input SceneObject uiLayerObject

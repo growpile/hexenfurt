@@ -1,0 +1,78 @@
+- !<AssetImportMetadata/8c1e95c0-c64f-4482-99c6-f4639d3cba31>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> f574e232-197e-4ab5-ba66-473656495ee8
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> f574e232-197e-4ab5-ba66-473656495ee8
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 369d6eee-e1e9-43a0-98d0-4af63a386b1b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/369d6eee-e1e9-43a0-98d0-4af63a386b1b>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 4f176c41-fd35-4784-a3d3-dffd1fede568
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    debugTimeText: false
+    decoTestingPrefab: false
+    drawer: false
+    drawerInteractable: false
+    drawerManipulation: false
+    drawerOutline: false
+    hoursArrow: false
+    hoursArrowManipulation: false
+    itemSpots: false
+    keyTestingPrefab: false
+    mainHangingPart: false
+    minutesArrow: false
+    minutesArrowManipulation: false
+    noteTestingPrefab: false
+    smallHangingParts: false
+    testItem: false
+    testItems: false
+    testSpot: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - minutesArrowManipulation: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      hoursArrowManipulation: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      hoursArrow: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      minutesArrow: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      debugTimeText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      mainHangingPart: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      smallHangingParts: !<reference.SceneObject[]>
+        []
+      drawerInteractable: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      drawerManipulation: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      drawerOutline: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      drawer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      itemSpots:
+        []
+      testItems: false
+      testSpot: 0
+      testItem: 0
+      keyTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      noteTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      decoTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

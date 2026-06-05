@@ -1,0 +1,196 @@
+- !<AssetImportMetadata/d43ce07c-75fb-4232-a8be-a4009ed9e4d3>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 587a3a21-52c7-446c-a753-86ea84f3962a
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 587a3a21-52c7-446c-a753-86ea84f3962a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 2c040166-9728-4b28-bd3a-550353419f6c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/2c040166-9728-4b28-bd3a-550353419f6c>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 42a33a62-96b9-478b-892e-00df25c5de6e
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    anchorsHint: false
+    archiveGallery: false
+    archiveGalleryRoot: false
+    archiveHighlight: false
+    archiveIcon: false
+    archiveInteractable: false
+    defaultDuration: false
+    endingPbFlag: false
+    endingTimeText: false
+    gameFlow: false
+    hexenfurtLogo: false
+    holdDelay: false
+    holdRadialMaterial: false
+    introPart1: false
+    introPart2: false
+    leaderboardHint: false
+    loadingBarMaterial: false
+    loadingTipText: false
+    loadingTips: false
+    loadingViewFrame: false
+    loadingViewRoot: false
+    loreGallery: false
+    loreGalleryRoot: false
+    loreIcon: false
+    loreInteractable: false
+    mainMenuParticleDuration: false
+    mainMenuParticlesVfx: false
+    mainMenuRoot: false
+    playInteractable: false
+    postGameFrame: false
+    postGameRoot: false
+    settingsButton: false
+    settingsButtonLabelFadeDuration: false
+    settingsManager: false
+    settingsRoot: false
+    setupPromptFrame: false
+    setupPromptRoot: false
+    setupViewFrame: false
+    setupViewRoot: false
+    storyIntroFadeDuration: false
+    storyIntroHoldDuration: false
+    storyIntroView: false
+    totalHoldTime: false
+    transitionStyle: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - gameFlow: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      transitionStyle: 0
+      defaultDuration: 0.200000
+      hexenfurtLogo: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      mainMenuRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      playInteractable: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      loreInteractable: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      archiveInteractable: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      archiveHighlight: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      loreIcon: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      archiveIcon: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      settingsButton: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      settingsButtonLabelFadeDuration: 0.250000
+      mainMenuParticlesVfx: !<reference.VFXComponent> 00000000-0000-0000-0000-000000000000
+      mainMenuParticleDuration: 0.100000
+      settingsRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      settingsManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      loreGalleryRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      loreGallery: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      archiveGalleryRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      archiveGallery: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      setupViewRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      setupViewFrame: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      anchorsHint: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      holdRadialMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      totalHoldTime: !<float> 2.000000
+      holdDelay: 0.300000
+      setupPromptRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      setupPromptFrame: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      loadingViewRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      loadingViewFrame: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      loadingBarMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      loadingTipText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      loadingTips: !<string[]>
+        []
+      storyIntroView: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      introPart1: Strange cases of disappearance have unsettled the once-peaceful town of Hexenfurt...
+      introPart2: "As the newly appointed detective, you enter the old manor to uncover the truth - but once inside, the door locks behind you."
+      storyIntroHoldDuration: !<float> 2.000000
+      storyIntroFadeDuration: 0.800000
+      postGameRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      postGameFrame: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      endingTimeText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      endingPbFlag: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      leaderboardHint: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Core</span>\"}"
+    - '// @input Component.ScriptComponent gameFlow {"hint":"GameFlow component. Used for phase transitions and game state queries."}'
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>View Transitions</span>\"}"
+    - '// @input int transitionStyle = "0" {"hint":"How transitions animate: Scale (default) or None.", "widget":"combobox", "values":[{"label":"Scale", "value":0}, {"label":"None", "value":1}]}'
+    - '// @input float defaultDuration = 0.2 {"hint":"Default transition duration in seconds."}'
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Main Menu View</span>\"}"
+    - '// @input SceneObject hexenfurtLogo {"hint":"Hexenfurt logo shown with the main menu."}'
+    - '// @input SceneObject mainMenuRoot {"label":"View Root", "hint":"Root object for the animated main menu (buttons + simulator child scale with this)."}'
+    - '// @input Component.ScriptComponent playInteractable {"hint":"Interactable on the Play button (parent SceneObject is the animated button mesh)."}'
+    - '// @input Component.ScriptComponent loreInteractable {"hint":"Interactable on the Lore button."}'
+    - '// @input Component.ScriptComponent archiveInteractable {"hint":"Interactable on the Archive button."}'
+    - '// @input SceneObject archiveHighlight {"hint":"Visual ring/glow on the Archive button when new lore was acquired."}'
+    - "// @input Component.Image loreIcon {\"label\":\"Lore Icon\", \"hint\":\"Image on the Lore button. Its mainMaterial '.state' is 0 when locked (no first game) and animates to 1 on unlock.\"}"
+    - "// @input Component.Image archiveIcon {\"label\":\"Archive Icon\", \"hint\":\"Image on the Archive button. Its mainMaterial '.state' is 0 when locked (no first game) and animates to 1 on unlock.\"}"
+    - '// @input Component.ScriptComponent settingsButton {"label":"Settings Button", "hint":"CapsuleButton on the main menu that opens settings (cards fold; logo stays)."}'
+    - '// @input float settingsButtonLabelFadeDuration = "0.12" {"hint":"Fade duration when Settings button label swaps to Main Menu and back."}'
+    - '// @input Component.VFXComponent mainMenuParticlesVfx {"label":"Menu Particles VFX", "hint":"Burst when Play dismisses the main menu (folder fold-out). Uses burstDuration on the VFX asset."}'
+    - '// @input float mainMenuParticleDuration = "0.1" {"hint":"Burst window length in seconds (burstDuration = getTime() + this value)."}'
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Settings View</span>\"}"
+    - '// @input SceneObject settingsRoot {"label":"Settings Root", "hint":"Panel scaled up over the main menu while menu cards are folded away."}'
+    - '// @input Component.ScriptComponent settingsManager {"label":"Settings Manager", "hint":"SettingsManager component for volume, gloves, and progress wipes."}'
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Lore Gallery View</span>\"}"
+    - '// @input SceneObject loreGalleryRoot {"label":"View Root", "hint":"Root composite for the hanging-lore compendium."}'
+    - '// @input Component.ScriptComponent loreGallery {"hint":"LoreGallery component on this root or a child."}'
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Archive Gallery View</span>\"}"
+    - '// @input SceneObject archiveGalleryRoot {"label":"View Root", "hint":"Root composite for the room-object archive."}'
+    - '// @input Component.ScriptComponent archiveGallery {"hint":"ArchiveGallery component on this root or a child."}'
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Setup View</span>\"}"
+    - '// @input SceneObject setupViewRoot {"label":"View Root", "hint":"Root object for the Setup view (POI-anchor placement phase)."}'
+    - '// @input Component.ScriptComponent setupViewFrame {"label":"UIKit Frame", "hint":"Optional UIKit frame script; its SceneObject is toggled instead of the root."}'
+    - '// @input Component.Text anchorsHint {"hint":"Anchor placement summary during the POI-anchors setup phase."}'
+    - // @input Asset.Material holdRadialMaterial
+    - '// @input float totalHoldTime = 2 {"hint":"Total time (s) to fill the radial hold ring. 2s = default."}'
+    - '// @input float holdDelay = 0.3 {"hint":"Pinch must remain down for this long (s) before progress starts filling."}'
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Setup Prompt View</span>\"}"
+    - "// @input SceneObject setupPromptRoot {\"label\":\"View Root\", \"hint\":\"Root object for the 'use existing scan / re-scan' prompt.\"}"
+    - '// @input Component.ScriptComponent setupPromptFrame {"label":"UIKit Frame", "hint":"Optional UIKit frame script; its SceneObject is toggled instead of the root."}'
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Loading View</span>\"}"
+    - '// @input SceneObject loadingViewRoot {"label":"View Root", "hint":"Root object for the loading view shown while the procedural room spawns."}'
+    - '// @input Component.ScriptComponent loadingViewFrame {"label":"UIKit Frame", "hint":"Optional UIKit frame script; its SceneObject is toggled instead of the root."}'
+    - // @input Asset.Material loadingBarMaterial
+    - '// @input Component.Text loadingTipText {"hint":"Tip line shown while the procedural room spawns."}'
+    - '// @input string[] loadingTips = {} {"hint":"Pool of tips; one is shown at random between spawn steps."}'
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Story Intro View</span>\"}"
+    - '// @input SceneObject storyIntroView {"label":"Story Intro View", "hint":"Shown after the loading bar; fades intro copy in/out before gameplay begins."}'
+    - '// @input string introPart1 = "Strange cases of disappearance have unsettled the once-peaceful town of Hexenfurt..." {"label":"Intro Part 1", "widget":"text_area"}'
+    - '// @input string introPart2 = "As the newly appointed detective, you enter the old manor to uncover the truth - but once inside, the door locks behind you." {"label":"Intro Part 2", "widget":"text_area"}'
+    - '// @input float storyIntroHoldDuration = 2 {"hint":"Seconds each intro part stays fully visible between fade-in and fade-out."}'
+    - '// @input float storyIntroFadeDuration = 0.8 {"hint":"Seconds to fade intro text in or out."}'
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Post-Game View</span>\"}"
+    - '// @input SceneObject postGameRoot {"label":"View Root", "hint":"Root object for the post-game results view."}'
+    - '// @input Component.ScriptComponent postGameFrame {"label":"UIKit Frame", "hint":"Optional UIKit frame script; its SceneObject is toggled instead of the root."}'
+    - // @input Component.Text endingTimeText
+    - // @input SceneObject endingPbFlag
+    - "// @input SceneObject leaderboardHint {\"hint\":\"Floating 'check the leaderboard' hint shown once after the first run.\"}"
+    - '// @ui {"widget":"group_end"}'

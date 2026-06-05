@@ -1,0 +1,91 @@
+- !<AssetImportMetadata/2b1416e5-3f73-45e1-93a5-d6b27cf2d7c1>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 966dd036-5f64-4e97-ad1f-46fe84fe9e28
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 966dd036-5f64-4e97-ad1f-46fe84fe9e28
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> fcf8d9aa-e1d5-4c75-9e69-9054d9030529
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/fcf8d9aa-e1d5-4c75-9e69-9054d9030529>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 6e233efb-adab-435b-86c9-d1c2dea61fdf
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    decoTestingPrefab: false
+    inventoryItemName: false
+    itemSpots: false
+    keyParent: false
+    keyTestingPrefab: false
+    noteTestingPrefab: false
+    safeDoor: false
+    safeDoorInteractable: false
+    safeDoorOutline: false
+    safeHandle: false
+    silverKey: false
+    testItem: false
+    testItems: false
+    testSpot: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - safeDoorInteractable: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      safeDoorOutline: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      safeDoor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      safeHandle: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      inventoryItemName: silverKey
+      keyParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      silverKey: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      itemSpots:
+        []
+      testItems: false
+      testSpot: !<float> 0.000000
+      testItem: !<float> 0.000000
+      keyTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      noteTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      decoTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.ScriptComponent safeDoorInteractable
+    - // @input Component.ScriptComponent safeDoorOutline
+    - // @input SceneObject safeDoor
+    - // @input SceneObject safeHandle
+    - '// @input string inventoryItemName = "silverKey"'
+    - // @input SceneObject keyParent
+    - // @input SceneObject silverKey
+    - /*
+    - "@typedef ItemSpot"
+    - '@property {string} objectType = "deco" {"label":"Object Type", "widget":"combobox", "values":[{"label":"Decoration", "value":"deco"}, {"label":"Inventory Item", "value":"item"}, {"label":"Lore Item", "value":"lore"}, {"label":"Both (item or deco)", "value":"both"}]}'
+    - '@property {int} orientation = "0" {"label":"Orientation", "widget":"combobox", "values":[{"label":"Horizontal", "value":0}, {"label":"Vertical", "value":1}]}'
+    - '@property {bool} lockedSlot {"label":"Locked Slot"}'
+    - "@property {SceneObject} origin"
+    - "*/"
+    - '// @input ItemSpot[] itemSpots = {} {"label":"Spots"}'
+    - // @input bool testItems
+    - // @input float testSpot
+    - // @input float testItem
+    - // @input Asset.ObjectPrefab keyTestingPrefab
+    - // @input Asset.ObjectPrefab noteTestingPrefab
+    - // @input Asset.ObjectPrefab decoTestingPrefab

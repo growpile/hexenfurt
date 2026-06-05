@@ -1,0 +1,98 @@
+- !<AssetImportMetadata/8b79d80a-f21f-45c9-9898-20e1857d8053>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 8cdf2bde-3911-454e-89ab-806b4a31f58e
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 8cdf2bde-3911-454e-89ab-806b4a31f58e
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 05708d7c-27ec-43f7-99e2-fe2e4089a63d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/05708d7c-27ec-43f7-99e2-fe2e4089a63d>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 4faced23-f052-43dc-b0a0-0f5aaffe2e73
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    debugText: false
+    decoTestingPrefab: false
+    indexIndicator: false
+    itemSpots: false
+    keyTestingPrefab: false
+    noteTestingPrefab: false
+    numberStripMaterial: false
+    safeCombinationNumbers: false
+    safeDoor: false
+    safeDoorInteractable: false
+    safeDoorManipulation: false
+    safeDoorOutline: false
+    safeHandle: false
+    testItem: false
+    testItems: false
+    testSpot: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - debugText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      safeDoorInteractable: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      safeDoorManipulation: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      safeDoorOutline: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      safeDoor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      safeHandle: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      indexIndicator: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      numberStripMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      safeCombinationNumbers: !<reference.RenderMeshVisual[]>
+        []
+      itemSpots:
+        []
+      testItems: false
+      testSpot: !<float> 0.000000
+      testItem: !<float> 0.000000
+      keyTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      noteTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      decoTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.Text debugText
+    - // @input Component.ScriptComponent safeDoorInteractable
+    - // @input Component.ScriptComponent safeDoorManipulation
+    - // @input Component.ScriptComponent safeDoorOutline
+    - // @input SceneObject safeDoor
+    - // @input SceneObject safeHandle
+    - // @input SceneObject indexIndicator
+    - '// @input Asset.Material numberStripMaterial {"label":"Number Strip Material"}'
+    - '// @input Component.RenderMeshVisual[] safeCombinationNumbers = {} {"label":"Safe Combination Numbers"}'
+    - /*
+    - "@typedef ItemSpot"
+    - '@property {string} objectType = "deco" {"label":"Object Type", "widget":"combobox", "values":[{"label":"Decoration", "value":"deco"}, {"label":"Inventory Item", "value":"item"}, {"label":"Lore Item", "value":"lore"}, {"label":"Both (item or deco)", "value":"both"}]}'
+    - '@property {int} orientation = "0" {"label":"Orientation", "widget":"combobox", "values":[{"label":"Horizontal", "value":0}, {"label":"Vertical", "value":1}]}'
+    - '@property {bool} lockedSlot {"label":"Locked Slot"}'
+    - "@property {SceneObject} origin"
+    - "*/"
+    - '// @input ItemSpot[] itemSpots = {} {"label":"Spots"}'
+    - // @input bool testItems
+    - // @input float testSpot
+    - // @input float testItem
+    - // @input Asset.ObjectPrefab keyTestingPrefab
+    - // @input Asset.ObjectPrefab noteTestingPrefab
+    - // @input Asset.ObjectPrefab decoTestingPrefab

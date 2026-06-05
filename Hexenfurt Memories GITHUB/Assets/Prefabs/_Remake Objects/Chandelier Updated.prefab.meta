@@ -1,0 +1,871 @@
+- !<AssetImportMetadata/22164ac7-a873-42ca-b161-2f640b5f6c5e>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> d9ae80c7-6b64-4163-a32d-8097971f48bc
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> d9ae80c7-6b64-4163-a32d-8097971f48bc
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 842a2a1a-07dd-480d-bbfc-3d144b174fbf
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/0a4ec0a1-1536-4ed3-8c69-dab882fd0aad>
+  PrefabRemaps:
+    []
+  Name: Shadow
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 1.866314, z: 0.000000}
+    Rotation: {x: 90.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 293.585297, y: 293.585297, z: 293.585297}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 81eb6713-f9b2-4a4e-8806-21df7b3b320d
+- !<SceneObject/1217768d-5490-47d6-605c-4840e4ba2826>
+  PrefabRemaps:
+    []
+  Name: Candle Flame
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -80.865318, y: -56.761497, z: 0.000013}
+    Rotation: {x: -89.999985, y: 0.000014, z: 180.000000}
+    Scale: {x: 20.000000, y: 20.000000, z: 20.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> b29a0562-2ce5-464c-7c28-3e913440af1e
+  Components:
+    - !<own> 5d1a11be-079d-4702-560e-3230c4607be0
+- !<SceneObject/1229770b-2205-403d-6bd7-5aed066b1137>
+  PrefabRemaps:
+    []
+  Name: Candle Flame
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a0c86797-5500-4112-5190-fd7ac1f6227f
+- !<SceneObject/1305fa66-6061-4b53-41fc-91002f1c6bc7>
+  PrefabRemaps:
+    []
+  Name: Candle.004
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -80.995705, y: -81.502724, z: 0.000050}
+    Rotation: {x: -122.311943, y: 0.000001, z: 90.000015}
+    Scale: {x: 0.026444, y: 0.026444, z: 0.026444}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5fccf9ce-a75e-4bc7-403a-bd9612de0ec4
+- !<SceneObject/1c0cb4fa-eebc-43a2-640c-159e50749317>
+  PrefabRemaps:
+    []
+  Name: Candle Flame
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 40.432644, y: -57.985573, z: 70.031433}
+    Rotation: {x: 90.000000, y: -60.000050, z: 0.000009}
+    Scale: {x: 20.000000, y: 20.000000, z: 20.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1229770b-2205-403d-6bd7-5aed066b1137
+  Components:
+    - !<own> 6061cbf5-bf07-4e46-786d-3f2ae50e93d5
+- !<SceneObject/287a957a-16af-40bc-4ab8-66995a6f60af>
+  PrefabRemaps:
+    []
+  Name: Candle
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 80.995705, y: -81.502724, z: -0.000033}
+    Rotation: {x: 102.612831, y: -0.000000, z: 90.000015}
+    Scale: {x: 0.017567, y: 0.017567, z: 0.017567}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> bd043409-74ec-4b72-6be8-693ed2ab16a1
+- !<RenderMeshVisual/28ac989f-33b6-4e37-4728-c076eeb942f8>
+  PrefabRemaps:
+    []
+  Name: component_6
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a0005250-839f-45da-8f6f-acf52e782b4b
+  Mesh: !<reference> 3d47a2de-56a4-429a-8e15-9c26305bd0bf
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/3e5cfb02-a1c3-41b6-50be-d60bd818f7f9>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 13c18a17-f0c5-463b-8163-751c50585212
+  Mesh: !<reference> 3dced6a9-c43b-4d59-9939-4e951e1399fd
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/45c847f3-45d6-4c31-687b-c284861bf356>
+  PrefabRemaps:
+    []
+  Name: component_7
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a0005250-839f-45da-8f6f-acf52e782b4b
+  Mesh: !<reference> e9f87f4b-1da6-4515-8642-a6083fa54d49
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/476c7f72-e0bd-4307-40d5-ae961709bced>
+  PrefabRemaps:
+    []
+  Name: Candle Flame
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3e5cfb02-a1c3-41b6-50be-d60bd818f7f9
+- !<RenderMeshVisual/4d1312b7-f12e-4b0a-6480-63b49356db5c>
+  PrefabRemaps:
+    []
+  Name: component_8
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a0005250-839f-45da-8f6f-acf52e782b4b
+  Mesh: !<reference> 76020228-0e25-48b2-9dc7-f50c76527393
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/4d385e5f-6bd6-4541-5155-02e76f5261b1>
+  PrefabRemaps:
+    []
+  Name: Candle Flame
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 40.432667, y: -60.733700, z: -70.031425}
+    Rotation: {x: 90.000023, y: 59.999973, z: 0.000012}
+    Scale: {x: 20.000000, y: 20.000000, z: 20.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 476c7f72-e0bd-4307-40d5-ae961709bced
+  Components:
+    - !<own> 735c56b8-2b52-43f5-4609-efbd6a0f1be2
+- !<SceneObject/52588197-38cd-4f84-7118-cccd9913a3f4>
+  PrefabRemaps:
+    []
+  Name: Candle Flame
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> dadcc7a1-8a9f-4f1f-7207-1e4430c15e82
+- !<RenderMeshVisual/57201f2a-82bd-437e-6dfa-d6348a113c3d>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 13c18a17-f0c5-463b-8163-751c50585212
+  Mesh: !<reference> 3dced6a9-c43b-4d59-9939-4e951e1399fd
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/5d1a11be-079d-4702-560e-3230c4607be0>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 13c18a17-f0c5-463b-8163-751c50585212
+  Mesh: !<reference> 3dced6a9-c43b-4d59-9939-4e951e1399fd
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/5fccf9ce-a75e-4bc7-403a-bd9612de0ec4>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> df059ca3-92f3-44f0-a69c-0fddd9f4f6ce
+  Mesh: !<reference> 04c9630b-9f82-4a4e-b842-2817ec0d8451
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/6061cbf5-bf07-4e46-786d-3f2ae50e93d5>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 13c18a17-f0c5-463b-8163-751c50585212
+  Mesh: !<reference> 3dced6a9-c43b-4d59-9939-4e951e1399fd
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/735c56b8-2b52-43f5-4609-efbd6a0f1be2>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 13c18a17-f0c5-463b-8163-751c50585212
+  Mesh: !<reference> 3dced6a9-c43b-4d59-9939-4e951e1399fd
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/798194e3-70b5-427a-5c80-f4c35ee29e05>
+  PrefabRemaps:
+    []
+  Name: Candle Flame
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -40.432655, y: -62.584042, z: 70.031433}
+    Rotation: {x: -90.000000, y: -59.999973, z: -179.999985}
+    Scale: {x: 20.000000, y: 20.000000, z: 20.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> d23830eb-761f-4b1a-5b8a-f2e4d5a97fa7
+  Components:
+    - !<own> e2138c46-fe6e-4c50-4126-d3c775942865
+- !<RenderMeshVisual/7df94f84-7a02-427e-6539-889e4e705d17>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> df059ca3-92f3-44f0-a69c-0fddd9f4f6ce
+  Mesh: !<reference> 5231a5ba-fd7d-4a90-a9e0-be4cd4610646
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<Image/81eb6713-f9b2-4a4e-8806-21df7b3b320d>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d49eb165-6ab9-4b23-96d1-7d0f3d7d8780
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/8245e1fb-e93e-4681-ab67-38d32b03a80d>
+  PrefabRemaps:
+    []
+  Name: SoundAmbience
+  Enabled: true
+  ScriptAsset: !<reference> f329559e-dba6-42f9-a61c-1a98a962e21a
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      soundId: fireLoop
+      volume: 0.400000
+  ScriptTypes:
+    "":
+      {}
+- !<ObjectPrefabAssetData/842a2a1a-07dd-480d-bbfc-3d144b174fbf>
+  Prototype: !<ObjectOwner/291e5117-16a9-4fbe-a9c2-0a4265abb5e3>
+    PackagePath: ""
+    objects:
+      - !<own> f04a6329-9e00-40d0-46f4-abf0692d9514
+- !<SceneObject/8cb66cd5-6d51-4abc-4dca-dcc64676cf63>
+  PrefabRemaps:
+    []
+  Name: Candle.005
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -40.497807, y: -81.502724, z: 70.144363}
+    Rotation: {x: 49.144630, y: 0.000000, z: 90.000000}
+    Scale: {x: 0.020407, y: 0.020407, z: 0.020407}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a4eb4d29-2984-48ec-6f14-8604778ba543
+- !<SceneObject/8d4110c9-a7e4-4f91-5a13-80d3bea12ad1>
+  PrefabRemaps:
+    []
+  Name: Candle Flame
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 80.865326, y: -62.584042, z: 0.000000}
+    Rotation: {x: 90.000008, y: -0.000019, z: -0.000000}
+    Scale: {x: 20.000000, y: 20.000000, z: 20.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> f08f6894-6370-4bd5-59fc-44aed8cb1059
+  Components:
+    - !<own> c21612b5-731c-4ee2-4c1d-5ac94b987e68
+- !<SceneObject/91038e68-66dd-4791-44b9-14f415f0bed3>
+  PrefabRemaps:
+    []
+  Name: Candle Flame
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -40.432663, y: -56.998775, z: -70.031425}
+    Rotation: {x: -90.000000, y: 60.000023, z: 180.000000}
+    Scale: {x: 20.000000, y: 20.000000, z: 20.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 52588197-38cd-4f84-7118-cccd9913a3f4
+  Components:
+    - !<own> e4a5d282-5da6-418e-54f7-5d30fd66350f
+- !<RenderMeshVisual/97f56e13-7d65-41ea-7ab7-52f3c67e1e88>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> df059ca3-92f3-44f0-a69c-0fddd9f4f6ce
+  Mesh: !<reference> e67c4b8b-268c-41d1-8720-4c8784eecd71
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/a0c86797-5500-4112-5190-fd7ac1f6227f>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 13c18a17-f0c5-463b-8163-751c50585212
+  Mesh: !<reference> 3dced6a9-c43b-4d59-9939-4e951e1399fd
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/a0ea76fb-c625-4b6b-b06f-cf247e0bc274>
+  PrefabRemaps:
+    []
+  Name: Light
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -77.176300, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b4d43b8d-271c-4721-abc2-5f3234dc9803
+- !<RenderMeshVisual/a4eb4d29-2984-48ec-6f14-8604778ba543>
+  PrefabRemaps:
+    []
+  Name: component_5
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> df059ca3-92f3-44f0-a69c-0fddd9f4f6ce
+  Mesh: !<reference> 7ea593f9-d94e-4f2e-8fd6-ed285d602464
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/b29a0562-2ce5-464c-7c28-3e913440af1e>
+  PrefabRemaps:
+    []
+  Name: Candle Flame
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 57201f2a-82bd-437e-6dfa-d6348a113c3d
+- !<SceneObject/b435fe30-c0ad-4ed7-7dc6-a485f01fe6f5>
+  PrefabRemaps:
+    []
+  Name: Object
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 180.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.500000, y: 0.500000, z: 0.500000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0a4ec0a1-1536-4ed3-8c69-dab882fd0aad
+    - !<own> 798194e3-70b5-427a-5c80-f4c35ee29e05
+    - !<own> 8d4110c9-a7e4-4f91-5a13-80d3bea12ad1
+    - !<own> 91038e68-66dd-4791-44b9-14f415f0bed3
+    - !<own> 1217768d-5490-47d6-605c-4840e4ba2826
+    - !<own> 4d385e5f-6bd6-4541-5155-02e76f5261b1
+    - !<own> 1c0cb4fa-eebc-43a2-640c-159e50749317
+    - !<own> 287a957a-16af-40bc-4ab8-66995a6f60af
+    - !<own> c7b1ccb4-edb1-4936-5d1b-920dc91bd3b2
+    - !<own> bd91b69c-0db2-4c3e-4acd-3f71e1de989a
+    - !<own> d8eb2d92-0b19-421f-6142-517be69a2867
+    - !<own> 1305fa66-6061-4b53-41fc-91002f1c6bc7
+    - !<own> 8cb66cd5-6d51-4abc-4dca-dcc64676cf63
+    - !<own> e92d6a7f-a745-47d4-6ab6-03b5ce11f12f
+    - !<own> a0ea76fb-c625-4b6b-b06f-cf247e0bc274
+  Components:
+    []
+- !<LightSource/b4d43b8d-271c-4721-abc2-5f3234dc9803>
+  PrefabRemaps:
+    []
+  Name: Light Source
+  Enabled: true
+  renderLayer: 1
+  LightType: Point
+  Intensity: 2.000000
+  CastShadows: false
+  ShadowDensity: 1.000000
+  ShadowBlurRadius: 0.000000
+  ShadowTextureSize: 512
+  AutoLightSourcePosition: false
+  AutoShadowFrustumSize: false
+  AutoShadowFrustumSizeExtend: 2.000000
+  ShadowFrustumSize: 30.000000
+  ShadowFrustumNearClipPlane: 1.000000
+  ShadowFrustumFarClipPlane: 1000.000000
+  UseEnvMapFromCamera: false
+  EnvMapFromCameraMode: Auto
+  EstimationSharpness: 1.000000
+  EnvMapExposure: 1.000000
+  EnvMapRotation: 0.000000
+  DiffuseEnvTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  SpecularEnvTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  Color: {x: 1.000000, y: 0.822934, z: 0.632136, w: 1.000000}
+  ShadowColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+  DynamicEnvInputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  InnerConeAngle: 0.000000
+  OuterConeAngle: 45.000000
+  DecayType: None
+  DecayLimit: false
+  DecayRange: 40.000000
+- !<RenderMeshVisual/bd043409-74ec-4b72-6be8-693ed2ab16a1>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> df059ca3-92f3-44f0-a69c-0fddd9f4f6ce
+  Mesh: !<reference> 8e0aa425-a8fb-49df-8e66-bec13ce646f4
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/bd91b69c-0db2-4c3e-4acd-3f71e1de989a>
+  PrefabRemaps:
+    []
+  Name: Candle.002
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 40.497818, y: -81.502724, z: -70.144356}
+    Rotation: {x: -173.765793, y: 0.000000, z: 90.000000}
+    Scale: {x: 0.020755, y: 0.020755, z: 0.020755}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> fdfa4560-76e1-478b-57e6-aa0ad25fa742
+- !<RenderMeshVisual/c21612b5-731c-4ee2-4c1d-5ac94b987e68>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 13c18a17-f0c5-463b-8163-751c50585212
+  Mesh: !<reference> 3dced6a9-c43b-4d59-9939-4e951e1399fd
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/c4879361-cc96-4b3b-7aa9-72eeb866d25f>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 13c18a17-f0c5-463b-8163-751c50585212
+  Mesh: !<reference> 3dced6a9-c43b-4d59-9939-4e951e1399fd
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/c7b1ccb4-edb1-4936-5d1b-920dc91bd3b2>
+  PrefabRemaps:
+    []
+  Name: Candle.001
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 40.497871, y: -81.502724, z: 70.144318}
+    Rotation: {x: -34.223705, y: -0.000000, z: 90.000000}
+    Scale: {x: 0.025239, y: 0.025239, z: 0.025239}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 97f56e13-7d65-41ea-7ab7-52f3c67e1e88
+- !<SceneObject/d23830eb-761f-4b1a-5b8a-f2e4d5a97fa7>
+  PrefabRemaps:
+    []
+  Name: Candle Flame
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c4879361-cc96-4b3b-7aa9-72eeb866d25f
+- !<SceneObject/d8eb2d92-0b19-421f-6142-517be69a2867>
+  PrefabRemaps:
+    []
+  Name: Candle.003
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -40.497894, y: -81.502724, z: -70.144310}
+    Rotation: {x: 93.777275, y: -0.000006, z: 90.000015}
+    Scale: {x: 0.025544, y: 0.025544, z: 0.025544}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7df94f84-7a02-427e-6539-889e4e705d17
+- !<RenderMeshVisual/dadcc7a1-8a9f-4f1f-7207-1e4430c15e82>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 13c18a17-f0c5-463b-8163-751c50585212
+  Mesh: !<reference> 3dced6a9-c43b-4d59-9939-4e951e1399fd
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/e2138c46-fe6e-4c50-4126-d3c775942865>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 13c18a17-f0c5-463b-8163-751c50585212
+  Mesh: !<reference> 3dced6a9-c43b-4d59-9939-4e951e1399fd
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/e4a5d282-5da6-418e-54f7-5d30fd66350f>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 13c18a17-f0c5-463b-8163-751c50585212
+  Mesh: !<reference> 3dced6a9-c43b-4d59-9939-4e951e1399fd
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/e92d6a7f-a745-47d4-6ab6-03b5ce11f12f>
+  PrefabRemaps:
+    []
+  Name: Chandelier
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -0.074181, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 28ac989f-33b6-4e37-4728-c076eeb942f8
+    - !<own> 45c847f3-45d6-4c31-687b-c284861bf356
+    - !<own> 4d1312b7-f12e-4b0a-6480-63b49356db5c
+- !<SceneObject/f04a6329-9e00-40d0-46f4-abf0692d9514>
+  PrefabRemaps:
+    []
+  Name: Chandelier Updated
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> b435fe30-c0ad-4ed7-7dc6-a485f01fe6f5
+  Components:
+    - !<own> 8245e1fb-e93e-4681-ab67-38d32b03a80d
+- !<SceneObject/f08f6894-6370-4bd5-59fc-44aed8cb1059>
+  PrefabRemaps:
+    []
+  Name: Candle Flame
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ff5ed414-ade5-4255-4860-6f3e0dbda4ad
+- !<RenderMeshVisual/fdfa4560-76e1-478b-57e6-aa0ad25fa742>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> df059ca3-92f3-44f0-a69c-0fddd9f4f6ce
+  Mesh: !<reference> 171b914c-0ab9-47e0-b94a-367883d30e73
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/ff5ed414-ade5-4255-4860-6f3e0dbda4ad>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 13c18a17-f0c5-463b-8163-751c50585212
+  Mesh: !<reference> 3dced6a9-c43b-4d59-9939-4e951e1399fd
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

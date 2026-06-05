@@ -1,0 +1,60 @@
+- !<AssetImportMetadata/8562f6e0-74ce-4bbb-bd23-12936fcb3e2b>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 58f4a6ac-ca39-413e-af9a-863898af7ef5
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 58f4a6ac-ca39-413e-af9a-863898af7ef5
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 2d148c4f-8ba5-4b60-b601-fe3e8d77d367
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/2d148c4f-8ba5-4b60-b601-fe3e8d77d367>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 3200bf8a-8e72-410e-ab2e-237b37759678
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    archiveHighlight: false
+    endingPbFlag: false
+    endingTimeText: false
+    holdRadialMaterial: false
+    introDoor: false
+    leaderboardHint: false
+    loadingBarMaterial: false
+    logic: false
+    outroDoor: false
+    totalHoldTime: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - logic: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      introDoor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      outroDoor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      loadingBarMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      endingTimeText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      endingPbFlag: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      leaderboardHint: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      archiveHighlight: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      holdRadialMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      totalHoldTime: !<float> 2.000000
+  ScriptTypes:
+    -
+      {}

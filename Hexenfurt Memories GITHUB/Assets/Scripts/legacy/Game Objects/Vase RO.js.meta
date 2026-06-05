@@ -1,0 +1,68 @@
+- !<AssetImportMetadata/66475559-3c6e-b114-d499-d98b5c846f34>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> a3e98c87-ace6-41e2-b1d6-26b393458e22
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> a3e98c87-ace6-41e2-b1d6-26b393458e22
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 0731e301-0f17-4a84-914c-7585cbda1129
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/0731e301-0f17-4a84-914c-7585cbda1129>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 74cf8e6b-b595-42b5-8916-a0345bcecda6
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    chainController: false
+    decoTestingPrefab: false
+    itemSpots: false
+    keyTestingPrefab: false
+    noteTestingPrefab: false
+    testItem: false
+    testItems: false
+    testSpot: false
+    vaseFullBody: false
+    vaseInteractable: false
+    vaseManipulation: false
+    vaseOutline: false
+    vaseParts: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - vaseFullBody: !<reference.BodyComponent> 00000000-0000-0000-0000-000000000000
+      vaseParts: !<reference.BodyComponent[]>
+        []
+      chainController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      vaseInteractable: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      vaseManipulation: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      vaseOutline: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      itemSpots:
+        []
+      testItems: false
+      testSpot: 0
+      testItem: 0
+      keyTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      noteTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      decoTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

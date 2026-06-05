@@ -1,0 +1,65 @@
+- !<AssetImportMetadata/c65240c5-e997-4e19-a6d9-b09adadbfe92>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 536d627a-a74b-428a-9336-1e56ef8d9feb
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 536d627a-a74b-428a-9336-1e56ef8d9feb
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 97cd78cb-86cb-4a85-ba64-1334e4a890fb
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/97cd78cb-86cb-4a85-ba64-1334e4a890fb>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: f0e142a0-ae77-49f5-93dd-8b8369e1491d
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    hangAmplitudeDeg: false
+    hangBiasDeg: false
+    hangSpeedHz: false
+    hangingTo: false
+    itemInteractable: false
+    loreId: false
+    resetDuration: false
+    tooltip: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - itemInteractable: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      loreId: ""
+      tooltip: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      hangingTo: 0
+      hangAmplitudeDeg: !<float> 8.000000
+      hangBiasDeg: !<float> 4.000000
+      hangSpeedHz: 0.600000
+      resetDuration: 0.350000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.ScriptComponent itemInteractable
+    - // @input string loreId
+    - // @input SceneObject tooltip
+    - '// @input int hangingTo = "0" {"label":"Direction", "hint":"Which way the lore piece hangs and swings.", "widget":"combobox", "values":[{"label":"Left", "value":0}, {"label":"Right", "value":1}]}'
+    - // @input float hangAmplitudeDeg = 8
+    - // @input float hangBiasDeg = 4
+    - // @input float hangSpeedHz = 0.6
+    - // @input float resetDuration = 0.35

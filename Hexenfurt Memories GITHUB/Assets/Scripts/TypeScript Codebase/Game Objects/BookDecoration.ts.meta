@@ -1,0 +1,59 @@
+- !<AssetImportMetadata/eba3cd6d-8694-496b-82b9-b07e3d4d82f1>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 48d6bacd-acb7-4770-9d35-63fbf560d81f
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 48d6bacd-acb7-4770-9d35-63fbf560d81f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> a165f4b5-e4dc-4f04-89f1-779c9e6813c6
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/a165f4b5-e4dc-4f04-89f1-779c9e6813c6>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 7d2a0935-1dc8-43ea-b6da-6f9a0dbe59fb
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    bookBody: false
+    bookIdText: false
+    bookInteractable: false
+    bookManipulation: false
+    bookOutline: false
+    materialMeshVisual: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - bookIdText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      bookInteractable: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      bookManipulation: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      bookOutline: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      materialMeshVisual: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
+      bookBody: !<reference.BodyComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.Text bookIdText
+    - // @input Component.ScriptComponent bookInteractable
+    - // @input Component.ScriptComponent bookManipulation
+    - // @input Component.ScriptComponent bookOutline
+    - // @input Component.MaterialMeshVisual materialMeshVisual
+    - // @input Component.BodyComponent bookBody

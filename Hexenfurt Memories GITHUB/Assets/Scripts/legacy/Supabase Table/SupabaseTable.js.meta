@@ -1,0 +1,44 @@
+- !<AssetImportMetadata/90e75432-5113-4ea7-7a9a-1c5fd20568ad>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 679ec4dc-2bf9-4220-9a07-c17f4ac49a2a
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 679ec4dc-2bf9-4220-9a07-c17f4ac49a2a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> eb5a1100-2790-4869-9d85-350c93881109
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/eb5a1100-2790-4869-9d85-350c93881109>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: a0719bdc-da45-4e24-b307-c62bf8ebc8b8
+  ExportUid: 12d0df1f-f99b-40e5-bdd8-0bb155d02477
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    snapCloudRequirements: false
+    tableName: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - snapCloudRequirements: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      tableName: global_leaderboard
+  ScriptTypes:
+    -
+      {}

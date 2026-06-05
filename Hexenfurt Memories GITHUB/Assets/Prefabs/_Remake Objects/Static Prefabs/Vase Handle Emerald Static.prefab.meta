@@ -1,0 +1,107 @@
+- !<AssetImportMetadata/a4feb88e-e3ed-4d62-ad34-e50108e351be>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 8aa72a7e-7f88-4db5-af2e-fda8ebf61b77
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 8aa72a7e-7f88-4db5-af2e-fda8ebf61b77
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 2d01f699-8858-4d7c-a6a4-ac4d97e35ec7
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/1fd87c17-cd45-4dd6-47e6-f44dd515fbec>
+  PrefabRemaps:
+    []
+  Name: Vase Handle Emerald Static
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 86a31181-8cb0-4900-7803-375c942fe5db
+  Components:
+    []
+- !<RenderMeshVisual/240322ef-544e-4713-6c21-a5a1a3045f9b>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f392ab1e-fcb3-4e2f-a374-da49c8da3dd4
+  Mesh: !<reference> b46a6d99-e95c-4594-9d01-7baa7f59591c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefabAssetData/2d01f699-8858-4d7c-a6a4-ac4d97e35ec7>
+  Prototype: !<ObjectOwner/cd9dd824-bd83-4e6f-bab4-c936dd2df1df>
+    PackagePath: ""
+    objects:
+      - !<own> 1fd87c17-cd45-4dd6-47e6-f44dd515fbec
+- !<SceneObject/56661bb4-d4ef-4436-6176-d30de34773a5>
+  PrefabRemaps:
+    []
+  Name: Vase
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 24.760609, z: 0.000000}
+    Scale: {x: 1.500000, y: 1.500000, z: 1.500000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c9a438d0-05a9-43ed-689c-95f528537582
+    - !<own> 240322ef-544e-4713-6c21-a5a1a3045f9b
+- !<SceneObject/86a31181-8cb0-4900-7803-375c942fe5db>
+  PrefabRemaps:
+    []
+  Name: Vase Handle Emerald
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -4.769775, z: 0.000000}
+    Rotation: {x: 2.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 56661bb4-d4ef-4436-6176-d30de34773a5
+  Components:
+    []
+- !<RenderMeshVisual/c9a438d0-05a9-43ed-689c-95f528537582>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a3f89f8c-ee7b-412a-a183-ce13c97cfe69
+  Mesh: !<reference> b176c429-1514-45ec-9b5c-44ab9832b6d7
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

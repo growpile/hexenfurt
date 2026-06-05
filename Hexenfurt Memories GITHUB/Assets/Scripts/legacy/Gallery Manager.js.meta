@@ -1,0 +1,52 @@
+- !<AssetImportMetadata/07e10eaf-b49a-46ad-86c1-012b6e908303>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> dc938b66-8c07-44a2-9d44-1a46c2833d6e
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> dc938b66-8c07-44a2-9d44-1a46c2833d6e
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> d8f25001-98ac-47eb-89df-0e018e636f85
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/d8f25001-98ac-47eb-89df-0e018e636f85>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 0f43a690-e3f6-443a-a888-2a6ac828c872
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    hangingLoreItems: false
+    leaderboardRankText: false
+    scrollDuration: false
+    statNoteTexts: false
+    supabaseTable: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - hangingLoreItems:
+        []
+      statNoteTexts:
+        []
+      leaderboardRankText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      supabaseTable: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      scrollDuration: 0.500000
+  ScriptTypes:
+    -
+      {}

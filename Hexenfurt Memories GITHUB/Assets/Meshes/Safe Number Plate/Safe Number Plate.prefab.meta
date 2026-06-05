@@ -1,0 +1,71 @@
+- !<AssetImportMetadata/94165315-3587-4d89-8977-4b4f8750bd4e>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> d9dfe37c-a1bc-4c47-b250-5052219a577d
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> d9dfe37c-a1bc-4c47-b250-5052219a577d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 059c34c6-5d7f-49a5-b6d0-a50d7205e3c3
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/059c34c6-5d7f-49a5-b6d0-a50d7205e3c3>
+  Prototype: !<ObjectOwner/1401a482-4496-4e32-995f-2c7466b1700b>
+    PackagePath: ""
+    objects:
+      - !<own> 08a95e74-971e-420d-652d-095975a1dae2
+- !<SceneObject/08a95e74-971e-420d-652d-095975a1dae2>
+  PrefabRemaps:
+    []
+  Name: Safe Number Plate
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0907cf0c-68f2-48ad-589c-0a02363b30bf
+  Components:
+    []
+- !<SceneObject/0907cf0c-68f2-48ad-589c-0a02363b30bf>
+  PrefabRemaps:
+    []
+  Name: Plane
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 96fede29-c0ac-4d44-7d64-5d9ad1998754
+- !<RenderMeshVisual/96fede29-c0ac-4d44-7d64-5d9ad1998754>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 2a36300e-1a97-4d04-ad5d-85e055009d72
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

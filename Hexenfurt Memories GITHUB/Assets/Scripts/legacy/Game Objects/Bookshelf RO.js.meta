@@ -1,0 +1,75 @@
+- !<AssetImportMetadata/37fd11e2-6b0c-80dc-3f12-a47bd8697cdc>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> e9eb5d3c-c88c-4f9a-86df-e863970a7dd7
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> e9eb5d3c-c88c-4f9a-86df-e863970a7dd7
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> a852b07e-24dd-4273-bd13-bd6ac9eb32bd
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/a852b07e-24dd-4273-bd13-bd6ac9eb32bd>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 61bc67e5-9bdf-4b48-bab4-2f432b5e0cea
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    bookOffset: false
+    decoTestingPrefab: false
+    drawerLeftInteractable: false
+    drawerLeftOutline: false
+    drawerRightInteractable: false
+    drawerRightOutline: false
+    itemSpots: false
+    keyTestingPrefab: false
+    leftDrawer: false
+    noteTestingPrefab: false
+    puzzleBook: false
+    rightDrawer: false
+    row1BookOrigin: false
+    row2BookOrigin: false
+    testItem: false
+    testItems: false
+    testSpot: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - drawerLeftInteractable: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      drawerLeftOutline: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      leftDrawer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      drawerRightInteractable: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      drawerRightOutline: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      rightDrawer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      row1BookOrigin: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      row2BookOrigin: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      bookOffset: !<float> 0.000000
+      puzzleBook: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      itemSpots:
+        []
+      testItems: false
+      testSpot: 0
+      testItem: 0
+      keyTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      noteTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      decoTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

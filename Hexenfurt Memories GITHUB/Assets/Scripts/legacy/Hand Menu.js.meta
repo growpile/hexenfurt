@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/1ac9c50c-29b3-4a1b-9d27-3bf7e5332d3e>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> b64fc4a4-b3e2-4b4a-8fed-1348861a1c7f
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> b64fc4a4-b3e2-4b4a-8fed-1348861a1c7f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> be25e3e0-1eed-449d-8b7d-861dd92b320c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/be25e3e0-1eed-449d-8b7d-861dd92b320c>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: f906c011-b4b5-490c-85fb-7d4f560cef42
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    buttonHorizontalSpacing: false
+    hand: false
+    logic: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - hand: 0
+      buttonHorizontalSpacing: !<float> 1.000000
+      logic: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

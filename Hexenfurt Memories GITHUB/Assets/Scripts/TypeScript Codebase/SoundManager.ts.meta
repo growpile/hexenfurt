@@ -1,0 +1,86 @@
+- !<AssetImportMetadata/ea7e316c-32fe-4a38-b059-a300753ae15c>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 541e2d70-d3ee-4b9e-a975-233afdaa07f9
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 541e2d70-d3ee-4b9e-a975-233afdaa07f9
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 5d445217-e8b7-47d4-90c5-6e54d3a29c8c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/5d445217-e8b7-47d4-90c5-6e54d3a29c8c>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 9bd01001-df59-488c-b6aa-fde7e04168df
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    backgroundSoundPrefab: false
+    backgroundSounds: false
+    maxDistance: false
+    minDistance: false
+    spatialSoundList: false
+    spatialSoundPrefab: false
+    uiKitPlayAudioControls: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - backgroundSoundPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      spatialSoundPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      minDistance: !<float> 0.000000
+      maxDistance: !<float> 1000.000000
+      backgroundSounds:
+        []
+      spatialSoundList:
+        []
+      uiKitPlayAudioControls: !<reference.ScriptComponent[]>
+        []
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Prefabs</span>\"}"
+    - '// @input Asset.ObjectPrefab backgroundSoundPrefab {"hint":"Prefab used to spawn one-shot (non-spatial) sounds. Must contain a single AudioComponent."}'
+    - '// @input Asset.ObjectPrefab spatialSoundPrefab {"hint":"Prefab used to spawn spatial sounds. Must contain a single AudioComponent configured for spatial audio."}'
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Spatial Distance</span>\"}"
+    - // @input float minDistance
+    - // @input float maxDistance = 1000
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Background Sounds</span>\"}"
+    - /*
+    - "@typedef BackgroundSoundDef"
+    - '@property {Asset.AudioTrackAsset} soundAsset {"label":"Sound Asset"}'
+    - '@property {float} volume = "1.0" {"widget":"slider", "min":0, "max":1, "step":0.01}'
+    - "*/"
+    - '// @input BackgroundSoundDef[] backgroundSounds = {} {"label":"Background Sounds"}'
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Spatial Sounds</span>\"}"
+    - /*
+    - "@typedef SpatialSoundDef"
+    - '@property {string} soundId {"label":"Sound ID"}'
+    - '@property {Asset.AudioTrackAsset} soundAsset {"label":"Sound Asset"}'
+    - '@property {float} volume = "1.0" {"widget":"slider", "min":0, "max":1, "step":0.01}'
+    - "*/"
+    - '// @input SpatialSoundDef[] spatialSoundList = {} {"label":"Spatial Sound List"}'
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>UIKit Audio</span>\"}"
+    - '// @input Component.ScriptComponent[] uiKitPlayAudioControls = {} {"label":"Play-Audio Controls", "hint":"UIKit buttons, sliders, switches, scroll bars, etc. Master volume 0 disables playAudio on all; above 0 enables."}'
+    - '// @ui {"widget":"group_end"}'

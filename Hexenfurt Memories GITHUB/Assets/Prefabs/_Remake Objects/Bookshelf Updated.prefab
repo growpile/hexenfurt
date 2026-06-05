@@ -1,0 +1,665 @@
+- !<ObjectPrefab/c02b4fbc-fb04-4847-85f1-9de99ae271fc>
+  PackagePath: ""
+  objects:
+    - !<own> 470b841d-5dcf-4e10-8486-b9cb0d8d5a20
+  LazyLoading: false
+  RetainAssets: true
+- !<BodyComponent/05931ae0-44a6-4176-afd8-0ed705f56784>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: false
+    Size: {x: 25.000000, y: 8.000000, z: 3.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+  Dynamic: false
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.000000
+  AngularDamping: 0.000000
+- !<RenderMeshVisual/08e8cbf0-d30d-43ee-a076-569dc962578a>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d7a5cb93-7b2a-4e64-b288-08e9510b8314
+  Mesh: !<reference> 8de7632c-e39b-4d65-8957-eefc0c56776d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/19dfc1a4-3ce4-4abd-959c-6d0faec88dd5>
+  PrefabRemaps:
+    []
+  Name: InteractableManipulation
+  Enabled: true
+  ScriptAsset: !<reference> 664b556b-1946-4c2c-866a-e675b4e86006
+  ScriptInputsDefault:
+    minimumScaleFactor: true
+    maximumScaleFactor: true
+    zStretchFactorMin: true
+    zStretchFactorMax: true
+    useFilter: true
+    showTranslationProperties: true
+    _enableXTranslation: true
+    _enableYTranslation: true
+    _enableZTranslation: true
+    showRotationProperties: true
+    _rotationAxis: true
+    isSynced: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      manipulateRootSceneObject: !<reference.SceneObject> 351ab30c-0442-40b9-9191-943d9dc86564
+      enableTranslation: false
+      enableRotation: false
+      enableScale: false
+      minimumScaleFactor: 0.250000
+      maximumScaleFactor: !<float> 20.000000
+      enableStretchZ: false
+      zStretchFactorMin: !<float> 1.000000
+      zStretchFactorMax: !<float> 12.000000
+      useFilter: true
+      showTranslationProperties: false
+      _enableXTranslation: true
+      _enableYTranslation: true
+      _enableZTranslation: true
+      showRotationProperties: false
+      _rotationAxis: All
+      isSynced: false
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/1f552451-a7ba-4323-8eff-ef9c53ab33b1>
+  PrefabRemaps:
+    []
+  Name: Bookshelf_Updated Origin
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -17.006020, y: -13.205894, z: 0.000000}
+    Rotation: {x: 270.000000, y: 90.000000, z: 0.000000}
+    Scale: {x: 1.400000, y: 1.400000, z: 1.400000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> eae80c9e-9625-42af-a5bf-96e9ffc9ff37
+    - !<own> 6cae9446-d05f-4970-a901-2ca3e25e84d1
+    - !<own> a412718c-6ee7-4aa6-acd2-b3217cf7bcdc
+    - !<own> 7cb38f21-bf92-4b0a-9782-ffef638536b0
+    - !<own> e03c3fe7-1039-4ac3-a29f-1aa116829ab9
+    - !<own> 9e892f8a-310d-481c-b11e-4bfb052c4c59
+    - !<own> 6b55031c-f616-43a8-a433-2f4362f5000e
+    - !<own> 351ab30c-0442-40b9-9191-943d9dc86564
+  Components:
+    []
+- !<ScriptComponent/1facd14e-3318-4cf0-871e-69d23610c7e6>
+  PrefabRemaps:
+    []
+  Name: InteractableOutlineFeedback
+  Enabled: true
+  ScriptAsset: !<reference> 657cbbe5-2a9c-4889-93fb-fd72ba8a1d52
+  ScriptInputsDefault:
+    activatingColor: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetOutlineMaterial: !<reference.Material> 7231c7bc-6c14-4331-ad23-9ab928107707
+      hoveringColor: !<Vec4> {x: 0.759060, y: 0.746960, z: 0.749508, w: 1.000000}
+      activatingColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      outlineWeight: 0.500000
+      meshVisuals: !<reference.RenderMeshVisual[]>
+        - !<reference> 08e8cbf0-d30d-43ee-a076-569dc962578a
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/2d1e2cca-573e-4258-886a-60f84ab4a419>
+  PrefabRemaps:
+    []
+  Name: Right Drawer Item Origin
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 1.518705, y: -2.275199, z: -7.064148}
+    Rotation: {x: 0.000000, y: -15.754208, z: 0.000000}
+    Scale: {x: 0.714300, y: 0.714300, z: 0.714300}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<RenderMeshVisual/31417ffd-895a-4490-b878-48ce32e78b28>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d7a5cb93-7b2a-4e64-b288-08e9510b8314
+  Mesh: !<reference> 848f1098-167f-453e-8040-e634679c4c42
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/33a89bc1-e702-4d29-84d1-99c4e1f872e4>
+  PrefabRemaps:
+    []
+  Name: InteractableOutlineFeedback
+  Enabled: true
+  ScriptAsset: !<reference> 657cbbe5-2a9c-4889-93fb-fd72ba8a1d52
+  ScriptInputsDefault:
+    activatingColor: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetOutlineMaterial: !<reference.Material> 7231c7bc-6c14-4331-ad23-9ab928107707
+      hoveringColor: !<Vec4> {x: 0.759060, y: 0.746960, z: 0.749508, w: 1.000000}
+      activatingColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      outlineWeight: 0.500000
+      meshVisuals: !<reference.RenderMeshVisual[]>
+        - !<reference> 31417ffd-895a-4490-b878-48ce32e78b28
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/351ab30c-0442-40b9-9191-943d9dc86564>
+  PrefabRemaps:
+    []
+  Name: Right Drawer
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 12.970428, y: -26.178009, z: 14.552746}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 47de8458-690f-4342-9a27-72385d138940
+  Components:
+    - !<own> 9af054fd-d75e-4ad3-956e-1abe1060f812
+    - !<own> a0182882-7c25-4aa8-9448-2ad0947fe113
+    - !<own> 19dfc1a4-3ce4-4abd-959c-6d0faec88dd5
+    - !<own> 1facd14e-3318-4cf0-871e-69d23610c7e6
+- !<SceneObject/470b841d-5dcf-4e10-8486-b9cb0d8d5a20>
+  PrefabRemaps:
+    - 05931ae0-44a6-4176-afd8-0ed705f56784: 05931ae0-44a6-4176-5027-f128fa0a987b
+    - 08e8cbf0-d30d-43ee-a076-569dc962578a: 08e8cbf0-d30d-43ee-5f89-a962369da875
+    - 19dfc1a4-3ce4-4abd-959c-6d0faec88dd5: 19dfc1a4-3ce4-4abd-6a63-92f05137722a
+    - 1f552451-a7ba-4323-8eff-ef9c53ab33b1: 1f552451-a7ba-4323-7100-1063ac54cc4e
+    - 1facd14e-3318-4cf0-871e-69d23610c7e6: 1facd14e-3318-4cf0-78e1-962dc9ef3819
+    - 2d1e2cca-573e-4258-886a-60f84ab4a419: 2d1e2cca-573e-4258-7795-9f07b54b5be6
+    - 31417ffd-895a-4490-b878-48ce32e78b28: 31417ffd-895a-4490-4787-b731cd1874d7
+    - 33a89bc1-e702-4d29-84d1-99c4e1f872e4: 33a89bc1-e702-4d29-7b2e-663b1e078d1b
+    - 351ab30c-0442-40b9-9191-943d9dc86564: 351ab30c-0442-40b9-6e6e-6bc262379a9b
+    - 470b841d-5dcf-4e10-8486-b9cb0d8d5a20: 470b841d-5dcf-4e10-7b79-4634f272a5df
+    - 47de8458-690f-4342-9a27-72385d138940: 47de8458-690f-4342-65d8-8dc7a2ec76bf
+    - 50251353-b518-4115-aee5-8ec52cfe5308: 50251353-b518-4115-511a-713ad301acf7
+    - 6b55031c-f616-43a8-a433-2f4362f5000e: 6b55031c-f616-43a8-5bcc-d0bc9d0afff1
+    - 6cae9446-d05f-4970-a901-2ca3e25e84d1: 6cae9446-d05f-4970-56fe-d35c1da17b2e
+    - 7cb38f21-bf92-4b0a-9782-ffef638536b0: 7cb38f21-bf92-4b0a-687d-00109c7ac94f
+    - 9af054fd-d75e-4ad3-956e-1abe1060f812: 9af054fd-d75e-4ad3-6a91-e541ef9f07ed
+    - 9e892f8a-310d-481c-b11e-4bfb052c4c59: 9e892f8a-310d-481c-4ee1-b404fad3b3a6
+    - a0182882-7c25-4aa8-9448-2ad0947fe113: a0182882-7c25-4aa8-6bb7-d52f6b801eec
+    - a412718c-6ee7-4aa6-acd2-b3217cf7bcdc: a412718c-6ee7-4aa6-532d-4cde83084323
+    - a8c97d4f-a059-4381-bbfd-2509c040ac3e: a8c97d4f-a059-4381-4402-daf63fbf53c1
+    - a9b74aef-8701-43a5-bde4-9b3f891e3fec: a9b74aef-8701-43a5-421b-64c076e1c013
+    - abbcf05b-0912-4b6b-9e21-e7a85039817d: abbcf05b-0912-4b6b-61de-1857afc67e82
+    - acc48edd-e778-4b81-b038-faa27c43a0ec: acc48edd-e778-4b81-4fc7-055d83bc5f13
+    - bd1d01ce-90f5-4c83-a362-e6b1ad690f64: e636d234-93fa-46c7-a368-5c23f4221c46
+    - c9870762-4b49-4351-aaf7-cac465bd8ce7: c9870762-4b49-4351-5508-353b9a427318
+    - e03c3fe7-1039-4ac3-a29f-1aa116829ab9: e03c3fe7-1039-4ac3-5d60-e55ee97d6546
+    - ea52201c-2f5e-4440-8687-a25892246234: ea52201c-2f5e-4440-7978-5da76ddb9dcb
+    - eae80c9e-9625-42af-a5bf-96e9ffc9ff37: eae80c9e-9625-42af-5a40-6916003600c8
+  Name: Bookshelf Updated
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1f552451-a7ba-4323-8eff-ef9c53ab33b1
+  Components:
+    - !<own> bd1d01ce-90f5-4c83-a362-e6b1ad690f64
+- !<SceneObject/47de8458-690f-4342-9a27-72385d138940>
+  PrefabRemaps:
+    []
+  Name: Right_Drawer
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2d1e2cca-573e-4258-886a-60f84ab4a419
+  Components:
+    - !<own> 08e8cbf0-d30d-43ee-a076-569dc962578a
+    - !<own> a9b74aef-8701-43a5-bde4-9b3f891e3fec
+- !<RenderMeshVisual/50251353-b518-4115-aee5-8ec52cfe5308>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d7a5cb93-7b2a-4e64-b288-08e9510b8314
+  Mesh: !<reference> 62f0920c-983c-4d42-b985-34cedb703e63
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/6b55031c-f616-43a8-a433-2f4362f5000e>
+  PrefabRemaps:
+    []
+  Name: Left Drawer
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -12.977333, y: -26.178009, z: 14.552746}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> ea52201c-2f5e-4440-8687-a25892246234
+  Components:
+    - !<own> c9870762-4b49-4351-aaf7-cac465bd8ce7
+    - !<own> 05931ae0-44a6-4176-afd8-0ed705f56784
+    - !<own> acc48edd-e778-4b81-b038-faa27c43a0ec
+    - !<own> 33a89bc1-e702-4d29-84d1-99c4e1f872e4
+- !<SceneObject/6cae9446-d05f-4970-a901-2ca3e25e84d1>
+  PrefabRemaps:
+    []
+  Name: Item Origin - Top
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 22.346611, y: 28.186157, z: 7.261841}
+    Rotation: {x: -0.003138, y: 30.009407, z: -0.001573}
+    Scale: {x: 0.714286, y: 0.714286, z: 0.714286}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/7cb38f21-bf92-4b0a-9782-ffef638536b0>
+  PrefabRemaps:
+    []
+  Name: Row 1 Origin
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -26.813702, y: 8.509902, z: 6.509926}
+    Rotation: {x: 180.000000, y: -89.980217, z: 180.000000}
+    Scale: {x: 71.428604, y: 71.428596, z: 71.428581}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<ScriptComponent/9af054fd-d75e-4ad3-956e-1abe1060f812>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingMode: true
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/9e892f8a-310d-481c-b11e-4bfb052c4c59>
+  PrefabRemaps:
+    []
+  Name: Lore Origin
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 11.063805, y: 26.208847, z: 15.047432}
+    Rotation: {x: -0.000000, y: 0.019790, z: -0.000007}
+    Scale: {x: 0.714286, y: 0.714286, z: 0.714286}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<BodyComponent/a0182882-7c25-4aa8-9448-2ad0947fe113>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: false
+    Size: {x: 25.000000, y: 8.000000, z: 3.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+  Dynamic: false
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.000000
+  AngularDamping: 0.000000
+- !<SceneObject/a412718c-6ee7-4aa6-acd2-b3217cf7bcdc>
+  PrefabRemaps:
+    []
+  Name: Item Origin - Shelf
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 16.439178, y: -7.811919, z: 8.232952}
+    Rotation: {x: -0.003465, y: -38.285748, z: 0.002141}
+    Scale: {x: 0.714286, y: 0.714286, z: 0.714286}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/a8c97d4f-a059-4381-bbfd-2509c040ac3e>
+  PrefabRemaps:
+    []
+  Name: Left Drawer Item Origin
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 2.567204, y: -2.275182, z: -8.845341}
+    Rotation: {x: 0.000000, y: 23.700804, z: 0.000000}
+    Scale: {x: 0.714300, y: 0.714300, z: 0.714300}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<RenderMeshVisual/a9b74aef-8701-43a5-bde4-9b3f891e3fec>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d7a5cb93-7b2a-4e64-b288-08e9510b8314
+  Mesh: !<reference> ff837e24-cec2-41a5-b3ea-3a87724c8200
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/abbcf05b-0912-4b6b-9e21-e7a85039817d>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d7a5cb93-7b2a-4e64-b288-08e9510b8314
+  Mesh: !<reference> 3c58da2c-ae78-474f-bb96-462cedf2bb82
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/acc48edd-e778-4b81-b038-faa27c43a0ec>
+  PrefabRemaps:
+    []
+  Name: InteractableManipulation
+  Enabled: true
+  ScriptAsset: !<reference> 664b556b-1946-4c2c-866a-e675b4e86006
+  ScriptInputsDefault:
+    minimumScaleFactor: true
+    maximumScaleFactor: true
+    zStretchFactorMin: true
+    zStretchFactorMax: true
+    useFilter: true
+    showTranslationProperties: true
+    _enableXTranslation: true
+    _enableYTranslation: true
+    _enableZTranslation: true
+    showRotationProperties: true
+    _rotationAxis: true
+    isSynced: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      manipulateRootSceneObject: !<reference.SceneObject> 351ab30c-0442-40b9-9191-943d9dc86564
+      enableTranslation: false
+      enableRotation: false
+      enableScale: false
+      minimumScaleFactor: 0.250000
+      maximumScaleFactor: !<float> 20.000000
+      enableStretchZ: false
+      zStretchFactorMin: !<float> 1.000000
+      zStretchFactorMax: !<float> 12.000000
+      useFilter: true
+      showTranslationProperties: false
+      _enableXTranslation: true
+      _enableYTranslation: true
+      _enableZTranslation: true
+      showRotationProperties: false
+      _rotationAxis: All
+      isSynced: false
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/bd1d01ce-90f5-4c83-a362-e6b1ad690f64>
+  PrefabRemaps:
+    []
+  Name: BookshelfRO
+  Enabled: true
+  ScriptAsset: !<reference> 2ddb2421-74cb-420f-9ad0-b6d3189c4d91
+  ScriptInputsDefault:
+    testItems: true
+    testSpot: true
+    testItem: true
+    keyTestingPrefab: true
+    noteTestingPrefab: true
+    decoTestingPrefab: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      drawerLeftInteractable: !<reference.ScriptComponent> c9870762-4b49-4351-aaf7-cac465bd8ce7
+      drawerLeftOutline: !<reference.ScriptComponent> 33a89bc1-e702-4d29-84d1-99c4e1f872e4
+      leftDrawer: !<reference.SceneObject> 6b55031c-f616-43a8-a433-2f4362f5000e
+      drawerRightInteractable: !<reference.ScriptComponent> 9af054fd-d75e-4ad3-956e-1abe1060f812
+      drawerRightOutline: !<reference.ScriptComponent> 1facd14e-3318-4cf0-871e-69d23610c7e6
+      rightDrawer: !<reference.SceneObject> 351ab30c-0442-40b9-9191-943d9dc86564
+      row1BookOrigin: !<reference.SceneObject> 7cb38f21-bf92-4b0a-9782-ffef638536b0
+      row2BookOrigin: !<reference.SceneObject> e03c3fe7-1039-4ac3-a29f-1aa116829ab9
+      bookOffset: 0.043000
+      puzzleBook: !<reference.ObjectPrefab> 6772262b-3238-430d-b504-f2eaf8f646c3
+      itemSpots:
+        - objectType: item
+          orientation: 0
+          lockedSlot: true
+          origin: !<reference.SceneObject> a8c97d4f-a059-4381-bbfd-2509c040ac3e
+        - objectType: item
+          orientation: 0
+          lockedSlot: false
+          origin: !<reference.SceneObject> 2d1e2cca-573e-4258-886a-60f84ab4a419
+        - objectType: item
+          orientation: 0
+          lockedSlot: false
+          origin: !<reference.SceneObject> a412718c-6ee7-4aa6-acd2-b3217cf7bcdc
+        - objectType: deco
+          orientation: 0
+          lockedSlot: false
+          origin: !<reference.SceneObject> 6cae9446-d05f-4970-a901-2ca3e25e84d1
+        - objectType: lore
+          orientation: 1
+          lockedSlot: false
+          origin: !<reference.SceneObject> 9e892f8a-310d-481c-b11e-4bfb052c4c59
+      testItems: false
+      testSpot: !<float> 0.000000
+      testItem: !<float> 0.000000
+      keyTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      noteTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      decoTestingPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/c9870762-4b49-4351-aaf7-cac465bd8ce7>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingMode: true
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/e03c3fe7-1039-4ac3-a29f-1aa116829ab9>
+  PrefabRemaps:
+    []
+  Name: Row 2 Origin
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -26.813660, y: -7.550833, z: 6.509926}
+    Rotation: {x: 180.000000, y: -89.980217, z: 180.000000}
+    Scale: {x: 71.428604, y: 71.428596, z: 71.428581}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/ea52201c-2f5e-4440-8687-a25892246234>
+  PrefabRemaps:
+    []
+  Name: Left_Drawer
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> a8c97d4f-a059-4381-bbfd-2509c040ac3e
+  Components:
+    - !<own> 31417ffd-895a-4490-b878-48ce32e78b28
+    - !<own> 50251353-b518-4115-aee5-8ec52cfe5308
+- !<SceneObject/eae80c9e-9625-42af-a5bf-96e9ffc9ff37>
+  PrefabRemaps:
+    []
+  Name: Bookshelf
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> abbcf05b-0912-4b6b-9e21-e7a85039817d

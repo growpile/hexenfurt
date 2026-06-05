@@ -1,0 +1,201 @@
+- !<AssetImportMetadata/13c12e1c-d9b3-4eff-8608-04103eaa273d>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 50a0e322-a651-4f6e-a950-a015541c33d7
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 50a0e322-a651-4f6e-a950-a015541c33d7
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 3f263257-4591-4e0c-9955-cdd4b0ecaf28
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/1c582e1e-67a2-4c66-530e-7874947e782b>
+  PrefabRemaps:
+    []
+  Name: Ceiling Fan Base
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000001, y: 42.777790, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7f7b6272-e430-4e16-75a8-16a9aef03b9c
+- !<ObjectPrefabAssetData/3f263257-4591-4e0c-9955-cdd4b0ecaf28>
+  Prototype: !<ObjectOwner/458cb8eb-9161-475d-9e25-468c9bbe8116>
+    PackagePath: ""
+    objects:
+      - !<own> b0c53735-5f79-4d04-5576-f33bb9f29e18
+- !<ScriptComponent/46e77519-f883-4466-8983-5392fd3f0f68>
+  PrefabRemaps:
+    []
+  Name: SoundAmbience
+  Enabled: true
+  ScriptAsset: !<reference> f329559e-dba6-42f9-a61c-1a98a962e21a
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      soundId: fanLoop
+      volume: 0.500000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/6e4aeec1-fb06-40cf-7552-dbbb7f2c3932>
+  PrefabRemaps:
+    []
+  Name: CeilingFan_Updated
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 28.184280, z: 0.000000}
+    Rotation: {x: 0.000000, y: -0.000000, z: -180.000000}
+    Scale: {x: 0.700000, y: 0.700000, z: 0.700000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 93c623b2-35c0-4b1b-6f69-8fcf10d12fc9
+    - !<own> 1c582e1e-67a2-4c66-530e-7874947e782b
+  Components:
+    []
+- !<RenderMeshVisual/7f7b6272-e430-4e16-75a8-16a9aef03b9c>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a1614e9f-ede0-4575-b33e-262dc0517c06
+  Mesh: !<reference> 1b594962-2bee-4caa-a6af-489659b529a1
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/8fc734f6-410b-49b2-6895-73b891c322e0>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a1614e9f-ede0-4575-b33e-262dc0517c06
+  Mesh: !<reference> 6f5def88-cccb-405f-b77c-2d174ceefc17
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/93c623b2-35c0-4b1b-6f69-8fcf10d12fc9>
+  PrefabRemaps:
+    []
+  Name: Ceiling Fan
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8fc734f6-410b-49b2-6895-73b891c322e0
+    - !<own> e682c683-9772-4ac1-43cd-3404250b61a3
+    - !<own> f486d7d7-5dd7-4d29-4a0f-032ca252bb5e
+- !<SceneObject/b0c53735-5f79-4d04-5576-f33bb9f29e18>
+  PrefabRemaps:
+    []
+  Name: Fan Updated
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6e4aeec1-fb06-40cf-7552-dbbb7f2c3932
+  Components:
+    - !<own> 46e77519-f883-4466-8983-5392fd3f0f68
+- !<RenderMeshVisual/e682c683-9772-4ac1-43cd-3404250b61a3>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a1614e9f-ede0-4575-b33e-262dc0517c06
+  Mesh: !<reference> 23c583af-d48d-4817-b4b8-00ded335b627
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/f486d7d7-5dd7-4d29-4a0f-032ca252bb5e>
+  PrefabRemaps:
+    []
+  Name: TweenTransform
+  Enabled: true
+  ScriptAsset: !<reference> c0359509-9eb1-4630-b6c4-e6f477d226ba
+  ScriptInputsDefault:
+    sceneObjectReference: true
+    tweenName: true
+    playAutomatically: true
+    startInput: true
+    endInput: true
+    from: true
+    to: true
+    delay: true
+    isLocal: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sceneObjectReference: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      tweenName: ""
+      playAutomatically: true
+      loopType: 1
+      type: 2
+      movementType: 3
+      startInput: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      endInput: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      from: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      to: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      offset: !<Vec3> {x: 0.000000, y: 180.000000, z: 0.000000}
+      additive: true
+      time: 0.350000
+      delay: !<float> 0.000000
+      isLocal: true
+      easingFunction: Linear
+      easingType: InOut
+  ScriptTypes:
+    "":
+      {}

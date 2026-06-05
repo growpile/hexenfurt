@@ -1,0 +1,67 @@
+- !<AssetImportMetadata/b9c1599a-2710-4d6f-819f-ce28cf10d6d1>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 84265ece-e02b-4426-979c-c2873838e980
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 84265ece-e02b-4426-979c-c2873838e980
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 5b87d9ff-26f3-45ec-b758-c3b8203a4ece
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/5b87d9ff-26f3-45ec-b758-c3b8203a4ece>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: c82ffb34-f787-4c67-b581-367275ef050d
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    debugRandomUnlockArchive: false
+    debugRandomUnlockBoth: false
+    debugRandomUnlockLore: false
+    debugUnlockAllArchive: false
+    debugUnlockAllLore: false
+    loreIds: false
+    unlockAllProgressionSpawns: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - loreIds: !<string[]>
+        []
+      debugUnlockAllLore: false
+      debugUnlockAllArchive: false
+      debugRandomUnlockLore: false
+      debugRandomUnlockArchive: false
+      debugRandomUnlockBoth: false
+      unlockAllProgressionSpawns: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Lore</span>\"}"
+    - '// @input string[] loreIds = {} {"hint":"Master list of lore IDs known to this lens (used by `checkLoreItemsNotSeen`)."}'
+    - '// @ui {"widget":"group_end"}'
+    - "// @ui {\"widget\":\"group_start\", \"label\":\"<span style='color: #60A5FA;'>Debug / Testing</span>\"}"
+    - '// @input bool debugUnlockAllLore {"hint":"At lens start, mark every registered lore ID as seen (Lore Gallery + compendium)."}'
+    - '// @input bool debugUnlockAllArchive {"hint":"At lens start, mark every archive catalog object ID as seen (Archive Gallery)."}'
+    - '// @input bool debugRandomUnlockLore {"hint":"At lens start, randomly mark ~half of registered lore IDs as seen (rest locked)."}'
+    - '// @input bool debugRandomUnlockArchive {"hint":"At lens start, randomly mark ~half of registered archive object IDs as seen (rest locked)."}'
+    - '// @input bool debugRandomUnlockBoth {"hint":"At lens start, apply ~50/50 random seen/locked split to both lore and archive (same as enabling both random flags)."}'
+    - '// @input bool unlockAllProgressionSpawns {"hint":"When on, Clock, Code Safe, and other progression-gated room objects can spawn immediately (ignores first-game / round gates)."}'
+    - '// @ui {"widget":"group_end"}'

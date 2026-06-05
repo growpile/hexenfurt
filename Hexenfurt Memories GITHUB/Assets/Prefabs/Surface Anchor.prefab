@@ -1,0 +1,185 @@
+- !<ObjectPrefab/0ff5f0e1-d2ab-41c5-b7cb-ca9889e3f4ca>
+  PackagePath: ""
+  objects:
+    - !<own> b62c53e6-c1bf-4ee8-94ed-6391cde18032
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/17251e47-c43c-4fe2-8712-5465b9faea6e>
+  PrefabRemaps:
+    []
+  Name: Grid Visual
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 567c7e02-db08-496e-9412-9d199f82e4ef
+- !<RenderMeshVisual/567c7e02-db08-496e-9412-9d199f82e4ef>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 8b94008b-81d9-4514-8d0c-1f61b45bf39b
+  Mesh: !<reference> 3dced6a9-c43b-4d59-9939-4e951e1399fd
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/5721d600-98d9-472e-af90-9b6b62dce3b4>
+  PrefabRemaps:
+    []
+  Name: Surface Anchor
+  Enabled: true
+  ScriptAsset: !<reference> d912414a-4900-4ac1-82c6-2bbe02da5180
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/6c7873e4-e5a8-47d6-be83-56c23af0f248>
+  PrefabRemaps:
+    []
+  Name: Icon
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.700000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9482ea11-6e3d-4550-8d56-4d7a6a97aa51
+- !<LookAtComponent/6f1a0c3c-a0d0-4f3d-91da-d59669fb6ae4>
+  PrefabRemaps:
+    []
+  Name: Look At
+  Enabled: true
+  LookAtMode: LookAtPoint
+  AimVectors: ZAimYUp
+  WorldUpVector: SceneY
+  Target: !<reference> 00000000-0000-0065-0000-000000000064
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+- !<ScriptComponent/7ce1e211-04cf-4fcc-9ca6-ecbb7cce633c>
+  PrefabRemaps:
+    []
+  Name: RoundButton
+  Enabled: true
+  ScriptAsset: !<reference> ecf4e352-5db4-4239-8a5e-c4c517a0f03c
+  ScriptInputsDefault:
+    _inactive: true
+    _playAudio: true
+    _theme: true
+    _hasShadow: true
+    _shadowPositionOffset: true
+    _toggleable: true
+    _defaultToOn: true
+    triggerDownCallbacks: true
+    onValueChangeCallbacks: true
+    onFinishedCallbacks: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      _renderOrder: 10
+      _inactive: false
+      _playAudio: false
+      _style: Special
+      _theme: SnapOS2
+      _hasShadow: false
+      _shadowPositionOffset: !<Vec3> {x: 0.050000, y: -0.050000, z: -0.010000}
+      _toggleable: false
+      _defaultToOn: false
+      addCallbacks: true
+      triggerUpCallbacks:
+        - scriptComponent: !<reference.ScriptComponent> 5721d600-98d9-472e-af90-9b6b62dce3b4
+          functionName: destroyAnchor
+      triggerDownCallbacks:
+        []
+      onValueChangeCallbacks:
+        []
+      onFinishedCallbacks:
+        []
+      _width: 2.500000
+  ScriptTypes:
+    "":
+      {}
+- !<Image/9482ea11-6e3d-4550-8d56-4d7a6a97aa51>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 11
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> cd557e77-0ac7-455a-8236-7e4e074ad83c
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/b62c53e6-c1bf-4ee8-94ed-6391cde18032>
+  PrefabRemaps:
+    - 17251e47-c43c-4fe2-8712-5465b9faea6e: 49e64178-1186-4daa-aa1f-9e8502e5a055
+    - 567c7e02-db08-496e-9412-9d199f82e4ef: 7fc128d0-34b5-4077-a33d-35f74ff4df13
+    - 5721d600-98d9-472e-af90-9b6b62dce3b4: 5721d600-98d9-472e-506f-64949d231c4b
+    - 6c7873e4-e5a8-47d6-be83-56c23af0f248: a9a9ae8a-3438-4237-8915-5ce9d0fe47a5
+    - 6f1a0c3c-a0d0-4f3d-91da-d59669fb6ae4: 0ef4a8d2-233d-427c-84c5-836c0d8c989e
+    - 7ce1e211-04cf-4fcc-9ca6-ecbb7cce633c: a6aa0b5e-0a38-4452-9e4d-76f074d82612
+    - 9482ea11-6e3d-4550-8d56-4d7a6a97aa51: bf29620d-f235-43ef-9e3f-6e6e8a90600d
+    - b62c53e6-c1bf-4ee8-94ed-6391cde18032: b62c53e6-c1bf-4ee8-6b12-9c6e321e7fcd
+    - d9782de8-57c6-4129-aece-122bf256e185: 3a864b8a-b05d-4cf9-9417-a15df287b22b
+  Name: Surface Anchor
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> d9782de8-57c6-4129-aece-122bf256e185
+    - !<own> 17251e47-c43c-4fe2-8712-5465b9faea6e
+  Components:
+    - !<own> 5721d600-98d9-472e-af90-9b6b62dce3b4
+- !<SceneObject/d9782de8-57c6-4129-aece-122bf256e185>
+  PrefabRemaps:
+    []
+  Name: Delete Anchor Button
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 50.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 5.000000, y: 5.000000, z: 5.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6c7873e4-e5a8-47d6-be83-56c23af0f248
+  Components:
+    - !<own> 7ce1e211-04cf-4fcc-9ca6-ecbb7cce633c
+    - !<own> 6f1a0c3c-a0d0-4f3d-91da-d59669fb6ae4

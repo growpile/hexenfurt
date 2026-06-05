@@ -1,0 +1,81 @@
+- !<AssetImportMetadata/972a6dd1-e9e3-46dd-bae6-fbae774a8d0e>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 5169bfae-98c3-4a5d-9da2-6e2a64ff5c4b
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 5169bfae-98c3-4a5d-9da2-6e2a64ff5c4b
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> d2c67d05-a585-4485-b730-da9594ae9e92
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/d2c67d05-a585-4485-b730-da9594ae9e92>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: e9a9f754-8fcc-4cfa-ab8b-297d428bf8f9
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    anchorPrefab: false
+    anchorVisualsRoot: false
+    angleThreshold: false
+    camera: false
+    ceilingAnchorsTarget: false
+    filter: false
+    groundAnchorLevelPrecision: false
+    groundAnchorsTarget: false
+    groundPlane: false
+    hintText: false
+    hitOriginObject: false
+    logic: false
+    maxDistanceToOtherAnchors: false
+    maxHitDistance: false
+    maxHold: false
+    placementGuides: false
+    tweens: false
+    wallAnchorsTarget: false
+    wallYOffset: false
+    worldGridMaterial: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - camera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      maxHitDistance: 270
+      hitOriginObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      filter: false
+      angleThreshold: !<float> 45.000000
+      wallYOffset: -20
+      maxDistanceToOtherAnchors: 100
+      placementGuides: !<reference.SceneObject[]>
+        []
+      groundPlane: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      anchorPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      logic: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      hintText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      tweens: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      groundAnchorLevelPrecision: 10
+      worldGridMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      anchorVisualsRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      groundAnchorsTarget: 2
+      wallAnchorsTarget: 2
+      ceilingAnchorsTarget: 1
+      maxHold: 0.600000
+  ScriptTypes:
+    -
+      {}
